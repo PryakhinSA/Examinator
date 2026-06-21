@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6984cfd-ac26-43d9-adc5-408cc2c440f1">
+  <name>КонтрольНепрочитанныхТемФорумаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль непрочитанных тем форума</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеОбучениемСУО.КонтрольНепрочитанныхТемФорумаСУО</methodName>
+  <description>Контроль непрочитанных тем форума</description>
+  <key>КонтрольНепрочитанныхТемФорума</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

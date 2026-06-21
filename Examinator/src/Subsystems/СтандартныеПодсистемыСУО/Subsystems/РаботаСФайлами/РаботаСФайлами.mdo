@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b871331d-1b37-424b-9f9a-67dcbabad465">
+  <name>РаботаСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами</value>
+  </synonym>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</content>
+  <content>EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</content>
+  <content>EventSubscription.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</content>
+  <content>EventSubscription.ВыполнитьДействияПриЗаписиПрисоединенногоФайла</content>
+  <content>EventSubscription.ВыполнитьДействияПриЗаписиПрисоединенногоФайлаСУО</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</content>
+  <content>EventSubscription.КонтрольКоличестваТомов</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыСУО</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51d39a66-29f1-40a3-bd41-99e97f459e11">
+  <producedTypes>
+    <objectType typeId="26ea1527-2a84-4b25-a9e1-982385530f0a" valueTypeId="4ec04e6a-ef60-4a48-9783-cad86df49f0b"/>
+    <refType typeId="e53f5a88-92e5-4fca-adda-431c8029393f" valueTypeId="9ba2854e-5e35-4bc8-9f3d-b71116a2112b"/>
+    <selectionType typeId="b1addbf7-ad6e-4b23-93fd-db6b68cae8ae" valueTypeId="3d1f92ad-e782-45d2-89d3-ef96a5d7fa57"/>
+    <listType typeId="140b0520-863b-4bde-82a1-3e0b4b95350e" valueTypeId="1afb23bf-5a5e-4af5-8729-742120b8a226"/>
+    <managerType typeId="7beb4d80-4e5a-48e4-ad13-5b611dc24a38" valueTypeId="9fb2cd26-59b4-454f-9f4b-ded134f8a9c5"/>
+  </producedTypes>
+  <name>СерииПинКодовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии пин-кодов</value>
+  </synonym>
+  <inputByString>Catalog.СерииПинКодовСУО.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СерииПинКодовСУО.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Первая часть пин-кода</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Серия пин-кодов</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Серии пин-кодов</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СерииПинКодовСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СерииПинКодовСУО.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="32244a30-299c-4827-8fa4-6d056e4f85ff">
+    <name>ДлинаКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина пин-кода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Длина второй части пин-кода</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>20</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>6</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f209060-9546-43a1-83d8-315800b63a4b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание, которое будет показано пользователю в его списке активированных пин-кодов</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b89852e1-f7b0-43c2-b4d7-7d722902e2d4">
+    <name>Уведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уведомление, которое будет показано пользователю один раз сразу после активации им пин-кода</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f497f69-174e-4001-828d-a7fc8bb819cc">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид пин-кода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПинКодовСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет правила формирования пин-кода</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыПинКодовСУО.EnumValue.ЦифрыИАнглийскиеБуквы</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d75f6da5-051c-4577-af19-c9f1fdfc7a59">
+    <name>ШаблонРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон рассылки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон, который будет использоваться для рассылки пин-кодов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="378170ba-1e97-4106-9160-21e23a117c86">
+    <name>АутентификацияВебКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация веб-кабинета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91e693e5-6533-407c-bc21-314ff635aaf3">
+    <name>АутентификацияСтандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация 1С:Предприятия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e489130f-73ee-4c6a-9fde-5a38e2923210">
+    <name>АутентификацияOpenID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация OpenID</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c303a030-cd6c-4bc4-b0f1-318685804c7d">
+    <name>УстановитьНастройкиАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить настройки аутентификации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="563810a1-dc89-4fe3-8df5-4c2969f79bd4">
+    <name>ПродолжительностьДоступаВДнях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность доступа в днях</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН='Не задана'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН='Не задана'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36c11999-e4d5-43a2-a416-124043b4e641">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="700096b2-ece1-40cc-b721-21820f3eaf95">
+    <name>НаименованиеОпций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок поля выбора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заголовок поля выбора варианта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bdd203e2-387d-42c9-b728-654b34f6d311">
+    <name>УдалитьПродолжительностьДоступаВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) продолжительность доступа в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3c942ba8-bc34-48d7-814b-ef766638ca8e">
+    <producedTypes>
+      <objectType typeId="7bbaa55d-63ea-493d-9a2c-6c919d706c01" valueTypeId="a7635556-a330-47e0-bea3-af64eb8b2941"/>
+      <rowType typeId="4e297060-3134-4229-8259-c4a7c4710dfe" valueTypeId="0b564362-a1ef-4c55-82d5-ab0202c5bfd8"/>
+    </producedTypes>
+    <name>ГруппыДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доступа</value>
+    </synonym>
+    <attributes uuid="f85cf647-bfbf-46b2-b3df-94d971a05eaa">
+      <name>ГруппаДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа доступа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыДоступа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d933043-5d97-4b46-94e1-3e30ca2637f9">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ab3b64e8-0306-4d75-8536-586f3b9214fd">
+    <producedTypes>
+      <objectType typeId="dcdf5536-10fa-41f7-bf13-2e17594e6312" valueTypeId="9c24f304-a9fa-4e20-8979-6e427105fb0c"/>
+      <rowType typeId="7e2ce577-2aee-4a4f-9be3-55e1d4b62e7e" valueTypeId="8ddf2f03-5eee-4efd-bd60-775d6e7e2d74"/>
+    </producedTypes>
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+    <attributes uuid="428164f1-e534-4466-9904-da2946ce23c5">
+      <name>Проведение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проведение</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+        <types>DocumentRef.ПроведениеОбученияСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="214fee52-11de-4aac-8fd4-0ecde02283b5">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d2b701df-e199-4509-8334-5890a8c02627">
+    <producedTypes>
+      <objectType typeId="a75cad28-d994-4de4-a26b-85292e5cfa94" valueTypeId="55340928-85ee-4bdd-a644-2fc988c208cf"/>
+      <rowType typeId="329853fb-fd02-48cb-9aee-5d1511298900" valueTypeId="3af7aa30-1ca5-4908-a618-c3928a8cd66d"/>
+    </producedTypes>
+    <name>УчебныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебные группы</value>
+    </synonym>
+    <attributes uuid="ad271d8a-009c-4230-9354-ba3a1a706940">
+      <name>УчебнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГруппыСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3acfa400-45d0-4af0-995a-957c792fc58c">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="835c5311-137b-42d5-bfbf-6791951aab0e">
+    <producedTypes>
+      <objectType typeId="e995cf91-59f2-4d09-a2a5-a0e521a0dd15" valueTypeId="588e6172-bf53-4723-b18c-20592caa901b"/>
+      <rowType typeId="6d3c4f2b-d64c-47e6-986e-8819d87db53e" valueTypeId="e8124bc1-2aa9-495f-9f9f-830edf23754c"/>
+    </producedTypes>
+    <name>ГруппыПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы пользователей</value>
+    </synonym>
+    <attributes uuid="27699010-de87-4f7f-b151-40b1ec88c320">
+      <name>ГруппаПользователей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа пользователей</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыПользователей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0f7cfbfd-5453-4e01-af33-1dcf7cc7bf68">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e1643f89-e336-4ec3-8ba4-6f6088471b58">
+    <producedTypes>
+      <objectType typeId="2de51396-d6f6-451e-8743-4f2bab8e74f0" valueTypeId="6e7ce840-d45a-4452-b811-3e36a299721d"/>
+      <rowType typeId="bc46e354-5e98-4d3e-9e3f-aa0a6ca857fe" valueTypeId="94d608b4-8575-47c2-bfd8-71204705e745"/>
+    </producedTypes>
+    <name>РазделыФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы форума</value>
+    </synonym>
+    <attributes uuid="58e4ea24-557e-4045-a5e2-5f2ebb6ca739">
+      <name>РазделФорума</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел форума</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РазделыФорумаСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74f8fe5e-566d-4527-8b90-d0559b94ba18">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="70154dad-6d7c-475b-9c12-286aebea7ef4">
+    <producedTypes>
+      <objectType typeId="5d4cb115-ad21-4996-b462-d3a344da9713" valueTypeId="ba3e2e08-bd78-4d36-b828-46b8918702e1"/>
+      <rowType typeId="d336697c-c2b1-4849-b2df-06ce0c886253" valueTypeId="66e50e89-061d-4be8-944d-107fb54747d0"/>
+    </producedTypes>
+    <name>РазделыБиблиотеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы библиотеки</value>
+    </synonym>
+    <attributes uuid="965f6311-b76f-4240-b90d-3993c181fca2">
+      <name>РазделБиблиотеки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.СхемыМероприятийСУО.Общая</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f5632bd3-7665-4db4-bbed-a678a7b66e26">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="53b16703-f521-4336-ab74-6c83c41de2ba">
+    <producedTypes>
+      <objectType typeId="8971851c-a889-40b2-954b-3ac17a823c93" valueTypeId="ec7fb444-b740-454c-bb0c-022eed2fa2d4"/>
+      <rowType typeId="27cd0d09-ef4a-4091-be51-123f81aeef8e" valueTypeId="d960cc27-792c-4703-8741-1362e44b85a3"/>
+    </producedTypes>
+    <name>Новости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новости</value>
+    </synonym>
+    <attributes uuid="73701685-9ea4-4e9a-aa58-7384e983b0e3">
+      <name>Новость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новость</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.НовостьСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bf66cb0-b40c-4acb-a7d2-dacb78e56bca">
+      <name>Опция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант выбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОпцииСерииПинКодовСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.СерииПинКодовСУО.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8da40e38-9040-4639-85a7-aefc8889b6da">
+    <producedTypes>
+      <objectType typeId="d8d29da9-ee12-42c8-a935-97a89c42d687" valueTypeId="ca9d1a43-7149-4485-9051-95c96c07bd56"/>
+      <rowType typeId="8dae8baa-ccb2-43ab-9baf-546ab043562b" valueTypeId="2e321692-3e05-4736-b7d1-09a2f13d76fe"/>
+    </producedTypes>
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <attributes uuid="d7d268dd-7d86-4824-8743-0355dc6cd808">
+      <name>ЭлектронныйАдрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Электронный адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6431a530-59ea-4f63-ba5b-59ff889fb028">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ec3e1d84-1262-436e-976e-eab3ef6c0b60">
+      <name>Отправлено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправлено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d1048fac-8a60-4d11-a9a5-5caae90c79db">
+    <producedTypes>
+      <objectType typeId="d4988d99-23ab-4484-89c3-6cdc71a793f0" valueTypeId="3a385a17-2fc6-475a-b0a3-22646ddc84dd"/>
+      <rowType typeId="c8d232a5-ea9d-4c25-9e32-48b8d806b59e" valueTypeId="e340b00d-ece0-469a-bddf-dc26f01b324c"/>
+    </producedTypes>
+    <name>Организаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организаторы</value>
+    </synonym>
+    <comment>Заполняется в подписке УстановитьОтветственногоЭлементаСправочникаСУО</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fa87e2e8-20a4-4c53-9e69-17630e71fd3e">
+      <name>Организатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОрганизаторыСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e82e83c4-5ee2-43ff-b16f-d5f84ae6a558">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a33f1283-1224-4501-80f9-2d81cf8b60f4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d19d900e-bdd1-4411-9b82-f48fefd19c4e">
+    <name>ЗагрузкаИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+  </templates>
+  <commands uuid="0fb445b0-9996-4125-a163-0829989807ac">
+    <name>ПинКоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пин-коды</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

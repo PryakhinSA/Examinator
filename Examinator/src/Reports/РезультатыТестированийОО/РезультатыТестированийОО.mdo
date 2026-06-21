@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="767ec75b-7f23-4bfe-b3ea-80a46397c497">
+  <producedTypes>
+    <objectType typeId="2e4ceeaa-2732-4b64-b7cb-97879376ef9c" valueTypeId="fca961c6-3b65-4f58-a4b8-0054a030cce6"/>
+    <managerType typeId="db08e720-d892-4b11-92ca-1bf024efb746" valueTypeId="fb9dab21-9311-4e96-8851-137134f5c4e5"/>
+  </producedTypes>
+  <name>РезультатыТестированийОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты тестирований</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РезультатыТестированийОО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Результаты тестирований студентов</value>
+  </extendedPresentation>
+  <templates uuid="1709caf1-d6a9-4196-b934-21a1bd02d2d4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

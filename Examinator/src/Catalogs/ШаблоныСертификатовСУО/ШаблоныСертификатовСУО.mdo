@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="159aadbb-eb9c-4875-af85-8ebad05b086d">
+  <producedTypes>
+    <objectType typeId="9c8bd217-0978-4197-a21b-c2292b4063cc" valueTypeId="ca732464-32a1-4c5b-bdb8-3ba9d774680b"/>
+    <refType typeId="0723c81f-f924-4d51-8d2a-612d420df545" valueTypeId="d3c2ad29-8e67-45f2-85a5-1ba419d90338"/>
+    <selectionType typeId="e20514ba-a6c3-41c5-95c8-8e1d5bf77fb7" valueTypeId="bb51eee4-07a1-4b5c-9248-dfa869d7a38f"/>
+    <listType typeId="498a533e-b95d-4ec0-a21f-cc22510edf70" valueTypeId="4542b7b2-e76d-4be9-b07b-bfb8d2981eaa"/>
+    <managerType typeId="8751e11c-3708-455c-a2bc-063a52560bfe" valueTypeId="1d255bad-283c-4059-a04a-15f3d24ecc01"/>
+  </producedTypes>
+  <name>ШаблоныСертификатовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сертификатов</value>
+  </synonym>
+  <inputByString>Catalog.ШаблоныСертификатовСУО.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШаблоныСертификатовСУО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:StringValue">
+      <value>Сертификат</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон сертификата</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шаблоны сертификатов</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШаблоныСертификатовСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4be8a13c-cd52-4d24-9cc9-616cd4e68ebc">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сертификата в формате HTML</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ef828d8-c687-4357-b23d-5e01929b6282">
+    <name>ТабличныйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный макет</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличный макет для формата PDF</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8768a4f-59b6-4f83-b0fd-751e701d29d5">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f17dfa3-c740-40d5-9e80-f82c8e38d2a2">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за мероприятие пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b57e46c6-5a38-478c-b176-6eb845b7dc3b">
+    <name>ФорматHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат HTML</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сертификат доступен для просмотра по интернет-ссылке </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3a9078d-8da1-4bd2-9e09-c9ffa0fe51b8">
+    <name>ФорматPDF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат PDF</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сертификат доступен для скачивания и печати в файле PDF</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="de44c258-80fd-44e4-8d6b-ad7c261dae23">
+    <producedTypes>
+      <objectType typeId="ffb12681-5764-4b66-9ac8-8558298de8f2" valueTypeId="6c85fdfd-8660-4d4f-b669-11353b07b6b7"/>
+      <rowType typeId="ecfbf178-d6dc-4e94-bc76-05fc5ef3720f" valueTypeId="2d1bfa3a-db5f-4265-9703-69616365f1f4"/>
+    </producedTypes>
+    <name>Организаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организаторы</value>
+    </synonym>
+    <comment>Заполняется в подписке УстановитьОтветственногоЭлементаСправочникаСУО</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="eff698e7-c1ed-467e-9cf8-2c177bd83389">
+      <name>Организатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОрганизаторыСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="dfb28d96-3166-49ae-96e3-3584adfc63bd">
+    <producedTypes>
+      <objectType typeId="6db95b45-24a5-4a4a-8578-bcaa3deb37a3" valueTypeId="600b52b0-99ad-4ec3-924d-65aba2316eeb"/>
+      <rowType typeId="d5d3fdc4-c3b9-4e52-aec3-16d7432607ee" valueTypeId="9dd20325-2002-416c-b9db-e84de51138e2"/>
+    </producedTypes>
+    <name>ДополнительныеПеременные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные переменные</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0f52bc36-f1ba-41c5-a4b9-ce51c2f6117f">
+      <name>Переменная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переменная</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.НаборСвойств</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.НаборыДополнительныхРеквизитовИСведений.УдалитьСправочник_Пользователи</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.Родитель</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.ВидыКонтактнойИнформации.СправочникПользователи</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3d5a0d75-95df-4329-a4ba-a888cb5e3e46">
+      <name>ИмяПеременной</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя переменной</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ded2a3da-5b8b-4fa9-ab3a-9b4fcd40c297">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4a6e994a-0332-4211-8800-8ba6b8f3af50">
+    <name>МакетHTMLПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет HTML по умолчанию</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="636c606d-48e7-48b8-8acf-56effe62b300">
+    <name>МакетPDFПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет PDF по умолчанию</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

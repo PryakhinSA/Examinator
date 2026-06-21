@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f634cbba-9275-4184-9775-41175c38ceb4">
+  <producedTypes>
+    <selectionType typeId="761c7e0e-b329-4ba0-be7a-424c6f6c342e" valueTypeId="e9bc09f8-2bb2-4463-952a-bca157bed7c3"/>
+    <listType typeId="785764f8-799b-4f85-bd27-b3c094aad4b6" valueTypeId="95840c41-549a-4c71-b485-f5eab7951cca"/>
+    <managerType typeId="f209ca99-c546-413a-bf5f-7c49707cd346" valueTypeId="6e9c154c-c5af-450e-95fc-8263022d6f9c"/>
+    <recordSetType typeId="008bf2a8-75c1-4e33-99b6-91f9ef4c5d86" valueTypeId="86a44685-66e9-4f64-bfbe-5f6820b275dc"/>
+    <recordKeyType typeId="dd86af8c-db4d-4015-a982-1a90684b701a" valueTypeId="684f8bc0-6860-41ec-ab0d-2465bac9e757"/>
+    <recordType typeId="3b50d7fa-9900-4da0-9aa9-c400f0c1c2b1" valueTypeId="ec86f463-1261-4b52-920b-325ce9701ebc"/>
+    <recordManagerType typeId="8a0d3c68-118c-4448-8c65-28fa07ebcb5f" valueTypeId="00f5d4bb-155d-4e64-b5fb-27108426094d"/>
+  </producedTypes>
+  <name>ВыбранныеВариантыОтветовЭлектронныхВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбранные варианты ответов электронных вопросов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ebb779c6-2c25-4fc5-9770-7b6c3233a3a8">
+    <name>Выбран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбран</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что вариант ответа был выбран пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f82e78bd-4abd-4387-9bbc-8ddfc393dc5e">
+    <name>ВерныйВыбран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Верный выбран</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что вариант ответа верный и его выбрал пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eab08c7a-7809-431b-be4a-209ec252d5dc">
+    <name>ВерныйНеВыбран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Верный не выбран</value>
+    </synonym>
+    <comment>Равно Истина, если вариант верный, но не был выбран пользователем.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что вариант верный и он не был выбран пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d2c0eddb-03be-4868-9e52-50a2e9530e9c">
+    <name>ОшибочныйВыбран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибочный выбран</value>
+    </synonym>
+    <comment>Равно Истина, если вариант является дистрактором и был выбран.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что вариант ошибочный и он был выбран пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ddb0cd29-ec63-41d6-8742-db21701f2f13">
+    <name>ОшибочныйНеВыбран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибочный не выбран</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что вариант ошибочный и он не был выбран пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="31dcc9d2-f10d-48a4-8dab-63416f69c24c">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер варианта ответа в вопросе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="464ca540-53de-43c6-8046-17014272f819">
+    <name>Учащийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учащийся</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УчащийсяЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который отвечал на вопрос</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d5e63bdc-703e-4c91-a763-b8edd60adc9e">
+    <name>ЭлементСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент содержания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеЭлектронныхКурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент содержания электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d3662a5-9d07-4d9b-a7dd-53c056790824">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтекстЭлектронногоОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="550a8536-5c06-406f-8570-7b83e3ecbbe5">
+    <name>ЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный курс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Электронный ресурс, который изучал пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="594015a4-bbf2-4980-89b7-3c313ef17777">
+    <name>ЭлектронныйТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеТесты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тест, который проходил пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d94b97c-77c9-4d64-b2b9-1431cd100fa4">
+    <name>ИдентификаторПопыткиТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор попытки тестирования</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e0b327f4-37f2-48dc-9bf8-2d3fe9f85876">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТестовыеВопросы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вопрос, на который отвечал пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ca6bed80-3b71-49df-84ef-3b8c56770a8d">
+    <name>ВариантОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант ответа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыОтветовНаТестовыеВопросы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный вариант ответа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

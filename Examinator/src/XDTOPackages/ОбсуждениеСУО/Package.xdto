@@ -1,0 +1,29 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/1/Forum">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/User"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduFiles"/>
+	<objectType name="Обсуждение">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Forum" name="Сообщения" type="d3p1:Сообщения"/>
+		<property name="ЭтоДерево" type="xs:boolean"/>
+		<property name="Закрыто" type="xs:boolean"/>
+		<property name="ДоступноМодерирование" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Сообщения">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Forum" name="Сообщение" type="d3p1:Сообщение" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Сообщение">
+		<property name="Номер" type="xs:string" form="Attribute"/>
+		<property name="Идентификатор" type="xs:string" form="Attribute"/>
+		<property name="НомерРодительскогоСообщения" type="xs:string" form="Attribute"/>
+		<property name="Уровень" type="xs:integer" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/User" name="Автор" type="d3p1:Пользователь"/>
+		<property name="Дата" type="xs:string"/>
+		<property name="ДатаЧисло" type="xs:integer" lowerBound="0"/>
+		<property name="Текст" type="xs:string"/>
+		<property name="Новое" type="xs:boolean" lowerBound="0"/>
+		<property name="ЕстьПрикрепленныеФайлы" type="xs:boolean"/>
+		<property name="Тип" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduFiles" name="Файлы" type="d3p1:Файлы" lowerBound="0"/>
+	</objectType>
+</package>

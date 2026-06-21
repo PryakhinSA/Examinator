@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26f79b96-4105-4ffc-8681-0b13e622fa9a">
+  <producedTypes>
+    <selectionType typeId="0ea4d43c-1182-489b-a8fc-79f700086ea6" valueTypeId="1ab95f77-fb86-4d3c-9f80-886c1a0e44d9"/>
+    <listType typeId="dcc52552-0d1c-40ed-82d0-6163d4f22888" valueTypeId="c962158e-d8e9-4d63-822f-c7f892ff5f4d"/>
+    <managerType typeId="1d43f008-deb3-430b-a9df-3c304088b85b" valueTypeId="e9ecf7f7-56e7-4488-b292-d228ec3a7a71"/>
+    <recordSetType typeId="c657be3f-0b15-4d5d-bf39-d4e5038b3066" valueTypeId="b1d48f65-600f-43ea-b1e1-8df18c8a326a"/>
+    <recordKeyType typeId="5214e140-0b05-4362-b845-88bb1af4fd35" valueTypeId="e700d3e6-05de-47fe-9054-e9034e7e72e2"/>
+    <recordType typeId="f32aadbf-da0c-49ed-bd01-1059396b507d" valueTypeId="73834354-047f-4879-8fb0-48ac1a0798ec"/>
+    <recordManagerType typeId="489edfe4-0dcd-4daa-b16b-05dd72aca9b6" valueTypeId="f49e5803-a8d8-4b0f-a14f-fda4d98eb052"/>
+  </producedTypes>
+  <name>ФайлыНаПроверкуПреподавателюСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы на проверку преподавателю</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="f50e9293-aa1b-4ffb-bb94-7df8c040b89a">
+    <name>Учащийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учащийся</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef3eae13-6ef2-4f79-9ca0-49439ae8b567">
+    <name>ПроведениеПреподавателемОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение преподавателем обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеПреподавателемОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e9d4c142-1d59-4695-a216-61a8a7547b39">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрохождениеОбученияСУОПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9ec059a5-4ff5-4066-8d15-85c61a89b82a">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

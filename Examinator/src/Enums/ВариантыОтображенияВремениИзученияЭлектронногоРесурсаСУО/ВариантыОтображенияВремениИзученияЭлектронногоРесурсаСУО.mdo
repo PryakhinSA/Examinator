@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4e4e4de-54ab-4a5a-b855-281b9492a713">
+  <producedTypes>
+    <refType typeId="b37bb67b-f6b4-41bf-b41f-dd335de49550" valueTypeId="4138dcd9-a6e7-4d6b-a35a-605342321c8e"/>
+    <listType typeId="eec8b559-a289-42ef-89f7-86cb20d284e4" valueTypeId="78c2d023-c6a5-443c-85c6-daa4e2159986"/>
+    <managerType typeId="062be727-251a-42a6-baaf-20ba6764bf69" valueTypeId="d69ea0d5-18ce-4c55-bdae-e56b24404984"/>
+  </producedTypes>
+  <name>ВариантыОтображенияВремениИзученияЭлектронногоРесурсаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отображения времени изучения электронного ресурса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1dc1235b-b18c-47ee-9c8a-a80f631abc38">
+    <name>НеПоказывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не показывать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e13e794-d71d-4cba-ab83-f7edddaf06be">
+    <name>ПоказыватьВАстрономическихЧасах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в астрономических часах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a563c26b-6775-4f61-97a7-2c758deb4d88">
+    <name>ПоказыватьВУчебныхЧасах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в учебных часах</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

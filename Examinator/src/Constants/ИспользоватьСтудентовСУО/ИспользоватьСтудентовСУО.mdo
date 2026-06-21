@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0464ea5-23ac-4292-b6ca-116c9108eec3">
+  <producedTypes>
+    <managerType typeId="901fef80-ca20-4454-af6b-98c02edb4024" valueTypeId="dd3a349c-e096-4f04-81e1-8ad1e17c7b97"/>
+    <valueManagerType typeId="16b4ccc6-cf72-4238-a664-12ae53615577" valueTypeId="6a8c539c-f298-42d3-94d6-3ba262f9e4d8"/>
+    <valueKeyType typeId="dc58a230-8a4b-5756-8054-25f7f2d5437b" valueTypeId="2cee5835-a745-584c-86c1-79d25f5d2d5f"/>
+  </producedTypes>
+  <name>ИспользоватьСтудентовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программа используется в вузе или колледже</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Будут доступные списки студентов, структура образовательной организации и др.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

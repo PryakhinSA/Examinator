@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b2f170d-b10b-4714-8629-a87a9c1146f2">
+  <name>ЭлектронныеРесурсыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные ресурсы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

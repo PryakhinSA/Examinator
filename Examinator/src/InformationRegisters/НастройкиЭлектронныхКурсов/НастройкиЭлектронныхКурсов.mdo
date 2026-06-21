@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2497c1b2-31df-4fec-9d13-f2ddd40be0f3">
+  <producedTypes>
+    <selectionType typeId="a3489278-059b-4a54-8894-90b261b9c08f" valueTypeId="d8005478-82de-4eb0-93ed-d4a7da963509"/>
+    <listType typeId="8dd2e051-fb1b-495f-bebb-ee7e88172211" valueTypeId="3998980f-becc-4a6c-9cec-93c7844ff334"/>
+    <managerType typeId="6b064860-8f87-4b3a-97c7-aa79b050c856" valueTypeId="cb802a6b-4701-4aac-b6f6-59c6dea2d255"/>
+    <recordSetType typeId="041ccd27-d58a-4d87-bfa2-3f0261da4edb" valueTypeId="a3a26073-2942-4d4e-9d74-5440678226e0"/>
+    <recordKeyType typeId="209ccebf-401a-4b16-9cbb-c42269000756" valueTypeId="4a136152-f228-4f95-85f6-00c925f07610"/>
+    <recordType typeId="10401b44-650e-41d6-be65-364837ede77d" valueTypeId="5ca6573b-b629-4e9a-a092-2e324a2bca82"/>
+    <recordManagerType typeId="61ab8f00-f1c5-4925-afcd-8c58e39011b8" valueTypeId="e00f4430-f2c0-4ebe-bf40-8f9ecdccfec5"/>
+  </producedTypes>
+  <name>НастройкиЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки электронных курсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9b7dce94-af4b-42a3-8cff-062e56040a02">
+    <name>РазработчикКурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработчик курсов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиЭлектронныхКурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8b0fb6ed-38f2-444b-a1a0-5987c2394ee4">
+    <name>ИзменятьТолькоСвоиКурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять только свои курсы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если флажок установлен, то можно будет изменить только свои курсы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d2bd560f-06ba-4a54-ae84-80888106e44c">
+    <name>ШиринаВидеоПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина видео по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=640</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=640</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Ширина видео, которая будет установлена по умолчанию при конвертации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b3d96777-6be5-4ad7-bee0-4f969502c8ee">
+    <name>ЯзыкИнтерфейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык интерфейса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЯзыкиИнтерфейсаЭлектронныхКурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e60eda8b-ad82-44f3-8f19-65e05fe1ae50">
+    <name>ТемаОформления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема оформления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТемыОформленияЭлектронныхКурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="05ab9681-5402-49cd-a00e-699678c727de">
+    <name>ФормаРедактированияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

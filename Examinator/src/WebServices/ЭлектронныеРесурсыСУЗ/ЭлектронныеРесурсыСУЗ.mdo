@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e370ddb5-7eae-4e10-a268-267eaf6c305c">
+  <name>ЭлектронныеРесурсыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные ресурсы</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/kms/3/portal</namespace>
+  <descriptorFileName>res.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="60042610-0d43-4375-9433-520880721645">
+    <name>getLink</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get e-rosourse link</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>getLink</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="15bfe174-cd79-40e5-a332-b156fc1f4860">
+      <name>search</name>
+      <synonym>
+        <key>ru</key>
+        <value>Search</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="776ab64a-a5e8-4c8d-ae57-3ebf3bf6d924">
+      <name>base</name>
+      <synonym>
+        <key>ru</key>
+        <value>Base</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="aa482bd9-64e0-4792-8506-846d28979e1e">
+    <name>getData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>getData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="470fb37f-f64d-44a1-b400-ff0de20708f2">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="fbf4e7b4-ac26-4071-86cf-7a542ad694a2">
+      <name>userActivity</name>
+      <synonym>
+        <key>ru</key>
+        <value>User activity</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5ac6c488-3ed0-49ce-a016-a69bdf53e880">
+      <name>task</name>
+      <synonym>
+        <key>ru</key>
+        <value>Task</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="9548ac02-ff64-4348-8ed6-fa0028f4b83f">
+      <name>providingEducation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Providing education</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d59698c3-8b2b-4d7c-afae-8d4214455127">
+      <name>checksum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Checksum</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5f6ca0bd-c733-4d3f-b2e8-ff6fb5b8598b">
+      <name>session</name>
+      <synonym>
+        <key>ru</key>
+        <value>Session</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="206305a1-8381-4554-b1df-8a6ef01618e9">
+      <name>key</name>
+      <synonym>
+        <key>ru</key>
+        <value>Key</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="54f27fa4-60fd-4845-8e14-710e6b09c508">
+      <name>user</name>
+      <synonym>
+        <key>ru</key>
+        <value>User</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="b441ac2f-4085-4fc3-91f0-f9d3a8171579">
+    <name>saveData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Save data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>saveData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b2e31ebe-c414-4315-aee6-47b8cf8d9ad8">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="329901cd-a4e5-4472-9150-ef73f05c7568">
+      <name>userActivity</name>
+      <synonym>
+        <key>ru</key>
+        <value>User activity</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a59339d7-8cac-447b-a43e-623f2355140c">
+      <name>task</name>
+      <synonym>
+        <key>ru</key>
+        <value>Task</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="bc700eb6-1d0e-481f-be7f-a83227f08def">
+      <name>providingEducation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Providing education</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="433767c3-0aad-4bbb-9f67-16639e1ea0f6">
+      <name>checksum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Checksum</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c84ad3f4-39cd-49d9-9082-c42b92b26df7">
+      <name>userData</name>
+      <synonym>
+        <key>ru</key>
+        <value>User data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="85414e9d-8bfe-4643-a720-445045ddcdc0">
+      <name>session</name>
+      <synonym>
+        <key>ru</key>
+        <value>Session</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="974d1ca7-16cc-402c-a0c5-f71f14df27f8">
+      <name>key</name>
+      <synonym>
+        <key>ru</key>
+        <value>Key</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="b6ddcfd0-c81d-4289-89dd-94b52c3e5bf9">
+      <name>user</name>
+      <synonym>
+        <key>ru</key>
+        <value>User</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="8462627b-24da-486f-b002-96ca9c4f53df">
+    <name>getUserData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get user data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>getUserData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a8e38e57-582b-4228-b01a-45615e5b056c">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1e39ab15-fc50-4c1e-8929-3212a89c3180">
+      <name>userActivity</name>
+      <synonym>
+        <key>ru</key>
+        <value>User activity</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8811ef42-43b5-44c6-90e4-85af39ea25b9">
+      <name>task</name>
+      <synonym>
+        <key>ru</key>
+        <value>Task</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="ab44ae01-8ab2-43ea-b209-db0f3d4c5e90">
+      <name>providingEducation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Providing education</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a14365c5-28e7-47a7-a775-82f2d49607c0">
+      <name>checksum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Checksum</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="df44693b-2de6-4ebc-afaf-52a53bc98d08">
+      <name>session</name>
+      <synonym>
+        <key>ru</key>
+        <value>Session</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="9162a7c3-459a-47ab-8cb1-8e3500f6ac1a">
+      <name>key</name>
+      <synonym>
+        <key>ru</key>
+        <value>Key</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="b733d36b-a115-4380-8c08-b45e78aa9c99">
+      <name>user</name>
+      <synonym>
+        <key>ru</key>
+        <value>User</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="165e41c2-52d1-4834-b72b-d5b20daa93ea">
+    <name>saveUserData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Save user data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>saveUserData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c24025cb-a102-42dc-bdcc-7c0be44011f5">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f5a79f14-9e60-41bc-9d46-8ecc0fb11a9c">
+      <name>userActivity</name>
+      <synonym>
+        <key>ru</key>
+        <value>User activity</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="3766ce21-fce0-4693-8ca8-fc605183f0a0">
+      <name>task</name>
+      <synonym>
+        <key>ru</key>
+        <value>Task</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="3af8049f-5ed7-40e6-b764-708e96bf9e6d">
+      <name>providingEducation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Providing education</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="eb41e51b-6062-4052-8b01-9cd160fd20c3">
+      <name>checksum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Checksum</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="615a7308-7f44-4441-bfea-eaa780cc5efa">
+      <name>userData</name>
+      <synonym>
+        <key>ru</key>
+        <value>User data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="38b14f32-2d90-4a6a-b409-185f373af6a6">
+      <name>session</name>
+      <synonym>
+        <key>ru</key>
+        <value>Session</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="a9a04a93-5aae-4b5d-8245-2708042c6597">
+      <name>key</name>
+      <synonym>
+        <key>ru</key>
+        <value>Key</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="48bb1095-cfd0-497e-b765-6ad9744250b3">
+      <name>user</name>
+      <synonym>
+        <key>ru</key>
+        <value>User</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

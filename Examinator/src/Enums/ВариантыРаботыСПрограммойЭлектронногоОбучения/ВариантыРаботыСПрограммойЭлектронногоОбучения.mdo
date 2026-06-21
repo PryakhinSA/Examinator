@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dfbc15e-051c-4aed-bcd1-5bac29498b6f">
+  <producedTypes>
+    <refType typeId="5680d5f6-6052-4f2d-b4b1-d64c0c024f31" valueTypeId="dca7d128-02b2-4432-bdba-95c3d1da1f7c"/>
+    <listType typeId="5be15f9a-338f-4872-9b38-d99b49fa620d" valueTypeId="72fa94c2-c13f-48de-bd44-ea41eedf6290"/>
+    <managerType typeId="11928b74-6a5a-49f5-86c5-363becf1e9c9" valueTypeId="3570a080-83e5-4ba8-8df1-5fc8b799a634"/>
+  </producedTypes>
+  <name>ВариантыРаботыСПрограммойЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты работы с программой электронного обучения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="de2ae6c1-2073-430e-b362-ee246fc79f41">
+    <name>ОпределитьЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определить число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="063e6b94-cbe7-49df-9253-9ac3eca5a14d">
+    <name>ОпределитьСтроку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определить строку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ea07d3b-2293-4791-9dae-67dfc297753d">
+    <name>ОпределитьБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определить булево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82b4e089-da42-4d90-8b2e-123513e7b0e3">
+    <name>ОпределитьДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определить дату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91cafff8-d1a7-4b37-8b0e-56e357ab3f05">
+    <name>ВыполнитьДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить действие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

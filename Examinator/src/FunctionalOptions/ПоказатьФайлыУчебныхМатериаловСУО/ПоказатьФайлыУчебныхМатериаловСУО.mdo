@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c4a2615-8a3f-4e76-a11e-baae9b91d1e6">
+  <name>ПоказатьФайлыУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать файлы</value>
+  </synonym>
+  <location>InformationRegister.НастройкиУчебныхМатериаловСУО.Resource.ПоказатьФайлы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.НастройкиУчебныхМатериаловСУО.Resource.ПоказатьФайлы</content>
+  <content>Catalog.Файлы.Command.Файлы</content>
+</mdclass:FunctionalOption>

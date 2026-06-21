@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b32c1d75-669b-4eea-a782-c37409e194e0">
+  <name>СводнаяВедомостьОбщаяСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная ведомость</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

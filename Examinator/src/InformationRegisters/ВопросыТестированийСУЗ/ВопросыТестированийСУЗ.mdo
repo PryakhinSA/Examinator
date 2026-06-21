@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92993811-e106-41fa-a9c9-d7a21023a6ff">
+  <producedTypes>
+    <selectionType typeId="b88fa7f0-dee2-49c4-881a-6488836cd526" valueTypeId="5499ca04-3e72-4010-b46b-265c22ac77da"/>
+    <listType typeId="7b11ff9a-2a80-48cf-9aa0-41ae3d645660" valueTypeId="51b01391-ffc0-46ec-aa3a-b6c2d023b9f6"/>
+    <managerType typeId="86aa2829-0561-4376-92f9-4a7d2b7f4297" valueTypeId="b9e0c4e1-570d-443a-ac3d-d4676c440934"/>
+    <recordSetType typeId="2ba326dd-cf15-4e72-b1e9-5877d548e970" valueTypeId="67aafa64-34ee-488e-aff0-2446cadad870"/>
+    <recordKeyType typeId="98cb39e2-33df-4b4d-8a22-4ef335649e55" valueTypeId="4e9439f1-2bbd-446d-a693-a09647bf05c3"/>
+    <recordType typeId="9845a7b8-784b-4197-a49d-ded57df3b0a9" valueTypeId="7b277491-7c98-4dd5-a89a-b7345f67a173"/>
+    <recordManagerType typeId="3935acdd-d1c0-4aa1-9108-bf7d716972af" valueTypeId="ffa159f9-aa75-4cc5-aa20-9586162b65e2"/>
+  </producedTypes>
+  <name>ВопросыТестированийСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы тестирований</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="e14df2ca-ae7c-4902-9b56-f2658e5904cd">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вес вопроса в тесте</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9a8ebd2-02ca-42f9-8a4f-8111026e8059">
+    <name>ГруппаПодборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа подборки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлементыПодборкиСУЗ</types>
+      <types>CatalogRef.ВопросыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страница теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="980e9bee-b6c2-4a47-9db4-24dee20e9753">
+    <name>СессияВыполненияТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия выполнения теста</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СессияЭлектронногоРесурсаСУЗ</types>
+      <types>DocumentRef.ПопыткаВыполненияПодборкиВопросовСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сессия тестирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="223f698a-9609-4c41-a76a-6a4ad1490a14">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВопросыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вопрос теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

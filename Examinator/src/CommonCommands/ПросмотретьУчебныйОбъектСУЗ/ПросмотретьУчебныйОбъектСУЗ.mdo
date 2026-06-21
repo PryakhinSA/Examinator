@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec24ebbe-36b1-4558-8d84-bbecba69fefb">
+  <name>ПросмотретьУчебныйОбъектСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотреть</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.ПодборкиСУЗ</types>
+    <types>CatalogRef.ФреймыСУЗ</types>
+    <types>CatalogRef.ТерминыСУЗ</types>
+    <types>CatalogRef.СтраницыСУЗ</types>
+    <types>CatalogRef.ГлоссарииСУЗ</types>
+    <types>CatalogRef.РесурсыСУЗ</types>
+    <types>CatalogRef.СводыЗнанийСУЗ</types>
+    <types>CatalogRef.ФайлыСУЗ</types>
+    <types>CatalogRef.ВопросыСУЗ</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Просмотреть объект в пользовательском режиме</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.GenerateReport</picture>
+  </picture>
+</mdclass:CommonCommand>

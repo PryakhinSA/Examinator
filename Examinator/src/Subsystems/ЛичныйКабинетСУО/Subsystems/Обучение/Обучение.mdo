@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e88b9f3-b68f-4fcd-a1e4-9819556961f4">
+  <name>Обучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение</value>
+  </synonym>
+  <content>CommonForm.МоеОбучениеСУО</content>
+  <content>CommonCommand.МоеОбучениеСУО</content>
+  <content>CommonForm.МоиРезультатыСУО</content>
+  <content>CommonTemplate.ШаблонОписанияУчебнойАктивностиСУО</content>
+  <content>Role.ЛичныйКабинетПрохождениеОбученияСУО</content>
+  <content>Role.ЛичныйКабинетПреподавательОбученияСУО</content>
+  <content>CommonModule.ОбучениеСУО</content>
+  <content>CommonModule.ОбучениеСУОВызовСервера</content>
+  <content>CommonModule.ОбучениеСУОКлиент</content>
+  <content>CommonModule.ОбучениеСУОПовтИсп</content>
+  <content>CommonForm.КарточкаОбученияСУО</content>
+  <content>CommonForm.КарточкаЗаданияСУО</content>
+  <content>XDTOPackage.УчебнаяАктивностьСУО</content>
+  <content>XDTOPackage.ПреподавательскаяАктивностьСУО</content>
+  <content>XDTOPackage.ШкалаОценокСУО</content>
+  <content>CommonForm.ФайлыУчастниковОбученияСУО</content>
+  <content>CommonForm.КарточкаЗаявкиСУО</content>
+  <content>XDTOPackage.СценарийОбученияСУО</content>
+  <content>CommonForm.ЗаписьНаОбучениеСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныйКабинетОбучениеСУО</content>
+  <parentSubsystem>Subsystem.ЛичныйКабинетСУО</parentSubsystem>
+</mdclass:Subsystem>

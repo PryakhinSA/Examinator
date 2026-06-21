@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="251ee9fd-72a4-44c6-944f-9baf5f21a013">
+  <producedTypes>
+    <refType typeId="c88c5345-3112-4606-9bf4-2c63099b617a" valueTypeId="f64003d5-34a7-49b8-bf7e-3f85c2fc0bf5"/>
+    <listType typeId="bb730375-6647-4f5c-801a-22186df17ba3" valueTypeId="6d48275d-33c4-460b-8ccf-e0ce1ec3c094"/>
+    <managerType typeId="f41b5488-21a3-402e-a3e3-451231cf6dd3" valueTypeId="d5f6beeb-7bdc-424d-921f-7f443c684335"/>
+  </producedTypes>
+  <name>ТемыОформленияЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темы оформления электронных курсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="613a5c06-191a-473f-9a94-7ea345602c62">
+    <name>Облако</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облако</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d0e5f33-8695-4025-ae5b-0bc663e8932a">
+    <name>Пляж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пляж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a36483e6-076a-49cb-9729-8d98de00de52">
+    <name>Аквамарин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аквамарин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc78422a-d582-4149-a560-0a96ed850ba6">
+    <name>Лето</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лето</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

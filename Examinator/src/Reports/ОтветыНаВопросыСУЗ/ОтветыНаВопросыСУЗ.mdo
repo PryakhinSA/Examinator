@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7644f49-c0c0-4eb9-b838-4c44b242945b">
+  <producedTypes>
+    <objectType typeId="481563cc-47fb-4a4c-90eb-fde868511210" valueTypeId="7ec92147-fadb-41be-a098-fea09862e481"/>
+    <managerType typeId="7aed8de0-7ad3-4902-820c-2d0e93ecd929" valueTypeId="b2cb6737-d3c6-44cc-b8e1-5d88c971da75"/>
+  </producedTypes>
+  <name>ОтветыНаВопросыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы на вопросы</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтветыНаВопросыСУЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Ответы на вопросы пользователей</value>
+  </extendedPresentation>
+  <templates uuid="e2328e42-d1df-4c36-bf7f-017f0b2b3e51">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="daa77d5d-136a-4ab8-a3e4-958f7aec9075">
+    <name>ОтветыНаВопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы на вопросы</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="6f28330e-345f-4dc5-a7b5-b3f991fc5c16">
+    <name>ОтветыНаВопросыЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы на вопросы</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="dbc65855-f3e3-4098-a453-ded2b5948dbb">
+    <name>ОтветыНаВопросыПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы на вопросы</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="fbb560a2-bc87-4d0b-9f54-233538b23071">
+    <name>ОтветыНаВопросыПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы на вопросы</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

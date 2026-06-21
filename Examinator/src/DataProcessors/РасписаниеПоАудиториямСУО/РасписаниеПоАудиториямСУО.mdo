@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed2fe98d-dc44-4b34-9e56-38a45d318858">
+  <producedTypes>
+    <objectType typeId="3b8c0caa-53ef-409b-8321-4edad2d286df" valueTypeId="ce1d1fd3-1343-410f-86c7-08f76f1d5739"/>
+    <managerType typeId="2ce5a252-b70d-4a75-b346-70f066d68257" valueTypeId="82d06f53-cfce-4aa1-adc1-c695c521af70"/>
+  </producedTypes>
+  <name>РасписаниеПоАудиториямСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание по аудиториям</value>
+  </synonym>
+  <defaultForm>DataProcessor.РасписаниеПоАудиториямСУО.Form.ИспользованиеАудиторий</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="b3f34572-cb63-46fb-9360-ba6117452279">
+    <name>ИспользованиеАудиторий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование аудиторий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="34cc12d6-39e2-4254-85e1-29863f5b4fcb">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.АудиторииСУО</types>
+      <types>CatalogRef.ТерриторииСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GanttChart</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

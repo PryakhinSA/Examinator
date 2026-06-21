@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac3f5a27-c49e-4d1a-a597-d933358449a5">
+  <producedTypes>
+    <refType typeId="c858b9ff-ff0c-4290-8294-9d0c7f9b7c0b" valueTypeId="2e43ed1b-b5c7-412d-9ed3-a1427f5826dd"/>
+    <listType typeId="45e94b5d-0c41-42f7-8ff5-9b10b50d0a03" valueTypeId="782d35f0-aaaf-4a7e-a3c2-1e8a37a9424f"/>
+    <managerType typeId="0852d9f4-b8d7-4da1-92cc-2edb09568bd7" valueTypeId="f46d0420-7245-4ee6-86c6-9627cf90ce54"/>
+  </producedTypes>
+  <name>ПеременныеШаблонаСертификатаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переменные шаблона сертификата</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cb52acb2-5ae1-4416-a84f-af8b4af5ba09">
+    <name>ЗаЧтоВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>За что выдан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e26ca5f-7675-47d0-91f2-7ea11316b107">
+    <name>КогдаВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Когда выдан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06de5dfb-318f-4fd5-9d1d-62adcdfc05b9">
+    <name>КомуВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кому выдан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90971110-c49a-4198-a457-a9e1509340cd">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1793e3d9-8d0f-48b8-a1d5-c44f1452c5e2">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b6d829-3a3c-4a61-92c5-61c8651e7127">
+  <name>СтатистикаОтветовНаВопросСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика ответов</value>
+  </synonym>
+  <group>CommandGroup.Отчеты</group>
+  <commandParameterType>
+    <types>CatalogRef.ВопросыСУЗ</types>
+  </commandParameterType>
+</mdclass:CommonCommand>

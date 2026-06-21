@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82c9e84a-a8c5-44ad-8c06-d567e7de28cf">
+  <name>ОбразовательнаяОрганизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Образовательная организация</value>
+  </synonym>
+  <content>FunctionalOption.ОбразовательнаяОрганизацияОО</content>
+  <content>CommandGroup.ОбразовательнаяОрганизацияОО</content>
+  <content>Catalog.ДисциплиныОО</content>
+  <content>Catalog.КурсыОО</content>
+  <content>Catalog.ОтделенияОО</content>
+  <content>Catalog.СпециализацииОО</content>
+  <content>Catalog.СпециальностиОО</content>
+  <content>Catalog.СтатусыСтудентовОО</content>
+  <content>Catalog.УчебныеГруппыОО</content>
+  <content>Catalog.ФормыОбученияОО</content>
+  <content>InformationRegister.СтудентыОО</content>
+  <content>Role.УправлениеСтруктуройОрганизацииОО</content>
+  <content>Constant.ИспользоватьСтудентовСУО</content>
+  <content>FunctionalOption.ИспользоватьСтудентовСУО</content>
+  <content>ScheduledJob.ЗакрытиеДоступаКБазеСтудентамСУО</content>
+  <parentSubsystem>Subsystem.ПредприятиеСУО</parentSubsystem>
+</mdclass:Subsystem>

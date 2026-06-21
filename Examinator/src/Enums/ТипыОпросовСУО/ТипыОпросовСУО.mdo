@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="554a2741-db2d-4177-a3a3-d2aa40d0460e">
+  <producedTypes>
+    <refType typeId="c3f15d60-e110-4c56-a0e4-08a5a1b01ba9" valueTypeId="b927eab4-6994-4012-a9cf-7f6c3332f455"/>
+    <listType typeId="d35ecb85-05d4-419d-86b2-079e54b74948" valueTypeId="8fa18f3e-2ffe-4434-a260-78e3bbe1c9e5"/>
+    <managerType typeId="ddde6487-7b99-4950-b3bd-b7f7421b3c19" valueTypeId="87511d25-4606-485d-880f-e0e8c65368d4"/>
+  </producedTypes>
+  <name>ТипыОпросовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы опросов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="de2e28f0-f8a2-4954-8f02-c6d7cee2a4d2">
+    <name>ПриПодачеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>При подаче заявки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3d17705-8582-4ad5-8325-3a3c5030f43e">
+    <name>ПередПрохождением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед прохождением</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15650df1-513f-4aed-914f-0212c49cd288">
+    <name>ПослеПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>После прохождения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

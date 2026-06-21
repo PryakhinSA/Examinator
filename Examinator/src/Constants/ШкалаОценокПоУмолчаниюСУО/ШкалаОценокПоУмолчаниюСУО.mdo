@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f36170af-a6b6-4c62-b5ba-37f5812c2cde">
+  <producedTypes>
+    <managerType typeId="a6f3f61c-9709-4fdb-ab0f-0ed8e7dcac1a" valueTypeId="c0b66241-4342-4985-8c19-2c8f9a4ba30c"/>
+    <valueManagerType typeId="96a590cd-c2ea-482f-92bc-1772b9785888" valueTypeId="ee45de00-fc23-4c7a-95c0-2efcbce3d1d3"/>
+    <valueKeyType typeId="93434746-9d26-5e0a-b8fa-ba7f39d1abfb" valueTypeId="6414a7a1-342c-56dd-b798-177c8292c51e"/>
+  </producedTypes>
+  <name>ШкалаОценокПоУмолчаниюСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала оценок по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШкалыОценокСУО</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36545d6a-f9c4-4bdb-8d63-4ca23cdb7301">
+  <producedTypes>
+    <managerType typeId="b84994d6-7a57-4e33-a52a-1ba161cf47d8" valueTypeId="4bda0690-4363-48f2-a7b6-2fd1fa4506c7"/>
+    <valueManagerType typeId="dc915899-79aa-4166-ba51-3939d69a4897" valueTypeId="3453e1de-4961-4b7a-acdb-1818ad7385c0"/>
+    <valueKeyType typeId="498adc1f-1422-5223-bf15-71ba1656b1b2" valueTypeId="63114842-94a0-5316-9a6d-82d454984e9b"/>
+  </producedTypes>
+  <name>ПредпочитатьПоставщикаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предпочитать поставщика</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПоставщикиСУЗ</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Указывается поставщик, данные которого будут иметь приоритет при выборе нужной версии объекта</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

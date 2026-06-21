@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a39a6ac4-9632-4136-96c2-2c0e4f9f96f1">
+  <producedTypes>
+    <selectionType typeId="3cdf5f1c-f746-4d6e-81a1-4d53affe715f" valueTypeId="759a33e5-a8a7-48a9-80b6-b72087d1de29"/>
+    <listType typeId="ca1cfd9a-4081-458f-aa3e-1c9ba56cfbc6" valueTypeId="f113ef7d-cb12-4663-ba28-256d918bce38"/>
+    <managerType typeId="26899fd1-abab-446e-acc6-97f57a29cd69" valueTypeId="9d9b3d3a-3231-40ab-b622-e0f8e651f583"/>
+    <recordSetType typeId="b728f5f3-41ce-4b04-8e3e-38250011b8a7" valueTypeId="b3bb8105-674a-446b-8bf8-1c169a81c74f"/>
+    <recordKeyType typeId="80cd6648-8924-439a-8ccf-b57af2153d96" valueTypeId="75f971a6-b035-4223-af34-a9cd4075ff99"/>
+    <recordType typeId="ea0b3811-006b-46e7-b1f2-44246112f8c6" valueTypeId="b7fb679f-8f34-4d14-8da5-3add62034cfa"/>
+    <recordManagerType typeId="6d4fb092-4e40-4410-bebd-2e41d533f8ab" valueTypeId="606b0f21-be29-4383-9e90-c4b9dd2eb901"/>
+  </producedTypes>
+  <name>НастройкиЛичногоКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки личного кабинета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="81d03330-8634-4f88-94c2-e8bc49b554ba">
+    <name>ПоказатьОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать обучение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="045d4b8b-1777-45b3-a60d-e187faf50e28">
+    <name>ПоказатьОбщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать общение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ed9baefe-9fb6-4587-8c49-35bc22e05dcf">
+    <name>ПоказатьЛичныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать личные сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f03b7e98-a89e-4cfc-a414-924bff25183e">
+    <name>ПоказатьНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать новости</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e4d0351f-e92a-4157-8312-5a64930a05a8">
+    <name>ПоказатьПерсональныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать персональные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eac927b5-d073-4200-bf37-5402f6db8c01">
+    <name>ПоказатьПинКоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать пин-коды</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="285250dd-697b-4018-bb67-8e304690c74b">
+    <name>ПоказатьФорумы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать форумы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c3c0276-5538-4e05-83eb-9d1a825cdceb">
+    <name>ПоказатьБиблиотеку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать библиотеку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

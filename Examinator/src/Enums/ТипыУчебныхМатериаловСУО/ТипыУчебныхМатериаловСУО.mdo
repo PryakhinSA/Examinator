@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4052f101-9398-4083-a3dc-e2d305f435e7">
+  <producedTypes>
+    <refType typeId="763c0937-e72e-486b-8ce6-b29c8689c168" valueTypeId="040114e1-fb57-49da-9ba4-b8d411b908a9"/>
+    <listType typeId="24c45ef5-f0bc-4957-b866-c47cc394ebb6" valueTypeId="2abead62-8875-4044-bb7d-b8d690309661"/>
+    <managerType typeId="a7aa0360-eb05-43c2-bcf6-d1b67d560a04" valueTypeId="014ec1ad-5ce7-4a67-bc03-2f820bb47ef2"/>
+  </producedTypes>
+  <name>ТипыУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы учебных материалов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ТипыУчебныхМатериаловСУО.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="c682e742-e0f6-4d36-82de-177f791527be">
+    <name>ЗаданиеНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на проверку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1aa4fdb-da1f-44ba-8387-f72b8cee5ab2">
+    <name>ЭлектронныйУчебник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный учебник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aafb559e-9318-40e4-b9a0-845ed277ab35">
+    <name>СлайдовыйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слайдовый курс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd283193-a86f-4742-be3f-4a53600c14b6">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e5d0053-f9b7-4920-8df8-6dc56ea7c005">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="2a8b6592-daf2-4d83-b5fa-30e8ce6dab87">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="230f3743-9b09-44f4-8072-8b033255ca43">
+  <producedTypes>
+    <selectionType typeId="cae520fe-66e4-40f4-af86-0087f41fa65a" valueTypeId="f26ed676-9a7b-4577-9a3e-86e1803a3260"/>
+    <listType typeId="f9a5d2d4-6084-4a11-8c47-257cba75f44e" valueTypeId="12a7d0b4-5826-490e-866e-1bbbe064f253"/>
+    <managerType typeId="322c4559-a4ab-441e-8286-68819069f922" valueTypeId="dbaa9ca3-2102-4961-832a-ebcde0eb1694"/>
+    <recordSetType typeId="0c124923-67ae-4109-85fd-a2e78199a777" valueTypeId="97a504e2-0805-4ce3-981c-2f8ca5adc79d"/>
+    <recordKeyType typeId="51eb30f2-6183-47d5-a5a3-b98d1407ac84" valueTypeId="bde13d9e-e5a1-4cba-a2da-1912d4c51f13"/>
+    <recordType typeId="68ae5cf1-26ae-45ef-9f0d-7dec153a9c39" valueTypeId="680d416b-b426-46b8-88e8-345cb289245b"/>
+    <recordManagerType typeId="e0132d83-ff99-45bd-a19f-2faa18c3ba66" valueTypeId="24fed1c1-d896-4d0c-a4d7-5e6dfc61a8f1"/>
+  </producedTypes>
+  <name>ФайлыПроверенныеПреподавателямиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверенные файлы учащихся</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f26378df-2f08-4468-8365-36bcf4809a84">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы</types>
+      <types>CatalogRef.ПрохождениеОбученияСУОПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c907af9d-5279-4d15-bda4-3531c5084eba">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

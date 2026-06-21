@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60977eda-d498-4d74-ac01-8f5e9a4c1f8c">
+  <name>ЗакрытиеДоступаКБазеСтудентамСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие доступа к базе студентам</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеОбучениемСУО.ЗакрытиеДоступаКБазеСтудентамСУО</methodName>
+  <description>Закрытие доступа к базе студентам</description>
+  <key>ЗакрытиеДоступаКБазеСтудентамСУО</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bbec83a-13f3-4da1-99f9-c759c2bcc0ad">
+  <producedTypes>
+    <selectionType typeId="87e2f8ea-2156-4548-90a2-bb45e2c78708" valueTypeId="0ebe1d6d-3ea3-46d3-9c2b-d0116cfdd182"/>
+    <listType typeId="2fc12cb8-3f09-494a-822f-cc82bde91557" valueTypeId="f7be81cc-6209-498b-91a8-d0cecfbaf790"/>
+    <managerType typeId="542b10e6-5ce4-4cbc-aff6-efd7f3d6987f" valueTypeId="a8b45087-cf01-4ecf-be63-00968d418ae3"/>
+    <recordSetType typeId="e5dc6431-f4ef-4fac-a666-f6376f6bb5bb" valueTypeId="96342dc8-1e7a-4d44-84a7-b076727e88b4"/>
+    <recordKeyType typeId="93ec153a-f491-4d55-9485-451b2798b6eb" valueTypeId="cc8d4a22-44bf-42d3-bde5-db322125dbc1"/>
+    <recordType typeId="95315ba0-f7ac-418f-a783-92bc978f4b4e" valueTypeId="67906767-3c42-439c-8f47-24572a0045e0"/>
+    <recordManagerType typeId="330971ea-d905-448e-bf91-7c4660457b03" valueTypeId="f912b294-acf2-45c2-853c-b556f5f2c2bb"/>
+  </producedTypes>
+  <name>ДополнительныеПопыткиПрохожденияТестовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные попытки прохождения тестов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата добавления попытки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="5221406a-0c08-4bb8-80e4-b8e5b2bcf25e">
+    <name>ДобавившийПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавивший пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который добавил попытку</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0f5bd329-e634-411d-912f-c9fe3b2d67bc">
+    <name>ЭлектронныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Электронный ресурс, в котором добавлена попытка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b0616981-6b1d-437b-b29d-3a69db3887df">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, которому добавлена попытка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="106a6dc6-0f90-44d3-95f7-d8c5f19cbe14">
+    <name>ЭлементСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент содержания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент содержания, в котором добавлена попытка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b2d757a-ad78-48e1-81f3-83019ecb4be6">
+    <name>ПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрохождениеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прохождение обучения, в котором добавлена попытка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d947111e-7b09-4bb6-85ad-bb89c66dabba">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ЗаданиеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задание, в котором добавлена попытка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9354dc01-179d-4f81-a0ad-b89e17ce06c4">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодборкиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тест, в котором добавлена попытка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

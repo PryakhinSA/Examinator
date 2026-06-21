@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="615d7e85-cc38-490c-ade7-237c4b8e2ecd">
+  <producedTypes>
+    <objectType typeId="2fbb76a6-1da8-4838-86d3-1a7e0318bae3" valueTypeId="0a0fd03c-9dae-4f79-9f7b-bb71c861134d"/>
+    <managerType typeId="126c9e75-d04d-46c8-be85-56e1bfed5469" valueTypeId="e71296ad-66a9-4c54-b0b8-3119f412a1ad"/>
+  </producedTypes>
+  <name>ИзучениеЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изучение электронных курсов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИзучениеЭлектронныхКурсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="e7bc50c9-ea60-420d-9642-010d7b129fa5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="a4de963f-5953-432b-bdc1-6f5e18228e89">
+    <name>ИзучениеЭлектронногоКурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика изучения</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99252e8c-fa89-4ed5-a35a-b9dadb0dafb0">
+  <producedTypes>
+    <objectType typeId="0dab7cfc-dd71-4be0-971a-46370532fc6c" valueTypeId="c5874569-bfa2-4b8a-9b99-b43bd93a81b3"/>
+    <managerType typeId="e9b116e1-80ca-48bb-be05-f613ce7edb93" valueTypeId="9bcf6108-96ee-49b0-9040-e349538fe64c"/>
+  </producedTypes>
+  <name>СотрудникиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СотрудникиСУО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="5c64c251-2102-48ae-afe6-ce25908dfe73">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="0d77a3ee-976d-44c0-b510-1d825685405e">
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

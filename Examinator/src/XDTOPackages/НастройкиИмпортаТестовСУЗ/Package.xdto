@@ -1,0 +1,39 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/ImportQuizSettings">
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="Файлы">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Файл" type="d3p1:Файл" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Файл">
+		<property name="ИмяФайлаВопросов" type="xs:string"/>
+		<property name="ИмяФайлаРесурсов" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ЭлектронныйРесурс" type="d3p1:CatalogRef.СводыЗнанийСУЗ" lowerBound="0"/>
+		<property name="СформироватьТесты" type="xs:boolean" lowerBound="0"/>
+		<property name="ИскатьПоКоду" type="xs:boolean" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Колонки" type="d3p1:Колонки"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Листы" type="d3p1:Листы" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Вопросы" type="d3p1:Вопросы" lowerBound="0"/>
+	</objectType>
+	<objectType name="Колонки">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Колонка" type="d3p1:Колонка" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Колонка">
+		<property name="Имя" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="Значение" type="d3p1:EnumRef.ПеременныеВопросовСУЗ"/>
+	</objectType>
+	<objectType name="Листы">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Лист" type="d3p1:Лист" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Лист">
+		<property name="Номер" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="Тест" type="d3p1:CatalogRef.ПодборкиСУЗ"/>
+		<property name="Скрыть" type="xs:boolean" lowerBound="0"/>
+	</objectType>
+	<objectType name="Вопросы">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/ImportQuizSettings" name="Вопрос" type="d3p1:Вопрос" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Вопрос">
+		<property name="Код" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="Вопрос" type="d3p1:CatalogRef.ВопросыСУЗ"/>
+	</objectType>
+</package>

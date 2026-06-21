@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9bc77a6-bfbd-47f8-a533-9b8ecff0f234">
+  <producedTypes>
+    <refType typeId="119d142e-0480-416d-93dc-11635050151d" valueTypeId="6ad541d7-43b1-493d-b422-0306d6931a70"/>
+    <listType typeId="36bb36a2-de69-4d6e-986b-d9c5fa097444" valueTypeId="27efb7ce-1571-47a9-aeda-0384f4239975"/>
+    <managerType typeId="3a84d279-81d8-4e50-94bf-400c75aac345" valueTypeId="123db432-233c-4515-a572-db7dfc74e2a2"/>
+  </producedTypes>
+  <name>СтатусыПрохожденияОбъектовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы прохождения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be2a81f9-b3a6-4654-bdf4-7220b1a122ca">
+    <name>Зачислен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89dc161d-0f67-46c2-b634-ceb5090cc8a1">
+    <name>Проходит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f392e65-635c-4267-9195-d7e700c3a50f">
+    <name>Завершил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed47258e-ea9f-42af-a27b-04a67cd44965">
+    <name>НеЗавершил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не окончено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52ee72d6-9b54-4f4f-917e-3155f1c1d109">
+    <name>НеДопущен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не допущен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64614021-5a7f-4a88-bcb5-5391a3d2c29f">
+    <name>Автомат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомат</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

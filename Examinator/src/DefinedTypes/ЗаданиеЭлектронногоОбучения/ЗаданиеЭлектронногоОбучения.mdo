@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c855cb9d-a96e-44ee-97f7-030007d2fc5e">
+  <producedTypes>
+    <containerType typeId="5a9ab03e-a610-4af9-b1f6-03c6e14465e0" valueTypeId="91de807a-19a3-407e-8a6e-790e2776a254"/>
+  </producedTypes>
+  <name>ЗаданиеЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задание электронного обучения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СводыЗнанийСУЗ</types>
+    <types>CatalogRef.ЗаданияСУО</types>
+    <types>CatalogRef.ЭлектронныеКурсы</types>
+  </type>
+</mdclass:DefinedType>

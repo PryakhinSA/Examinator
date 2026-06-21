@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="918d72c4-8499-4df5-b784-2f5240927afc">
+  <producedTypes>
+    <refType typeId="358d50a9-ee47-4151-8564-a7802090fddd" valueTypeId="ce381087-339f-44b6-95d3-da87dd607ce5"/>
+    <listType typeId="3af41526-c76e-4972-82d0-955a0219bcd3" valueTypeId="9419369c-eab2-4124-96b5-b23a1f1e9377"/>
+    <managerType typeId="982adc74-37b6-4362-a045-e4541db17483" valueTypeId="36e1c2fe-3aa1-4a11-bf24-258dd91980fa"/>
+  </producedTypes>
+  <name>ТипыЭлементовСодержанияЭлектронногоКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов содержания электронного курса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2d1e3ce7-ff3b-41a0-8926-82a1f5015432">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d61d7c3-126c-4a5f-b963-6d5e5dd1403e">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0e05364-aef2-457c-8df3-2c3fdf25d50d">
+    <name>Видео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db206652-f921-4916-80bd-82506f73e532">
+    <name>Звук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90c2b8fc-b74e-49d7-8efc-adff420aeabd">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d444ece7-4479-4344-b5c9-6a0eadca32e6">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54aa6af1-120c-4683-900f-e8a6b4474d23">
+    <name>ДокументWord</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a6079e2-21ab-4665-a0c9-70a55002732f">
+    <name>ДокументOpenOffice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ OpenOffice</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56cac9e1-86f9-46dd-946a-9990da0977de">
+    <name>СлайдПрезентацииPowerPoint</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слайд презентации PowerPoint</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2bf5b812-b7c6-456f-bd79-8d01c0525620">
+    <name>СлайдПрезентацииImpress</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слайд презентации Impress</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1f99a6a-20fd-48c6-8854-054e17e750f9">
+    <name>ПрезентацияPowerPoint</name>
+    <synonym>
+      <key>ru</key>
+      <value>Презентация PowerPoint</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5dce5c7b-a5dc-493a-85b8-faccde114425">
+    <name>ПрезентацияImpress</name>
+    <synonym>
+      <key>ru</key>
+      <value>Презентация Impress</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="226569ef-1a93-46e2-9032-ea739f6cfbee">
+    <name>Глоссарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глоссарий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab5174f8-6b0c-47bb-8074-5d8c14ddcc98">
+    <name>Финальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abb903df-f052-48d6-b50b-08c692c01bb9">
+    <name>YouTube</name>
+    <synonym>
+      <key>ru</key>
+      <value>YouTube</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89d57fe9-b6e3-43b3-9103-7e4ad5b689d7">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1d68d8f-b954-4f53-803c-92e86b681033">
+    <name>SCO</name>
+    <synonym>
+      <key>ru</key>
+      <value>SCO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2d88298-0497-4818-bf4e-12a844e3f90d">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e5e6f18-a507-4e91-84a7-d8accefacc61">
+    <name>PDF</name>
+    <synonym>
+      <key>ru</key>
+      <value>PDF</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="499a308f-5d30-4499-9a5d-7736bf8ca8cd">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

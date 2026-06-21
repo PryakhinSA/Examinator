@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81a2114b-79c0-4647-8350-6bbcdbcb5fd8">
+  <producedTypes>
+    <selectionType typeId="09375ead-d05a-4648-8168-3dac4cc4c347" valueTypeId="c55f8944-4976-4e4d-b318-f229c17095a8"/>
+    <listType typeId="5905bc71-80b6-42e3-8c87-696e926d73fd" valueTypeId="00637cca-3898-4efd-bfdf-de882f7dc8e7"/>
+    <managerType typeId="98b2f88d-1196-4430-aece-6139138cb3a3" valueTypeId="c9d63dcc-cef4-4916-9527-16c32c61e584"/>
+    <recordSetType typeId="af2efc2f-1450-4b44-998a-0ac7097f0bfb" valueTypeId="5f0fb9f4-0609-40df-9d21-356d9ca760fe"/>
+    <recordKeyType typeId="67738618-f747-4902-9825-4f01c8169ee6" valueTypeId="78987940-6f3e-4481-8ed7-6073c0f37c3f"/>
+    <recordType typeId="e7b5f273-2fd9-4608-bbf2-976d9c12e7f7" valueTypeId="2b45c11d-dde3-4c25-931b-e7a2330dffa1"/>
+    <recordManagerType typeId="e2fae091-276e-492c-bdce-4cf3f2575984" valueTypeId="95f5015b-4e85-495c-b5af-d8667338ee8d"/>
+  </producedTypes>
+  <name>НастройкиУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки учебных материалов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="545ad078-0ecb-4e90-9fab-ac49fee1667b">
+    <name>ПоказатьЕдиныйКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать единый каталог</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0bfdd412-3d49-4fb2-a0aa-3be47e388100">
+    <name>ПоказатьЛитературу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать литературу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70be3069-9ade-416d-b6df-908f34856060">
+    <name>ПоказатьФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать файлы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9031dba0-eb99-4fa3-88e8-9a2dfaf7363d">
+    <name>ПоказатьЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать задания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="72de388f-95fc-4e9d-a2b2-5e9fc18d75df">
+    <name>ПоказатьЭлектронныеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать электронные ресурсы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c622c00-b080-4ee2-8067-954d6c729bbc">
+    <name>ПоказатьЭлектронныеКурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать электронные курсы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

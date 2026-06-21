@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c48fa63-a3c8-4e3e-ae50-9e5b65f46f88">
+  <producedTypes>
+    <managerType typeId="b9ee2ffb-e0c3-4237-81ed-28f91798e61c" valueTypeId="39d28e1b-d68f-430a-abaa-ba64aad62851"/>
+    <valueManagerType typeId="ebd8c372-1846-45bb-8ce1-479ef9d7c20a" valueTypeId="fc43eef1-45e2-4044-bc74-9e4448ebaf02"/>
+    <valueKeyType typeId="699f8899-f8fb-4b15-a349-db16d4d3f213" valueTypeId="9efdb579-f817-4338-a2ae-5c877c5e231f"/>
+  </producedTypes>
+  <name>РазрешитьЗапросыКСервисамСДругихДоменовСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить запросы к HTTP-сервисам с других доменов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Включает возможность выполнять HTTP-запросы к базе с любых сайтов. Не следует включать без необходимости.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

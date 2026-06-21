@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6672def9-b0d0-4a34-acbc-cdb69ed93ff2">
+  <name>ЕдиныйКаталог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единый каталог</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.УчебныеМатериалыСУО</content>
+  <content>Role.УправлениеУчебнымиМатериаламиСУО</content>
+  <content>InformationRegister.НастройкиУчебныхМатериаловСУО</content>
+  <content>FunctionalOption.ПоказатьЕдиныйКаталогМатериаловСУО</content>
+  <content>FunctionalOption.ПоказатьЛитературуУчебныхМатериаловСУО</content>
+  <content>FunctionalOption.ПоказатьФайлыУчебныхМатериаловСУО</content>
+  <content>FunctionalOption.ПоказатьЗаданияУчебныхМатериаловСУО</content>
+  <content>FunctionalOption.ПоказатьЭлектронныеРесурсыУчебныхМатериаловСУО</content>
+  <content>FunctionalOption.ПоказатьЭлектронныеКурсыУчебныхМатериаловСУО</content>
+  <content>DefinedType.УчебныйМатериалСУО</content>
+  <content>Enum.ТипыУчебныхМатериаловСУО</content>
+  <content>Enum.РазмещениеУчебныхМатериаловСУО</content>
+  <parentSubsystem>Subsystem.УчебныеМатериалыСУО</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd8ae2ac-4d4e-4d92-8eca-d4be98991290">
+  <producedTypes>
+    <containerType typeId="c075bfe7-7a65-49a8-802c-2e9f7c296ed4" valueTypeId="d4fea2fe-8363-4c01-b36f-59075593655b"/>
+  </producedTypes>
+  <name>ПрохождениеЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прохождение электронного обучения</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПрохождениеОбученияСУО</types>
+  </type>
+</mdclass:DefinedType>

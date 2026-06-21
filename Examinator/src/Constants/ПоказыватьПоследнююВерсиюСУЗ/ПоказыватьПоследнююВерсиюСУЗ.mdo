@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aadc1181-385f-442e-bd9b-861074fd77ee">
+  <producedTypes>
+    <managerType typeId="f74bebb3-c345-4e51-b23f-85b6b731422b" valueTypeId="91d37fce-1bf6-47f6-b30e-44133e426e75"/>
+    <valueManagerType typeId="1203ff78-427b-4ba0-8b85-6eff0fec3145" valueTypeId="3e4a6bb9-5205-4705-a20e-56c6478a2bc5"/>
+    <valueKeyType typeId="57ddb6e4-1df5-56d2-a636-0acac2ef0014" valueTypeId="46f41b81-efd5-52fe-8b67-9cf2218b9335"/>
+  </producedTypes>
+  <name>ПоказыватьПоследнююВерсиюСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать последнюю версию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>При установленном флажке, если объект имеет несколько версий, то будет показана последняя по номеру версия от предпочитаемого поставщика контента. В противном случае будет показана последняя сохраненная версия.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

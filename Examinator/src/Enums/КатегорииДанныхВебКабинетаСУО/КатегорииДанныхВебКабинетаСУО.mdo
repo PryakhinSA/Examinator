@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7db5c81f-1cfe-406c-b514-bd289524ba91">
+  <producedTypes>
+    <refType typeId="64e934e0-32e6-42fc-9a47-69db6b9fb755" valueTypeId="49a1cb1c-6263-4828-a59c-53285dc0e828"/>
+    <listType typeId="8374682f-ea6b-4dc9-83c3-e8651849307f" valueTypeId="34821672-0d5f-4051-9a39-365c1ceaeb0e"/>
+    <managerType typeId="9d141a35-e57c-441e-b752-e1cb2fb11c0d" valueTypeId="63bbafb2-aefc-4344-a716-29b34831186a"/>
+  </producedTypes>
+  <name>КатегорииДанныхВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории данных веб-кабинета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed09db10-0e5e-475d-a278-2c9a92221a69">
+    <name>ПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f222d2f-7c91-49c2-9aa2-3f84175cd2cc">
+    <name>ПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="135203fe-2f32-4ffe-a69b-0166c0006e2d">
+    <name>ОН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fe9f5a9-3bd7-44bd-95f8-cb9a9ee19c83">
+    <name>ОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

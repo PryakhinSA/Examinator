@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d59341e3-833e-4a54-a825-9db55e69ff33">
+  <producedTypes>
+    <selectionType typeId="2e633c77-3ccc-4e08-89b1-3d6f2c7928d9" valueTypeId="edfb6cec-cfc1-4055-beb9-7b7d9ad34e1f"/>
+    <listType typeId="9c5a5fb6-19ea-4daf-80e7-ceefec85167c" valueTypeId="38e28daa-6096-412e-8641-950a32d12a5b"/>
+    <managerType typeId="32f931a1-2ee8-4002-99b9-a88c984f1621" valueTypeId="ec6556ad-fc02-4370-a50c-aca4bd9561e1"/>
+    <recordSetType typeId="d41cfca2-f476-4026-9b20-37ced0d50982" valueTypeId="e96e2b69-88f8-4f5a-8b01-c088daf68833"/>
+    <recordKeyType typeId="bb9cce39-3da2-4c0a-9f79-fb6d48aea1f8" valueTypeId="04813f34-a202-4a41-b3ed-527b19215b46"/>
+    <recordType typeId="917d7391-b994-4ac7-9e28-3021c09141e7" valueTypeId="688a69b5-aca8-4900-ad32-6706425c76ce"/>
+    <recordManagerType typeId="45d26b96-9926-47b9-8917-f1f4d2b3a169" valueTypeId="82565877-7a22-45ee-ae73-55a0a486e7ea"/>
+  </producedTypes>
+  <name>КэшШаблоновСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэш шаблонов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="05e18b0e-f622-441c-8bf6-ebb09631f3cd">
+    <name>ШаблонПредставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон представления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст шаблона представления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e760eac0-5abb-48a8-8781-4e34f81ca675">
+    <name>ШаблонСкрипта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон скрипта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст шаблона скрипта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a48fc23-8b14-4ad7-85f7-44f4de692eaf">
+    <name>ТаблицыСтилей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблицы стилей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст шаблона стилей</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2463949c-462a-492e-bb39-3c82104c28a8">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата формирования шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c98ec8c1-5fd1-4ab1-93f5-9830b342d902">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон оформления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ed77d03-932d-480b-960f-9c7524b10e21">
+  <producedTypes>
+    <refType typeId="68608a48-1027-4edb-bb74-49005d88d6ba" valueTypeId="d63a4ff1-240e-42c6-878d-21c8ba5dcd9a"/>
+    <listType typeId="b30f25b3-7dfc-48a4-b818-ac823755390e" valueTypeId="0b4b42f3-216e-47db-9c32-d9fcf8d17c01"/>
+    <managerType typeId="ba22d77a-a910-4219-bf94-5a862df45444" valueTypeId="1baefe48-4af7-4659-9fed-f1dbe715247d"/>
+  </producedTypes>
+  <name>ТипыАвтоматическихРассылокСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы автоматических рассылок</value>
+  </synonym>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ТипыАвтоматическихРассылокСУО.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="797c00c4-252d-4712-af7f-6d64f18edba0">
+    <name>ПриЗачисленииНаМероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>При зачислении на обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74ae3d64-9234-4cc2-9b02-eae7df903675">
+    <name>ПриЗачисленииНаПрограммуОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>При зачислении на программу обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b735de89-e702-4bc5-a77a-9949900e306a">
+    <name>ПриНачалеПрохожденияМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>При начале прохождения обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6964087-5e04-418b-a5b0-16e255e0d1d0">
+    <name>ПриНачалеПрохожденияПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>При начале прохождения программы обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50fbd9ee-df42-40f7-94be-9c43f947ea74">
+    <name>ПослеПрохожденияМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>После прохождения обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d79cd499-f2c2-42d4-9506-439cefbcc32e">
+    <name>ПослеПрохожденияПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>После прохождения программы обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f2d6ebf-f73f-4382-93ae-4177585ad07b">
+    <name>ПриглашениеНаОткрытоеМероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приглашение на открытое обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5835adde-114a-4f27-a007-7a7f96335c10">
+    <name>ПриглашениеНаОткрытуюПрограммуОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приглашение на открытую программу обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3c32643-1f63-41ba-bf57-1852a338c0c4">
+    <name>ПриНазначенииПреподавателяНаМероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>При назначении преподавателя на обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc35b2de-675c-437b-bcba-6ba2dba312e9">
+    <name>КонтрольНепрочитанныхЛичныхСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль непрочитанных личных сообщений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8b07c8c-f3d0-4c27-b9a0-c6e3c95cb6c0">
+    <name>КонтрольНепрочитанныхТемФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль непрочитанных тем форума</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9599caf-b4ca-4ce0-9c66-490f60efbcbc">
+    <name>ПриОтправкеЗаданияНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>При отправке задания на проверку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f205c755-f8eb-429c-b35f-87422d2328a2">
+    <name>ВажнаяНовость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важная новость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d3eebfd-6553-48f2-afcd-d470998fd9fa">
+    <name>ВосстановлениеПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление пароля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9304551-6648-442c-bc23-4cda1d4a483f">
+    <name>РегистрацияНовогоПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация нового пользователя в базе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69495b8d-100f-41d0-b950-d6db16df5c72">
+    <name>ПередОкончаниемДоступаКБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед окончанием доступа к базе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d508f91-7a47-4a68-aa59-171c5106c6bb">
+    <name>ПриОбновленииОтбораПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически отобранным адресатам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55d77e90-1a14-4c31-ae16-ce7b08551e7c">
+    <name>ПослеПроверкиЗаданияПреподавателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>После проверки задания преподавателем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3f4740c-0e69-4456-952c-3629016d38fb">
+    <name>ПослеВозвратаНаДоработкуЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>После возврата на доработку задания</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="ba55dcda-bdbe-4eaf-84fd-24bb960df2d0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

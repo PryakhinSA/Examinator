@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="296d956a-ee3f-415e-9a21-6ec77844f7ee">
+  <producedTypes>
+    <managerType typeId="060ac1c9-8717-4b73-8b86-0f18d88ddaba" valueTypeId="a1d36392-b441-4cd0-b8ed-9c4fb61270f2"/>
+    <valueManagerType typeId="a5732c2c-ae35-4fa1-b2ac-60c48a258daf" valueTypeId="b12b4b72-01e0-4ccf-8e2e-39c1bb5e786f"/>
+    <valueKeyType typeId="7c013a59-0d5f-50d0-94ff-5a9927fb416e" valueTypeId="fd5f64eb-a3df-5840-96a6-56e85fbd7e3d"/>
+  </producedTypes>
+  <name>ПутьКОбщемуКаталогуСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к общему каталогу</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Локальный или сетевой путь к каталогу электронных курсов относительно кластера серверов 1С:Предприятие</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

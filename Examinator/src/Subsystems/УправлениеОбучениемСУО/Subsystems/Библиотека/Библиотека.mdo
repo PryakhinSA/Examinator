@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a217ea-83f3-4dd4-bf4b-37a8340dca77">
+  <name>Библиотека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека</value>
+  </synonym>
+  <content>4f5b086c-08ec-4cb0-aea4-3f28b2f45574</content>
+  <content>Document.НаполнениеБиблиотекиПользователейСУО</content>
+  <content>CommonPicture.Библиотека</content>
+  <content>CommonPicture.Библиотеки</content>
+  <content>Catalog.СтруктураБиблиотекиПользователейСУО</content>
+  <content>InformationRegister.БиблиотекаПользователейМеткиРесурсовСУО</content>
+  <content>InformationRegister.БиблиотекаПользователейСУО</content>
+  <content>CommonPicture.ДобавитьМетку</content>
+  <content>CommonPicture.Метка</content>
+  <content>CommonForm.БиблиотекаПользователейСУО</content>
+  <content>CommonCommand.БиблиотекаПользователейСУО</content>
+  <content>Role.УправлениеБиблиотекойПользователейСУО</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

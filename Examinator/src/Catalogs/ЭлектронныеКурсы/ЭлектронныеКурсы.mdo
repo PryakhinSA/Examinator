@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="488a38fa-052a-4eff-9cdc-922f14e14a23">
+  <producedTypes>
+    <objectType typeId="e0dc0b3d-927f-47e4-9ac1-b5137a0c738f" valueTypeId="b64d25cb-4ae3-4f19-b350-917b7595db6b"/>
+    <refType typeId="e6dc9816-11d5-405a-9cc9-fb7feb05ffb2" valueTypeId="c2841932-d61d-496d-a8c8-bb62673a11b8"/>
+    <selectionType typeId="9a5a0a8c-381b-43b2-ac50-2be57e5cad5f" valueTypeId="6d71459a-7447-45b8-805a-f29c63d2e15e"/>
+    <listType typeId="ce947059-2502-45ca-b054-ef66e4a60576" valueTypeId="89eaad5a-70c5-4a34-b221-ee5dc5c5a938"/>
+    <managerType typeId="b0e50699-1d3c-410c-b6c7-e8bfae1e61b1" valueTypeId="453e68e6-c1cd-4a0b-90cd-d2152bcf013d"/>
+  </producedTypes>
+  <name>ЭлектронныеКурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные курсы</value>
+  </synonym>
+  <inputByString>Catalog.ЭлектронныеКурсы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа курсов</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ЭлектронныеКурсы.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование электронного курса</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:StringValue">
+      <value>                         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Электронный курс</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <defaultFolderForm>Catalog.ЭлектронныеКурсы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ЭлектронныеКурсы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЭлектронныеКурсы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="eff623fc-aecf-42d4-a5ec-04efb02ae938">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЭлектронныхКурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыЭлектронныхКурсов.EnumValue.Учебник</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e34089d-ebea-4f6b-a5fe-7535bae074de">
+    <name>НомерРедакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер редакции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер редакции электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ba0593e-4460-4275-8896-790d826d6e25">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер версии электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27faa70c-834e-48a3-aa8a-f908b98562a2">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="262ec0bd-3fa2-4915-a109-04e0efe26b4b">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиЭлектронныхКурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разработчик контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a68b9a70-1be1-445c-9d49-8cf0ae5ad63e">
+    <name>СтартоваяСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовая страница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеРесурсы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обложка или титульного листа электронного курса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae9a30c0-3b7d-47ee-88a5-1f23161a7e46">
+    <name>ФинальнаяСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финальная страница</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеРесурсы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Финальная страница слайдового курса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e1260cd-9b7c-4326-b836-939b516a3f3a">
+    <name>Глоссарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глоссарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеГлоссарии</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Глоссарий терминов и их определений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec123d3e-47a5-4b1c-871a-5af3724cbc5c">
+    <name>СправочнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочная информация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеРесурсы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страница, которая будет показан в меню курса по клику на кнопку «?». Используется для размещения сведений об авторах курса и другой справочной информации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c68d17a3-dd15-4766-a3d5-79add8d34cc9">
+    <name>Презентация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Презентация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеРесурсы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Оригинал файла презентации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="30426b9b-f869-453a-aa78-f88272b49164">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cafd8ca1-e328-4f10-bf02-2e8a7db72b47">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc7229cd-a296-44ff-9c9c-ac8b29b7dc1f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a7bb904-e50b-4fcc-9baf-ab6e2a62c538">
+    <name>ФормаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56f98db7-7fe8-480c-aca7-68be30ae1c69">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d7040b2f-f511-41d2-90b7-db5d0f748d92">
+    <name>ЭлектронныеКурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные курсы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="3ced0aa6-9c64-4b48-bb57-cf01009ae0ff">
+    <name>ИзучитьЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изучить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Изучить электронный курс</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GenerateReport</picture>
+    </picture>
+  </commands>
+  <commands uuid="bc0f9414-99be-4795-be46-6b6582edee41">
+    <name>СоздатьУчебник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать учебник</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="978710ed-986c-4731-a618-2d13b62273e3">
+    <name>СоздатьТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать тест</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="7d7a2c3c-5012-42b7-b011-fef8c372bdbb">
+    <name>СоздатьСлайдовыйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать слайдовый курс</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e348bf25-5fe4-4e2e-a45e-da270d791eba">
+    <name>ВыгрузитьЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить электронный курс</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="9d70ec5c-c0b6-4db4-b4b6-79265129c25d">
+    <name>ЗагрузитьЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить электронный курс</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

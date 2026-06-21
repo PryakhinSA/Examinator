@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9e5c65b-9047-4209-b3cf-c82c9fe55339">
+  <producedTypes>
+    <selectionType typeId="87c469e9-eb29-4141-800f-07465de14d2a" valueTypeId="9ea5b0e2-36ae-4dd2-aaf6-d14f4c136fad"/>
+    <listType typeId="cce59dc7-2cf9-4baf-b1cc-a4f940fdff7b" valueTypeId="02b3aa0c-9910-4402-abce-0f61881743ef"/>
+    <managerType typeId="514ab7cb-96fc-4aeb-a01b-bf335b1aa7ec" valueTypeId="67e25523-50fa-4068-b5a2-363c0a00cf95"/>
+    <recordSetType typeId="50da20d7-f798-4906-9b2d-2219476f8c5c" valueTypeId="a411e7e1-7bd7-4ce3-951f-ae436cba989f"/>
+    <recordKeyType typeId="272ddc49-915e-4798-ba78-e1cf70edb86c" valueTypeId="314e9be0-6129-4659-b332-ad1bddd4cfa6"/>
+    <recordType typeId="4c469646-4fb8-4105-a171-30577cb7b591" valueTypeId="0198dcf4-3b03-4b84-9452-8162efd9ec47"/>
+    <recordManagerType typeId="09d47c76-9e40-41eb-8cff-6ce3e423b3fe" valueTypeId="6fee5a81-2fcc-4075-ad43-34d4c66c968b"/>
+  </producedTypes>
+  <name>ЗаявкиНаОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на обучение</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <attributes uuid="235d1d70-60b6-4a2b-b88d-867be2d04095">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаявокНаОбучениеСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус рассмотрения заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="afdecd9c-cb84-4002-9b88-c98139c1cb91">
+    <name>ОбъектЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект заявки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+      <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Мероприятие или программа обучения заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0ba0029-d616-41da-8349-45cef4cf41b2">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9806bc09-d93e-4225-b260-1b462af5bf3e">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="48b74194-062d-4dd9-a8fb-7145c315171b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который подал заявку на обучение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8448de5c-2cb8-46da-8b7f-947140ab83ff">
+    <name>ПредметЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет заявки</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение мероприятие или программы обучения, на которые пользователь будет зачислен после утверждения заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

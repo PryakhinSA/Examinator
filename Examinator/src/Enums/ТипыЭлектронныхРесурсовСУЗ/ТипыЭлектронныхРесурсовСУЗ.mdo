@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09751aa8-e325-478e-a1bc-e75fe89bef25">
+  <producedTypes>
+    <refType typeId="5fcd4288-238f-4de6-8cb3-c0e123c0012c" valueTypeId="225987e8-6365-451e-8131-3b65d57bbc31"/>
+    <listType typeId="72b0e3c5-5f29-4a73-b191-1f282203f473" valueTypeId="548d19a3-2d8b-4726-9f6e-a18b9c190efb"/>
+    <managerType typeId="bf8d9543-09b7-4cf8-85f4-2b39d6fe6c59" valueTypeId="74579637-c428-4dd3-b892-94bc25c6d7e5"/>
+  </producedTypes>
+  <name>ТипыЭлектронныхРесурсовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы электронных ресурсов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13f719cf-e79f-4f64-ac9f-36f37a3c3f4f">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ecb648d-c1f4-4254-b04b-10b14e0ed1fe">
+    <name>ЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

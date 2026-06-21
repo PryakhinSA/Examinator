@@ -1,0 +1,57 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/1/Book">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<objectType name="Книги">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Книга" type="d3p1:Книга" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Книга">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="УДК" type="xs:string" lowerBound="0"/>
+		<property name="ББК" type="xs:string" lowerBound="0"/>
+		<property name="ISBN" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Содержание" type="d3p1:Содержание" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Авторы" type="d3p1:Авторы" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="КлючевыеСлова" type="d3p1:КлючевыеСлова" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="ДополнительныеРеквизиты" type="d3p1:ДополнительныеРеквизиты" lowerBound="0"/>
+		<property name="ВебСсылка" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Файлы" type="d3p1:Файлы" lowerBound="0"/>
+		<property name="Описание" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Содержание">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="ЭлементСодержания" type="d3p1:ЭлементСодержания" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Авторы">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Автор" type="d3p1:Автор" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Автор">
+		<property name="ФИО" type="xs:string"/>
+		<property name="Номер" type="xs:integer"/>
+	</objectType>
+	<objectType name="КлючевыеСлова">
+		<property name="Слово" type="xs:string" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ДополнительныеРеквизиты">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Реквизит" type="d3p1:ДополнительныйРеквизит" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ДополнительныйРеквизит">
+		<property name="Имя" type="xs:string"/>
+		<property name="Значение" type="xs:string"/>
+		<property name="Номер" type="xs:integer"/>
+	</objectType>
+	<objectType name="ЭлементСодержания">
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="ЭлементСодержания" type="d3p1:ЭлементСодержания" lowerBound="0" upperBound="-1"/>
+		<property name="Номер" type="xs:integer"/>
+		<property name="Выделен" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Файлы">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Файл" type="d3p1:Файл" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Файл">
+		<property name="Идентификатор" type="xs:string"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="Размер" type="xs:integer"/>
+		<property name="Расширение" type="xs:string"/>
+	</objectType>
+</package>

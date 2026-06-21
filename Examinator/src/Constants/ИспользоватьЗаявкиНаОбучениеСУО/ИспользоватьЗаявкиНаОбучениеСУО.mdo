@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419fbe22-9687-49a7-b755-63a4ba92cb71">
+  <producedTypes>
+    <managerType typeId="18c3b09c-8ad7-45db-8e18-002fefeb878e" valueTypeId="900e1a3b-d472-49c5-8868-07e9495c3b6b"/>
+    <valueManagerType typeId="f66312df-d6ef-415b-81f5-4ed0d032ec05" valueTypeId="8726d1fb-638b-4b3f-89a4-9e5883e2839f"/>
+    <valueKeyType typeId="53e40075-9415-41ad-99a1-db2d1cef7513" valueTypeId="bccff44f-160b-4777-994a-99188282956d"/>
+  </producedTypes>
+  <name>ИспользоватьЗаявкиНаОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заявки на обучение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

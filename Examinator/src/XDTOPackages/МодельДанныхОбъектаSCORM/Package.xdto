@@ -1,0 +1,90 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/SCORM/DataModel">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<objectType name="cmi">
+		<property name="_version" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="comments_from_learner" type="d3p1:comments_from_learner" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="comments_from_lms" type="d3p1:comments_from_lms" lowerBound="0" upperBound="-1"/>
+		<property name="completion_status" type="xs:string" lowerBound="0"/>
+		<property name="completion_threshold" type="xs:string" lowerBound="0"/>
+		<property name="credit" type="xs:string" lowerBound="0"/>
+		<property name="entry" type="xs:string" lowerBound="0"/>
+		<property name="exit" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="interactions" type="d3p1:interactions" lowerBound="0" upperBound="-1"/>
+		<property name="launch_data" type="xs:string" lowerBound="0"/>
+		<property name="learner_id" type="xs:string" lowerBound="0"/>
+		<property name="learner_name" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="learner_preference" type="d3p1:learner_preference" lowerBound="0" upperBound="-1"/>
+		<property name="location" type="xs:string" lowerBound="0"/>
+		<property name="max_time_allowed" type="xs:string" lowerBound="0"/>
+		<property name="mode" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="objectives" type="d3p1:objectives" lowerBound="0" upperBound="-1"/>
+		<property name="progress_measure" type="xs:string" lowerBound="0"/>
+		<property name="scaled_passing_score" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="score" type="d3p1:score" lowerBound="0"/>
+		<property name="session_time" type="xs:string" lowerBound="0"/>
+		<property name="success_status" type="xs:string" lowerBound="0"/>
+		<property name="suspend_data" type="xs:string" lowerBound="0"/>
+		<property name="time_limit_action" type="xs:string" lowerBound="0"/>
+		<property name="total_time" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="comments_from_learner">
+		<property name="comment" type="xs:string" lowerBound="0"/>
+		<property name="location" type="xs:string" lowerBound="0"/>
+		<property name="timestamp" type="xs:string" lowerBound="0"/>
+		<property name="_children" type="xs:string"/>
+	</objectType>
+	<objectType name="comments_from_lms">
+		<property name="_children" type="xs:string"/>
+		<property name="comment" type="xs:string" lowerBound="0"/>
+		<property name="location" type="xs:string" lowerBound="0"/>
+		<property name="timestamp" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="interactions">
+		<property name="_children" type="xs:string"/>
+		<property name="id" type="xs:string" lowerBound="0"/>
+		<property name="type" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="objectives" type="d3p1:objectives" lowerBound="0" upperBound="-1"/>
+		<property name="timestamp" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="correct_responses" type="d3p1:correct_responses" lowerBound="0" upperBound="-1"/>
+		<property name="weighting" type="xs:string" lowerBound="0"/>
+		<property name="learner_response" type="xs:string" lowerBound="0"/>
+		<property name="result" type="xs:string" lowerBound="0"/>
+		<property name="latency" type="xs:string" lowerBound="0"/>
+		<property name="description" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="objectives">
+		<property name="id" type="xs:string" lowerBound="0"/>
+		<property name="_children" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="score" type="d3p1:score" lowerBound="0"/>
+		<property name="success_status" type="xs:string" lowerBound="0"/>
+		<property name="completion_status" type="xs:string" lowerBound="0"/>
+		<property name="progress_measure" type="xs:string" lowerBound="0"/>
+		<property name="description" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="correct_responses">
+		<property name="pattern" type="xs:string"/>
+	</objectType>
+	<objectType name="learner_preference">
+		<property name="_children" type="xs:string"/>
+		<property name="audio_level" type="xs:string" lowerBound="0"/>
+		<property name="language" type="xs:string" lowerBound="0"/>
+		<property name="delivery_speed" type="xs:string" lowerBound="0"/>
+		<property name="audio_captioning" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="score">
+		<property name="_children" type="xs:string"/>
+		<property name="scaled" type="xs:string" lowerBound="0"/>
+		<property name="raw" type="xs:string" lowerBound="0"/>
+		<property name="min" type="xs:string" lowerBound="0"/>
+		<property name="max" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="adl">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/SCORM/DataModel" name="data" type="d3p1:data" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="data">
+		<property name="_children" type="xs:string"/>
+		<property name="id" type="xs:string"/>
+		<property name="store" type="xs:string"/>
+	</objectType>
+</package>

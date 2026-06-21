@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d899c7ec-ed1e-4c3a-b949-58847c4e9b7a">
+  <producedTypes>
+    <refType typeId="4c6fd535-afb2-4284-8ebf-a1c6b17c5405" valueTypeId="e0b52353-a1f2-4e62-9be0-2cf18cfba8e3"/>
+    <listType typeId="02fc5812-61b2-48ac-b451-ff9926aa62c1" valueTypeId="b0ad2a1b-16dc-4e61-8339-55afcc99aed0"/>
+    <managerType typeId="4e004ca2-3c05-4fe8-b22f-c4fefb3da682" valueTypeId="8c27b873-5137-4d03-adc1-5a7245c1f6c2"/>
+  </producedTypes>
+  <name>ВидыПинКодовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды пин-кодов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24a29e4d-03ca-4e5a-b566-0b74d0ba5de1">
+    <name>Цифры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a33b2b8-f82a-4f92-b399-5dec8ef1e849">
+    <name>ЦифрыИАнглийскиеБуквы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифры и английские буквы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

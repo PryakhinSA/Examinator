@@ -1,0 +1,499 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://ltsc.ieee.org/xsd/LOM">
+	<property name="lom"/>
+	<valueType name="CharacterString" base="xs:string" variety="Atomic"/>
+	<valueType xmlns:d2p1="http://ltsc.ieee.org/xsd/LOM" name="DateTimeString" base="d2p1:CharacterString" variety="Atomic">
+		<pattern>([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]|[0-9][1-9][0-9]{2}|[1-9][0-9]{3})(\-(0[1-9]|1[0-2])(\-(0[1-9]|[1-2][0-9]|3[0-1])(T([0-1][0-9]|2[0-3])(:[0-5][0-9](:[0-5][0-9](\.[0-9]{1,}(Z|((\+|\-)([0-1][0-9]|2[0-3]):[0-5][0-9]))?)?)?)?)?)?)?</pattern>
+	</valueType>
+	<valueType xmlns:d2p1="http://ltsc.ieee.org/xsd/LOM" name="DurationString" base="d2p1:CharacterString" variety="Atomic">
+		<pattern>P([0-9]{1,}Y){0,1}([0-9]{1,}M){0,1}([0-9]{1,}D){0,1}(T([0-9]{1,}H){0,1}([0-9]{1,}M){0,1}([0-9]{1,}(\.[0-9]{1,}){0,1}S){0,1}){0,1}</pattern>
+	</valueType>
+	<valueType xmlns:d2p1="http://ltsc.ieee.org/xsd/LOM" name="MimeType" base="d2p1:CharacterString" variety="Atomic"/>
+	<valueType name="Size" base="xs:nonNegativeInteger" variety="Atomic"/>
+	<valueType name="aggregationLevelValues" base="xs:token" variety="Atomic">
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+		<enumeration>3</enumeration>
+		<enumeration>4</enumeration>
+	</valueType>
+	<valueType name="contextValues" base="xs:token" variety="Atomic">
+		<enumeration>school</enumeration>
+		<enumeration>higher education</enumeration>
+		<enumeration>training</enumeration>
+		<enumeration>other</enumeration>
+	</valueType>
+	<valueType name="copyrightAndOtherRestrictionsValues" base="xs:token" variety="Atomic">
+		<enumeration>yes</enumeration>
+		<enumeration>no</enumeration>
+	</valueType>
+	<valueType name="costValues" base="xs:token" variety="Atomic">
+		<enumeration>yes</enumeration>
+		<enumeration>no</enumeration>
+	</valueType>
+	<valueType name="difficultyValues" base="xs:token" variety="Atomic">
+		<enumeration>very easy</enumeration>
+		<enumeration>easy</enumeration>
+		<enumeration>medium</enumeration>
+		<enumeration>difficult</enumeration>
+		<enumeration>very difficult</enumeration>
+	</valueType>
+	<valueType name="intendedEndUserRoleValues" base="xs:token" variety="Atomic">
+		<enumeration>teacher</enumeration>
+		<enumeration>author</enumeration>
+		<enumeration>learner</enumeration>
+		<enumeration>manager</enumeration>
+	</valueType>
+	<valueType name="interactivityLevelValues" base="xs:token" variety="Atomic">
+		<enumeration>very low</enumeration>
+		<enumeration>low</enumeration>
+		<enumeration>medium</enumeration>
+		<enumeration>high</enumeration>
+		<enumeration>very high</enumeration>
+	</valueType>
+	<valueType name="interactivityTypeValues" base="xs:token" variety="Atomic">
+		<enumeration>active</enumeration>
+		<enumeration>expositive</enumeration>
+		<enumeration>mixed</enumeration>
+	</valueType>
+	<valueType name="kindValues" base="xs:token" variety="Atomic">
+		<enumeration>ispartof</enumeration>
+		<enumeration>haspart</enumeration>
+		<enumeration>isversionof</enumeration>
+		<enumeration>hasversion</enumeration>
+		<enumeration>isformatof</enumeration>
+		<enumeration>hasformat</enumeration>
+		<enumeration>references</enumeration>
+		<enumeration>isreferencedby</enumeration>
+		<enumeration>isbasedon</enumeration>
+		<enumeration>isbasisfor</enumeration>
+		<enumeration>requires</enumeration>
+		<enumeration>isrequiredby</enumeration>
+	</valueType>
+	<valueType name="learningResourceTypeValues" base="xs:token" variety="Atomic">
+		<enumeration>exercise</enumeration>
+		<enumeration>simulation</enumeration>
+		<enumeration>questionnaire</enumeration>
+		<enumeration>diagram</enumeration>
+		<enumeration>figure</enumeration>
+		<enumeration>graph</enumeration>
+		<enumeration>index</enumeration>
+		<enumeration>slide</enumeration>
+		<enumeration>table</enumeration>
+		<enumeration>narrative text</enumeration>
+		<enumeration>exam</enumeration>
+		<enumeration>experiment</enumeration>
+		<enumeration>problem statement</enumeration>
+		<enumeration>self assessment</enumeration>
+		<enumeration>lecture</enumeration>
+	</valueType>
+	<valueType name="nameValues" base="xs:token" variety="Atomic">
+		<enumeration>pc-dos</enumeration>
+		<enumeration>ms-windows</enumeration>
+		<enumeration>macos</enumeration>
+		<enumeration>unix</enumeration>
+		<enumeration>multi-os</enumeration>
+		<enumeration>none</enumeration>
+		<enumeration>any</enumeration>
+		<enumeration>netscape communicator</enumeration>
+		<enumeration>ms-internet explorer</enumeration>
+		<enumeration>opera</enumeration>
+		<enumeration>amaya</enumeration>
+	</valueType>
+	<valueType name="purposeValues" base="xs:token" variety="Atomic">
+		<enumeration>discipline</enumeration>
+		<enumeration>idea</enumeration>
+		<enumeration>prerequisite</enumeration>
+		<enumeration>educational objective</enumeration>
+		<enumeration>accessibility restrictions</enumeration>
+		<enumeration>educational level</enumeration>
+		<enumeration>skill level</enumeration>
+		<enumeration>security level</enumeration>
+		<enumeration>competency</enumeration>
+	</valueType>
+	<valueType name="roleMetaValues" base="xs:token" variety="Atomic">
+		<enumeration>creator</enumeration>
+		<enumeration>validator</enumeration>
+	</valueType>
+	<valueType name="roleValues" base="xs:token" variety="Atomic">
+		<enumeration>author</enumeration>
+		<enumeration>publisher</enumeration>
+		<enumeration>unknown</enumeration>
+		<enumeration>initiator</enumeration>
+		<enumeration>terminator</enumeration>
+		<enumeration>validator</enumeration>
+		<enumeration>editor</enumeration>
+		<enumeration>graphical designer</enumeration>
+		<enumeration>technical implementer</enumeration>
+		<enumeration>content provider</enumeration>
+		<enumeration>technical validator</enumeration>
+		<enumeration>educational validator</enumeration>
+		<enumeration>script writer</enumeration>
+		<enumeration>instructional designer</enumeration>
+		<enumeration>subject matter expert</enumeration>
+	</valueType>
+	<valueType name="semanticDensityValues" base="xs:token" variety="Atomic">
+		<enumeration>very low</enumeration>
+		<enumeration>low</enumeration>
+		<enumeration>medium</enumeration>
+		<enumeration>high</enumeration>
+		<enumeration>very high</enumeration>
+	</valueType>
+	<valueType name="sourceValues" base="xs:token" variety="Atomic">
+		<enumeration>LOMv1.0</enumeration>
+	</valueType>
+	<valueType name="statusValues" base="xs:token" variety="Atomic">
+		<enumeration>draft</enumeration>
+		<enumeration>final</enumeration>
+		<enumeration>revised</enumeration>
+		<enumeration>unavailable</enumeration>
+	</valueType>
+	<valueType name="structureValues" base="xs:token" variety="Atomic">
+		<enumeration>atomic</enumeration>
+		<enumeration>collection</enumeration>
+		<enumeration>networked</enumeration>
+		<enumeration>hierarchical</enumeration>
+		<enumeration>linear</enumeration>
+	</valueType>
+	<valueType name="typeValues" base="xs:token" variety="Atomic">
+		<enumeration>operating system</enumeration>
+		<enumeration>browser</enumeration>
+	</valueType>
+	<objectType name="DateTime" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="dateTime" type="d3p1:DateTimeValue" lowerBound="0" upperBound="-1"/>
+		<property name="description" type="xs:anyType" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="DateTimeValue" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="Duration" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="duration" type="d3p1:DurationValue" lowerBound="0" upperBound="-1"/>
+		<property name="description" type="xs:anyType" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="DurationValue" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="__content" type="d3p1:DurationString" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="LangString" ordered="false">
+		<property name="language" type="xs:language" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="__content" type="d3p1:CharacterString" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="LanguageId" ordered="false">
+		<property name="__content" type="xs:language" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="LanguageString" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:LangString" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="VCard" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="__content" type="d3p1:CharacterString" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="aggregationLevel" ordered="false"/>
+	<objectType name="annotation" ordered="false" sequenced="true"/>
+	<objectType name="catalog" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="classification" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="taxonPath" type="d3p1:taxonPath" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="purpose" type="d3p1:purposeVocab" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="context"/>
+	<objectType name="contribute" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="role" type="d3p1:role" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="entity" type="d3p1:entity" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="date" type="d3p1:DateTime" lowerBound="0"/>
+	</objectType>
+	<objectType name="contributeMeta" ordered="false" sequenced="true"/>
+	<objectType name="copyrightAndOtherRestrictions"/>
+	<objectType name="cost"/>
+	<objectType name="coverage"/>
+	<objectType name="date"/>
+	<objectType name="description" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="difficulty"/>
+	<objectType name="duration"/>
+	<objectType name="educational" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="learningResourceType" type="d3p1:learningResourceTypeVocab" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="intendedEndUserRole" type="d3p1:intendedEndUserRoleVocab" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="entity" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="entry" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="entryTaxon" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="format" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="general" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="identifier" type="d3p1:identifier" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="title" type="d3p1:title" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="language" type="d3p1:language" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="description" type="d3p1:description" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="keyword" type="d3p1:keyword" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="structure" type="d3p1:structure" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="homeTitle" type="d3p1:homeTitle" lowerBound="0"/>
+	</objectType>
+	<objectType name="homeTitle" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="id" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="identifier" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="catalog" type="d3p1:catalog" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="entry" type="d3p1:entry" lowerBound="0"/>
+	</objectType>
+	<objectType name="installationRemarks"/>
+	<objectType name="intendedEndUserRole"/>
+	<objectType name="interactivityLevel"/>
+	<objectType name="interactivityType"/>
+	<objectType name="keyword" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="kind"/>
+	<objectType name="language" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="learningResourceType"/>
+	<objectType name="lifeCycle" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="version" type="d3p1:version" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="contribute" type="d3p1:contribute" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="location" ordered="false">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="lom" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="general" type="d3p1:general" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="lifeCycle" type="d3p1:lifeCycle" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="metaMetadata" type="d3p1:metaMetadata" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="technical" type="d3p1:technical" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="educational" type="d3p1:educational" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="rights" type="d3p1:rights" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="classification" type="d3p1:classification" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="maximumVersion">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="metaMetadata" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="contribute" type="d3p1:contribute" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="metadataSchema">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="minimumVersion">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="name" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:value" lowerBound="0"/>
+	</objectType>
+	<objectType name="orComposite" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="type" type="d3p1:type" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="name" type="d3p1:name" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="minimumVersion" type="d3p1:minimumVersion" lowerBound="0"/>
+	</objectType>
+	<objectType name="otherPlatformRequirements">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="purpose"/>
+	<objectType name="relation" ordered="false" sequenced="true"/>
+	<objectType name="requirement" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="orComposite" type="d3p1:orComposite" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="resource" ordered="false" sequenced="true"/>
+	<objectType name="rights" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="cost" type="d3p1:costVocab" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="copyrightAndOtherRestrictions" type="d3p1:copyrightAndOtherRestrictionsVocab" lowerBound="0"/>
+	</objectType>
+	<objectType name="role" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:value" lowerBound="0"/>
+	</objectType>
+	<objectType name="roleMeta"/>
+	<objectType name="semanticDensity"/>
+	<objectType name="settings" ordered="false">
+		<property name="showObjectsInTree" type="xs:boolean" lowerBound="0"/>
+		<property name="customStylesheet" type="xs:string" lowerBound="0"/>
+		<property name="customIcon" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="size">
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="source">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="status"/>
+	<objectType name="structure" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:value" lowerBound="0"/>
+		<property name="default" type="xs:boolean" lowerBound="0"/>
+	</objectType>
+	<objectType name="string" ordered="false">
+		<property name="language" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="__content" lowerBound="0" form="Text"/>
+	</objectType>
+	<objectType name="taxon" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="id" type="d3p1:id" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="entry" type="d3p1:entryTaxon" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="taxon" type="d3p1:taxon" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="settings" type="d3p1:settings" lowerBound="0"/>
+		<property name="order" type="xs:string" lowerBound="0"/>
+		<property name="entryPurpose" type="xs:string" lowerBound="0"/>
+		<property name="wrapper" type="xs:boolean" lowerBound="0"/>
+	</objectType>
+	<objectType name="taxonPath" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:source" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="taxon" type="d3p1:taxon" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="technical" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="format" type="d3p1:format" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="size" type="d3p1:size" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="requirement" type="d3p1:requirement" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="otherPlatformRequirements" type="d3p1:otherPlatformRequirements" lowerBound="0"/>
+	</objectType>
+	<objectType name="title">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="type" ordered="false">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:value" lowerBound="0"/>
+	</objectType>
+	<objectType name="typicalAgeRange"/>
+	<objectType name="typicalLearningTime"/>
+	<objectType name="value">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="version">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="string" type="d3p1:string"/>
+	</objectType>
+	<objectType name="aggregationLevelValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="aggregationLevelVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:aggregationLevelValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="contextValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="contextVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:contextValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="copyrightAndOtherRestrictionsValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="copyrightAndOtherRestrictionsVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:copyrightAndOtherRestrictionsValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="costValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="costVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:costValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="difficultyValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="difficultyVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:difficultyValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="intendedEndUserRoleValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="intendedEndUserRoleVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:intendedEndUserRoleValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="interactivityLevelValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="interactivityLevelVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:interactivityLevelValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="interactivityTypeValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="interactivityTypeVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:interactivityTypeValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="kindValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="kindVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:kindValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="learningResourceTypeValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="learningResourceTypeVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:learningResourceTypeValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="nameValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="nameVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:nameValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="purposeValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="purposeVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:purposeValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="roleMetaValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="roleMetaVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:roleMetaValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="roleValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="roleVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:roleValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="semanticDensityValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="semanticDensityVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:semanticDensityValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="sourceValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="statusValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="statusVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:statusValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="structureValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="structureVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:structureValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="typeValue">
+		<property name="__content" form="Text"/>
+	</objectType>
+	<objectType name="typeVocab" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="source" type="d3p1:sourceValue" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://ltsc.ieee.org/xsd/LOM" name="value" type="d3p1:typeValue" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>

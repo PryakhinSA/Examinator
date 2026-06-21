@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21d5127e-6917-4972-b23e-f9b4ab2314de">
+  <producedTypes>
+    <refType typeId="97624f50-bb8b-42e3-95cf-6ae7a952998e" valueTypeId="25adfb40-3858-46fe-8d25-8a8c3c556250"/>
+    <listType typeId="3083b138-a479-4a10-b0ab-66119a10b30c" valueTypeId="015b9d4d-bb50-40d5-823b-7cd209e19cd3"/>
+    <managerType typeId="c1f7c520-5bbf-4611-8a0b-c63be37f9b94" valueTypeId="98be27db-d493-4b29-b79b-fc169ac657b3"/>
+  </producedTypes>
+  <name>ТипыДанныхВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных веб-кабинета обучения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7dcc4a1-8a5a-448a-a744-34ebee14c182">
+    <name>УчебнаяАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная активность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22b82301-5da6-41b4-ba69-c21d9a042301">
+    <name>УчебнаяАктивностьОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная активность описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f019895-07c1-43a2-8cdc-a02795fb8f38">
+    <name>ПреподавательскаяАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподавательская активность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="338dd5f9-499d-4f27-a784-f4a73b21ffba">
+    <name>ПреподавательскаяАктивностьОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподавательская активность описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4487ef4-5fd3-43b3-b1f5-e5d9c119510a">
+    <name>ВыполнениеЗаданияОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение задания описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df6c8815-b49a-4ac0-93bb-dae9bfa70a9a">
+    <name>ПроверкаЗаданияОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка задания описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93a38e82-0548-42d1-b5d7-031f8c12b8d0">
+    <name>РезультатыТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d589a70-45b1-42e1-90c0-d402b621f774">
+    <name>УчастникОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea8383d3-9a9c-4408-a509-6120256e0ef6">
+    <name>ПреподавательОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="934acd5f-e933-44e2-b2bf-774c79a503f1">
+    <name>ОписаниеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b8d725f-114d-4ce0-bf2d-5fee77461f58">
+    <name>ОписаниеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание заявки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f02f947-51df-45bd-956b-675fdf8a28ff">
+    <name>РазделФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел форума</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af82e769-4b88-4c25-bb62-c9923cbdeb25">
+    <name>РазделФорумаОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел форума описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="554edfe6-b665-48ea-a716-28e4d9abb9bf">
+    <name>ТемаОбщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема общения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f927869-27ed-4d7e-b4df-f41b90985d16">
+    <name>ТемаОбщенияОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема общения описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2b0ea17-d308-4fcc-880d-150ecf5a4c61">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19ad8154-d296-4d01-acc0-dbcd1b3ffbc0">
+    <name>СообщениеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab4ca755-4174-41ee-8fbf-6cfb83a8c79d">
+    <name>Организатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d81a8e31-749e-4965-9e69-8c097b11acbd">
+    <name>БиблиотекаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека пользователя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b6e879d-0466-4dff-a359-68e2c239c28c">
+    <name>Новость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d1bb892-07f8-4fb6-bdd5-1bf40627c135">
+    <name>НовостьОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новость описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b2e12fb-0685-41a9-8c76-28b98ee767bf">
+    <name>КнигаОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7154fa39-8276-4fc6-89e3-83bd7bb1a339">
+    <name>КаталогПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог пользователей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ad622f8-3fcd-43ce-a931-50cbdd23a691">
+    <name>ПользовательОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0039e45-1fe8-4636-8f85-23a69f9e9d6e">
+    <name>УчебнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6f9325f-d4c2-46e2-b5a4-db66b1dbaed5">
+    <name>УчебнаяГруппаОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная группа описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7483f6c6-1a03-4a69-b539-c12786a9c99f">
+    <name>ФайлУчащегося</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл учащегося</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac9ef9d5-f0d8-4ce8-87ee-42fd9d112956">
+    <name>ПреподавателиПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватели пользователя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80e5226b-f02a-4211-b58e-0d7576808621">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2429bbc4-a21b-4fec-baa4-ffdb840dbb96">
+    <name>ОценкиКачестваОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценки качества обучения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

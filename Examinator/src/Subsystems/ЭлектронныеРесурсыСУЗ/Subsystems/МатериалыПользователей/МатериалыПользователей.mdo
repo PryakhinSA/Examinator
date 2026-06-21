@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c7389a6-a919-4b44-9817-1b8050a8f094">
+  <name>МатериалыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы пользователей</value>
+  </synonym>
+  <content>InformationRegister.ИспользованиеДополнительныхМатериаловСУЗ</content>
+  <content>InformationRegister.ДополнительныеМатериалыПользователейСУЗ</content>
+  <content>Constant.ПоказыватьОбщиеДополнительныеМатериалыПослеПроверкиСУЗ</content>
+  <content>CommonCommand.ДополнительныеМатериалыСУЗ</content>
+  <content>CommonForm.ДополнительныеМатериалыСУЗ</content>
+  <content>Constant.ИспользоватьДополнительныеМатериалыСУЗ</content>
+  <content>FunctionalOption.ИспользоватьДополнительныеМатериалыСУЗ</content>
+  <parentSubsystem>Subsystem.ЭлектронныеРесурсыСУЗ</parentSubsystem>
+</mdclass:Subsystem>

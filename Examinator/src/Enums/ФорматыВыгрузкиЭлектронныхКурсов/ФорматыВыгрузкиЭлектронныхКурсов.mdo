@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4eb0619-b762-4837-a566-09f5a07d9abc">
+  <producedTypes>
+    <refType typeId="f04c8dfe-8630-4880-a5e4-60fec506c176" valueTypeId="db9df5ce-70f6-4940-aee9-328fa0df5d99"/>
+    <listType typeId="e804fed3-44a0-408b-afbc-ebe9ddd0aef1" valueTypeId="7129fd21-1665-41a7-8c30-3ec7fcdf6a53"/>
+    <managerType typeId="c1ea2d9b-37c4-48b5-8de9-99f2fba31cc4" valueTypeId="b785096d-c955-4812-8aff-ef74237ab500"/>
+  </producedTypes>
+  <name>ФорматыВыгрузкиЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы выгрузки электронных курсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="22ff3310-fda4-4cde-82d4-4b24155d19e1">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16fc82fd-c38d-4df4-9b27-f75a8298f9de">
+    <name>SCORM</name>
+    <synonym>
+      <key>ru</key>
+      <value>SCORM 2004</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07dfdf24-8779-4a70-b5f4-e2707347eb90">
+    <name>ПолнаяКопия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная копия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

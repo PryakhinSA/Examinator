@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23d08ab7-6b7c-4719-a239-89e0dfb579a4">
+  <name>ВебПубликации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб-публикации</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>XDTOPackage.ПубликацияЭлектронногоРесурсаСУЗ</content>
+  <content>Enum.ТипыПубликацийЭлектронныхРесурсовСУЗ</content>
+  <content>DataProcessor.ПубликацияЭлектронныхРесурсовСУЗ</content>
+  <content>CommonModule.ЭлектронныеРесурсыСУЗ</content>
+  <content>CommonModule.ЭлектронныеРесурсыСУЗКлиент</content>
+  <content>CommonModule.ЭлектронныеРесурсыСУЗКлиентСервер</content>
+  <content>Document.СессияЭлектронногоРесурсаСУЗ</content>
+  <content>Enum.ТипыСессийЭлектронныхРесурсовСУЗ</content>
+  <content>CommonPicture.ОпубликоватьФайл</content>
+  <content>InformationRegister.ПубликацииЭлектронныхРесурсовСУЗ</content>
+  <content>Enum.ВариантыРазмещенияКнопкиВыходаСУЗ</content>
+  <content>Constant.ИспользоватьВстроенныйПлеерКурсовВебКабинетаСУЗ</content>
+  <content>InformationRegister.ПлеерКурсовВебКабинетаСУЗ</content>
+  <content>Enum.ПлеерыКурсовВебКабинетаСУЗ</content>
+  <parentSubsystem>Subsystem.ЭлектронныеРесурсыСУЗ</parentSubsystem>
+</mdclass:Subsystem>

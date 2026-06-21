@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3f47056-6032-4a48-980e-38a5b963bc45">
+  <producedTypes>
+    <selectionType typeId="449947d6-c273-419a-8a12-28586af4f99d" valueTypeId="28583792-7acf-4d08-b692-0322fec2dd96"/>
+    <listType typeId="3c5a8cbc-bef0-43c4-9c0c-6bde21e9dfe2" valueTypeId="2479076d-7fe1-4952-800e-e03a94c38149"/>
+    <managerType typeId="db4b6877-bad9-40aa-ab0a-0ed088fd9005" valueTypeId="3d160d2e-265c-45b8-b090-a82838398400"/>
+    <recordSetType typeId="3406fb65-7ca8-4b04-a52a-661df00e7881" valueTypeId="4ecc44e3-0d93-48c8-989a-d6bb72142c3a"/>
+    <recordKeyType typeId="c3b0ac38-667a-48e1-85ca-ea23836f77f7" valueTypeId="59e7f8f0-a644-4e84-96ff-adc97695f522"/>
+    <recordType typeId="6e9a3e47-c5a8-4556-9ef2-4f364eb44a3a" valueTypeId="fff425bf-9c07-4b36-9395-cef6debed439"/>
+    <recordManagerType typeId="d57a0429-0f33-464b-9d68-3a95880d9ead" valueTypeId="6a00a932-f3e0-4a0b-a619-55311ba6ad50"/>
+  </producedTypes>
+  <name>ОткрытоеОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открытое обучение</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <attributes uuid="dc9981a8-9d7c-4570-a268-b13da9c54a99">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СценарийОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сценарий обучения, на которое можно записаться</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74c42d3d-b151-4650-9f73-a33e34afaa0f">
+    <name>ДатаНачалаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала проведения мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="487b420e-e9fd-4fab-9405-48b0e8e63db6">
+    <name>ДатаОкончанияПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания проведения мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="03725b24-8b45-404f-b6d8-6786ada95635">
+    <name>ОткрытоДляРуководителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыто для руководителей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что мероприятие предназначено для руководителей, которые смогут записать на него своих подчиненных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="873ff1a8-60e5-4d11-9bbe-a526e4f4d7b3">
+    <name>ДатаОткрытияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой можно записаться на открытое мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="4a81e1d4-7cca-47c1-b62b-99b00d61ca96">
+    <name>ДатаЗакрытияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, до которой можно записаться на открытое мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="08140d5a-87cd-4385-a5ba-d3d0854ef81c">
+    <name>ТребуетсяЗаявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется заявка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что запись на мероприятие возможна только через заявку</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="c15a7c6e-27fa-4414-876d-e1981229f396">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="63f7474c-5e71-4316-a2c0-393a171cce11">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, которому открыто мероприятие для записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f3c9f106-399c-4737-ab88-f1b24aa8c9d4">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение обучения, на которое будет записан пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

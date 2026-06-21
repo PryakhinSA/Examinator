@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1609422f-892a-44dd-a1cd-ed011f295042">
+  <name>КонтрольНепрочитанныхЛичныхСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль непрочитанных личных сообщений</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеОбучениемСУО.КонтрольНепрочитанныхЛичныхСообщенийСУО</methodName>
+  <description>Контроль непрочитанных личных сообщений</description>
+  <key>КонтрольНепрочитанныхЛичныхСообщений</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,36 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/Map">
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Карта" base="d2p1:ОбъектСУЗ">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Map" name="ПредметКарты" type="d3p1:ПредметКарты"/>
+		<property name="УровеньДетализации" type="xs:string"/>
+		<property name="СпособОтображения" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Map" name="Настройки" type="d3p1:Настройки"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Map" name="ЭлементыКарты" type="d3p1:ЭлементыКарты"/>
+		<property name="РежимЭкспорта" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ЭлементыКарты">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Map" name="ЭлементКарты" type="d3p1:ЭлементКарты" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ЭлементКарты">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Map" name="ЭлементКарты" type="d3p1:ЭлементКарты" lowerBound="0" upperBound="-1"/>
+		<property name="Код" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="ОбъектСУЗ" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="ЭтоГруппа" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Владелец" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Карта" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Map" name="ПредметКарты" type="d3p1:ПредметКарты" lowerBound="0"/>
+		<property name="ПометкаУдаления" type="xs:boolean"/>
+		<property name="Скрывать" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID"/>
+		<property name="ИмяЭлементаКарты" type="xs:string"/>
+	</objectType>
+	<objectType name="Настройки">
+		<property name="СкрыватьРесурсСОднимФайлом" type="xs:boolean"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="ПредметКарты" base="d2p1:ОбъектСУЗ">
+		<property name="targetMap" type="xs:string"/>
+	</objectType>
+</package>

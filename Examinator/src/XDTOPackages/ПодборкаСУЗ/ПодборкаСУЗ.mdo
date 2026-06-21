@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e07e4704-5144-4472-888c-5173c8ffa979">
+  <name>ПодборкаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подборка</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/kms/1/Collection</namespace>
+</mdclass:XDTOPackage>

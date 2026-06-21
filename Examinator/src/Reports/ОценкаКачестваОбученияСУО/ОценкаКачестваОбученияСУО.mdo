@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe439ab8-cee2-4829-806c-2dd29907c406">
+  <producedTypes>
+    <objectType typeId="6e4eaa93-09d9-473f-8fad-0de50bf841a3" valueTypeId="a3cf338f-a3e1-44ca-8c2c-bb31870661bf"/>
+    <managerType typeId="f59a5c8b-c1a0-4982-9fd9-c45eeaa02c2a" valueTypeId="fd698755-f868-445d-b70e-950c63d5ebdb"/>
+  </producedTypes>
+  <name>ОценкаКачестваОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка качества обучения</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОценкаКачестваОбученияСУО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="5b5a5b01-63fa-4171-9ffb-ad584d9af48f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="ce362822-cc38-4544-9a42-cfaa74fdd7c8">
+    <name>ОценкаКачестваОбученияСУО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка качества обучения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

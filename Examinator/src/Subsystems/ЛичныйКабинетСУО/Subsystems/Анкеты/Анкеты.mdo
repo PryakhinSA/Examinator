@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dc0fbfe-19e6-47ed-9a8a-f8906d4aa0c6">
+  <name>Анкеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкеты</value>
+  </synonym>
+  <content>Role.ЛичныйКабинетЗаполнениеАнкетСУО</content>
+  <parentSubsystem>Subsystem.ЛичныйКабинетСУО</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eddcaf6-0511-4ec5-9236-00f00c668ebc">
+  <producedTypes>
+    <selectionType typeId="0254d0c0-bb78-43d7-9312-b8ab3b61456d" valueTypeId="869b5208-de91-4d9a-a7d4-1e76cc5de049"/>
+    <listType typeId="2f211d36-3adb-481e-bf32-bdf19d8154df" valueTypeId="83eb0694-09f8-4f06-b2b2-db3c833f50c2"/>
+    <managerType typeId="8f18a08b-4eb7-4a38-b09a-d72a532f5901" valueTypeId="c837c4c2-e34a-4ff7-a51c-9c051b742b0d"/>
+    <recordSetType typeId="c60518ec-314a-42b3-9b9f-c02dd5c04b6e" valueTypeId="59ef3e1e-93e2-405b-a168-35ba8bfb5053"/>
+    <recordKeyType typeId="1f73bc55-7b3d-4998-a4be-008e057a3d16" valueTypeId="4f1c7b38-0975-45eb-9bb6-d837558afe5a"/>
+    <recordType typeId="c3fc3d1f-1126-429f-8bc0-88d599b629b5" valueTypeId="0825179e-9644-42c3-b94b-057d5066f851"/>
+    <recordManagerType typeId="ca1609e8-b7fa-4f8a-836d-29e5f276fa2e" valueTypeId="d6702462-4288-459f-abf3-8619d1a3a59a"/>
+  </producedTypes>
+  <name>ЗависимостиДанныхВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зависимости данных веб-кабинета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5c4c692f-0421-4a8e-9913-b3401c73a7e0">
+    <name>Зависимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимость</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="95a6e682-b3bd-42c5-9ac1-a16701f48c13">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0060134c-3acc-4391-8512-9784f294b574">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

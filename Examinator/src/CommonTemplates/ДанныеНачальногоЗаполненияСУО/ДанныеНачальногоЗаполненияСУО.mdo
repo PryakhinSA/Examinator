@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdf8e3c8-053d-46ba-82fb-0c97132b9a24">
+  <name>ДанныеНачальногоЗаполненияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные начального заполнения</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

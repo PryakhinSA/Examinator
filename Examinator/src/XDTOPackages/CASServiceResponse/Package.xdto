@@ -1,0 +1,26 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.yale.edu/tp/cas">
+	<objectType name="serviceResponse" ordered="false">
+		<property xmlns:d3p1="http://www.yale.edu/tp/cas" name="authenticationFailure" type="d3p1:authenticationFailure" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.yale.edu/tp/cas" name="authenticationSuccess" type="d3p1:authenticationSuccess" lowerBound="0"/>
+	</objectType>
+	<objectType name="authenticationFailure" ordered="false">
+		<property name="code" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="text" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="authenticationSuccess" ordered="false">
+		<property name="user" type="xs:string"/>
+		<property xmlns:d3p1="http://www.yale.edu/tp/cas" name="attributes" type="d3p1:attributes"/>
+	</objectType>
+	<objectType name="attributes" ordered="false">
+		<property name="phone" type="xs:string" lowerBound="0"/>
+		<property name="city" type="xs:string" lowerBound="0"/>
+		<property name="firm_name" type="xs:string" lowerBound="0"/>
+		<property name="role_nick" type="xs:string" lowerBound="0"/>
+		<property name="last_name" type="xs:string" lowerBound="0"/>
+		<property name="uin" type="xs:string" lowerBound="0"/>
+		<property name="login" type="xs:string" lowerBound="0"/>
+		<property name="middle_name" type="xs:string" lowerBound="0"/>
+		<property name="first_name" type="xs:string" lowerBound="0"/>
+		<property name="email" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

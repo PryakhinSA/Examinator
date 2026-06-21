@@ -1,0 +1,16 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/Res">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Ресурс" base="d2p1:ОбъектСУЗ">
+		<property name="SCO" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Res" name="Файл" type="d3p1:Файл" lowerBound="0" upperBound="-1"/>
+		<property name="НастройкиИнтерактивногоРесурса" type="xs:string"/>
+		<property name="ЭлементСодержанияСводаЗнаний" type="d2p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="РежимЭкспорта" type="xs:boolean"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Файл" base="d2p1:ОбъектСУЗ">
+		<property name="ЭтоГруппа" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Res" name="Файл" type="d3p1:Файл" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>

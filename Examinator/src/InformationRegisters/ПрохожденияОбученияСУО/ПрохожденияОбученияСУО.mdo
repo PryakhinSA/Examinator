@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f326c7c9-e776-418d-b100-abcb38ce7e42">
+  <producedTypes>
+    <selectionType typeId="b5711b98-7254-4bb0-8c34-81264ac30707" valueTypeId="cc95f078-b1ee-49c3-ba0c-827d98d90bc4"/>
+    <listType typeId="d933b195-6c44-4eac-bb02-7f8baf02be48" valueTypeId="53dfe1d0-fa12-4957-8af1-c25c703ea2d2"/>
+    <managerType typeId="a0367910-f46e-40ca-812a-9ef0ed5fd908" valueTypeId="528f2dfb-6e6d-4a18-8b7a-91a704002c63"/>
+    <recordSetType typeId="88f7852c-4139-490d-bcc8-7fd7bcf4f5f2" valueTypeId="84a1a0e8-8ac8-4a66-a05e-087af8a44b27"/>
+    <recordKeyType typeId="1b7cdbf2-1d87-4254-8c1f-97b62b6bf4db" valueTypeId="c16f7a73-9da4-45f8-8aba-71ac0787fac7"/>
+    <recordType typeId="7eb52e8c-8cea-45e4-9716-08fc7748d835" valueTypeId="fedfdb33-3f31-44c7-8df6-cea78f9a1275"/>
+    <recordManagerType typeId="c5fc5fed-a81c-47a0-b2b3-10d6a942435c" valueTypeId="67625a05-d721-4adc-8c1f-71dc328984d5"/>
+  </producedTypes>
+  <name>ПрохожденияОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прохождения мероприятий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="b21cc16c-a92b-4ab6-b219-48f37e05ef2b">
+    <name>Баллы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баллы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полученные баллы по стобалльной шкале</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="faca73d4-5a6a-4c0c-8c82-dc05e7ac85f9">
+    <name>ЗавершеноВПроцентах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено в процентах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прогресс прохождения</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="0a11cd31-e08c-4caa-8a01-32b437490621">
+    <name>ТекущиеБаллы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущие баллы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="38f577bf-2ba3-405a-b862-7726245cb247">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение обучения, прохождение которого выполняется</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="85594a73-5f2c-42b8-9d44-d88f9ac196c7">
+    <name>ДатаПоследнейАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней активности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc893767-f124-4d69-b525-49090497a5a3">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПрохожденияОбъектовСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус прохождения мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65b38101-44f6-4355-8c28-a460297165c1">
+    <name>СтатусПроцессаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус процесса обучения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПроцессаОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ba95ab9c-5287-42aa-b95f-06d614c62d7e">
+    <name>ШкалаОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала оценки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШкалыОценокСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шкала представления оценки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74382e5e-ed7a-48c1-9bdb-2f906a0e3853">
+    <name>Актуально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуально</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de0d88a6-20d1-4bf5-bad9-7768623dfcd3">
+    <name>ДатаНачалаПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала прохождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда пользователь начал проходить мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="352d6dea-9656-47f7-a196-7dae3fa0bb6e">
+    <name>ДатаОкончанияПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания прохождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда пользователь завершил проходить мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59744242-1f02-4fdb-b835-47ce81fb3c4c">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a22e9525-0ca1-4ba5-8743-4d479421b703">
+    <name>УчебнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учебная группа, в рамках которой выполняется Прохождение обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ac55ad09-8847-43c7-9552-b67274a0c1aa">
+    <name>РодительскоеПрохождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительское прохождение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прохождение общего мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="23fc0748-f7bc-4691-8fa9-21df731d101c">
+    <name>Значимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значимость мероприятия в общем мероприятии</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="31b8b0a3-92cc-4c5c-9bdf-056d80b5fc8a">
+    <name>ПрохождениеПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение программы обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прохождение программы обучения, в рамках которого выполняется Прохождение обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e66b0e10-6146-455c-9317-ebcf9b29cdb3">
+    <name>ЗапрещеноОбщениеМеждуУчастниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещено общение между участниками</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того,что участники не могут общаться между собой</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7063473-a250-48fb-bff7-e0ddee5ff81a">
+    <name>НаОсновеЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>На основе электронного ресурса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что в основе сценария мероприятия лежит электронный ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8a6e2e0-7023-45a5-829e-95db5caaf44d">
+    <name>НаОсновеМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>На основе мероприятия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="92519831-4f58-4477-8418-7e69f9be88bc">
+    <name>ВыставляетсяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выставляется оценка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>За мероприятие должна быть выставлена оценка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="12c0a462-bba3-4f0c-953c-df8420558964">
+    <name>ПродолжительностьВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="838f94a9-6016-4f8f-9280-a8b0363c3d9d">
+    <name>ДобавленоВремениВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлено времени в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавленное индивидуально участнику время в секундах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f264dff3-c2f6-4532-94ce-21c5fdf649e8">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который проходит мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d0024ae-4e35-4421-9cfa-ab8bb3144519">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СценарийОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сценарий обучения, который проходит пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="363fd69d-7d4f-470f-8534-f693e9e86f3a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

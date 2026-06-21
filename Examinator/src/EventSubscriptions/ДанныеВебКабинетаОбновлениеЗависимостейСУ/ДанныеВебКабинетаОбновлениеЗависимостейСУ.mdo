@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d9fbe79-a9a1-4cf5-afb1-14ab1fc449e9">
+  <name>ДанныеВебКабинетаОбновлениеЗависимостейСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные веб-кабинета - обновление зависимостей</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СводыЗнанийСУЗ</types>
+    <types>CatalogObject.КаталогПрограммОбученияСУО</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.СообщениеСУОПрисоединенныеФайлы</types>
+    <types>CatalogObject.КаталогМероприятийСУО</types>
+    <types>CatalogObject.ПроведениеПреподавателемОбученияСУОПрисоединенныеФайлы</types>
+    <types>CatalogObject.ШаблоныСертификатовСУО</types>
+    <types>CatalogObject.ВидыМероприятийСУО</types>
+    <types>CatalogObject.ПрохождениеОбученияСУОПрисоединенныеФайлы</types>
+    <types>CatalogObject.ТемыСообщенийСУО</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.ЗаданияСУО</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВебКабинетСУ.ДанныеВебКабинетаОбновлениеЗависимостейСУПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cd56326-b00d-44d7-b514-1c9463a884c0">
+  <name>ПользователиВебКабинетаОбновлениеДоступаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи веб-кабинета - обновление доступа</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ПрофилиГруппДоступа</types>
+    <types>CatalogObject.ГруппыДоступа</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВебКабинетСУ.ПользователиВебКабинетаОбновлениеДоступа</handler>
+</mdclass:EventSubscription>

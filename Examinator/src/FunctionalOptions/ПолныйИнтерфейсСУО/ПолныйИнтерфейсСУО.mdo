@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0857073c-c78b-469b-bf40-8daa35c97806">
+  <name>ПолныйИнтерфейсСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный интерфейс</value>
+  </synonym>
+  <location>Constant.ПолныйИнтерфейсСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗапросНаОбучениеСУО.Command.ЗапросыПользователя</content>
+  <content>Document.ЗапросНаОбучениеСУО</content>
+  <content>InformationRegister.ПреподавателиСУО.Command.МоиПредметы</content>
+  <content>InformationRegister.ПреподавателиСУО.Command.НазначитьПреподавателей</content>
+  <content>Catalog.СтруктураБиблиотекиПользователейСУО</content>
+  <content>Document.НаполнениеБиблиотекиПользователейСУО</content>
+  <content>InformationRegister.БиблиотекаПользователейМеткиРесурсовСУО</content>
+  <content>InformationRegister.БиблиотекаПользователейСУО</content>
+  <content>Constant.ИспользоватьУниверсальныйСервисОбщенияСУО</content>
+  <content>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.ВидМероприятия</content>
+  <content>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.Мероприятие</content>
+  <content>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.ПрограммаОбучения</content>
+  <content>Catalog.КаталогМероприятийСУО.Command.Мероприятия</content>
+  <content>CommonCommand.БиблиотекаПользователейСУО</content>
+  <content>CommonForm.БиблиотекаПользователейСУО</content>
+  <content>Enum.ВидыПинКодовСУО</content>
+  <content>Catalog.ЛитератураСУО.Command.Карточка</content>
+  <content>Catalog.СводыЗнанийСУЗ.Command.СоздатьКурсИзФайлов</content>
+  <content>Catalog.ОтборыПользователейСУО.Command.ПравилаОтбора</content>
+  <content>Document.СертификатСУО.Command.Сертификаты</content>
+  <content>InformationRegister.ПреподавателиСУО.Command.Преподаватели</content>
+  <content>Catalog.ПричиныВозвратаЗаданияНаДоработкуСУО</content>
+  <content>Document.СертификатСУО</content>
+  <content>Catalog.ПричиныВозвратаЗаданияНаДоработкуСУО.Command.ПричиныВозвратаЗаданияНаДоработку</content>
+  <content>Catalog.ОтборыПользователейСУО</content>
+  <content>Document.ПроведениеОбученияСУО.Command.ОтчетРезультатыЗаданий</content>
+  <content>Document.ПрохождениеОбученияСУО.Command.РезультатыЗаданийУчастника</content>
+  <content>Catalog.ВидыМероприятийСУО.Command.ВидыОбучения</content>
+  <content>Subsystem.ПредприятиеСУО</content>
+  <content>Document.ПроведениеОбученияСУО.Command.ОтчетРезультатыОбучения</content>
+</mdclass:FunctionalOption>

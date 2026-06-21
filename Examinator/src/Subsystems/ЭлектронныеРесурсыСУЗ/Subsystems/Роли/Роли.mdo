@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2f6fa2f-e00b-4d79-91a7-8fa7cc60cf16">
+  <name>Роли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.ЭлектронныеРесурсыАдминистрированиеСУО</content>
+  <content>Role.ЭлектронныеРесурсыПросмотрКаталогаСУО</content>
+  <content>Role.ЭлектронныеРесурсыПросмотрСУО</content>
+  <content>Role.ЭлектронныеРесурсыРазработкаСУО</content>
+  <content>Role.ЭлектронныеРесурсыУчебнаяБазаСУЗ</content>
+  <parentSubsystem>Subsystem.ЭлектронныеРесурсыСУЗ</parentSubsystem>
+</mdclass:Subsystem>

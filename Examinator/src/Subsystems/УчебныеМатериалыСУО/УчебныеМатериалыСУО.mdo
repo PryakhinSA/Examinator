@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1028980-81bc-4f8f-ae10-b6c797f23afa">
+  <name>УчебныеМатериалыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные материалы</value>
+  </synonym>
+  <content>CommandGroup.УчебныеМатериалыСУЗ</content>
+  <subsystems>Литература</subsystems>
+  <subsystems>ЭлектронныеРесурсы</subsystems>
+  <subsystems>Файлы</subsystems>
+  <subsystems>ЕдиныйКаталог</subsystems>
+  <subsystems>ЭлектронныеКурсы</subsystems>
+</mdclass:Subsystem>

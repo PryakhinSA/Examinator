@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="487867eb-4ea4-4c11-80fe-6c354e5f38c9">
+  <producedTypes>
+    <refType typeId="406a226d-46ce-44b7-8600-981566b0ba33" valueTypeId="62b053b7-16ef-4354-b54a-c5b37c14d204"/>
+    <listType typeId="73c04709-9047-4cb9-98b1-f35f8f3a7077" valueTypeId="13bad30d-cbbe-41c1-94b0-d9048f99e368"/>
+    <managerType typeId="6e7d3644-e2ed-49c3-aa68-1fd114469ded" valueTypeId="557cedf5-d301-4502-b7d6-9599a075854c"/>
+  </producedTypes>
+  <name>ПлеерыКурсовВебКабинетаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плееры курсов веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c33ad6af-c715-444d-ad7e-1db1405154b0">
+    <name>Автономный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автономный 1.0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96e4d40e-225d-4a9b-90f4-a36c92a7cd6d">
+    <name>Встроенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенный 2.0</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

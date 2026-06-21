@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b378c9a7-efe3-4e5b-b5f3-c75c8529716d">
+  <producedTypes>
+    <containerType typeId="b43dc4c1-fd93-4c4c-844c-878ca3705e05" valueTypeId="cbfbd181-18f8-4ef2-9b8e-abab70ba2a0c"/>
+  </producedTypes>
+  <name>ВариантЗаданияЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант задания электронного обучения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВариантыЗаданийСУО</types>
+  </type>
+</mdclass:DefinedType>

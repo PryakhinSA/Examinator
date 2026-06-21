@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fed1ee2d-7fe4-41b2-80c8-0929d1059365">
+  <name>ВебКабинетСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб-кабинет общий</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="650b2508-5dda-4efc-9d80-766ba984f1df">
+  <producedTypes>
+    <managerType typeId="197e7013-1730-439e-b30e-546e2ea17cc6" valueTypeId="c5e16134-952a-446e-aa11-94a4fa562b84"/>
+    <valueManagerType typeId="550b0e3c-9674-4ca4-a88c-8a31f052ce74" valueTypeId="08a7cbe1-70c0-40a1-a925-24f71755a420"/>
+    <valueKeyType typeId="9c9ed022-9969-492c-8faf-4648088a88b1" valueTypeId="67d087ab-5c57-480b-813f-8743e7cbef1e"/>
+  </producedTypes>
+  <name>ИспользоватьОграниченияВремениДоступаКПрограммеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ограничения времени доступа к программе</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

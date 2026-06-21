@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1791b108-72ef-4a89-8f36-40498e9259c7">
+  <producedTypes>
+    <objectType typeId="736fdb1a-c261-4df3-88f3-f75a55a5abe4" valueTypeId="9ab06eda-e702-465a-815a-c40707511d94"/>
+    <refType typeId="a789d1c6-c9ef-45b7-9a18-33810660f0b1" valueTypeId="a0e11409-047c-4789-9bf6-f57cbeb62ae5"/>
+    <selectionType typeId="76def4f0-1dbc-45be-8bda-77c722fdfe8a" valueTypeId="d29865a3-7db9-47e7-8beb-5e541d855f72"/>
+    <listType typeId="62b4298a-d4e6-4b68-bcf4-aab6a65b4317" valueTypeId="6cc86129-af26-4c55-900f-3822fa2c2ae0"/>
+    <managerType typeId="e412b99b-569e-4c11-9a5c-4e3a8b0ceb1d" valueTypeId="aadf5132-08ea-4e71-ac23-f8c8b9278172"/>
+  </producedTypes>
+  <name>ШаблоныСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны</value>
+  </synonym>
+  <inputByString>Catalog.ШаблоныСУЗ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ШаблоныСУЗ.ПредставлениеИнформации</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон оформления</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шаблоны оформления</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="775e8cfc-7b89-4e36-b666-6539a63c61b1">
+      <name>ПредставлениеИнформации</name>
+      <description>Представление информации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="0fe1e975-8371-44a5-814c-05a4169fa4d2">
+        <name>ВопросыПоУмолчанию</name>
+        <description>Вопросы по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="8e132ce6-8fb1-4e03-9cea-c0ad03ef19c0">
+        <name>ГлоссарииПоУмолчанию</name>
+        <description>Глоссарии по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="fb7bf3bd-6ef2-404c-b42b-a440aea94ed1">
+        <name>КартыПоУмолчанию</name>
+        <description>Карты по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="82648ad6-0c45-48eb-9091-bc0c5ddf0102">
+        <name>ПодборкиПоУмолчанию</name>
+        <description>Подборки по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="d6fb55d6-401b-4fd9-8149-6f46d545fb41">
+        <name>РесурсыПоУмолчанию</name>
+        <description>Ресурсы по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="e35dc33a-658f-43ea-a5b5-4275b173a5d7">
+        <name>СводыЗнанийПоУмолчанию</name>
+        <description>Своды знаний по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="a6f80cfb-b558-4a3e-a204-28e5a6252c54">
+        <name>СтраницыПоУмолчанию</name>
+        <description>Страницы по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="f746701f-d8b4-4aa9-ace7-cab3d68e11f5">
+        <name>ТерминыПоУмолчанию</name>
+        <description>Термины по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="cae4f256-377c-45e9-a2e8-b4c365141f56">
+        <name>ФайлыПоУмолчанию</name>
+        <description>Файлы по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="987d7934-5677-411d-8afe-0bc0a9cd8265">
+        <name>ФреймыПоУмолчанию</name>
+        <description>Фреймы по умолчанию</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Catalog.ШаблоныСУЗ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ШаблоныСУЗ.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ШаблоныСУЗ.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="327056b6-0187-4845-9664-934e28cd30cc">
+    <name>ВидШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид шаблона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыОбъектовСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип объекта, для которого создается шаблон</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03574cde-31d2-4627-b295-3570a8e78cfa">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="720f7f21-08dd-4a1e-ba4b-9d5a85354cf5">
+    <name>ДополняетШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополняет шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон, который будет дополнен элементами этого шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ВидШаблона</name>
+      <field>Catalog.ШаблоныСУЗ.Attribute.ВидШаблона</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a694622-0c30-41fd-90d7-27fdd089aa68">
+    <name>ТаблицыСтилей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблицы стилей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Стили CSS</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afde9f40-f649-42b6-b405-3531136729f1">
+    <name>ШаблонПредставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон представления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление HTML</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e69d500a-29cd-4884-91ba-be77f671d0da">
+    <name>ШаблонСкрипта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон скрипта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Скрипт на языке JavaScript</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf3c5bae-415f-49a4-9d11-3aab98c70f33">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разработчик контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fdcbdb02-116f-433a-9c74-46083774e6f7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4027e816-118e-4c83-afc1-0f06d6ed15aa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="54ba207f-cd67-41d0-babb-07dffccf47dd">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

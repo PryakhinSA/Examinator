@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14c9fc6b-afdf-41ca-9ab0-ee3ed89abadc">
+  <name>ИспользоватьДополнительныеМатериалыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные материалы пользователей</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеМатериалыСУЗ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ИспользованиеДополнительныхМатериаловСУЗ</content>
+  <content>InformationRegister.ДополнительныеМатериалыПользователейСУЗ</content>
+  <content>CommonCommand.ДополнительныеМатериалыСУЗ</content>
+  <content>CommonForm.ДополнительныеМатериалыСУЗ</content>
+</mdclass:FunctionalOption>

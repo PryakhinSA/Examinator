@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a0f597d-7579-4905-971d-b1a25750c93e">
+  <name>УправлениеОбучениемСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление обучением</value>
+  </synonym>
+  <rootURL>management</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="5c26d0f0-31bc-4fd2-92d9-d65eba2465e7">
+    <name>СоздатьПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать проведение обучения</value>
+    </synonym>
+    <template>/education</template>
+    <methods uuid="e4ffeb3c-d784-4a88-b1ad-2a9ce21b79e0">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьПроведениеОбученияPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

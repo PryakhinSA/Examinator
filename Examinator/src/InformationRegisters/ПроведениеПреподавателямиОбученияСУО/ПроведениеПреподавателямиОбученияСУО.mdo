@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13e23d71-0557-40c0-a2e0-ec6e924b31a4">
+  <producedTypes>
+    <selectionType typeId="c0d111b5-5ade-4743-9f2f-672536bf296f" valueTypeId="f581789b-2f5b-4e71-96e5-1a12c0f761d5"/>
+    <listType typeId="f5fb12f4-7e3f-4cb2-b762-ebca09e7d399" valueTypeId="cd1d28e4-2bcf-46ef-90a5-318de9144eea"/>
+    <managerType typeId="43a689d6-490c-4840-8a0e-0d9845f0db39" valueTypeId="4494c055-1663-4aa9-9e88-4a7a1e6a249c"/>
+    <recordSetType typeId="000d252a-d1ef-4572-87aa-066a102db27b" valueTypeId="1e71a821-f0bd-4af4-9fc4-da7c14248e9c"/>
+    <recordKeyType typeId="6d7367ab-7a48-4573-9076-b9bd09a40273" valueTypeId="db51d7ed-96f5-4e91-8512-210e6f972276"/>
+    <recordType typeId="31305c05-be7e-4cc0-994f-6a6cb53941f0" valueTypeId="53a31a7d-3e98-4772-b550-aa8f550484fb"/>
+    <recordManagerType typeId="51bbde08-afbb-465f-8dfd-f108d1dd5687" valueTypeId="2ab266b9-3dcc-4ece-8301-27f41e67a401"/>
+  </producedTypes>
+  <name>ПроведениеПреподавателямиОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение преподавателями мероприятий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПроведениеПреподавателямиОбученияСУО.Form.ФормаСписка</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Мероприятия преподавателей</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Проведение преподавателями мероприятий</value>
+  </extendedListPresentation>
+  <resources uuid="916e7e89-9c37-4e86-83d3-2edf787e80b8">
+    <name>ПродолжительностьВЧасах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность в часах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время проведения мероприятия в часах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6757952c-665b-4fe6-be89-a598d9cd5792">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПроцессаПреподаванияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="ca51443a-6404-498f-a86e-f7ce7bbd1be1">
+    <name>ДатаНачалаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда преподаватель начал проводить мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ace099d-68fb-4c8f-8a18-cfe1d3047de9">
+    <name>ДатаОкончанияПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда преподаватель завершил проводить мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0817d6cf-09e6-420d-b84a-cf85d41a74ba">
+    <name>Проведено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что преподаватель завершил проведение обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ac0b8a08-5b3f-4b07-9f1a-5e92abefe085">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="964e85ef-a025-477e-8235-0e039c6f5879">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4fdb8fba-66f8-4ac3-a5f7-92b29aedb92b">
+    <name>НаОсновеЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>На основе электронного ресурса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что в основе сценария мероприятия лежит электронный ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e4f0eb8b-e1e9-4c7c-9a3b-45b9aa5c87ad">
+    <name>ТолькоПросмотрВедомости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только просмотр ведомости</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f2c339cf-b59e-4d4b-aa84-27e4d2186bc4">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение обучения, на которое назначен преподаватель</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a1341c2e-b3ee-456b-8502-0f2f7f9ec270">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СценарийОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обучение, на которое назначен преподаватель</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="06d34435-87cd-490d-bbe2-3eaa3f24f6aa">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Преподаватель, который проводит мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a9346cc7-87aa-459a-b698-30b1b935bc46">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="173b66d0-7292-412e-9ae6-3307e34784ec">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="25f81f23-87c9-40f9-892e-cbec3ec35e31">
+    <name>ФормаВыбораПреподавателяМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора преподавателя мероприятия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

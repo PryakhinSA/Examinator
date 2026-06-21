@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a4dfabf-befb-419b-b0fd-9612d9f65d3c">
+  <producedTypes>
+    <selectionType typeId="0e82012c-754a-4d4b-849d-babe52019449" valueTypeId="a7d5bf57-0658-4305-9663-5c6098f9b97f"/>
+    <listType typeId="51032973-4783-44a6-af12-dda547995903" valueTypeId="a69af1ba-4779-44f9-b473-55549c636701"/>
+    <managerType typeId="7c96cd93-47a1-4515-bcd8-c00e17d34bb7" valueTypeId="cf3bd049-bad5-48f8-aa3c-d51e202b6f0a"/>
+    <recordSetType typeId="59b14582-af52-417b-b87a-8b329eda06e2" valueTypeId="79930518-325d-4a34-909d-8d0a84df1f80"/>
+    <recordKeyType typeId="ee07dca5-43ec-4b37-9273-3f07d1fc18b0" valueTypeId="743ba2c8-ffc7-4100-ab84-c31759879c3c"/>
+    <recordType typeId="36c7b333-d8ed-4ac4-af3d-db4417c20c69" valueTypeId="947486e3-e2ca-4782-9f48-24b4e0196a0d"/>
+    <recordManagerType typeId="13c55c45-a0be-4228-9a6f-dd31f88f5050" valueTypeId="7d6030e3-a17d-4729-ad79-a5134f94d972"/>
+  </producedTypes>
+  <name>ЗапросыНаОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы на обучение</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <attributes uuid="18dfed7e-328a-4330-8cf4-805b13000d24">
+    <name>ЗапросРассмотрен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос рассмотрен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ=Нет; БИ=Да</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Нет; БИ=Да</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что запрос был рассмотрен менеджером</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7135c77-7648-4177-815c-01d51819fb3c">
+    <name>ДатаПодачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата подачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда запрос был подан</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ff2a7fb6-b469-49a5-972f-b7e290d0da6d">
+    <name>ОбъектЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект запроса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+      <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Мероприятие или программа обучения, на проведение которых подан запрос</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e224155-7564-4e6a-a498-5de1ccb5c473">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который подал запрос</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

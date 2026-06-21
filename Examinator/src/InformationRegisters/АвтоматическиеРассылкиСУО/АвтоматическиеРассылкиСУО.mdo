@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ba5c80c-7ff7-4457-b5e1-1153c349c550">
+  <producedTypes>
+    <selectionType typeId="5db88d5e-5d3d-4d71-92da-d75681781829" valueTypeId="8a529ae7-939a-4ca6-a154-48fb20a38dcf"/>
+    <listType typeId="93cac13d-f564-4bf9-87fa-ec2f783ab8d9" valueTypeId="d83d9a0c-9ac1-4ea6-9b83-4eb68e4939a2"/>
+    <managerType typeId="30f4ef0f-7d8a-4693-8f7d-0175ff6c6d1a" valueTypeId="05582418-1356-49f0-bbe5-e0040677a238"/>
+    <recordSetType typeId="deddd4c5-dfb1-4bb8-b42e-eb4f439368c7" valueTypeId="2c3fa0de-a4b3-4869-aba5-5faf67d0ca96"/>
+    <recordKeyType typeId="10f8220c-961e-46f2-a2cd-ff108cf28235" valueTypeId="162bfd36-3e0f-4cf2-922d-d1cd2b99588d"/>
+    <recordType typeId="3579929d-c9fc-43b1-b79b-87c52a408aa1" valueTypeId="cb5a3d03-b310-477f-be84-063496cc405b"/>
+    <recordManagerType typeId="a74bca4d-2dfd-4e19-bd2f-a77d9afdc30b" valueTypeId="f4c99308-33fb-490b-9185-e9afb52ff5b1"/>
+  </producedTypes>
+  <name>АвтоматическиеРассылкиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматические рассылки</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АвтоматическиеРассылкиСУО.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.АвтоматическиеРассылкиСУО.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="38bc9cbc-1a88-428e-b8e5-f002dcfde01f">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сообщения, которое будет отправлено адресатам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ТипАвтоматическойРассылки</name>
+      <field>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.Тип</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ТипШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыШаблоновСообщенийСУО.EnumValue.АвтоматическаяРассылка</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5568e7bc-f547-4223-b738-2eb6c3229d79">
+    <name>ШаблонСообщенияАдминистратору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон администратору</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сообщения, которое будет отправлено администратору рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ТипАвтоматическойРассылки</name>
+      <field>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.Тип</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ТипШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыШаблоновСообщенийСУО.EnumValue.АвтоматическаяРассылка</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0bd665ee-e1d0-4b82-be6d-b1a60d983850">
+    <name>ШаблонСообщенияПреподавателям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон преподавателям</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сообщения, которое будет отправлено преподавателям обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ТипАвтоматическойРассылки</name>
+      <field>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.Тип</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ТипШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыШаблоновСообщенийСУО.EnumValue.АвтоматическаяРассылка</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bda59de9-3152-487a-9478-58aa309dbcf6">
+    <name>ШаблонСообщенияОрганизаторам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон организаторам</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сообщения, которое будет отправлено организаторам обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ТипАвтоматическойРассылки</name>
+      <field>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.Тип</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ТипШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыШаблоновСообщенийСУО.EnumValue.АвтоматическаяРассылка</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d364d9a5-80b4-47d8-a87f-fe24695f220a">
+    <name>ТолькоЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только электронная почта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлено, то сообщение будет отправлено только на электронную почту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0afdf3ad-4434-40c4-bba1-b032c31be08a">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Администратор рассылки, которому будет отправлено контрольное сообщение о наступлении события</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cbcf64b1-812e-491b-adfd-5685adc65b26">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>За указанное количество часов до окончания доступа будет сделана рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0fa7ba98-ce34-4acf-8860-8a101c078fd6">
+    <name>АльтернативныйШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ТипАвтоматическойРассылки</name>
+      <field>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.Тип</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ТипШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыШаблоновСообщенийСУО.EnumValue.АвтоматическаяРассылка</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="116802b7-5fdd-4579-abc0-3e0725b27998">
+    <name>АльтернативнаяЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативная электронная почта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Родитель</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.ВидыКонтактнойИнформации.СправочникПользователи</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Тип</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыКонтактнойИнформации.EnumValue.АдресЭлектроннойПочты</value>
+      </value>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8570e26-d985-4bf2-9dc1-2a3afb07fff6">
+    <name>ПрикреплятьФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикреплять файлы обучения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут прикреплены к письму все файлы обучения без электронных заданий</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="72f13eae-23c7-4a23-8162-70f8eb5310d4">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАвтоматическихРассылокСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип автоматической рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d097b97-0909-4a51-80e9-f7d4678633bd">
+    <name>ВидМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид обучения, для которого будет создана автоматическая рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Скрыть</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1afd4149-087a-4198-9a45-c5c95c8841fe">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Мероприятие, для которого будет создана автоматическая рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Вид</name>
+      <field>InformationRegister.АвтоматическиеРассылкиСУО.Dimension.ВидМероприятия</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cf694cdc-73c7-4b27-8c98-f82857d646e8">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение обучения, для которого будет создана автоматическая рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c343909e-95dc-453c-99bb-5e7b9a6ca883">
+    <name>ПрограммаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Программа обучения, для которого будет создана автоматическая рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="48946966-d1c3-482a-932b-03083f755c24">
+    <name>ПроведениеПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение программы обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение программы обучения, для которого будет создана автоматическая рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8d5265b3-42f7-4139-9976-04d48f39fbff">
+    <name>Организатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОрганизаторыСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рассылка будет создана только для обучения указанного организатора</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="952e1a58-3e28-427f-bd16-e9546a783c45">
+    <name>ОтборПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор пользователей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтборыПользователейСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отбор, в который должен входить пользователь для формирования сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1866d768-ce0a-4c5a-8025-2655afb5b5f2">
+    <name>ПричинаВозвратаНаДоработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина возврата на доработку</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныВозвратаЗаданияНаДоработкуСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="580eb51d-5c9b-4fc8-8fe9-8d3af10f0048">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fbce2982-614c-49ba-b6b0-dbda866e2369">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

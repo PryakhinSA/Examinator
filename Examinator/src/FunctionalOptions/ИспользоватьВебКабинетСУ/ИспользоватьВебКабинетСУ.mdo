@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d13baf2-1f77-46a3-89d2-2654fc282b94">
+  <name>ИспользоватьВебКабинетСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать веб-кабинет</value>
+  </synonym>
+  <location>Constant.ИспользоватьВебКабинетСУ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ОН</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ОП</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ПН</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ПП</content>
+  <content>InformationRegister.ОтборыДанныхВебКабинетаСУО_О</content>
+  <content>InformationRegister.ПользователиВебКабинетаСУ</content>
+  <content>InformationRegister.СессииВебКабинетаСУ</content>
+  <content>Document.ВосстановлениеПароляСУ</content>
+  <content>Enum.КатегорииДанныхВебКабинетаСУО</content>
+  <content>Enum.ОтборыДанныхВебКабинетаСУО</content>
+  <content>Enum.ТипыДанныхВебКабинетаСУЗ</content>
+  <content>Enum.ТипыДанныхВебКабинетаСУО</content>
+  <content>Enum.ТипыУчебныхАктивностейСУО</content>
+  <content>Enum.ФорматыВебДанныхСУ</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУЗ_ПН</content>
+  <content>InformationRegister.ЗависимостиДанныхВебКабинетаСУ</content>
+  <content>InformationRegister.ОтборыДанныхВебКабинетаСУО_П</content>
+  <content>InformationRegister.ЗаданияНаОбновлениеДанныхВебКабинетаСУ</content>
+  <content>InformationRegister.ЗаданияНаОбновлениеДанныхВебКабинетаСУ.Command.ЗаданияНаОбновлениеДанных</content>
+  <content>InformationRegister.ПользователиВебКабинетаСУ.Command.ПользователиВебКабинета</content>
+  <content>InformationRegister.СессииВебКабинетаСУ.Command.СессииПользователейВебКабинета</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.ПубликацияВебКабинета</content>
+  <content>CommonCommand.ПолучитьСсылкуНаФайлВебКабинетаСУО</content>
+  <content>CommonForm.СсылкаНаФайлВебКабинетаСУО</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.УстановкаИОбновление</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.ОткрытьПубликацию</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.ПолучитьФайлНастроек</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.Публикации</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.АвтоматическаяНастройка</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ.Command.МониторингАктивности</content>
+  <content>Enum.РедакцииВебКабинетаСУ</content>
+  <content>Constant.РедакцияВебКабинетаСУ</content>
+  <content>Constant.ОсновнаяПубликацияВебКабинета20СУ</content>
+  <content>Constant.ОсновнаяПубликацияВебКабинета30СУ</content>
+  <content>InformationRegister.ИспользованиеВебКабинетаСУ</content>
+  <content>Document.ИспользованиеВебКабинетаСУ</content>
+  <content>Report.ИспользованиеВебКабинетаСУ</content>
+  <content>Report.ИспользованиеВебКабинетаСУ.Command.ИспользованиеВебКабинета</content>
+  <content>Enum.ВариантыОформленияКомандыПрофиляВебКабинетаСУО</content>
+  <content>Report.ОценкаКачестваОбученияСУО.Command.ОценкаКачестваОбученияСУО</content>
+  <content>Enum.ВариантыРазмещенияОтчетовВебКабинетаСУО</content>
+  <content>Enum.ГруппировкиОбученийВебКабинетаСУО</content>
+</mdclass:FunctionalOption>

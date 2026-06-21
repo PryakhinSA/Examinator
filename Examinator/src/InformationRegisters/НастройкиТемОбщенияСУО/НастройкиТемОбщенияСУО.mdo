@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d05aa9c-2547-4f5e-85d2-ac701cdb761d">
+  <producedTypes>
+    <selectionType typeId="055102af-a0ff-4122-b50e-796c7b5cdcdf" valueTypeId="3bff4b90-e77d-4a2c-b6aa-4d16c3887577"/>
+    <listType typeId="0ac7f864-b785-417c-a852-cf36e12031e0" valueTypeId="2df88e5c-a255-4720-869e-6400cb0c85a1"/>
+    <managerType typeId="8940277c-d1c0-4dac-aafc-0b02ee779758" valueTypeId="4fc7797f-e0bc-4be8-a782-32bddf08da32"/>
+    <recordSetType typeId="53bc79ef-6856-4db8-a82d-c63487216003" valueTypeId="19d9e04a-cb1d-4ddb-bfe0-263c3c3116bc"/>
+    <recordKeyType typeId="ce55cace-5423-4f8c-af7b-4f5cd18220b8" valueTypeId="38f53db2-1f83-4b84-adc3-3f94f8e4e9f1"/>
+    <recordType typeId="e14caf18-be2b-46f3-a1d5-15c636e38e77" valueTypeId="ff976eb6-0cfa-42ba-8f06-987d415489ba"/>
+    <recordManagerType typeId="b5133590-37a7-4b16-869d-2c56b59d49c3" valueTypeId="b91425d7-05bf-47ba-9e0a-8de5d2b83b9f"/>
+  </producedTypes>
+  <name>НастройкиТемОбщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темы сообщений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <attributes uuid="e6e3b24d-ce80-43eb-af95-696d21034460">
+    <name>ДатаПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата просмотра</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда тема была последний раз просмотрена пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a7bc5d2-efef-468b-ae21-5ff8094cb87a">
+    <name>Архивирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивирована</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь поместил тему обсуждения в архив</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf570b57-d1e8-4c38-a304-8b61e8bd4a0d">
+    <name>Удалена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тема была удалена пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7cf13dfd-8c92-4cab-bf29-fe213d54ed9d">
+    <name>Помечена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помечена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь отметил тему</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="42876227-45e9-4647-8725-4c6fd27943b2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор темы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d9572357-40b5-4a6a-b5ca-3d0633d73564">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тема обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

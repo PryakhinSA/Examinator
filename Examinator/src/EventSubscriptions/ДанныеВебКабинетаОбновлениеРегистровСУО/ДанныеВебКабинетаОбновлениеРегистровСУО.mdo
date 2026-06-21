@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc948742-8a01-4b91-be1c-1a7c5dc96c1a">
+  <name>ДанныеВебКабинетаОбновлениеРегистровСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные веб-кабинета - обновление регистров системы управления обучением</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ФайлыПроверенныеПреподавателямиСУО</types>
+    <types>InformationRegisterRecordSet.ФотографииПользователейСУО</types>
+    <types>InformationRegisterRecordSet.НастройкиТемФорумаСУО</types>
+    <types>InformationRegisterRecordSet.НастройкиЛичныхСообщенийСУО</types>
+    <types>InformationRegisterRecordSet.НастройкиПользователейСУО</types>
+    <types>InformationRegisterRecordSet.СтудентыОО</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВебКабинетСУО.ДанныеВебКабинетаОбновлениеРегистровСУОПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6d3a0e1-bac9-4f4b-bcce-b173531cb044">
+  <producedTypes>
+    <objectType typeId="5ed91a7a-e594-4870-b546-bec53848795b" valueTypeId="8fb5875c-50f5-4839-ab42-f354a6f7c8d2"/>
+    <refType typeId="796a51a2-0365-4dbf-bc61-0b9992120a0a" valueTypeId="99662f66-0f16-4ae5-9d60-ee6d89c83c81"/>
+    <selectionType typeId="e027241b-300b-4405-aaa6-9f41467b9edb" valueTypeId="9596b91c-e6ac-455f-a990-a6360eb122a6"/>
+    <listType typeId="fe9915a1-058c-47ab-8996-35fdacb8bcda" valueTypeId="4fb60144-2e2f-4eec-9dba-c036d2763474"/>
+    <managerType typeId="fe52da96-5ba2-4990-bb82-8c60c427ad24" valueTypeId="def49643-c7c5-4ec3-aeaa-c21e0ece5424"/>
+    <containerType typeId="5bbe3b0e-1191-4294-ba16-a8c0ba78dccb" valueTypeId="3ef075c6-e527-4293-a9ce-97d813f2b6a2"/>
+  </producedTypes>
+  <name>ХарактеристикиУчебныхОбъектовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики учебных объектов</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиУчебныхОбъектовСУО.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиУчебныхОбъектовСУО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Характеристика</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Характеристика учебного объекта</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Характеристики учебных объектов</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Виды характеристик, предназначенных для описания учебных объектов</value>
+  </explanation>
+  <characteristicExtValues>Catalog.ЗначенияХарактеристикУчебныхОбъектовСУО</characteristicExtValues>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>CatalogRef.ЗначенияХарактеристикУчебныхОбъектовСУО</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c750f5f8-72fa-4977-838a-768e4532139e">
+      <name>ВходныеТребования</name>
+      <description>Входные требования</description>
+      <code>000000030</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="bf60ad53-050f-4eac-a6da-154d5ff0c440">
+      <name>МетодическиеУказания</name>
+      <description>Методические указания</description>
+      <code>000000040</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="e8686093-2fd7-4e02-9932-460ca8adc013">
+      <name>ПодробноеОписание</name>
+      <description>Подробное описание</description>
+      <code>000000010</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="09878bf5-1cbf-4dda-874f-fbb07b6aa066">
+      <name>СоветыИРекомендации</name>
+      <description>Советы и рекомендации</description>
+      <code>000000050</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="4e96e752-6f04-40bf-b8f6-b4480c495c05">
+      <name>ЦельОбучения</name>
+      <description>Цель обучения</description>
+      <code>000000020</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ХарактеристикиУчебныхОбъектовСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ХарактеристикиУчебныхОбъектовСУО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ХарактеристикиУчебныхОбъектовСУО.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="62b5e2b1-f1aa-4f45-bca2-5494ad92237e">
+    <name>СкрыватьОтУченика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрывать от ученика</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что характеристика не будет видна учащимся</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ce275b7-f41e-4676-93e2-be8cc65ad575">
+    <name>СкрыватьОтПросмотраЧерезОбщийКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрывать от просмотра через общий каталог</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что характеристика не будет видна при просмотре объекта из общедоступного каталога</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9a64e3ed-c15b-49ed-879b-6811349d19e9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e63c74f-87a5-4e16-96d6-c57452c91747">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca88e002-5445-4138-9206-d80c3c398b4f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

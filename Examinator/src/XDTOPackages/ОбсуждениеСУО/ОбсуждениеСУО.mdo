@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef77626f-ac20-477d-bdca-582c7a5517df">
+  <name>ОбсуждениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждение</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/lms/1/Forum</namespace>
+</mdclass:XDTOPackage>

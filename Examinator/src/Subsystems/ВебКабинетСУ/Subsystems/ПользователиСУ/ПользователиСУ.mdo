@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9452b75a-b68c-4d48-acf5-0f49035d964a">
+  <name>ПользователиСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>XDTOPackage.ПользовательСУ</content>
+  <content>Document.ВосстановлениеПароляСУ</content>
+  <content>HTTPService.ПользователиСУ</content>
+  <content>InformationRegister.ПользователиВебКабинетаСУ</content>
+  <content>InformationRegister.СессииВебКабинетаСУ</content>
+  <content>EventSubscription.ПользователиВебКабинетаСинхронизацияСУ</content>
+  <content>Catalog.Пользователи</content>
+  <content>EventSubscription.ПользователиВебКабинетаОбновлениеДоступаСУ</content>
+  <content>XDTOPackage.CASServiceResponse</content>
+  <content>Enum.ВидыПолейРегистрацииВебКабинетаСУО</content>
+  <content>Enum.ТипыПолейРегистрацииВебКабинетаСУО</content>
+  <content>InformationRegister.ИспользованиеВебКабинетаСУ</content>
+  <content>Document.ИспользованиеВебКабинетаСУ</content>
+  <content>Report.ИспользованиеВебКабинетаСУ</content>
+  <content>Enum.ВариантыОформленияКомандыПрофиляВебКабинетаСУО</content>
+  <parentSubsystem>Subsystem.ВебКабинетСУ</parentSubsystem>
+</mdclass:Subsystem>

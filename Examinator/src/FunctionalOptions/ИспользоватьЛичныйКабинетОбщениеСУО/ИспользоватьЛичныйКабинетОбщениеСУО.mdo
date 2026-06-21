@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b84a11dc-cee8-4436-90bf-251b2b27298f">
+  <name>ИспользоватьЛичныйКабинетОбщениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личный кабинет общение</value>
+  </synonym>
+  <location>InformationRegister.НастройкиЛичногоКабинетаСУО.Resource.ПоказатьОбщение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.МоеОбщениеСУО</content>
+</mdclass:FunctionalOption>

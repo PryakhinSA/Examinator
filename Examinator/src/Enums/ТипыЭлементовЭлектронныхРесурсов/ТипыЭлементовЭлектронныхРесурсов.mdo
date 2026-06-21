@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca1e1d68-e12d-4bad-a1a0-7719be912c4b">
+  <producedTypes>
+    <refType typeId="924aca7c-7fe0-4658-9194-46dfcc576b76" valueTypeId="66552b3f-96dd-42de-acd8-c8ceeeb0c08a"/>
+    <listType typeId="6ef4c2ff-9756-420c-af26-3bcb0a657420" valueTypeId="16e82082-0a48-4949-837f-6f01f3b35852"/>
+    <managerType typeId="0704c91a-ee95-4fb2-9baa-cdf5c70e8fe0" valueTypeId="32ee003a-ae39-4000-95df-cae85adc0939"/>
+  </producedTypes>
+  <name>ТипыЭлементовЭлектронныхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов электронных ресурсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="d1aae6a2-51d8-4a43-932b-3fa033af70c7">
+    <name>File</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="114a2c88-df35-4bb7-81ab-c35932ec4e90">
+    <name>Folder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68db5a84-46a7-4a69-843d-d7698c39859a">
+    <name>Media</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медиаобъект (Adobe Flash)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6729cb7f-6463-4130-89d7-ef49fb5beb81">
+    <name>Image</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fabaf24-9c0e-43b9-b63e-a1a020b3208c">
+    <name>Video</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36dfe1fc-4c9e-472a-92b3-1557c51f60fd">
+    <name>Audio</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудио</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07b0844f-8bd1-4443-b3ca-f932b6cd6849">
+    <name>Document</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70f1353e-be16-4e7a-b6fb-41264e5d8dc3">
+    <name>DataProcessor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2e51c13-170a-4bff-9348-326c15b73ea9">
+    <name>Text</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматированный текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45c9c44f-10dd-4011-8792-fee6fb76878b">
+    <name>Presentation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Презентация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca02a65e-5c80-4c8d-b4ff-d24a2743793e">
+    <name>Table</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76e192ab-4efb-44bd-95d0-f126d7d01c4b">
+    <name>YouTube</name>
+    <synonym>
+      <key>ru</key>
+      <value>YouTube</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adb2f418-b85f-42b2-8ab6-f13c1ab378bd">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

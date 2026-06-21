@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78573da3-6dc3-4c0f-a2db-69163f7b7224">
+  <producedTypes>
+    <selectionType typeId="e1a3e014-4b5d-4fd9-89fc-6e4548c0643b" valueTypeId="c875c859-ee10-447f-a6f2-b550deedc768"/>
+    <listType typeId="ac69826f-c643-4f28-b8c9-faa01b737be9" valueTypeId="f019f968-9196-4208-86b2-43b867a3cdff"/>
+    <managerType typeId="edd5dd00-3c93-462c-84b0-a0cdf50a0c68" valueTypeId="10f10aa7-ca9b-44af-acdc-9191a9aa4f55"/>
+    <recordSetType typeId="e5acfcab-dfee-47e1-aaa7-e86b477ae0ba" valueTypeId="5e4d5bf8-ee67-4452-83c3-3a1e3006d54d"/>
+    <recordKeyType typeId="01668420-b360-4fec-8e8f-1fe523334806" valueTypeId="a7db398c-711d-4119-a1e0-e30c7d45013f"/>
+    <recordType typeId="22ce414d-2711-4264-bec0-98671ccc842c" valueTypeId="26db6fd7-ffce-4ebc-b4c7-19ec49685bd9"/>
+    <recordManagerType typeId="23a74557-6ccc-4882-86b1-607d8edb9cb7" valueTypeId="26752e7b-ad02-4b96-b243-b14fd8ed847d"/>
+  </producedTypes>
+  <name>СтудентыОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Студенты</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтудентыОО.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СтудентыОО.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Студент</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Студенты</value>
+  </listPresentation>
+  <attributes uuid="4818bd3b-c2a4-4ddb-a913-fb5ddf764e97">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КурсыОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="753ebc76-6a90-4e19-85c1-3f979b6aee87">
+    <name>УчебнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная группа вуза/колледжа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГруппыОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="114ba122-6f48-43fe-91e0-e0b4cf847501">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыСтудентовОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d5ad363e-3207-4e0d-a26f-d450383ddc40">
+    <name>Специализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпециализацииОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2bbdf56f-630f-45ec-885e-b6ea602c7381">
+    <name>Специальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпециальностиОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e4784be-4c98-4fba-bf60-1aa4709d5bf1">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФормыОбученияОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4c31fc66-fdb7-481e-b4dc-f398380cae93">
+    <name>Отделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтделенияОО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="88287a4d-53d2-43fb-978b-0019a93e95fb">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="89f158e5-226e-41ef-acd5-82a6c0d51372">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c806405-9f48-4e4f-b843-de768c5da253">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="40284dca-bc70-4262-911f-cb72f7d33f76">
+    <name>СтудентыОО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студенты</value>
+    </synonym>
+    <group>CommandGroup.ОбразовательнаяОрганизацияОО</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="89e19b03-1cbb-471d-9bf6-9f56b13c928f">
+    <name>СтудентыУчебнойГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студенты учебной группы</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.УчебныеГруппыОО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

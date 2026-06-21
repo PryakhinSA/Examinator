@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a6dda85-4e17-4592-b796-b053aa558114">
+  <name>УниверсальныеМеханизмыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальные механизмы системы управления обучением</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.РасширеннаяФункциональностьСУО</content>
+  <content>CommonTemplate.ДанныеНачальногоЗаполненияСУО</content>
+  <content>FunctionalOption.РасширеннаяФункциональностьСУО</content>
+  <content>EventSubscription.УстановитьОтветственногоДокументаСУО</content>
+  <content>EventSubscription.УстановитьОтветственногоЭлементаСправочникаСУО</content>
+  <content>CommonCommand.НастройкиОбученияСУО</content>
+  <content>CommonForm.НастройкиОбученияСУО</content>
+  <content>CommonCommand.ДополнительныеОбработкиОрганизацияОбучения</content>
+  <content>CommonCommand.ДополнительныеОтчетыОрганизацияОбучения</content>
+</mdclass:Subsystem>

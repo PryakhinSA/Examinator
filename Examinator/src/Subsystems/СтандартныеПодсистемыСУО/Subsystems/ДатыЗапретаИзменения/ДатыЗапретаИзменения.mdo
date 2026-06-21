@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4775ee3-e62b-48c6-8a17-476802f506e3">
+  <name>ДатыЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты запрета изменения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>EventSubscription.ПроверитьДатуЗапретаПередЗаписьюДокумента</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыСУО</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82937758-89b0-4f6b-91aa-b5ae8002a63b">
+  <name>ЭлектронныеРесурсыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные ресурсы</value>
+  </synonym>
+  <rootURL>res</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="85320e05-7b41-40c5-bcce-dab296976567">
+    <name>ПолучитьКаталогЭлектронныхРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить каталог электронных ресурсов</value>
+    </synonym>
+    <template>/catalog/get</template>
+    <methods uuid="013532cb-823c-4617-a989-0de0a4298e37">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьКаталогЭлектронныхРесурсовPOST</handler>
+    </methods>
+    <methods uuid="0c6586c8-6702-4436-9db8-fd4574f0d2b6">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3c354e10-fb7b-4253-8b7e-01becad132a9">
+    <name>ПолнотекстовыйПоиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полнотекстовый поиск</value>
+    </synonym>
+    <template>/search/get/{ИндексСтраницы}</template>
+    <methods uuid="c9fcbdf3-8b69-426e-9e68-c650c00963be">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолнотекстовыйПоискPOST</handler>
+    </methods>
+    <methods uuid="79791fbc-57f7-489d-a495-0680762a73b2">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="99823f0d-c9e1-4d27-9b9e-33871e463b98">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version</template>
+    <methods uuid="d5279d8d-7c36-4d70-8ce8-0993e32db27f">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>ВерсияANY</handler>
+    </methods>
+    <methods uuid="ff03a667-5bda-4ddd-86f2-0799ca0a7c8a">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8727af90-0aaf-49a3-9de7-77a63b3540c3">
+    <name>ПолучитьАдресПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить адрес публикации</value>
+    </synonym>
+    <template>/address/get</template>
+    <methods uuid="73686522-6087-4265-8783-d1fd74764f6f">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьАдресПубликацииPOST</handler>
+    </methods>
+    <methods uuid="b04f5814-0260-43a9-8f71-c08e918f1b76">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="621fe45b-a0bc-4257-a965-7957f7133494">
+    <name>ПолучитьДанныеИзученияВКабинете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить данные изучения в кабинете</value>
+    </synonym>
+    <template>/learning/get</template>
+    <methods uuid="5e363fee-fb59-48c4-9c5f-935437794199">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьДанныеИзученияВКабинетеPOST</handler>
+    </methods>
+    <methods uuid="119f53c7-9ada-46d6-9c29-59301e274ca3">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="99e4642e-ee53-4a9f-95da-6f04e111fdb5">
+    <name>СохранитьДанныеИзученияВКабинете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить данные изучения в кабинете</value>
+    </synonym>
+    <template>/learning/commit</template>
+    <methods uuid="95a4ef2b-c697-4d1c-8564-7d03c05b0857">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СохранитьДанныеИзученияВКабинетеPOST</handler>
+    </methods>
+    <methods uuid="b69688d7-b17b-4a7b-bc68-bfc610697976">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

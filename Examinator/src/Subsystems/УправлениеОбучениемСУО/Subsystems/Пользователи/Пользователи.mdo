@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55a98004-533c-422a-a31b-c8c2ad22776d">
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <content>EventSubscription.ДобавитьПользователяВСистемуУправленияОбучениемСУО</content>
+  <content>CommonForm.ПодборПользователейСУО</content>
+  <content>Constant.ГруппаДоступаДляНовыхПользователейСУО</content>
+  <content>Catalog.Пользователи</content>
+  <content>Enum.БазовыйРолиПользователейСУО</content>
+  <content>InformationRegister.НастройкиПользователейСУО</content>
+  <content>InformationRegister.ФотографииПользователейСУО</content>
+  <content>Catalog.ОрганизаторыСУО</content>
+  <content>CommonCommand.ПользователиСУО</content>
+  <content>Role.УправлениеУчастникамиОбученияСУО</content>
+  <content>DataProcessor.ИмпортСтудентовОО</content>
+  <content>InformationRegister.ВремяДоступаПользователейСУО</content>
+  <content>ScheduledJob.КонтрольВремениДоступаПользователейСУО</content>
+  <content>CommonPicture.УстановитьОтветственногоЗаВзаимодействие</content>
+  <content>Catalog.ОтборыПользователейСУО</content>
+  <content>ScheduledJob.ФормированиеОтборовПользователейСУО</content>
+  <content>DataProcessor.УправлениеДоступомСУО</content>
+  <content>InformationRegister.ВозможностиУчитьсяСУО</content>
+  <content>DataProcessor.ИмпортСотрудниковСУО</content>
+  <content>DataProcessor.ИмпортПользователейСУО</content>
+  <content>InformationRegister.ИсключенияДубликатовПользователейСУО</content>
+  <content>InformationRegister.ФИОПользователейСУО</content>
+  <content>Constant.ИспользоватьОграниченияВремениДоступаКПрограммеСУО</content>
+  <content>FunctionalOption.ИспользоватьОграниченияВремениДоступаКПрограммеСУО</content>
+  <content>EventSubscription.ПользователиОбработкаПолученияФормы</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

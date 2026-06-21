@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ab5d5ec-9e81-4130-a9cc-760e000d63a6">
+  <producedTypes>
+    <managerType typeId="1479de33-0e73-4653-aa22-39ba8fc9d065" valueTypeId="bb8f4fe2-ee81-4643-998d-12354ea78f59"/>
+    <valueManagerType typeId="baecd574-94f6-452e-a20c-4d6e460c1666" valueTypeId="eb5fb781-aeea-40df-ab55-6283e4f041e3"/>
+    <valueKeyType typeId="297bc6e8-2931-5407-8c1c-570433e1a6eb" valueTypeId="08160388-b8b7-5cc6-8cbd-4e97b5d32562"/>
+  </producedTypes>
+  <name>ИзменятьДанныеТолькоПредпочитаемогоПоставщикаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменять данные только предпочитаемого поставщика</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Если флажок установлен, то можно будет изменить данные только предпочитаемого поставщика</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

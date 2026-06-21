@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d68fc151-6d7a-489d-9c9b-28359b83c5a8">
+  <producedTypes>
+    <selectionType typeId="b82753a7-7fb2-4795-ba55-7ce973eab6d5" valueTypeId="b374d0d4-8045-4975-a7b6-e72cb8545c1c"/>
+    <listType typeId="49746b5b-7531-42a1-be57-57c35cf7a7df" valueTypeId="6a8d925a-848a-47f0-bdc5-ad0a85bcafb5"/>
+    <managerType typeId="ffd6a02e-281d-44e0-8d1b-1005f9835588" valueTypeId="1386a733-d6e0-4f40-860f-38f24dcfa1af"/>
+    <recordSetType typeId="81a68ba3-5874-4ddf-8330-4af2a40ea104" valueTypeId="9a37e187-23b2-4065-bf23-8ca96176f02d"/>
+    <recordKeyType typeId="36747beb-2ccf-4038-b102-91ba4e1ad4c5" valueTypeId="7142ecd8-5046-43b3-b402-29520c397214"/>
+    <recordType typeId="26a1ed28-bf8f-48e4-bfb5-1a42634513e6" valueTypeId="94a86543-7f95-4feb-b246-4474f50c6b8b"/>
+    <recordManagerType typeId="4906c1bd-ae13-426c-a447-6181c198304e" valueTypeId="dd8d797e-3718-455f-9c2a-1ba00f90f04d"/>
+  </producedTypes>
+  <name>РуководителиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководители</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РуководителиСУО.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3632706c-6d84-49ea-b761-7e9d74f70f06">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b28352c1-422c-478f-9d13-889ac67e80bf">
+    <name>ОбъектРуководства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект руководства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияПредприятияСУО</types>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.ПодразделенияОрганизацииСУО</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предмет руководства</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fd033f59-b118-4cca-9c72-bf2e8b6e3be1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa350180-62c3-4064-8e17-81c1eaf50fa9">
+    <name>ФормаПодчиненныеРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c8bc0ef3-4da1-4d84-88f6-34a6ef9df68c">
+    <name>МоиПодчиненные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои подчиненные</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

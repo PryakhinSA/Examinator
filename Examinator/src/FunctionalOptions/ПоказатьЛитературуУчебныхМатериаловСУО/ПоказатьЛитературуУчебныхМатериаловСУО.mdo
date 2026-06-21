@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc11065-d02c-4a4c-be8b-8ae581b163bd">
+  <name>ПоказатьЛитературуУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать литературу</value>
+  </synonym>
+  <location>InformationRegister.НастройкиУчебныхМатериаловСУО.Resource.ПоказатьЛитературу</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЛитератураСУО.Command.Литература</content>
+</mdclass:FunctionalOption>

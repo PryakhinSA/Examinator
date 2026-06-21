@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9082a10f-4ef5-4d7c-a55d-2bc1c85e61b5">
+  <name>СтруктураПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДолжностиСУО</content>
+  <content>Catalog.ПодразделенияОрганизацииСУО</content>
+  <content>Catalog.ПодразделенияПредприятияСУО</content>
+  <content>Catalog.Организации</content>
+  <content>InformationRegister.РуководителиСУО</content>
+  <content>Constant.РуководительПредприятия</content>
+  <content>EventSubscription.ЗаписатьДанныеОРуководителяхОбъектаСУО</content>
+  <content>CommonPicture.Подчиненный</content>
+  <content>CommonPicture.Руководитель</content>
+  <content>Enum.ХарактеристикиСотрудниковСУО</content>
+  <content>Enum.ЮрФизЛицо</content>
+  <content>Report.СотрудникиСУО</content>
+  <content>InformationRegister.СотрудникиСУО</content>
+  <content>CommandGroup.ПредприятиеСУО</content>
+  <content>FunctionalOption.ИспользоватьСотрудниковСУО</content>
+  <content>Constant.ИспользоватьСотрудниковСУО</content>
+  <content>ScheduledJob.ЗакрытиеДоступаКБазеУволеннымСотрудникамСУО</content>
+  <parentSubsystem>Subsystem.ПредприятиеСУО</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2070da29-9a1e-4624-a19d-4b7df63e3c7d">
+  <name>ИспользоватьЛичныйКабинетПинКодыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личный кабинет пин-коды</value>
+  </synonym>
+  <location>InformationRegister.НастройкиЛичногоКабинетаСУО.Resource.ПоказатьПинКоды</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.МоиПинКодыСУО</content>
+</mdclass:FunctionalOption>

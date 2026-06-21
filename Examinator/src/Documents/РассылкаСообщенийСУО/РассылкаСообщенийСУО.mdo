@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38888d4f-8d92-4f4a-9996-3793eac18fe9">
+  <producedTypes>
+    <objectType typeId="575a0502-f0d9-4173-b98a-61c79f33d75b" valueTypeId="f4417433-600b-4ebf-ad4e-ccbe977fe5d7"/>
+    <refType typeId="cee5e0dc-6a9e-449f-b339-9b248c25bfd4" valueTypeId="66bf8c2a-be4e-4be5-a0a8-8f489c2f64d2"/>
+    <selectionType typeId="03b6a41e-2d11-4df1-add3-478c411d0bd3" valueTypeId="4a857ce0-923b-4340-ad10-8915cb19a784"/>
+    <listType typeId="1433eeea-2c0b-4c59-821b-59f6a3561231" valueTypeId="4d1d431b-fcd1-4da5-97db-7587af862472"/>
+    <managerType typeId="bcee2a80-e870-4eb5-93e0-da77468662bc" valueTypeId="cc99ecba-71d0-4d01-bc5a-72cf938f58fd"/>
+  </producedTypes>
+  <name>РассылкаСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка сообщений</value>
+  </synonym>
+  <inputByString>Document.РассылкаСообщенийСУО.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.ШаблоныСообщенийСУО</basedOn>
+  <basedOn>Catalog.УчебныеГруппыСУО</basedOn>
+  <basedOn>Document.ПроведениеОбученияСУО</basedOn>
+  <basedOn>Document.ПроведениеПрограммыОбученияСУО</basedOn>
+  <basedOn>Catalog.СерииПинКодовСУО</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рассылка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Рассылки</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>15</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РассылкаСообщенийСУО.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РассылкаСообщенийСУО.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0fd492f2-c587-4ab3-a0ee-d3adbdf16958">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор сообщений рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1974c0e7-4ce8-4e1b-914b-555d5c895801">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.НовостьСУО</types>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1594fd75-ba7e-456b-bd8a-edc3a7a314d9">
+    <name>Действующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что рассылка была выполнена и изменению не подлежит</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7ed7eb3-1148-466d-ba02-f027f6a5ec0a">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст описания</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54e72d12-6b4d-4b83-8589-6e25d73fe05a">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПопыткаВыполненияЗаданияСУО</types>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.НовостьСУО</types>
+      <types>CatalogRef.ШаблоныСообщенийСУО</types>
+      <types>DocumentRef.ПроведениеПреподавателемОбученияСУО</types>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>CatalogRef.СерииПинКодовСУО</types>
+      <types>DocumentRef.ВосстановлениеПароляСУ</types>
+      <types>CatalogRef.ОтборыПользователейСУО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ или элемент справочника, на основании которого была создана рассылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7261fc78-1f01-4858-8139-2bae24b7356d">
+    <name>АвтоматическаяРассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая рассылка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что рассылка была создана автоматически на основании правил</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41f31c72-16c1-4f9f-9d02-3b3388932daa">
+    <name>ОснованиеАвтоматическойРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание автоматической рассылки</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПопыткаВыполненияЗаданияСУО</types>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.НовостьСУО</types>
+      <types>DocumentRef.ПроведениеПреподавателемОбученияСУО</types>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ-основание автоматической рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af822515-aa03-4a95-8217-ea84aa5c7d79">
+    <name>ТипАвтоматическойРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип автоматической рассылки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАвтоматическихРассылокСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правило создания автоматической рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2806567-6ab3-4108-977e-9d860cdf951c">
+    <name>АдминистраторуАвтоматическойРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратору</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что рассылка предназначена администратору</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05e3ae3e-8518-4261-a8aa-a88962ae9f38">
+    <name>Преподавателям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподавателям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рассылка создана автоматически для преподавателей обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32dd4825-c59e-488d-91e3-53f47038dbfe">
+    <name>Организаторам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организаторам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рассылка создана автоматически для организаторов обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c91e3e52-92c3-4c50-b995-5f3b7604b2da">
+    <name>ТолькоЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только электронная почта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сообщения будут отправляться только на внешнюю электронную почту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f4396f63-ff5e-4067-be7d-bdbc8d8b3c79">
+    <name>БезШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без шаблона</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст рассылки задается в документе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c9df6b5-fa37-4dc2-ad87-720a37853471">
+    <name>ФорматированныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматированный документ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9519dd9a-90e4-4b7a-b46f-33c49af82a66">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="509cfeee-f23a-4b0c-a870-f946b7eaecee">
+    <name>ИдентификаторОбъектаКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта копирования</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор документа данные которого были скопированы при создании нового элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11c1d2b0-70ee-43ee-ae85-395cfa12b6b6">
+    <name>КонтрольнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3004d21a-a833-4cf5-9ea3-f210464f4ac1">
+    <name>ЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Родитель</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.ВидыКонтактнойИнформации.СправочникПользователи</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Тип</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыКонтактнойИнформации.EnumValue.АдресЭлектроннойПочты</value>
+      </value>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbb671a8-887e-4436-ba14-aabf15545d3b">
+    <name>ПрикреплятьФайлыОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикреплять файлы основания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>К сообщению будут прикреплены файлы из основания автоматической рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fbe39b42-3324-4fb2-b2b2-6d2a274038bf">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0b58143-5257-4b54-a9a6-daf582c29fb6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5010e74d-b2b2-458d-9c01-f77016eccda9">
+    <name>РассылкиПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылки проведения обучения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="6258374b-f5d5-41af-8a59-4486c00fcc4a">
+    <producedTypes>
+      <objectType typeId="a8fc24c4-4720-4656-b35e-c0387f29ed6c" valueTypeId="ed8db19f-7021-4a81-be63-272f72b67329"/>
+      <rowType typeId="8a99fc72-2d2c-4bfb-a786-4b26d19fc30d" valueTypeId="e3faa860-95a4-4107-9483-703e828532aa"/>
+    </producedTypes>
+    <name>ЗначенияПеременных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения переменных</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Значения переменных, которые будут подставлены в шаблон сообщения</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="98fa34c3-77dc-49ac-9bf9-40bab812a9a3">
+      <name>Переменная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переменная</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+        <types>ChartOfCharacteristicTypesRef.ПеременныеШаблоновСообщенийСУО</types>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Переменная для подстановки в шаблон сообщения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aeeee6d5-5df3-422b-99b6-b40a3cf0b87a">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ПеременныеШаблоновСообщенийСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение переменной для подстановки в шаблон сообщения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <linkByType>
+        <field>Document.РассылкаСообщенийСУО.TabularSection.ЗначенияПеременных.Attribute.Переменная</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2e19a342-5609-4e7d-ba46-ee59ddf2561e">
+    <producedTypes>
+      <objectType typeId="930d1536-30e6-4aa5-8a28-8656711438d3" valueTypeId="9e4f5751-2d7b-46cf-8c05-8e1a710cd82b"/>
+      <rowType typeId="d122abe2-c8c3-4224-9e06-87ee3c031308" valueTypeId="5550f096-6328-467c-b774-e0b04cc210d2"/>
+    </producedTypes>
+    <name>Адресаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресаты</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресаты, кому будут направлены сообщения</value>
+    </toolTip>
+    <attributes uuid="4fcef143-4f05-4bdb-8425-90cdd3aa222d">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пользователь, которому будет отправлено сообщение</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="30152ab9-d912-4d2c-90f1-bf77683c4212">
+      <name>Сообщение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сообщение</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.СообщениеСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сообщение, которое будет отправлено пользователю</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24dd857b-fef3-4980-9fdf-2c3b56427354">
+      <name>ОтправленоНаЭлектроннуюПочту</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправлено на электронную почту</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак того, что сообщение было продублировано на электронную почту пользователя</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf79b70c-ea6e-4cb0-b8e9-089255b442b1">
+      <name>ОтправкаНаЭлектроннуюПочтуЗапрещена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправка на электронную почту запрещена</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a7b6a43a-b3a5-48ae-97e8-7afa81eb3eb3">
+      <name>КоличествоПопытокОтправкиНаЭлектроннуюПочту</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество попыток отправки на электронную почту</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6ba74bf5-f27e-49a8-b33f-d4ff4fe59b1f">
+    <producedTypes>
+      <objectType typeId="2d48a3d7-edf8-4aa8-8cc9-c68ed886b8ea" valueTypeId="85345c35-c2fe-40fe-bd4b-2a258a814f19"/>
+      <rowType typeId="b1765f9f-d9e3-4f3d-97cf-540e68bc3b8b" valueTypeId="b2c8f3d2-4e2b-49d2-8c67-59cb4478b3ca"/>
+    </producedTypes>
+    <name>Организаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организаторы</value>
+    </synonym>
+    <comment>Заполняется в подписке УстановитьОтветственногоДокументаСУО</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fea554f8-a1a2-49fc-a78b-dad18089e230">
+      <name>Организатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОрганизаторыСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8586a5ee-d315-4b95-8c01-d7ad64628e7f">
+    <producedTypes>
+      <objectType typeId="cb3ed428-cdc6-4d86-a4ed-babe4607b998" valueTypeId="7a7cf599-5942-4760-bdde-21928fa0f5ac"/>
+      <rowType typeId="af61f1ec-5bf0-4946-a683-c71f038ba80f" valueTypeId="59de5faa-954e-44b2-91f7-a91fdbb7589d"/>
+    </producedTypes>
+    <name>ДополнительныеАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные адреса</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="af535f1e-a05b-41bd-a965-f15b2e154fc5">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d5440cb-4301-4e1c-a96d-47a418df1591">
+      <name>АдресЭлектроннойПочты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="a47ff90e-5a36-4f4d-bc35-7441d606623e">
+    <name>СоздатьРассылкуНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>CatalogRef.СерииПинКодовСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c9a10801-9066-4dcf-be2d-c73167d82d0f">
+    <name>РассылкиПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылки</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="5ee8a342-0452-424d-bd1a-f65e2afdf2b3">
+    <name>РассылкиПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылки</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

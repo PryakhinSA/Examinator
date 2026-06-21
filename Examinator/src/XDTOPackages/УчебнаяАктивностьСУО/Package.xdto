@@ -1,0 +1,127 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/1/UserActivity">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduFiles"/>
+	<import namespace="http://v8.1c.ru/lms/1/ElectronicResource"/>
+	<import namespace="http://v8.1c.ru/lms/1/Book"/>
+	<import namespace="http://v8.1c.ru/kms/1/User"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduMarks"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduTemplate"/>
+	<objectType name="ПрохождениеОбучения" ordered="false">
+		<property name="Наименование" type="xs:string"/>
+		<property name="СтатусОбучения" type="xs:integer"/>
+		<property name="СтатусПрохождения" type="xs:integer"/>
+		<property name="Актуально" type="xs:boolean"/>
+		<property name="ДатаНачалаПрохожденияЧисло" type="xs:integer"/>
+		<property name="ДатаОкончанияПрохожденияЧисло" type="xs:integer"/>
+		<property name="ПериодСтрока" type="xs:string" lowerBound="0"/>
+		<property name="СкрытьВремяПроведения" type="xs:boolean"/>
+		<property name="ДатаКонтроляЧисло" type="xs:integer"/>
+		<property name="ДатаКонтроляСтрока" type="xs:string"/>
+		<property name="Аудитория" type="xs:string"/>
+		<property name="Территория" type="xs:string"/>
+		<property name="КомментарийУчастникуОтМенеджера" type="xs:string"/>
+		<property name="КомментарийУчастникуОтМенеджераКонтекстный" type="xs:string"/>
+		<property name="КомментарийУчастникуОтПреподавателя" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduMarks" name="Оценка" type="d3p1:Оценка"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduMarks" name="ТекущаяОценка" type="d3p1:Оценка"/>
+		<property name="ЗавершаетУчащийся" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ПрохождениеОбучения" type="d3p1:DocumentRef.ПрохождениеОбученияСУО"/>
+		<property name="РазрешеноПрикреплятьФайлы" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduFiles" name="ФайлыПользователя" type="d3p1:Файлы" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ПроведениеОбучения" type="d3p1:DocumentRef.ПроведениеОбученияСУО"/>
+		<property name="ДоступенСписокУчастников" type="xs:boolean"/>
+		<property name="ДоступенСписокПреподавателей" type="xs:boolean"/>
+		<property name="ДоступенРазделФорума" type="xs:boolean"/>
+		<property name="АдресВИнтернете" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="Ресурсы" type="d3p1:Ресурсы"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="Задания" type="d3p1:Задания" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="ОписанияЗаданий" type="d3p1:Задания" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="ЕдинственноеЗадание" type="d3p1:Задание"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="ОписаниеЕдинственногоЗадания" type="d3p1:Задание"/>
+		<property name="ЗаданияДоступны" type="xs:boolean"/>
+		<property name="ЭлектронноеОбучение" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/User" name="Пользователь" type="d3p1:Пользователь"/>
+		<property name="ПроверяетсяПреподавателем" type="xs:boolean"/>
+		<property name="ПроверенПреподавателем" type="xs:boolean"/>
+		<property name="ВыставляетсяОценка" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduMarks" name="ШкалаОценок" type="d3p1:ШкалаОценок"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduTemplate" name="Сценарий" type="d3p1:Сценарий"/>
+		<property name="Баллы" type="xs:integer"/>
+		<property name="ТекущиеБаллы" type="xs:integer"/>
+		<property name="ПоказыватьРезультатыТестирования" type="xs:boolean"/>
+		<property name="ПоказыватьОтветыВРезультатахТестирования" type="xs:boolean" lowerBound="0"/>
+		<property name="ПоказыватьОценкуВРезультатахТестирования" type="xs:boolean" lowerBound="0"/>
+		<property name="ПодчиненныеМероприятияДоступны" type="xs:boolean"/>
+		<property name="ПоследовательноеПрохождениеЗаданий" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="Сертификат" type="d3p1:DocumentRef.СертификатСУО"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="РодительскоеПрохождение" type="d3p1:DocumentRef.ПрохождениеОбученияСУО"/>
+		<property name="НаименованиеРодительскогоПрохождения" type="xs:string"/>
+		<property name="ЕстьДополнительныеРеквизиты" type="xs:boolean"/>
+		<property name="ЗаданияПроверяютсяВыборочно" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="НезаполненныеСвойстваУчастника" type="d3p1:НезаполненныеСвойстваУчастника" lowerBound="0"/>
+		<property name="ПоказыватьБаллы" type="xs:boolean"/>
+		<property name="ПоказыватьПодробныеСведенияОЗадании" type="xs:boolean"/>
+		<property name="Картинка" type="xs:string"/>
+		<property name="ВариантОтображенияВремени" type="xs:integer"/>
+		<property name="ЗавершеноВПроцентах" type="xs:integer"/>
+		<property name="ДатаНачалаОтсчетаПродолжительности" type="xs:integer"/>
+		<property name="ПродолжительностьВСекундах" type="xs:integer"/>
+		<property name="ВариантПродолжительности" type="xs:integer"/>
+		<property name="ПродолжительностьСтрока" type="xs:string"/>
+		<property name="ОсталосьВремениСтрока" type="xs:string"/>
+		<property name="ВозвращеноНаДоработку" type="xs:boolean"/>
+		<property name="ДоступноОцениваниеКачестваОбучения" type="xs:boolean"/>
+		<property name="ОценкаКачестваОбучения" type="xs:integer" lowerBound="0"/>
+		<property name="КомментарийКачестваОбучения" type="xs:string" lowerBound="0"/>
+		<property name="ОписаниеБлокаОценкиКачестваОбучения" type="xs:string" lowerBound="0"/>
+		<property name="ЗаголовокБлокаОценкиКачестваОбучения" type="xs:string" lowerBound="0"/>
+		<property name="ПоказыватьОценкиИКомментарииВсехУчастников" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Задание">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="ЭлектронныйРесурс" type="d3p1:UUID"/>
+		<property name="НаОсновеЭлектронногоРесурса" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Задание" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Фрагмент" type="d3p1:UUID"/>
+		<property name="Завершено" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduMarks" name="Оценка" type="d3p1:Оценка"/>
+		<property name="Значимость" type="xs:integer"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="Описание" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="ПопыткаВыполнения" type="d3p1:UUID"/>
+		<property name="ЗавершеноВПроцентах" type="xs:integer"/>
+		<property name="ПроверяетсяПреподавателем" type="xs:boolean"/>
+		<property name="ПроверенПреподавателем" type="xs:boolean"/>
+		<property name="КомментарийПреподавателя" type="xs:string"/>
+		<property name="ВозвращеноНаДоработку" type="xs:boolean"/>
+		<property name="ПроходнойБалл" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduMarks" name="ПроходнаяОценка" type="d3p1:Оценка"/>
+		<property name="Баллы" type="xs:integer"/>
+		<property name="Выполнено" type="xs:boolean"/>
+		<property name="ПолученаОценка" type="xs:boolean"/>
+		<property name="НаОсновеЭлектронногоКурса" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="ЭлектронныйКурс" type="d3p1:UUID"/>
+		<property name="ЗатраченоВремениВСекундах" type="xs:integer"/>
+		<property name="НеЖдатьПроверки" type="xs:boolean"/>
+		<property name="ДатаОтправкиНаПроверку" type="xs:integer"/>
+		<property name="ДатаВозвратаНаДоработку" type="xs:integer"/>
+		<property name="ДатаНачалаДоступаКЗаданию" type="xs:integer"/>
+		<property name="ДатаОкончанияДоступаКЗаданию" type="xs:integer"/>
+		<property name="СкрытьВремяДоступаКЗаданию" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Ресурсы">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/ElectronicResource" name="ЭлектронныеРесурсы" type="d3p1:ЭлектронныеРесурсы"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/Book" name="Книги" type="d3p1:Книги"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduFiles" name="Файлы" type="d3p1:Файлы"/>
+	</objectType>
+	<objectType name="Задания">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="Задание" type="d3p1:Задание" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="НезаполненныеСвойстваУчастника">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="Свойство" type="d3p1:НезаполненноеСвойствоУчастника" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="НезаполненноеСвойствоУчастника">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+		<property name="Тип" type="xs:string"/>
+	</objectType>
+</package>

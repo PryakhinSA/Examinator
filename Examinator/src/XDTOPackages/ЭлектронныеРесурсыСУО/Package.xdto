@@ -1,0 +1,16 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/1/ElectronicResource">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<objectType name="ЭлектронныеРесурсы">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/ElectronicResource" name="ЭлектронныйРесурс" type="d3p1:ЭлектронныйРесурс" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ЭлектронныйРесурс">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/ElectronicResource" name="Фрагмент" type="d3p1:Фрагмент" lowerBound="0"/>
+	</objectType>
+	<objectType name="Фрагмент">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+</package>

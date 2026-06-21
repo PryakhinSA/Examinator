@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="325591f4-b58d-4576-ab03-7c57984c1bd0">
+  <producedTypes>
+    <objectType typeId="f0c95a50-552d-4e40-beb2-ab27a8464bf1" valueTypeId="d7ec9598-d783-4704-87e1-01031a3d5c7d"/>
+    <managerType typeId="74f42347-1541-462a-9917-59b0188ef5bd" valueTypeId="a834af49-62ae-4fb5-9cd6-f000c9faec22"/>
+  </producedTypes>
+  <name>ЗапросыНаОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы на обучение</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ЗапросыНаОбучениеСУО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="3022a680-a7fb-4638-ad48-cda39a6d333b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

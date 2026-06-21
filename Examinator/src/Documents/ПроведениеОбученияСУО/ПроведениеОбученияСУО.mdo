@@ -1,0 +1,2989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ff27ce2-1aab-4d5d-8850-d2d1465e9462">
+  <producedTypes>
+    <objectType typeId="2c065e59-99dc-4730-beee-2e7925a05688" valueTypeId="57c8ae61-7ead-432b-9393-0c4b3e5d52a2"/>
+    <refType typeId="f7751788-5fd9-4992-b3c3-6a7e8462418c" valueTypeId="021d7473-3418-4ef9-82b0-4a5709d0eda5"/>
+    <selectionType typeId="7107c0eb-b589-4cc9-bae5-481aaffdc8e0" valueTypeId="3dddebeb-bff1-4eae-b0be-94dce1ded541"/>
+    <listType typeId="c69ed6bf-b8d2-4880-aae5-3e9a316fcc0b" valueTypeId="a89fd70a-1192-419c-8182-778826a5ad15"/>
+    <managerType typeId="77c5d5c0-66d3-4e9f-9cc8-2255b623bcf7" valueTypeId="47baf81d-828d-49b6-b288-a14943392187"/>
+  </producedTypes>
+  <name>ПроведениеОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение обучения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПроведениеОбученияСУО.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Catalog.КаталогМероприятийСУО</basedOn>
+  <basedOn>Catalog.СводыЗнанийСУЗ</basedOn>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Проведение обучения</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Проведение обучения</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Проведение обучения</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Проведение обучения</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПроведениеОбученияСУО.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПроведениеОбученияСУО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ПроведениеОбученияСУО.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.ИспользованиеАудиторийСУО</registerRecords>
+  <registerRecords>InformationRegister.ПроведениеОбученияСУО</registerRecords>
+  <registerRecords>InformationRegister.ОткрытоеОбучениеСУО</registerRecords>
+  <registerRecords>InformationRegister.РасписаниеОбученияОбщееСУО</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="850e447c-fb09-4797-ab64-b70e14106f41">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПроведенияОбъектовСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус проведения обучения или тестирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыПроведенияОбъектовСУО.EnumValue.Запланировано</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3aa3dfb3-c64d-48eb-8c1b-d11a0718e02f">
+    <name>АктивироватьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активировать автоматически</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обучению будет автоматически установлен статус Активно при наступлении даты начала обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6d10f2e-c910-4378-a82c-91bf37e10eeb">
+    <name>ПроведениеПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение программы обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение программы обучения, в рамках которой проводится обучение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.БезСценария</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Document.ПроведениеПрограммыОбученияСУО.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4afb1c75-965e-498b-b696-c2a293d8b619">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Мероприятие, которое проводится</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.КаталогМероприятийСУО.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad3ddb85-77aa-48ab-b281-5ffd636c7427">
+    <name>ОткрытоеМероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыто для записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учащиеся (или руководители за них) смогут сами записаться на обучение напрямую или через заявку, если они входят в списки потенциальных участников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9382f43-0d3e-4f92-a1e1-79f8d478b8e1">
+    <name>АвтозачислениеНаОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автозачисление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Участники будут зачисляться автоматически (в фоновом режиме), если они входя в списки потенциальных участников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e2b9877-31f9-4795-9982-0f225cef23a1">
+    <name>ОткрытоДляВсех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыто для всех</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что все пользователи базы входят в список потенциальных участников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3a44cc1-2cd4-4897-8c72-4dd78b315fba">
+    <name>БезСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без сценария</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad9c39ad-7021-47e7-9e30-dd979bf85883">
+    <name>НаОсновеМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>На основе мероприятия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="964da413-4661-4c38-b426-2c71bb581bfc">
+    <name>НаОсновеЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>На основе электронного ресурса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что для создания электронного мероприятия достаточно указать электронный ресурс, который будет лежать в основе сценария</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23570acb-7746-47eb-94d9-eb19c4189bbc">
+    <name>ПрограммаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа обучения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e39e7284-e0ef-411a-bebd-321b99d5cb1a">
+    <name>ЭлектронныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Электронный ресурс, который лежит в основе электронного обучения/тестирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="344211ab-e8b8-4512-ba26-ad2f06645f18">
+    <name>СхемаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант проведения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СхемыМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант проведения обучения, который определяет набор подчиненных мероприятий</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Мероприятие</name>
+      <field>Document.ПроведениеОбученияСУО.Attribute.Мероприятие</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd53f296-228f-4b3e-a543-697e880eee24">
+    <name>ГруппаСлушателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа слушателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГруппыУЦ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3d1dc7e-102f-46c0-9248-6c857d9487a0">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДисциплиныОО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дисциплина, по которой проводится обучение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b73ac5b-4755-4479-94a1-49d655f2f866">
+    <name>ДатаНачалаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда учащиеся должны приступить к прохождению обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06bd3b22-bfbe-48fc-a409-04bb2ae0b239">
+    <name>ДатаОкончанияПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда учащиеся должны завершить прохождение обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa90459b-8a46-44a2-9098-6d235f2bb5ef">
+    <name>ДатаНачалаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала доступа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предполагаемая дата, с которой будет открыт доступ к электронному обучению</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf7b2093-f27f-440f-a97d-7d7291f28bc0">
+    <name>ДатаКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата контроля</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, до которой электронное обучение должно быть завершено</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34d96628-050f-4ad7-b48c-caf2eb83e0cb">
+    <name>СкрытьВремяПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть время проведения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установка времени обучения будет доступна без учета времени, только по дням</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a57c0e3c-19d7-4811-83d6-e45a44f5855b">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АудиторииСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Аудитория, где будет проходить мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5f84a1e-4933-4b00-a486-09e1b697d3f5">
+    <name>ДоступноВнешнимПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно внешним пользователям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что новый пользователь будет зачислен на обучение сразу после самостоятельной регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="812e1745-8fd7-42a5-bb1a-fb499fdaa68f">
+    <name>ДатаОткрытияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, после которой можно будет записаться на обучение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c157f026-dfa3-4b4d-9a5c-6ef839b11e90">
+    <name>ДатаЗакрытияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, до которой можно будет записаться на обучение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93af2a09-78b3-4586-adf0-6842b95469e1">
+    <name>ТребуетсяЗаявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется заявка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что записаться на открытое мероприятие можно через подачу заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b0a1f7e-71dd-4bda-b332-e18570f58853">
+    <name>ЗапретитьОбщениеМеждуУчастниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть участников друг от друга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Участники обучения не будут видеть друг друга и не смогут обсуждать обучение на форуме обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16470433-c866-4b9c-b810-1ba23adb7d7e">
+    <name>МаксимальноеКоличествоУчастников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество участников</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН='Не ограничено'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН='Не ограничено'</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Ограничение на максимальное количество участников мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c876944-df52-4935-b7ec-4dfd40d36252">
+    <name>КомментарийДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий для участника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который увидит учащийся при открытии формы прохождения мероприятия</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a173e5fa-4126-4ece-838e-63b2801eca69">
+    <name>КомментарийДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий для преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который увидит преподаватель при открытии формы проведения мероприятия</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d91c97d8-0e24-488b-8fe4-dc02da7cc9e9">
+    <name>КомментарийДляМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий для менеджера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заметки к проведению мероприятия</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7fb5842b-fb0e-4f21-bcf7-69551efa140d">
+    <name>ОткрытоДляРуководителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыто для руководителей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что руководители смогут записывать своих подчиненных на это мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cea4c20d-64de-4d32-8ec9-6b02ecd95511">
+    <name>ОсновнойПреподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной преподаватель</value>
+    </synonym>
+    <comment>Основной преподаватель общего мероприятия</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Преподаватель, который будет иметь право редактировать ведомость общего мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d62f1546-daec-488f-aae1-2859efb8f4ae">
+    <name>ЗапросНаОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗапросНаОбучениеСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запрос, который послужил основанием создания данного проведения мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="789b0b80-ae5a-44ee-95b4-012f7ba2c132">
+    <name>АдресВИнтернете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес в интернете</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Веб-адрес страницы в интернете, например, на вебинар. Будет доступна учащемуся в виде ссылки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="848f6c4c-3e8f-47c7-b61b-9ad15a8da274">
+    <name>КомментарийОткрытогоМероприятияДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий открытого мероприятия для участника</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ac86db9-a9a9-4d4e-9868-55ba6630c319">
+    <name>КомментарийЗапланированногоМероприятияДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий запланированного мероприятия для участника</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9ae4c06-6ecb-499f-99f8-6060724eae59">
+    <name>КомментарийАктивногоМероприятияДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий активного мероприятия для участника</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="330580d4-dae5-47ef-a6a9-fcc1e467bf94">
+    <name>КомментарийЗавершенногоМероприятияДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий завершенного мероприятия для участника</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fae82f7-5622-487e-b27a-7b97a1ce5931">
+    <name>КомментарийОтмененногоМероприятияДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий отмененного мероприятия для участника</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61d09c11-4ad5-4dbc-9423-0afb9d2577fa">
+    <name>КомментарийЗапланированногоМероприятияДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий запланированного мероприятия для преподавателя</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42898609-f794-40d3-bc8f-c08bf55546e2">
+    <name>КомментарийАктивногоМероприятияДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий активного мероприятия для преподавателя</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="becade33-8aa2-4f0a-85f5-04b4b6e89a0a">
+    <name>КомментарийЗавершенногоМероприятияДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий завершенного мероприятия для преподавателя</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7876e1e9-5590-4d9f-b2f6-92dc6a1b614c">
+    <name>КомментарийОтмененногоМероприятияДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий отмененного мероприятия для преподавателя</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d037fa62-573c-4da3-ada4-ac45b2626052">
+    <name>ЦветЗапланированногоМероприятияНаКалендареУчащегося</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет запланированного мероприятия на календаре учащегося</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61a91dff-46b3-49d2-aa7a-05ddfb920516">
+    <name>ЦветАктивногоМероприятияНаКалендареУчащегося</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет активного мероприятия на календаре учащегося</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4a75a3b-22f9-43b2-9cac-f615c249e478">
+    <name>ЦветЗавершенногоМероприятияНаКалендареУчащегося</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет завершенного мероприятия на календаре учащегося</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce82ba20-3ce3-496a-b97f-dffaa59aa0a5">
+    <name>ЦветОтмененногоМероприятияНаКалендареУчащегося</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет отмененного мероприятия на календаре учащегося</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a00eab1-1e06-4e0e-8736-aa3247820d6c">
+    <name>ЦветЗапланированногоМероприятияНаКалендареМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет запланированного мероприятия на календаре менеджера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96a7d70c-e9e7-4df8-80ae-eedbe2d46693">
+    <name>ЦветАктивногоМероприятияНаКалендареМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет активного мероприятия на календаре менеджера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94abf7c2-5567-42a4-9f13-bdf4d2e0ce80">
+    <name>ЦветЗавершенногоМероприятияНаКалендареМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет завершенного мероприятия на календаре менеджера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d5f6f05-fc98-4d36-ba1a-f3c61a127153">
+    <name>ЦветОтмененногоМероприятияНаКалендареМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет отмененного мероприятия на календаре менеджера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8277c0ba-5743-4412-b9a1-8b7c7353472c">
+    <name>ЦветЗапланированногоМероприятияНаКалендареПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет запланированного мероприятия на календаре преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a87f0d1-beeb-4405-8918-b2541b7a235a">
+    <name>ЦветАктивногоМероприятияНаКалендареПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет активного мероприятия на календаре преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3da7919c-b1cb-4b1f-8cab-b3edebf4e214">
+    <name>ЦветЗавершенногоМероприятияНаКалендареПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет завершенного мероприятия на календаре преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d86e6223-7c0a-47be-9913-db90b5f1704c">
+    <name>ЦветОтмененногоМероприятияНаКалендареПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет отмененного мероприятия на календаре преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6e0b8c0-8a41-402d-975c-149ae97a2389">
+    <name>ИдентификаторОбъектаКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта копирования</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор документа &quot;Проведение обучения&quot; данные которого были скопированы при создании нового элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ad5855d-5082-4e4e-99c8-7c7a09f6147e">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96314f9f-0abb-4322-9ecf-06800bf2f49d">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2dd1f4ba-c514-47a6-bcbc-e99d64b17811">
+    <name>ВидОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМероприятийСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Общее</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Скрыть</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="110f1c23-033f-4837-af20-36d0b2a53395">
+    <name>МестоПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место проведения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МестаПроведенияМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задается способ проведения: очное (в аудитории) или дистанционное</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.МестаПроведенияМероприятийСУО.EnumValue.Дистанционно</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03c539fa-092e-41e9-8d71-122b0939928f">
+    <name>ПрименениеУсловийЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применение условий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыПримененияУсловийСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыПримененияУсловийСУО.EnumValue.И</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="762268c8-dbf9-49c4-8ca8-1d1afc977f43">
+    <name>СкрытьПреподавателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть преподавателей от участников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Участники и преподаватели не будут видеть полный список преподавателей обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb99354f-3548-4529-bc77-899ec94a9f2e">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3668a07-06d5-4918-b391-0a617b989693">
+    <name>ПоследовательноеПрохождениеЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательное прохождение заданий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обучающийся сможет выполнять задания последовательно</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b5707bc-2bca-45e4-b249-5be99c6006b6">
+    <name>ПорядковыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Устанавливает порядок обучений в кабинете</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aa2e524-3678-4714-b1b0-25dcbcaffef2">
+    <name>КонтролироватьВозможностьУчиться</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать возможность учиться</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="427d77ad-92c3-4378-a9ff-25c721fb8130">
+    <name>ФильтрПоДатеПриемаНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачислить только сотрудников, принятых на работу после</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fe7d51f-8fa5-4704-84c2-c209a77c98ed">
+    <name>ФайлКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл картинки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="553b291e-9304-4a78-9907-208b69f3608d">
+    <name>ЗагруженоИзУУЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружено из 1С:Управление учебным центром (УУЦ)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="179fac5e-9869-40a4-b0a8-ec70fc41e07f">
+    <name>ПродолжительностьВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>32</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Продолжительность прохождения обучения в секундах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a0cc047-687d-4e83-a529-e980d79ee2f8">
+    <name>ВариантПродолжительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расписания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПродолжительностьОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПродолжительностьОбученияСУО.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d61110bc-1dac-4b16-bf21-6539582953df">
+    <name>КачествоОбученияОцениваетсяУчастниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество обучения оценивается участниками</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0fe8fb7-7f0a-42af-a8f0-8f61e38f6356">
+    <name>ПоказыватьОценкиИКомментарииВсемУчастникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать оценки и комментарии всем участникам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e47a201-e364-48ca-9fbd-6b2b45223340">
+    <name>ОписаниеБлокаОценкиКачестваОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание блока оценки качества обучения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83cf5550-ec14-458b-9598-6bb1eff9ac85">
+    <name>ЗаголовокБлокаОценкиКачестваОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок блока оценки качества обучения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9472db85-20db-4169-8801-9d7f5c01937a">
+    <name>ПлеерВебКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плеер веб-кабинета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПлеерыКурсовВебКабинетаСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="639b7df1-774a-43d3-bbc0-8cbdf41e922b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56e9daaf-a36d-4e2c-98ac-8f7ccc3b4d14">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="28f2faaf-20d3-4d5f-b616-c738b988f13b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dbc9a2d1-040f-49d5-b1cc-da569b6e4613">
+    <name>ФормаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выберите вид обучения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b96395e-2e7e-43cb-8de6-de90abb5c6f0">
+    <name>ФормаСтуденты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студенты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d63216bf-7573-4863-ab74-9f65f2cedc56">
+    <name>ФормаУчебныеГруппыОО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебные группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="565dd637-5ba9-48cd-842b-7018de2092cf">
+    <name>ФормаВопросыНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопросы на проверку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3b7f875-7db3-45e7-851e-d2c4400dbaab">
+    <name>ФормаВыбораЗаданияНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор задания для отмены</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81e8cf49-1b13-456f-a88d-80cc2689202b">
+    <name>ФормаВыбораНастроекКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки копирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e0c33a54-687f-4350-b224-5c039005b859">
+    <producedTypes>
+      <objectType typeId="a90c5856-a6e4-4b9e-88b4-413aac2dee95" valueTypeId="318493bc-da33-4568-ba27-79b5a97620d6"/>
+      <rowType typeId="c4c84da1-b8a7-42e7-a551-7f8422baad43" valueTypeId="9ac2367c-960b-4303-af8a-5216b60d1214"/>
+    </producedTypes>
+    <name>УчебныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебные группы</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Учебные группы, пользователям которых разрешена запись на мероприятие</value>
+    </toolTip>
+    <attributes uuid="dbac1d50-c6a3-467e-9ad9-1251f484ce85">
+      <name>УчебнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГруппыСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Учебная группа, пользователям которой разрешена запись на мероприятие</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="90268049-01d4-48cc-8e42-13613fb3c33b">
+    <producedTypes>
+      <objectType typeId="ff3d6025-e17b-449b-a6b0-b8613fb181d3" valueTypeId="6650c331-42ab-403a-a84b-0fd00e06c7ab"/>
+      <rowType typeId="1cb6952d-b7e5-4d4d-a657-37b4c76ee243" valueTypeId="26cd9b26-ee6e-4565-850b-7fee32a46dd3"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Должности, сотрудникам которых разрешена запись на мероприятие</value>
+    </toolTip>
+    <attributes uuid="aed42bbe-90c3-4397-bb52-4de4fb409f44">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДолжностиСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Должность, сотрудникам которой разрешена запись на мероприятие</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e3162dac-0624-477e-ac8e-e3fa7cc92ab4">
+    <producedTypes>
+      <objectType typeId="5ac193e6-3f77-435a-8bc6-54b39441e545" valueTypeId="61893d9f-b975-4c29-b59b-527898233416"/>
+      <rowType typeId="ff8f19a8-bb7d-487b-bcea-d0441f04e85e" valueTypeId="e06ea2b6-7cf8-4d50-ae39-bcc3443e4dbe"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Организации, сотрудникам которых разрешена запись на мероприятие</value>
+    </toolTip>
+    <attributes uuid="8be1a171-9815-4683-90c3-c3feb59ce9ec">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация, сотрудникам которой разрешена запись на мероприятие</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e64839f1-bc4a-4924-a7c7-f68dd4ae574b">
+    <producedTypes>
+      <objectType typeId="43b42ca8-437e-4c82-918a-fe85c8242f54" valueTypeId="627e7013-55ea-4881-ad28-476273043a15"/>
+      <rowType typeId="f7f4b10d-0ce8-4d9e-aab0-93daba5ffe7f" valueTypeId="7534ae74-9e05-42a4-9448-a62ab9608af8"/>
+    </producedTypes>
+    <name>ПодразделенияПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения предприятия</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделения предприятия, сотрудникам которых разрешена запись на мероприятие</value>
+    </toolTip>
+    <attributes uuid="bf13c031-e08e-437d-9094-bf6a4ec7b0a6">
+      <name>ПодразделениеПредприятия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение предприятия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПодразделенияПредприятияСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подразделение предприятия, сотрудникам которого разрешена запись на мероприятие</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="956c3cb6-ae7f-4a31-80b9-16f4129d6432">
+    <producedTypes>
+      <objectType typeId="0bfcc736-3d3c-4200-9941-450838035d62" valueTypeId="0aa7aca2-2c4f-4f00-a4ae-86780214c862"/>
+      <rowType typeId="11d06064-4489-440a-90b7-5db8e15d390b" valueTypeId="c592ad40-06db-4abc-a429-583f4a9a1977"/>
+    </producedTypes>
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Книги для изучения</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fae7f4ec-f242-4c68-ad5f-6a8c0cf6fae9">
+      <name>Книга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Книга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЛитератураСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Книга для изучения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b302a16-d044-4adc-9611-b9938be043eb">
+      <name>Фрагмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фрагмент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеКнигиСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фрагмент книги для изучения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ПроведениеОбученияСУО.TabularSection.Книги.Attribute.Книга</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab6bd8fb-94c6-4d35-94cd-f14a1b1a76fb">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пояснение по использованию книги</value>
+      </toolTip>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c8e7c9b-8b2e-4989-8653-fe7c1db967ab">
+      <name>ПоказатьПослеПрохождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать только при статусе участника Окончено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Книга будет доступна только после того, как участник завершит проходить обучение</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee540020-0ce0-479f-81ff-b4294d7e5537">
+      <name>ПоказатьПриСтатусеЗапланировано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе запланировано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="741ae12c-7d7f-4822-950e-ca47bb43d226">
+      <name>ПоказатьПриСтатусеАктивно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе активно</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="017ace9d-1fe5-4ae6-9c24-dfc754204a29">
+      <name>ПоказатьПриСтатусеЗавершено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе завершено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c0e98bc2-ba5b-4efa-b1d9-9fa25d4680d7">
+      <name>СкрыватьОтУченика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скрывать от ученика</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс будет доступен только преподавателям</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d9239a83-4978-4a2e-a526-b44285677295">
+      <name>ДобавитьВБиблиотеку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить в библиотеку</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Книга будет добавлена в персональную библиотеку учащегося и будет доступна после завершения мероприятия</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2d0d1d40-67d7-4330-83c5-c2c7b26e712c">
+      <name>МеткаВБиблиотеке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>ВладелецМетки</name>
+        <field>Document.ПроведениеОбученияСУО.Attribute.Мероприятие</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b801254-01cb-474a-9281-8fba7383481d">
+      <name>ДатаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fb6d3873-05a1-4163-b5c2-dc6b73999cee">
+    <producedTypes>
+      <objectType typeId="7cb21848-af4d-414d-9438-1dbbc36c8e47" valueTypeId="7aeed4ee-4b15-4a1e-a928-a0057933101b"/>
+      <rowType typeId="66b306ca-6450-4285-b0f1-2d6d85bcfdd8" valueTypeId="3d924ce3-f680-4b92-9b2d-f3d0a70180a1"/>
+    </producedTypes>
+    <name>ЭлектронныеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные ресурсы</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Электронные ресурсы для изучения</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9e132a53-a610-46eb-a86e-a464e230565f">
+      <name>ЭлектронныйРесурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Электронный ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СводыЗнанийСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс для изучения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86e811ca-26d9-42d8-8aa7-dea4527d3be8">
+      <name>Фрагмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фрагмент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фрагмент электронного ресурса для изучения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ПроведениеОбученияСУО.TabularSection.ЭлектронныеРесурсы.Attribute.ЭлектронныйРесурс</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0275822b-66b4-474a-84bb-6828d801e171">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пояснение по использованию электронного ресурса</value>
+      </toolTip>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ebfd0c90-49ac-4a09-a518-9f4de991712b">
+      <name>ПоказатьПослеПрохождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать только при статусе участника Окончено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ресурс будет доступен только после того, как участник завершит проходить обучение</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc8d2aa9-8a2a-4449-9230-88c937579bd7">
+      <name>ПоказатьПриСтатусеЗапланировано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе запланировано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e9ffc091-2338-47cc-83cf-6d119dac34d2">
+      <name>ПоказатьПриСтатусеАктивно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе активно</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="244cb006-e14d-496a-b3c1-441ad9cef214">
+      <name>ПоказатьПриСтатусеЗавершено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе завершено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13b93521-3d1a-489a-8daa-c7121c62afa7">
+      <name>СкрыватьОтУченика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скрывать от ученика</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс будет доступен только преподавателям</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b2e7c14-ac28-448e-8cda-f23df581e402">
+      <name>ДобавитьВБиблиотеку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить в библиотеку</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс будет добавлен в персональную библиотеку учащегося и будет доступен после завершения обучения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de93a2f3-c28b-4c89-98ba-f27f20a3a19f">
+      <name>МеткаВБиблиотеке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>ВладелецМетки</name>
+        <field>Document.ПроведениеОбученияСУО.Attribute.Мероприятие</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3b002244-e477-4c60-917c-f6eef50fc665">
+      <name>ПлеерВебКабинета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плеер веб-кабинета</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПлеерыКурсовВебКабинетаСУЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26e5f8bf-cdec-40c7-9684-e971291ec12a">
+      <name>ДатаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2d656b84-9ac1-43a3-98ef-9827079dd592">
+    <producedTypes>
+      <objectType typeId="de266f31-0f47-4e31-ba88-21b12616f2b2" valueTypeId="78e52c49-3342-4ec8-b905-5f18f34f7d2a"/>
+      <rowType typeId="5f1543b6-9b78-4c4c-9bfe-24530cdad02a" valueTypeId="9d581375-7d7c-47b2-be28-85c3f7b38326"/>
+    </producedTypes>
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="50df6548-4c6d-44fa-8583-39652b0cef64">
+      <name>Файл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Файлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eacda774-d0ae-4ca4-bfdf-ebc219b19ffe">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пояснение по использованию электронного ресурса</value>
+      </toolTip>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="122633d6-7d77-41d8-b3bc-008e85f07361">
+      <name>ПоказатьПослеПрохождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать только при статусе участника Окончено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс будет доступен только после того, как участник завершит проходить обучение</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e16f88a7-39ef-4582-ba71-73a11a984c96">
+      <name>ПоказатьПриСтатусеЗапланировано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе запланировано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="869016ed-a3b7-47f9-b64c-da5b25390907">
+      <name>ПоказатьПриСтатусеАктивно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе активно</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="109c2df1-46a3-43b8-a797-328a8db32d94">
+      <name>ПоказатьПриСтатусеЗавершено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показать при статусе завершено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ba64977-12c6-4437-8a03-1b2264cb77b6">
+      <name>СкрыватьОтУченика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скрывать от ученика</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс будет доступен только преподавателям</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="95f931da-7536-46fa-bd8d-1098001e2fbe">
+      <name>ДобавитьВБиблиотеку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить в библиотеку</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс будет добавлен в персональную библиотеку учащегося и будет доступен после завершения мероприятия</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="156c7fd2-7aaf-4fe4-8d24-87f194a5d363">
+      <name>МеткаВБиблиотеке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>ВладелецМетки</name>
+        <field>Document.ПроведениеОбученияСУО.Attribute.Мероприятие</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b629fe8b-7b27-4d0a-a9f6-a11b16b1fba9">
+      <name>ДатаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7f689afa-851f-4df7-b0f3-d1f6ebef5b48">
+    <producedTypes>
+      <objectType typeId="ec57020c-022e-4e75-a2be-65f22db5434d" valueTypeId="9ce54795-4ba0-4d13-8b49-db89d86551cd"/>
+      <rowType typeId="06567483-96e2-4eed-9a93-1f643da3bd07" valueTypeId="fbb00c21-9d0f-4d51-a511-11c90ada5235"/>
+    </producedTypes>
+    <name>УсловияЗачисленияУчастников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия зачисления участников</value>
+    </synonym>
+    <attributes uuid="2a616eaf-0d0f-41a8-a3fc-e7c72be0f95e">
+      <name>Сценарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сценарий</value>
+      </synonym>
+      <type>
+        <types>DefinedType.СценарийОбученияСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>При зачислении будет проверяться, является ли пользователь участником обучения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="54de1c21-52af-4c2f-a390-def0e32526ce">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыПрохожденияОбъектовСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>При зачислении будет проверяться, имеет участник обучения заданный статус</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81842a14-7833-4199-9386-ab0d1236ec21">
+      <name>НачалоДиапазонаБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало диапазона баллов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Минимум баллов за обучение для выполнения условия</value>
+      </toolTip>
+      <minValue xsi:type="core:StringValue">
+        <value>0</value>
+      </minValue>
+      <maxValue xsi:type="core:StringValue">
+        <value>100</value>
+      </maxValue>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6cea860b-cb09-47d7-ae77-9e9deedb788d">
+      <name>КонецДиапазонаБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конец диапазона баллов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Максимум баллов баллов за обучение для выполнения условия</value>
+      </toolTip>
+      <minValue xsi:type="core:StringValue">
+        <value>0</value>
+      </minValue>
+      <maxValue xsi:type="core:StringValue">
+        <value>100</value>
+      </maxValue>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4e3260ff-5dd8-4651-9747-6145066056f1">
+    <producedTypes>
+      <objectType typeId="b50c04a8-d1a0-4ae0-80b7-e91c5388d3b7" valueTypeId="ce96a106-dfda-4ca0-84d5-eb98f5297fea"/>
+      <rowType typeId="b3f8b40e-a7e5-4ada-afa8-018ed9f82959" valueTypeId="adf9d505-0b05-4396-9c22-886c4d345e37"/>
+    </producedTypes>
+    <name>Организаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организаторы</value>
+    </synonym>
+    <comment>Заполняется в подписке УстановитьОтветственногоДокументаСУО</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3148f33b-8020-4a3d-ba6a-5e202ca2b153">
+      <name>Организатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОрганизаторыСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c869bcbe-d180-48f6-bc88-8f9399b045b0">
+    <producedTypes>
+      <objectType typeId="a3e9fefd-48c4-4dd8-a2e7-b12d5ae12496" valueTypeId="fa94ec38-3799-4cff-ad5d-7bed3c645cce"/>
+      <rowType typeId="40626a62-2642-4cc0-99b6-53ecef752a98" valueTypeId="9c45e3b4-0d16-4659-962d-1a11e3cdf3db"/>
+    </producedTypes>
+    <name>Курсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="30340dad-87e2-43e6-970f-61cb3964bd3a">
+      <name>Курс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Курс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КурсыОО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="37e51044-de4c-4320-a19e-8ad6e6fb52b7">
+    <producedTypes>
+      <objectType typeId="296f4efa-31fa-4820-b54a-6390225c4221" valueTypeId="4f30d3f5-99ae-40be-b9f7-ebb95e47c179"/>
+      <rowType typeId="effa4c40-9fd7-42a5-a12e-84d3fcb97867" valueTypeId="5577a2a8-a989-4865-b8ae-3e56e8b2c445"/>
+    </producedTypes>
+    <name>Специальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальности</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9312a448-6de6-4ac0-a243-b74b5a027de5">
+      <name>Специальность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СпециальностиОО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cdb21cd7-0fe0-452d-9581-789e44bae951">
+    <producedTypes>
+      <objectType typeId="a7cdf89f-5b72-4f61-bf2b-0d2508e3ff7f" valueTypeId="4191ca9c-ea02-4dcf-a9c3-71e4997c3537"/>
+      <rowType typeId="8c503ded-ce46-4e7a-a9e2-82ddf77a6311" valueTypeId="3441fc79-baa9-4b1d-a83a-00d4f998310e"/>
+    </producedTypes>
+    <name>Отделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отделения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c4c3d617-49c3-41e8-a7aa-90253c828cd8">
+      <name>Отделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОтделенияОО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1f0844bf-0682-41df-a334-5710f01d8922">
+    <producedTypes>
+      <objectType typeId="59f3afe4-79bd-47af-9f48-4b553274a202" valueTypeId="9ef361b1-4646-4d0f-8383-0e87d4c622f5"/>
+      <rowType typeId="4ada1404-5354-45cc-a516-0a963df2b68a" valueTypeId="6be1f102-9f4f-4d33-b809-59ae79135f81"/>
+    </producedTypes>
+    <name>ГруппыСтудентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебные группы вуза/колледжа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="07f5c011-16aa-46e0-83ee-4727e4ff2b35">
+      <name>УчебнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебная группа вуза/колледжа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГруппыОО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c9b794c8-ca50-4065-9404-b95dc8811729">
+    <producedTypes>
+      <objectType typeId="91dddb6f-d79b-4eb0-a000-599dafdcea8b" valueTypeId="348c77c2-fd78-4399-bafb-6680cd2fcaed"/>
+      <rowType typeId="4a807a34-9f5c-428f-ba8d-5d48be5ebd5f" valueTypeId="06196164-9204-41bf-a075-1928a50b1918"/>
+    </producedTypes>
+    <name>ЭлектронныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные задания</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1194e236-e89f-4e06-82d2-9a738b0d0c77">
+      <name>Задание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задание</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ЗаданиеЭлектронногоОбучения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91ed9cde-40fc-410f-bf08-55088b933233">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d817ad9-76d5-4718-8b9a-4aebcbfb5b3f">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес оценки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧН=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧН=0</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Вес задания в общей оценке за обучение</value>
+      </toolTip>
+      <minValue xsi:type="core:StringValue">
+        <value>0</value>
+      </minValue>
+      <maxValue xsi:type="core:StringValue">
+        <value>99</value>
+      </maxValue>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbc1cf5a-3c90-43ff-ab11-0ddd6ff5b581">
+      <name>ПроходнойБалл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проходной балл</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧН=Любой</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧН=Любой</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Минимальная оценка, при которой будет открыт доступ к следующему заданию</value>
+      </toolTip>
+      <minValue xsi:type="core:StringValue">
+        <value>0</value>
+      </minValue>
+      <maxValue xsi:type="core:StringValue">
+        <value>100</value>
+      </maxValue>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87cd5335-7e61-4ec0-aa9d-28ee72897c6b">
+      <name>НеЖдатьПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Не ждать проверки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="584e1ba2-a1eb-484a-b9ac-6086e81117aa">
+      <name>ПлеерВебКабинета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плеер веб-кабинета</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПлеерыКурсовВебКабинетаСУЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ba33aa5-730e-4ef9-ac8d-63ef9d25bb7c">
+      <name>ДатаНачалаДоступаКЗаданию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала доступа к заданию</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f775b32b-9655-4109-9685-1e412af8fa8d">
+      <name>ДатаОкончанияДоступаКЗаданию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания доступа к заданию</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1fa330c-d320-4711-83e9-35a825b7c795">
+      <name>СкрытьВремяДоступаКЗаданию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скрыть время доступа к заданию</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="934e6539-026d-4f99-8d7a-65b451969ec7">
+      <name>ПриОтсутствииОценкиЗаЗадание</name>
+      <synonym>
+        <key>ru</key>
+        <value>При отсутствии оценки за задание</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПриОтсутствииОценкиЗаЗаданиеСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="a78fcbc8-395e-4f9c-b195-955b70917a58">
+    <name>ОтчетРезультатыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты обучения</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e1121853-2b67-4c47-a0c8-790d6d8c5cfc">
+    <name>ОтчетРезультатыЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты заданий</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="34824e23-d7ae-4c7d-9b00-29344af85308">
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать результаты обучения в списке сотрудников</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.УстановитьОтветственногоЗаВзаимодействие</picture>
+    </picture>
+  </commands>
+  <commands uuid="9daf07d9-baa1-4594-8651-d44f996b720f">
+    <name>ФайлыУчащихся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="5c1b8fd7-a73b-4ba8-a6ea-259eec58bc27">
+    <name>ПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведения</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b8e78b0f-e90a-475a-9363-95560197ab6e">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <group>CommandGroup.ОрганизацияОбученияСУО</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

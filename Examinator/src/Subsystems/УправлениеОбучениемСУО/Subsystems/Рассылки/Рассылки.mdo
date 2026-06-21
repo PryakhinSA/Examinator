@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1149ffe-32f8-4f40-8f26-2760a96985a6">
+  <name>Рассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылки</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ScheduledJob.ПроведениеАвтоматическихРассылокСУО</content>
+  <content>ScheduledJob.РассылкаСообщенийНаЭлектроннуюПочтуСУО</content>
+  <content>CommonForm.РассылкиСУО</content>
+  <content>CommonCommand.РассылкиСУО</content>
+  <content>Constant.АвторАвтоматическихРассылокСУО</content>
+  <content>Catalog.ШаблоныСообщенийСУО</content>
+  <content>Document.РассылкаСообщенийСУО</content>
+  <content>Enum.ТипыАвтоматическихРассылокСУО</content>
+  <content>ChartOfCharacteristicTypes.ПеременныеШаблоновСообщенийСУО</content>
+  <content>InformationRegister.АвтоматическиеРассылкиСУО</content>
+  <content>Role.УправлениеРассылкамиСУО</content>
+  <content>Document.СообщениеСУО</content>
+  <content>ScheduledJob.КонтрольНепрочитанныхТемФорумаСУО</content>
+  <content>ScheduledJob.КонтрольНепрочитанныхЛичныхСообщенийСУО</content>
+  <content>acc803bd-74d3-4fdc-92b8-1a59bfea1c20</content>
+  <content>Catalog.ШаблоныСообщенийСУОПрисоединенныеФайлы</content>
+  <content>Enum.ТипыШаблоновСообщенийСУО</content>
+  <content>0925406d-08bf-48dd-a2d8-139479cea336</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

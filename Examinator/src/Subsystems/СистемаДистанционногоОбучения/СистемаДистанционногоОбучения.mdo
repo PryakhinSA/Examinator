@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38f3cb6e-38fa-4c18-ba51-69986176a5ac">
+  <name>СистемаДистанционногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система дистанционного обучения</value>
+  </synonym>
+  <subsystems>ЭлектронноеОбучение</subsystems>
+</mdclass:Subsystem>

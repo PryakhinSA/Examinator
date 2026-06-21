@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="745441dd-5d13-4e1f-827b-b36a50dc1900">
+  <producedTypes>
+    <selectionType typeId="cd4e5526-1507-48fd-9c07-ae1cc3d0ab77" valueTypeId="6b70e8a2-1983-4bdb-8363-be043b1a7851"/>
+    <listType typeId="e64a82f5-3be6-433c-a5aa-7d98e06c6fca" valueTypeId="6c514299-5773-4f97-8b62-84b18e1d72d0"/>
+    <managerType typeId="ab069f83-3454-4ba8-8348-4dd72802e97b" valueTypeId="6e5498ce-dbf3-4289-99bb-a1abd3386944"/>
+    <recordSetType typeId="7259cc0e-3053-48dc-97df-0e174ec18ced" valueTypeId="af03b4a1-91a9-4984-8cb3-9091b651d400"/>
+    <recordKeyType typeId="5968efb2-4b8f-41ab-a278-e9cc6f8e9862" valueTypeId="06d51985-05e6-4792-8f2b-a4b3bfbae8d0"/>
+    <recordType typeId="3a06e1d4-be35-47f6-adb3-2ed672ce6e24" valueTypeId="7e727f52-69c0-4042-9a1f-bae9ced9a554"/>
+    <recordManagerType typeId="7f27c848-460e-445f-8bc3-d56a11478092" valueTypeId="42152411-c399-47bb-b9c8-6fabae714c11"/>
+  </producedTypes>
+  <name>АктивностьУчастниковОбщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активность участников обсуждений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="27926bed-f4cc-4689-acd2-c65316712599">
+    <name>ДатаПоследнейАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней активности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последней активности участника обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="04c9d57f-7555-40fb-a296-d709f447784c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который проявляет активность</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

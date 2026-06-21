@@ -1,0 +1,37 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/File">
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Файл" base="d2p1:ОбъектСУЗ">
+		<property name="Тип" type="xs:string" form="Attribute"/>
+		<property name="Путь" type="xs:string"/>
+		<property name="ОтносительныйПуть" type="xs:string"/>
+		<property name="Якорь" type="xs:string"/>
+		<property name="ПараметрыЗапуска" type="xs:string"/>
+		<property name="Владелец" type="d2p1:ОбъектСУЗ"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/File" name="Настройки" type="d3p1:Представление"/>
+		<property name="Каталог" type="xs:string"/>
+		<property name="АдресКаталогаРесурсов" type="xs:string"/>
+		<property name="Расширение" type="xs:string"/>
+		<property name="РежимЭкспорта" type="xs:boolean"/>
+		<property name="ПодключитьAPI" type="xs:boolean"/>
+		<property name="МожноОтключитьFlash" type="xs:boolean"/>
+		<property name="ИдентификаторYouTube" type="xs:string"/>
+	</objectType>
+	<objectType name="Представление">
+		<property name="Ширина" type="xs:string"/>
+		<property name="Высота" type="xs:string"/>
+		<property name="Выравнивание" type="xs:string"/>
+		<property name="ЦветФона" type="xs:string"/>
+		<property name="ВерсияПлагина" type="xs:string"/>
+		<property name="ИдентификаторОбластиДанных" type="xs:string"/>
+		<property name="СтатичноеПредставление" type="xs:boolean"/>
+		<property name="АльтернативныйТекст" type="xs:string"/>
+		<property name="ЗапускатьВоФрейме" type="xs:boolean"/>
+		<property name="ПроигрыватьАвтоматически" type="xs:boolean"/>
+		<property name="ОткрыватьВнешнимПриложением" type="xs:boolean"/>
+		<property name="ОдинФайл" type="xs:boolean"/>
+		<property name="ОткрыватьПоСсылке" type="xs:boolean"/>
+		<property name="ПутьКМиниатюре" type="xs:string"/>
+	</objectType>
+</package>

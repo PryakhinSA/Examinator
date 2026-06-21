@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cad33b6-0146-423d-9ed5-4e4ee837fa45">
+  <producedTypes>
+    <objectType typeId="6da55aba-834e-4ace-ada3-003e25a964a4" valueTypeId="10c59740-5dbf-42cd-a597-81de2d895bf9"/>
+    <managerType typeId="d1943a27-91d5-49ef-9a2a-966ad8ba96f1" valueTypeId="de432c34-101d-440b-8484-e4ce9a220c30"/>
+  </producedTypes>
+  <name>ОтветыНаВопросыОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы на вопросы</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтветыНаВопросыОО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Ответы на вопросы студентов</value>
+  </extendedPresentation>
+  <templates uuid="ed7e620c-3a39-4f11-919d-edf44de252c4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

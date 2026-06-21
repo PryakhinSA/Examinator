@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a992134-2bac-40f8-8c75-63043bf3aa88">
+  <producedTypes>
+    <refType typeId="9e35d23e-f210-416e-8381-fc0760725c4c" valueTypeId="3886b450-12b9-467a-9d6a-be42e543b7e1"/>
+    <listType typeId="7fc54dfa-05c3-4e72-98c2-a8aa4d2f7794" valueTypeId="75bafdf7-dc2b-45ba-9dee-7cbe8b97a43a"/>
+    <managerType typeId="9db39aa9-8b28-4a7d-a404-1e441deb177f" valueTypeId="9a260829-19b3-417d-b829-c35a70b2327f"/>
+  </producedTypes>
+  <name>ТипыШаблоновСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы шаблонов сообщений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="09ab731b-0fb2-48c6-885f-5c5d1c93a745">
+    <name>АвтоматическаяРассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая рассылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2929e48-cb84-4a85-812d-8ea634a4c21d">
+    <name>РучнаяРассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная рассылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a183fe5-61c9-42d9-ac0a-213138e1e3b2">
+    <name>СбросПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сброс пароля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2437a88-a1f0-4a77-aad8-fb76297a9d98">
+    <name>ОбъединениеДубликатовПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединение дубликатов пользователей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

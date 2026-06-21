@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5847e22d-6fb9-44b6-8c04-13479299b65c">
+  <name>Экзаменатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экзаменатор</value>
+  </synonym>
+  <content>Constant.ЭкзаменаторЭР</content>
+  <content>FunctionalOption.ЭкзаменаторЭР</content>
+  <content>CommandGroup.ОрганизацияТестированияЭР</content>
+  <content>0ec28941-d1ed-46cf-9023-55728647374a</content>
+  <content>acc803bd-74d3-4fdc-92b8-1a59bfea1c20</content>
+  <content>8cc70ddb-95c7-4b9d-ad0d-dcbe2a95217c</content>
+  <content>3e9d2320-42fe-45c8-a029-748cb4797da9</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

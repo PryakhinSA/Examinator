@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c89c4a-bde9-4db6-8dbe-2116856cf94f">
+  <name>УчебныеЗаданияСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные задания</value>
+  </synonym>
+  <rootURL>learning</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="f07054c5-b535-44dc-b2cb-2dfa19237964">
+    <name>ПроверитьЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить задание</value>
+    </synonym>
+    <template>/v1/check</template>
+    <methods uuid="ff8428ea-bcec-4731-8a7c-e517bf2bf185">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПроверитьЗаданиеPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

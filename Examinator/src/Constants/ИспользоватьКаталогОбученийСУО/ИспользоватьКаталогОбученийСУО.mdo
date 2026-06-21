@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0e25438-4e20-47bd-a58e-eb198cc20d89">
+  <producedTypes>
+    <managerType typeId="6daec898-9583-4c63-8a64-aabf4548ce0e" valueTypeId="37036a7a-3eb1-4d39-9015-b7bf63eabb38"/>
+    <valueManagerType typeId="30517c13-8078-4026-9085-11a3d85789c8" valueTypeId="d7a226c2-31ee-48ed-8ccd-59d050626f1c"/>
+    <valueKeyType typeId="d164f133-cc74-4f1b-9140-6a3b9925ed91" valueTypeId="da674682-798e-49ea-8d00-50d32e278bc0"/>
+  </producedTypes>
+  <name>ИспользоватьКаталогОбученийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать каталог обучений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

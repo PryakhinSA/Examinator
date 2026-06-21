@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c694bff-f424-446d-b5ac-f5f665f7e90f">
+  <producedTypes>
+    <managerType typeId="2bcc19c2-44d9-4a79-ba32-e333c829e6ff" valueTypeId="2d30bf3b-afa9-4395-96c7-0afb394da348"/>
+    <valueManagerType typeId="ce54f576-c9f3-4635-9622-18817703219f" valueTypeId="0ce3c509-906f-4542-9ec7-faf0b0ba4f82"/>
+    <valueKeyType typeId="88a7d987-a32d-4e61-a1aa-4f1741168e77" valueTypeId="29202055-855a-4e80-aec4-0b776da0f5e7"/>
+  </producedTypes>
+  <name>ИспользоватьПинКодыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать пин-коды</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

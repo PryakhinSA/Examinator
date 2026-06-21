@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e65c02-dcc4-4117-ac82-89eb39d38873">
+  <producedTypes>
+    <objectType typeId="71387963-32f1-4577-9606-9a6e359eb71e" valueTypeId="ce4ef3a0-5f71-41e1-9be5-b4da33204664"/>
+    <refType typeId="6eb84100-8190-49a3-a8a4-9d47972d9fb7" valueTypeId="db23acd2-af6e-473e-a06f-c7b4ab2b94d9"/>
+    <selectionType typeId="b96c0fb8-101d-41bd-8ec9-d5e50101d95e" valueTypeId="270ac4ba-987c-47e6-9b50-3b4d54993a62"/>
+    <listType typeId="757c9b81-f218-4d6b-8d43-477cdca06845" valueTypeId="b5b94024-0798-40fc-88bd-056b5c4ef24e"/>
+    <managerType typeId="97c99b23-5239-4a03-ad42-1e9bca533d3e" valueTypeId="17ac6f60-f342-4fee-98ee-86931752c932"/>
+  </producedTypes>
+  <name>ИзучениеЭлектронногоКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изучение электронного курса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИзучениеЭлектронногоКурса.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Изучения электронных курсов</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ИзученныеЭлектронныеКурсы</registerRecords>
+  <registerRecords>InformationRegister.ИзученныеЭлементыЭлектронныхКурсов</registerRecords>
+  <registerRecords>InformationRegister.ПопыткиИзученияЭлементовЭлектронныхКурсов</registerRecords>
+  <registerRecords>InformationRegister.ВыбранныеВариантыОтветовЭлектронныхВопросов</registerRecords>
+  <registerRecords>InformationRegister.ОтветыНаТестовыеВопросы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="5f55e014-b54f-4f7c-93b1-a5c4e3664adc">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтекстЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный контекст изучения электронного курса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afb07bba-eb2c-452c-b78e-d2628e527b95">
+    <name>Учащийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учащийся</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УчащийсяЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учащийся, который изучает электронный курс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d60702e6-fb73-4e18-8c01-c50c868493ad">
+    <name>ЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный курс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Изучаемый электронный курс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5046a543-3f7f-4be5-890f-940dc000ef06">
+    <name>ДанныеИзучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные изучения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебные данные об изучении электронного курса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb60c99c-9578-41db-94bb-89568f0bd440">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f486e655-97dc-45c0-92b0-6cc4b649870f">
+    <name>УдалитьЗавершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Завершено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что изучение электронного курса завершено</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8873f06-d370-42a4-a3e1-a2f39297be17">
+    <name>УдалитьПоследнийЭлементСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Последний элемент содержания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеЭлектронныхКурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa8afd53-2bca-4558-a76c-15679b5804e1">
+    <name>УдалитьЭтоТестовоеИзучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Тестовое изучение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a764c33-791c-4227-9e6d-6441d4523a9e">
+    <name>УдалитьЭтоРежимРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Режим редактирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="132a0d1a-0785-4df8-82b0-5f99a955f9bd">
+    <name>УдалитьТестировщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Тестировщик</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, выполняющий тестовое изучение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="778cf826-a45d-4310-af05-26eac015a9c0">
+    <producedTypes>
+      <objectType typeId="4b10ef61-20c2-4b88-9eff-2628ac45ec0e" valueTypeId="334fa7c4-dbe6-4e8e-a16f-c12d12157b1f"/>
+      <rowType typeId="d2df3ce6-ad31-4ad7-affa-e60febbd7d17" valueTypeId="a75d7d1a-3ea4-4814-8e65-d044da8fe71e"/>
+    </producedTypes>
+    <name>ПопыткиИзучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Попытки изучения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0a36d050-0412-4f36-a6a0-fb48c985eaff">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd4dbd5e-1f6c-430c-9de2-f858f261545c">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8799138b-110c-4114-9887-a136d9789f45">
+      <name>ДанныеПопытки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные попытки</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbaa0992-6815-4248-b13c-c3fecd9c6c1c">
+  <producedTypes>
+    <refType typeId="bad7d7dc-06a2-42ed-993a-0a7e93cdf500" valueTypeId="0af8b7d2-8577-442a-92eb-777ae9772829"/>
+    <listType typeId="87bec8b5-814d-4d5a-a19d-abeea54398e5" valueTypeId="31bcba74-73a7-499f-a543-d0e75c725e5d"/>
+    <managerType typeId="27754aaf-6cb4-4bcf-b3b3-9abeb04c8e78" valueTypeId="3f087994-51c9-45c3-8cfd-72c47cac54d5"/>
+  </producedTypes>
+  <name>АлгоритмыИмпортаОбъектовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы импорта объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="44728dbd-15ba-4a5c-bc55-4aacdf41f370">
+    <name>РесурсыИзКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы из каталога</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a8ad49c-f0a0-4073-8715-5ea3698b2261">
+    <name>ОбъектыИзТекстовогоФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты из текстового файла (внутренний формат)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

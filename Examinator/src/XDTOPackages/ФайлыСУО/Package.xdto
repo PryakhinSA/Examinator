@@ -1,0 +1,13 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/3/EduFiles">
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="Файл">
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+		<property name="Расширение" type="xs:string"/>
+		<property name="Размер" type="xs:integer"/>
+	</objectType>
+	<objectType name="Файлы">
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduFiles" name="Файл" type="d3p1:Файл" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>

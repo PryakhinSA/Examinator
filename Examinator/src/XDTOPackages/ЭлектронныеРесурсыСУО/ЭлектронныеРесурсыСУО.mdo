@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8aff9ae-162c-4204-8c50-24c11715eeca">
+  <name>ЭлектронныеРесурсыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные ресурсы</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/lms/1/ElectronicResource</namespace>
+</mdclass:XDTOPackage>

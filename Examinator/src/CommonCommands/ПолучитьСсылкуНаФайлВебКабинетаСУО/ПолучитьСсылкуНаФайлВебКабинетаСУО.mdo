@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52863090-f56d-4ab1-b0e0-d6665776f0dd">
+  <name>ПолучитьСсылкуНаФайлВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить ссылку</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Файлы</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Получить ссылку на файл веб-кабинета</value>
+  </toolTip>
+</mdclass:CommonCommand>

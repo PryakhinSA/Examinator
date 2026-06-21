@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a9db26b-10e1-4385-b97f-2a4cf6d31c77">
+  <name>ПользователиОбработкаПолученияФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи обработка получения формы</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.Пользователи</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.УправлениеОбучениемСУОПодписки.ПользователиОбработкаПолученияФормы</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed6e7312-337c-483d-9824-560fad5db912">
+  <producedTypes>
+    <managerType typeId="7c8b60c3-a7bc-4794-a1d5-a0acca48946f" valueTypeId="6ec8dac1-113e-4384-a096-8ddc67ea4e47"/>
+    <valueManagerType typeId="678f83c5-e874-4c8f-a9bd-74ff43c92733" valueTypeId="e61988fe-d15d-4bc1-b910-40f7e2828947"/>
+    <valueKeyType typeId="3c796f4c-fefb-459e-833a-7ecb0aa7a2cc" valueTypeId="28ececf5-fc4a-4e77-b47e-9fb2af266327"/>
+  </producedTypes>
+  <name>ИспользоватьВстроенныйПлеерКурсовВебКабинетаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать встроенный плеер курсов веб-кабинета</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0430a65-360c-4425-81c8-51e40cb25dc9">
+  <producedTypes>
+    <selectionType typeId="9871a7a5-0b44-4101-a3dd-dd78af89c363" valueTypeId="259bb673-edf2-4d5c-bee4-be67b28db0b1"/>
+    <listType typeId="9aaa7835-28cc-4ff3-ac86-baba0f8a8cf8" valueTypeId="da4e6214-aaab-4374-8d75-2c4b1ca53e93"/>
+    <managerType typeId="e47e295b-2aa5-4592-8bc2-66da636377bf" valueTypeId="5a238356-4f72-4797-bd5c-5418fc62cbc9"/>
+    <recordSetType typeId="36ee14f9-2ef6-40b5-b8fa-ffa9390c5d10" valueTypeId="d8e315fa-0599-446c-a60c-7073a94e4fde"/>
+    <recordKeyType typeId="23376050-864f-4af7-b3bd-cf7c79b4ed59" valueTypeId="510c2eee-fd4e-47e8-9205-a6dabe1799d8"/>
+    <recordType typeId="38eaa433-af05-4d8d-81e8-0520abf718bc" valueTypeId="c08b5197-7ac1-4ceb-aa14-4fd9842da21f"/>
+    <recordManagerType typeId="d49a7929-0f57-46d3-8407-5c13a38fd975" valueTypeId="e6804e0d-923d-48dd-8b92-a32970dcc5a6"/>
+  </producedTypes>
+  <name>ФотографииПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотографии пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b547257c-d964-4b39-b38f-10691ed20ed8">
+    <name>ЕстьАватар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть аватар</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="92bc0996-3026-4f37-aa33-b04114687e05">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фотография</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c96f5ba9-cd73-4b87-9539-321128f75b89">
+    <name>Аватар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аватар</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3acf7e67-3cbc-452d-b90a-5379c320df75">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, фотография которого сохранена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

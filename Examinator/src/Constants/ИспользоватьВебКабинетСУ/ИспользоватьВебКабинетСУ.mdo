@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="854db538-46f8-477d-ab48-7dc598b56ba0">
+  <producedTypes>
+    <managerType typeId="bf5a82c9-bc0f-4cb9-ac15-35e56d065685" valueTypeId="1bd3616a-7735-4f72-8048-6b6f662f556e"/>
+    <valueManagerType typeId="57a184bd-49fd-4b48-bae2-735686294a2a" valueTypeId="878df4e6-4db3-4bb3-92f3-fce1fc26dc83"/>
+    <valueKeyType typeId="a7ee05c6-8118-5c59-ad78-a83fe5ab123e" valueTypeId="faf995ed-e77e-529d-8328-513840857b87"/>
+  </producedTypes>
+  <name>ИспользоватьВебКабинетСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать веб-кабинет</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Становится доступной функциональность веб-кабинета</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

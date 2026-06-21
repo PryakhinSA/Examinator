@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4a13569-714e-403f-a39e-f30eda4f409e">
+  <producedTypes>
+    <refType typeId="92404c59-bbba-492e-8319-9d9d0578da98" valueTypeId="998cb64b-82c3-4689-bfa0-b6c31aff7dc7"/>
+    <listType typeId="68219db7-0156-4de8-8fe9-65b41ec47deb" valueTypeId="6cf30548-1970-4400-a4b5-006b9e129d4c"/>
+    <managerType typeId="f42e5620-1059-4d66-ace4-63fa9e41ad6e" valueTypeId="cf45111f-5853-41c1-bbd4-22390a086749"/>
+  </producedTypes>
+  <name>ТипыЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы электронных курсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="60dfc515-16df-4ba1-a94b-0ba9a3f45aeb">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный тест</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="918c2958-4cdc-4d72-a53a-5d73ab36f8b7">
+    <name>Учебник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный учебник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="053d4e99-e682-4876-8a9d-598fd5dae009">
+    <name>Слайдовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слайдовый курс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9de17039-8707-4bf6-9540-be31dfd7fdf8">
+    <name>SCORM</name>
+    <synonym>
+      <key>ru</key>
+      <value>SCORM</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

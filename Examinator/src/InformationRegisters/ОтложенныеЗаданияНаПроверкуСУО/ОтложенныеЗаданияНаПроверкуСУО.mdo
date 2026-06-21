@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8afb6077-2cf3-437c-b0c3-b9311b4e2941">
+  <producedTypes>
+    <selectionType typeId="4c6c5f1b-b63e-4b11-9946-b4cb894a4dd3" valueTypeId="8198fadc-a8ca-43d4-8073-216c10df4eaa"/>
+    <listType typeId="30f15f00-f67b-4662-b9f7-18219504db49" valueTypeId="31f56b2e-765c-4da4-99aa-a93528dfa81f"/>
+    <managerType typeId="83c39115-a956-473f-a23f-b90811c23e5d" valueTypeId="9a62d5f5-e160-48c9-87e9-7ca7521d5ab6"/>
+    <recordSetType typeId="802bd0c9-cd72-448f-b253-bc1660cc3225" valueTypeId="dc944ebb-7eab-4184-9c46-8ad662bbc577"/>
+    <recordKeyType typeId="a9faff68-57ae-4520-be37-5303af4902d5" valueTypeId="01c48877-227c-408a-978f-a43ff9c706ac"/>
+    <recordType typeId="9ab14627-5b37-4e9e-8c8f-04cb602bde96" valueTypeId="e448609f-b9f6-4a0c-b475-b358a758612e"/>
+    <recordManagerType typeId="43e86213-d2dc-4723-8c09-5b42530532f8" valueTypeId="011be661-ea2d-45b4-bc7e-1d6a624aa884"/>
+  </producedTypes>
+  <name>ОтложенныеЗаданияНаПроверкуСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенные задания на проверку</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="3c31aa24-0c42-4bb5-bb6c-3639149c09e3">
+    <name>ПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6efbf15e-e312-4713-9513-f362d4e2840c">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="55ca6321-10c4-414c-800f-418740211888">
+    <name>ПопыткаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Попытка выполнения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПопыткаВыполненияЗаданияСУО</types>
+      <types>DocumentRef.СессияЭлектронногоРесурсаСУЗ</types>
+      <types>DocumentRef.ПопыткаВыполненияПодборкиВопросовСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="951326d9-9630-47f2-b907-8b62134c8d4e">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

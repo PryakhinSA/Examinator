@@ -1,0 +1,22 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/KnowledgeSources">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/SCORM/DataModel"/>
+	<objectType name="ОбъектСУЗ">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="object" type="d3p1:EnumRef.ТипыОбъектовСУЗ" lowerBound="1" form="Attribute"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="Представление" type="xs:string"/>
+		<property name="Скрипт" type="xs:string"/>
+		<property name="Стили" type="xs:string"/>
+		<property name="ДатаИзменения" type="xs:dateTime"/>
+		<property name="ВыполненноеДействие" type="xs:string"/>
+		<property name="СсылкаДляПерехода" type="xs:string"/>
+		<property name="ТекстСообщения" type="xs:string"/>
+		<property name="Заголовок" type="xs:string"/>
+		<property name="НеЗаписыватьВИсториюПереходСсылке" type="xs:boolean" lowerBound="0"/>
+		<property name="Значение" type="xs:string"/>
+		<property name="КодОшибки" type="xs:integer"/>
+		<property name="СтруктураДанных" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

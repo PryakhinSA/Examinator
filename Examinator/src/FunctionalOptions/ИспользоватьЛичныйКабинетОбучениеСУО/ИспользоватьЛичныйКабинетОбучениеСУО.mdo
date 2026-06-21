@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6389bde0-2433-4ff5-b7df-093dbf378ffc">
+  <name>ИспользоватьЛичныйКабинетОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личный кабинет обучение</value>
+  </synonym>
+  <location>InformationRegister.НастройкиЛичногоКабинетаСУО.Resource.ПоказатьОбучение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.МоеОбучениеСУО</content>
+</mdclass:FunctionalOption>

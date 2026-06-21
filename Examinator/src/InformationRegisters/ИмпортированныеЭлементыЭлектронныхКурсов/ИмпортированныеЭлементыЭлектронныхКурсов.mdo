@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfa1f5fb-2982-4179-bdca-8af8ba14a347">
+  <producedTypes>
+    <selectionType typeId="05084fd3-a378-4090-8eca-2c48ca35dc25" valueTypeId="f740d8f6-68fe-47e5-bb66-eda13d06f609"/>
+    <listType typeId="d58af647-40d9-4e08-85ea-0009c3d4397b" valueTypeId="177d1444-6489-4feb-bd38-49a8a0002759"/>
+    <managerType typeId="f4d2bbc4-e67b-4d36-841b-77c2b7baeaff" valueTypeId="77d88464-5b89-42a1-b6ec-ba12d8972a81"/>
+    <recordSetType typeId="981a5e2c-b4df-4c59-9e4e-702429373c8b" valueTypeId="f040f250-d08b-4c2f-b4d0-eaad72d37ed6"/>
+    <recordKeyType typeId="a787f35b-407d-46d7-a91d-36b14bfa99c8" valueTypeId="be0823e6-170a-4fac-8748-3a40f331f82e"/>
+    <recordType typeId="f3203a65-0f3c-4eb8-998d-eea92c5c71a9" valueTypeId="31681c8f-06ab-43e9-8020-7ef319c02857"/>
+    <recordManagerType typeId="37d3050f-354d-43f6-a434-de4618cc3dc9" valueTypeId="0a245004-1275-4c48-a893-88b23951dde1"/>
+  </producedTypes>
+  <name>ИмпортированныеЭлементыЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импортированные элементы электронных курсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="26004f31-343c-43d6-aafa-15c1c9fc9d48">
+    <name>ИдентификаторПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пакета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор импортированного пакета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="fa55f74f-6946-4c99-87e3-ce506ffe5ae0">
+    <name>ИдентификаторЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор элемента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор импортированного элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="5dc7d708-1d78-4188-9480-bf5d804fc7c5">
+    <name>ИмяЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя элемента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя импортированного элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="0d464759-1ed7-46c0-a3ef-5e4baffbab92">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата импорта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="afa71100-d700-433c-8100-1fc5f7c7e3ee">
+    <name>ИмпортированныйЭлемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импортированный элемент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеРесурсы</types>
+      <types>CatalogRef.СодержаниеЭлектронныхКурсов</types>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

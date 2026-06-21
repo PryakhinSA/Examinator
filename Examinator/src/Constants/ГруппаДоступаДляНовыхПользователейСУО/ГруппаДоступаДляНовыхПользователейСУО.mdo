@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1fd2029-7daa-4b13-906e-4233ad4d5710">
+  <producedTypes>
+    <managerType typeId="7928fadf-b93a-4c60-9ace-5962cc59a0aa" valueTypeId="a7fffedf-301b-4685-b905-4b277dd47d08"/>
+    <valueManagerType typeId="40e74f74-e77e-4cc9-8d0e-8f96a2596fcf" valueTypeId="20c82163-2378-4583-9b6e-fe31424f5415"/>
+    <valueKeyType typeId="caf73b9d-f667-5fe1-8e62-a0e60dd50e05" valueTypeId="0c5e0b85-71f9-5121-9c3f-798ee3f2ead4"/>
+  </producedTypes>
+  <name>ГруппаДоступаДляНовыхПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа доступа для новых пользователей</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГруппыДоступа</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Группа доступа, в которую будут добавлены все новые пользователи</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

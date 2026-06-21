@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47e37d88-1509-4200-b951-0259ca9e7ffc">
+  <producedTypes>
+    <refType typeId="b47a70f9-4744-4d19-81b7-2673cfd1f02e" valueTypeId="b62c23b6-5c07-440b-acbd-ed2d069a3f0c"/>
+    <listType typeId="4fd92166-8e60-4719-b39f-4ff482e074dc" valueTypeId="a8800c99-de6b-480a-8fef-3281505ae9aa"/>
+    <managerType typeId="1e0a3b79-6cb5-4008-a999-0ec363afe41e" valueTypeId="b106b7ee-1a8b-4c53-b18b-556092683942"/>
+  </producedTypes>
+  <name>РедакцииВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редакции веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="624c7fd6-ab69-4b10-8331-5d851e081ba0">
+    <name>Редакция20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редакция 2.0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbbce25e-e70b-462d-a5d4-657fa948b9fe">
+    <name>Редакция30</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редакция 3.0</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

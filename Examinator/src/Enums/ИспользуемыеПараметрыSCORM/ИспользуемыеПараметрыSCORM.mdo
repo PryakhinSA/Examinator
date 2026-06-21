@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f9261d3-42f6-4875-9548-ca05ae265bcd">
+  <producedTypes>
+    <refType typeId="c839fed2-b797-4ee3-82c3-6432719f29bc" valueTypeId="489740d2-f2b0-40ad-b1a2-9eff7cb1a630"/>
+    <listType typeId="4a0b050a-b7b0-40ec-990a-c84d8b8de549" valueTypeId="27de870a-5db1-44ae-bf4c-a6c5f95731b8"/>
+    <managerType typeId="4d31495b-2c6c-4d0f-beae-eb2b8213e0b5" valueTypeId="38baecbe-c218-436d-aeb2-ec806502523c"/>
+  </producedTypes>
+  <name>ИспользуемыеПараметрыSCORM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемые параметры SCORM</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Параметры изучения курса SCORM, которые программа использует для учета</value>
+  </explanation>
+  <enumValues uuid="96e1cac1-8b9b-4d5d-8f14-2f8fd29da746">
+    <name>completion_status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено (completion_status)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b916936c-ba9a-4e6e-9da8-bc95dcff2a77">
+    <name>progress_measure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогресс (progress_measure)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72c0e7fe-dafd-4c6c-99c5-45822c61bf7a">
+    <name>session_time</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время изучения (session_time)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21c7dcef-c356-4578-92f6-1d568047c976">
+    <name>exit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель выхода (exit)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9909f69b-516d-4ca9-b92c-b23d44972eeb">
+    <name>success_status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успех (success_status)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="404a5902-826e-4740-a1f3-c42236d0da8d">
+    <name>score</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баллы (score)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

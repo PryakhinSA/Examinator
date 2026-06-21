@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="620f2f08-57fb-46d6-b889-a72985b4da94">
+  <producedTypes>
+    <refType typeId="ed21aecb-5ba9-4672-b70b-975dac4b73b3" valueTypeId="c34d55ad-f624-4d2c-affb-f6fb3409d331"/>
+    <listType typeId="6263ec46-84da-4195-9136-d78fb8e6ffc2" valueTypeId="b2c4a98d-ab8c-43df-ae2d-2b378055e424"/>
+    <managerType typeId="ca243dc5-1474-4013-a29e-38712f7a1824" valueTypeId="bba452a4-22d0-469c-bea2-bca5e1907f50"/>
+  </producedTypes>
+  <name>ТипыТестовыхВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы тестовых вопросов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="6d124f1e-2410-4d6a-bed2-373d39e492fb">
+    <name>МногиеИзМногих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор нескольких вариантов из списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cad303b1-81d4-4bd2-b546-2e584f5bca88">
+    <name>ОдинИзМногих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор одного варианта из списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78c65a4c-ae43-4e68-b4aa-3a04ff0b3cf9">
+    <name>ОдинИзМногихНаКартинке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор одного варианта на картинке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="749a60f8-9a50-4cc8-9320-6c1aefae0288">
+    <name>Последовательность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упорядочивание вариантов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55908003-6974-400b-b9cb-65d9cc9f6f82">
+    <name>ВводСКлавиатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод вариантов с клавиатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf71fe64-ef0b-413e-ad5b-1e6a84c85ea7">
+    <name>Соответствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установление соответствия между вариантами</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

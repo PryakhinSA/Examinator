@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a97ae11-0e80-49bc-91e9-ffb33585184d">
+  <producedTypes>
+    <selectionType typeId="6e335282-fa1a-4733-a841-90cb5beffef8" valueTypeId="6eb2d1e3-9217-419d-ac5c-0e4957732f24"/>
+    <listType typeId="8aa51adc-e920-42a0-979e-29c7211f6fe9" valueTypeId="a26ac88f-644b-4cbc-a02f-f5ad477e4cb5"/>
+    <managerType typeId="1b0ec32a-e22b-4b25-9271-e3cc780d1439" valueTypeId="36854a67-1823-4dec-b7ab-c604657f9f69"/>
+    <recordSetType typeId="8059b314-ba85-4670-9e8b-308b816d8c65" valueTypeId="068b1f7f-35c0-4d76-ae99-e6df13decaff"/>
+    <recordKeyType typeId="85e58d3b-5c08-4ad7-8ba4-756a4be4aecf" valueTypeId="ae7c51c7-504b-4bd2-805a-a66642701aa7"/>
+    <recordType typeId="a537a96c-ae88-45f4-aec1-99b12914f19d" valueTypeId="e6e4a79d-017e-4492-9dd2-0dd6be3aaef1"/>
+    <recordManagerType typeId="7e0e68cc-8dc5-451a-935b-e3b7ae1857e5" valueTypeId="a3ba936e-76a1-48bf-906b-c76c68615a5b"/>
+  </producedTypes>
+  <name>НовыеЗачисленияНаОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новые зачисления на обучение</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="eaa4ae16-22b6-46fa-a886-98b22383cd7e">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d9cdffc0-2f30-4eb0-9067-c25b1506e0da">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d914e65e-2b77-4a74-bfc5-4ac4c08ee451">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

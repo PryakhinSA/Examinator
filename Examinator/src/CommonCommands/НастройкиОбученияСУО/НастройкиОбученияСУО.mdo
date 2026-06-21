@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39169c5f-c56e-486f-b639-3dfa3a89081d">
+  <name>НастройкиОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обучения</value>
+  </synonym>
+  <group>CommandGroup.АдминистрированиеСУ</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1ca99bf-b70e-40b6-b00a-90770a3620d7">
+  <producedTypes>
+    <refType typeId="30137a6f-1500-4f27-8b55-d0a18f9b1ddb" valueTypeId="860aacf0-993e-4781-9614-35d754847c76"/>
+    <listType typeId="d6162a77-615a-4117-b969-7ed3bbf93493" valueTypeId="4dc8a318-e209-4abc-886e-23b1c8b7a2d0"/>
+    <managerType typeId="2417beaa-680b-4af2-b2ce-265a2af8a573" valueTypeId="073725b9-b1ec-4af9-aee4-80aec3dfdbfc"/>
+  </producedTypes>
+  <name>ВариантыРазмещенияКнопкиВыходаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты размещения кнопки выхода</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5286d283-123f-4cca-bbce-2c659fc86088">
+    <name>СправаИсчезающая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справа, исчезающая при бездействии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27742b95-f04e-45e1-8332-53bd451f4cbb">
+    <name>СправаФиксированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справа, фиксированная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37588245-2f16-4e30-b5b4-a0610ac19c8f">
+    <name>СлеваИсчезающая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слева, исчезающая при бездействии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05faf4ff-c9c4-4a98-846a-6979c45329dd">
+    <name>СлеваФиксированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слева, фиксированная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df167fc0-29b3-432d-8623-d6bc46c4be89">
+    <name>БезКнопки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без кнопки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c9c2e45-646c-48b0-b6d0-92dcd82d42f0">
+    <name>ВКоманднойПанели</name>
+    <synonym>
+      <key>ru</key>
+      <value>В командной панели</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

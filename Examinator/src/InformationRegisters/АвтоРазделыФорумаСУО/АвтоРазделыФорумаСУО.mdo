@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cba9f568-a7d0-4610-bf9d-5eda68e03e61">
+  <producedTypes>
+    <selectionType typeId="d7650d27-05c0-4f1b-85b5-759f330d4ead" valueTypeId="20646285-cb86-4492-a81a-8c0ee121f8cb"/>
+    <listType typeId="43033a4a-dafd-46e9-b39d-18e7b8bb4266" valueTypeId="78769e01-cae3-4df8-a969-8b93fa772fb4"/>
+    <managerType typeId="9cd499e8-4bf3-4009-b602-3adf60642e79" valueTypeId="4a1a4bb5-8f7b-43e5-a261-94357cc8390b"/>
+    <recordSetType typeId="5499c954-86ac-4e0c-91fd-a4eca6a3be4f" valueTypeId="21b2dab7-7302-49e8-afb3-bb52d7e29d4b"/>
+    <recordKeyType typeId="4cd5e663-bb2b-440d-a291-392dd8c958b3" valueTypeId="42c932cf-3f55-4ba8-807f-e662986373b5"/>
+    <recordType typeId="e585ac68-439d-49ad-8e5f-9a2e54e3cd75" valueTypeId="52002aeb-91fc-4b83-b14e-690cc277b0e6"/>
+    <recordManagerType typeId="7030b7d2-9e74-433d-a14d-dc6d3e8a9300" valueTypeId="504f1755-9b49-4c93-bbd8-fbb19862d146"/>
+  </producedTypes>
+  <name>АвтоРазделыФорумаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматические разделы форума</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Раздел</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Разделы</value>
+  </listPresentation>
+  <attributes uuid="5b518ba9-445c-4994-91b2-e8758c96d3d6">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="c98ab8fc-23b8-4691-95e3-18a9156f7add">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eb3c3e26-7236-4c68-a8e2-65d12209f56d">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>CatalogRef.УчебныеГруппыОО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

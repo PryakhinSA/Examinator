@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3c05d7-ea3b-4c43-a214-cbe11f95ded9">
+  <producedTypes>
+    <objectType typeId="bf27e20d-31ff-47ad-b2b6-0f5886397f0e" valueTypeId="99305025-b7f7-46ea-94a2-6618e5149e7d"/>
+    <managerType typeId="e43004d7-749b-4581-b724-42a640796359" valueTypeId="10ec9b7e-909e-4b7b-aefe-e67ca40793e8"/>
+  </producedTypes>
+  <name>БазаВопросовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>База вопросов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.БазаВопросовСУЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="8cee5900-3850-4bf1-9483-e074218b414f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="da8978e0-77b3-40bf-a76b-885ca0fafee5">
+    <name>БазаВопросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базы вопросов</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

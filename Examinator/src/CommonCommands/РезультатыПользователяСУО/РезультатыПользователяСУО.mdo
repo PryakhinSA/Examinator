@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eb73003-76a7-4aa2-b43f-46564a0ca297">
+  <name>РезультатыПользователяСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты пользователя</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Пользователи</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Результаты обучения пользователя</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЗачетнаяКнижка</picture>
+  </picture>
+</mdclass:CommonCommand>

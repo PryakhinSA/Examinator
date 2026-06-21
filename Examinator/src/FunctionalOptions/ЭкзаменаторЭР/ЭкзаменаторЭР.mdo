@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fdb24f6-7776-4578-b330-89e5cf0a388e">
+  <name>ЭкзаменаторЭР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экзаменатор</value>
+  </synonym>
+  <location>Constant.ЭкзаменаторЭР</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ПредприятиеСУО</content>
+  <content>Document.ПроведениеОбученияСУО.Command.ОтчетРезультатыОбучения</content>
+</mdclass:FunctionalOption>

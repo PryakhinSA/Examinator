@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2be7edb4-e701-41d1-84eb-87d4c79a7b72">
+  <producedTypes>
+    <refType typeId="8cbc6829-4dab-4ca8-abde-dd145b28b92f" valueTypeId="7d3b8e1b-882d-4b91-ae88-05a388c2dbe9"/>
+    <listType typeId="c747941c-d9ce-4c8a-8497-18bd4884826e" valueTypeId="575ca5a4-3f9e-41f3-bb93-6e8f7de6117a"/>
+    <managerType typeId="40f81db0-a793-4bb2-af93-35b7d29de99a" valueTypeId="a1ba2951-7436-4448-af04-f5e57921b83e"/>
+  </producedTypes>
+  <name>ЦифрыСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цифры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="394efc11-87c9-4c4f-9d3d-fac4c9faa5ff">
+    <name>_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d4e4608-8de2-4168-9bcd-739b77679713">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ef0c878-c05e-420c-bc65-fd432139ba77">
+    <name>_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a46c09f-eb53-4ca7-a774-0381bd17d948">
+    <name>_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="142b0546-e2a8-4e4f-8b02-8bcf4e43f7e9">
+    <name>_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39286822-4370-404a-9e36-af10209f953c">
+    <name>_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2306084-440f-4f98-8fbd-4c3ee532b09e">
+    <name>_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b5386c1-eb49-4aa3-90b2-a3278f2c74db">
+    <name>_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78e698fe-2272-4cf9-973c-e258cd3cfe5f">
+    <name>_8</name>
+    <synonym>
+      <key>ru</key>
+      <value>8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38b475e9-8453-463c-beef-f64b7b46680b">
+    <name>_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>9</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

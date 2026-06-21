@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5078edae-ac46-4d76-b096-4e6783c272ef">
+  <producedTypes>
+    <managerType typeId="91f7bad2-1cb9-4bb3-b21d-2e9adbcb9cb8" valueTypeId="9e62beb9-f7d8-424a-8277-6489180d254d"/>
+    <valueManagerType typeId="2c7db9f5-43a3-4c13-ac45-b3df38b1528a" valueTypeId="78794d5d-159b-480d-96e2-c1b0e4d50eb0"/>
+    <valueKeyType typeId="55eeefd2-8815-562b-9304-46913049174a" valueTypeId="18ab7547-07f8-5c4d-bea5-062e5ee5638a"/>
+  </producedTypes>
+  <name>ИспользоватьДополнительныеМатериалыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные материалы пользователей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Пользователи смогут добавлять к элементам электронных ресурсов свои тексты или файлы</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

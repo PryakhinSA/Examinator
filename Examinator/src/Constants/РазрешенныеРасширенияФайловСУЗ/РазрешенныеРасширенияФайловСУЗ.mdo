@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79fdab39-05f7-4a88-9e98-b9633055260f">
+  <producedTypes>
+    <managerType typeId="54b9fa0c-4b15-44af-926f-0ba49dfd32be" valueTypeId="028d48fd-20a6-458b-95a2-45f1637421c2"/>
+    <valueManagerType typeId="7ce63d16-dea8-4a91-a60e-e55120759b38" valueTypeId="fbe5bd9d-e78a-4347-89e7-3f196d4dbf15"/>
+    <valueKeyType typeId="19fdac37-9f70-51cb-9d57-b0b80f6aa079" valueTypeId="897f9b79-2f62-5d3e-b84e-28c0fcef237f"/>
+  </producedTypes>
+  <name>РазрешенныеРасширенияФайловСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешенные расширения файлов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Расширения файлов, которые разрешено загружать в электронные ресурсы</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

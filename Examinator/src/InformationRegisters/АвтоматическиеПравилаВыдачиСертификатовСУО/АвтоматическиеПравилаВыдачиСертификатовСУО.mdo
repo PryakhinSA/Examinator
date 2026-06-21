@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94380fb0-4891-4fa0-b2b1-13b547421b98">
+  <producedTypes>
+    <selectionType typeId="1c4942ed-c3ff-4f23-8c08-23008f572e1d" valueTypeId="f5bcd6a2-f887-45a1-8486-840274be5c49"/>
+    <listType typeId="7c1fad63-c38d-4eec-ac76-9d3b2a088a60" valueTypeId="c6b57655-6e90-42f7-8e28-60b26c97f549"/>
+    <managerType typeId="799fc5bd-b3b0-412d-b170-87f091ca0a29" valueTypeId="94272db4-b61c-4c31-8b8c-93dab249d9d4"/>
+    <recordSetType typeId="4a728da8-4dd1-4d87-bb37-9e203361c287" valueTypeId="b1273078-699f-4d38-bc40-ed0a0f693210"/>
+    <recordKeyType typeId="fee5653e-0a0f-4948-946b-6fbbde4a3a0d" valueTypeId="2a563b57-6361-4102-a18d-0853c95418df"/>
+    <recordType typeId="2d3c449c-fc27-4677-95e6-9a522d6e2e62" valueTypeId="210f5afd-31f7-499a-96d3-97e4be3b61d3"/>
+    <recordManagerType typeId="951abc0f-49ef-4e79-98a9-4a0de2d6feb4" valueTypeId="e8df486d-26fb-4d9e-a793-90973228167e"/>
+  </producedTypes>
+  <name>АвтоматическиеПравилаВыдачиСертификатовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматические правила выдачи сертификатов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АвтоматическиеПравилаВыдачиСертификатовСУО.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Правило выдачи сертификата</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Правила выдачи сертификатов</value>
+  </listPresentation>
+  <resources uuid="2110abab-e436-4751-bd46-5131bccf21c5">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСертификатовСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d41bc88a-41e3-4b6d-af4c-3c6116f21f17">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН='Не ограничено'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН='Не ограничено'</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок действия в месяцах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="95c16c18-1625-41c6-9288-240b2f66b5db">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМероприятийСУО</types>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+      <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основание, по которому будет выдан сертификат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Вид</name>
+      <field>0:6d097b97-0909-4a51-80e9-f7d4678633bd</field>
+    </choiceParameterLinks>
+    <quickChoice>DontUse</quickChoice>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e5a50e99-d35e-466e-bc71-8165ba5c5076">
+    <name>ОтборПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор пользователей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтборыПользователейСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительный отбор, в который должен входить пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="08b9e012-2592-43bb-a2be-5d34c51d4e21">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

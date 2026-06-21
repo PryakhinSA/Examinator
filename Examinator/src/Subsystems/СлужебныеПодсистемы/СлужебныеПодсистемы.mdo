@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07652f81-d3c0-4911-9795-53b0a676d864">
+  <name>СлужебныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные подсистемы</value>
+  </synonym>
+  <subsystems>Экзаменатор</subsystems>
+  <subsystems>ОбразовательнаяОрганизация</subsystems>
+</mdclass:Subsystem>

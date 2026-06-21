@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="880728f5-7f4a-45a3-b8de-bad398c35c2b">
+  <producedTypes>
+    <objectType typeId="5fc8cca4-cc36-42c6-a47a-745d7d7775aa" valueTypeId="21d38e9f-98fc-4f00-b041-488df85cbfc7"/>
+    <refType typeId="ffd38525-c85f-41a3-82b9-3b62c33f0a29" valueTypeId="261c418c-3f53-49c2-8bd6-707d40757cb2"/>
+    <selectionType typeId="9caf4097-32fc-42e9-a304-e8caa428ab00" valueTypeId="8442ec50-4d62-400c-8051-52941de8a31b"/>
+    <listType typeId="d3d59e98-e6bd-4e49-b66e-27b620c2fad0" valueTypeId="ec5fcf46-ae2c-4aa4-aa34-9950b5f9ccb9"/>
+    <managerType typeId="2dae23f2-e3ad-4029-9b06-8fec39e6304d" valueTypeId="236aaec1-3d16-47f0-a569-7f74bc163ac2"/>
+  </producedTypes>
+  <name>ПопыткаВыполненияАктивногоРесурсаSCORM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Попытка выполнения активного ресурса</value>
+  </synonym>
+  <inputByString>Document.ПопыткаВыполненияАктивногоРесурсаSCORM.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Документ содержит попытки выполнения активных (SCO) ресурсов SCORM (attempt).</value>
+  </explanation>
+  <numberLength>12</numberLength>
+  <autonumbering>true</autonumbering>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ПопыткиПрохожденияЭлектронныхРесурсовСУЗ</registerRecords>
+  <attributes uuid="86f65fec-f965-4d6a-b570-4520f668f46e">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РесурсыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ресурс SCO</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="602a60e0-52b1-4610-96ac-a82b8ecfd3d9">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, проходящий ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d272f11e-40de-403b-b755-b4dafdbab98f">
+    <name>СводЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Электронный ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c256078-b6ff-40fb-9598-e95ed5075b81">
+    <name>ПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрохождениеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прохождение обучения в рамках, которого проходится ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf716931-823f-4a9a-bca0-4e7e70e45494">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ЗаданиеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задание мероприятия в рамках, которого проходится ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8474737d-41bd-459b-9a6d-27aa1122a82a">
+    <name>ЭлементСодержанияСводаЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент содержания свода знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент содержания электронного ресурса, которому соответствует ресурс SCO</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf31a78c-01ce-4694-a674-1817bab18033">
+    <name>ПопыткаЗавершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Попытка завершена</value>
+    </synonym>
+    <comment>exit &lt;> suspend</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что попытка выполнения была успешно  завершена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b06b6ca-6420-42f6-a181-f37521d8327c">
+    <name>ПричинаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина выхода</value>
+    </synonym>
+    <comment>exit</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Причина, по которой пользователь закрыл окно ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="745d5da1-6b65-428a-a736-b2b0821a76da">
+    <name>ДатаНачалаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата открытия ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="736e5eae-3fce-4717-b848-8a8347e19c68">
+    <name>СостояниеВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние выполнения</value>
+    </synonym>
+    <comment>completion_status</comment>
+    <type>
+      <types>EnumRef.СостоянияВыполненияОбъектовSCORM</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус выполнения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05a6b77e-f47d-4bbe-851d-b81114865b48">
+    <name>ПроцентВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент выполнения</value>
+    </synonym>
+    <comment>progress_measure</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уровень прогресса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="867462c3-2d29-4f8d-b4a7-7febbda162f5">
+    <name>ТекущееПоложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее положение</value>
+    </synonym>
+    <comment>Location</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержит информацию о том, где закончил проходить ресурс пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a66472f-a46b-4285-880f-cec3c877b8b4">
+    <name>ДанныеПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные попытки</value>
+    </synonym>
+    <comment>suspend_data</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольные данные, переданные из курса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="809097b7-3f40-43bf-8d3f-7125fb0d2aa2">
+    <name>ПродолжительностьПоследнейСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность последней сессии</value>
+    </synonym>
+    <comment>session_time</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Продолжительность прохождения последней сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1cdcc1a-99ac-4b0b-864b-85534b6f8a9c">
+    <name>ОбщаяПродолжительностьСессий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая продолжительность сессий</value>
+    </synonym>
+    <comment>total_time</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Общая продолжительность изучения ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc7ff760-faaf-446e-89d0-c6038a31c7d2">
+    <name>СостояниеПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние прохождения</value>
+    </synonym>
+    <comment>success_status</comment>
+    <type>
+      <types>EnumRef.СостоянияПрохожденияОбъектовSCORM</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает успешность прохождения ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d65060e0-00c1-4e2c-8005-812db28d53b6">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <comment>score.raw</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набранное количество баллов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f49b0400-4083-46a0-b021-73814d1249e3">
+    <name>РезультатВПроцентах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат в процентах</value>
+    </synonym>
+    <comment>score.scaled</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набранное количество баллов в процентах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2522e5ba-46e4-423b-b89f-3f4166638c0c">
+    <name>МаксимальноВозможныйРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимально возможный результат</value>
+    </synonym>
+    <comment>score.max</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальное количество баллов, которое можно набрать</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dbb20c54-edbd-4152-9c4b-ae2311495fa6">
+    <name>МинимальноВозможныйРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимально возможный результат</value>
+    </synonym>
+    <comment>score.min</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>7</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальное количество баллов, которое можно набрать</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45c6f047-e8c8-4ce7-91ea-532e3a57fe14">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2616ebf7-9108-4065-a580-78814f0e9d0b">
+    <producedTypes>
+      <objectType typeId="2a9bc365-ac9f-469b-b2ad-526cdac39e62" valueTypeId="16cd9382-a6c2-4ff1-8474-44d662c56ddb"/>
+      <rowType typeId="7064092a-d004-460c-8fdb-c98694b40aa0" valueTypeId="b355490e-8cfd-46e6-b130-5d44d845962e"/>
+    </producedTypes>
+    <name>КомментарииПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии пользователей</value>
+    </synonym>
+    <comment>comments_from_learner</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарии, полученные от пользователя</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="269c125e-2bf0-47b0-a655-9f54c1981eab">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер комментария</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aab7695c-6cad-4fe1-9525-a68db5a38221">
+      <name>Текст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст</value>
+      </synonym>
+      <comment>Comment</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Текст комментария</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ca1ef76-4a0b-4078-a70d-4598df8fe3e4">
+      <name>ТекущееПоложение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущее положение</value>
+      </synonym>
+      <comment>Location</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Произвольные данные, переданные курсом</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ba42e083-3581-49cc-9c32-f8fea3048b89">
+      <name>ДатаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата создания комментария</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9bfe154e-7e5d-41a1-a302-677944d3a1d7">
+    <producedTypes>
+      <objectType typeId="10062ae0-b8fc-4653-8bcf-1c653ff37560" valueTypeId="e17be26a-c09e-4f80-a7e2-f86f915ae3af"/>
+      <rowType typeId="c9fc3da3-3eec-4dda-877d-da66f069178d" valueTypeId="61aa8a48-6411-4351-b634-2371d4b24f8d"/>
+    </producedTypes>
+    <name>Интерактивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерактивности</value>
+    </synonym>
+    <comment>interactions</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d46850c6-616c-4110-b0dc-a7f9ba180847">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер интерактивности</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83df384c-55ab-4b16-a976-cb27960c18f0">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <comment>id</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор интерактивности</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="00842cd0-9be4-473e-9d0a-428744e3f6f8">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <comment>type</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип интерактивности</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ac86fa3a-b3e4-4a5e-a734-57e5fd00b6e7">
+      <name>ДатаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <comment>timestamp</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата добавления интерактивности</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="239be3eb-bfd2-499b-90e1-e1aa60e12997">
+      <name>ВесОценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес оценки</value>
+      </synonym>
+      <comment>weighting</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вес полученной оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6db6035e-477f-42e4-a58b-a4290cb310b7">
+      <name>ОтветПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ пользователя</value>
+      </synonym>
+      <comment>learner_response</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Текстовый ответ пользователя</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="92e5839c-9a94-4afc-baa4-a38899a3faba">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <comment>result</comment>
+      <type>
+        <types>String</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Набранный балл</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c9c5822-dbf3-4417-a9d3-0dc78200c652">
+      <name>Продолжительность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продолжительность</value>
+      </synonym>
+      <comment>latency</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Продолжительность ответа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d5c8eb49-79b3-44a0-b9a2-7f4134d85633">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <comment>description</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Расширенно описание</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e0c732e-b043-4829-90d6-7c679482802f">
+      <name>Цели</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цели</value>
+      </synonym>
+      <comment>objectives (тип: Массив, Индекс: Номер, Значение: id)</comment>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Достигнутые цели</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1cc6f67-1f05-4075-9132-3403bc9dc91e">
+      <name>ВерныеОтветы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верные ответы</value>
+      </synonym>
+      <comment>correct_responses (тип: Массив, Ключ: Индекс, Значение: pattern)</comment>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Верные ответы интерактивности</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="581f1ed4-1cb1-4f0e-aa25-72730682f4ab">
+    <producedTypes>
+      <objectType typeId="664b8448-7ded-4396-a197-c30929fe53f3" valueTypeId="53514888-d22e-416d-882f-d1805959ade8"/>
+      <rowType typeId="e5f3b1ec-efe5-40cb-90dd-efd7a2b7a5ab" valueTypeId="056609a7-bca2-4eb0-a383-400775d5f565"/>
+    </producedTypes>
+    <name>Цели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цели</value>
+    </synonym>
+    <comment>objectives</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3506aed8-5389-413a-97a5-71779d8e10ed">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер цели</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="acc2f210-3621-403c-83f1-5b92409219b0">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <comment>id</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор цели</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3926f933-b579-43ff-abdf-36e84bf6704f">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <comment>score.raw</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полученное количество баллов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="383790a1-0445-432b-98e0-5636637c8e4f">
+      <name>РезультатВПроцентах</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат в процентах</value>
+      </synonym>
+      <comment>score.scaled</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полученное количество баллов в процентах</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="35676af7-da8b-4796-ae43-7525a80afe13">
+      <name>МаксимальноВозможныйРезультат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимально возможный результат</value>
+      </synonym>
+      <comment>score.max</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Максимальное количество баллов, которое можно набрать</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e588e63-ce19-438c-b9a7-d95955a2bd79">
+      <name>МинимальноВозможныйРезультат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимально возможный результат</value>
+      </synonym>
+      <comment>score.min</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Минимальное количество баллов, которое можно набрать</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="48fec60a-4e6a-480d-803c-5eeb65c9a218">
+      <name>СостояниеПрохождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние прохождения</value>
+      </synonym>
+      <comment>success_status</comment>
+      <type>
+        <types>EnumRef.СостоянияПрохожденияОбъектовSCORM</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Показывает успешность достижения цели</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ccefb4c2-e64f-4b2e-bff9-466166840a3f">
+      <name>СостояниеВыполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние выполнения</value>
+      </synonym>
+      <comment>completion_status</comment>
+      <type>
+        <types>EnumRef.СостоянияВыполненияОбъектовSCORM</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Статус выполнения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="887df636-9294-4bfa-9c1b-ada3745a02de">
+      <name>Прогресс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прогресс</value>
+      </synonym>
+      <comment>progress_measure</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Мера достигнутого прогресса в достижении цели</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e12ea6c6-b69e-4ed8-9f40-e86c50cb1491">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <comment>description</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Описание цели</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4429ee38-8b07-43c0-82d8-3e904992d62a">
+    <producedTypes>
+      <objectType typeId="eeab50c2-e4de-4e9f-a01e-0e3649f19e26" valueTypeId="d7c650d3-b1de-4258-8d9d-3e4cd306ae89"/>
+      <rowType typeId="be801a4e-27d6-45c0-8625-df8b24ad1556" valueTypeId="c93f7a12-55c7-4014-8bff-7f6f63e415f8"/>
+    </producedTypes>
+    <name>Сессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессии</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="57ee5c5e-f654-4a93-979a-a31a8b809d39">
+      <name>ДатаИнициализации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата инициализации</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата открытия ресурса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64f8f3f1-bdb6-4d4f-a8ab-8a7ae1774df8">
+      <name>ДатаЗакрытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата закрытия</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата закрытия ресурса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c18f99c8-62bc-4343-a7be-bc9a9ccfd226">
+    <producedTypes>
+      <objectType typeId="3aedfcbd-4d59-42a2-8362-40ed9b838987" valueTypeId="500f3a86-dd49-45d6-8db5-fc82b006ca89"/>
+      <rowType typeId="9d4fd206-7bd7-48af-9174-cacd4ece1b60" valueTypeId="5ac33331-94f0-4f4c-80f4-4a7c72dbb654"/>
+    </producedTypes>
+    <name>СтатистикаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика параметров</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d91a5d85-b702-4691-ad7a-6ba19f521a1a">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ИспользуемыеПараметрыSCORM</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d2490d4-a2bf-4def-a177-f882757bfea3">
+      <name>Передан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Передан</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f91212cf-ced9-43bf-a1b9-23843660ba43">
+      <name>ПереданСОшибкой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Передан с ошибкой</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b8964326-622c-4bf7-89c8-b9974d0766d6">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

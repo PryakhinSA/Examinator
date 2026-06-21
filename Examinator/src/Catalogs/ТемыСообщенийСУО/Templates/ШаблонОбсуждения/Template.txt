@@ -1,0 +1,275 @@
+<xsl:stylesheet version="1.0"
+   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   xmlns:f="http://v8.1c.ru/lms/1/Forum"
+   xmlns:u="http://v8.1c.ru/kms/1/User">
+
+<xsl:output method="html"/>
+
+<xsl:template match="/">
+
+
+	<html>
+
+	<head>
+	
+		<meta http-equiv="X-UA-Compatible" content="edge" />
+	
+		<style>
+	
+		html,body {
+
+		}
+	
+		body {
+			font-family: Verdana, Helvetica, Arial;
+			font-size: 10pt;
+			margin:0;
+			padding:0;
+		}
+		
+		.Message {
+			background-color:#fcfaeb;
+			border-bottom: 1px dashed #b3ac86;
+		}
+
+		.MessageNew {
+			background-color: #FFD380;
+		}
+		
+		.MessageHead {
+			width: 100%;
+			padding: 3px 0px 3px 3px;
+			height: 20px;
+		}
+		
+		.MessageBody {
+			background-color:#fff;
+			padding: 5px 5px 5px 0px;
+			clear: both;
+		}
+
+		.MessageBodyNoTree {
+			padding: 1px 5px 5px 9px;
+		}
+
+		.MessageInfo {
+			display:inline;
+			margin-left: 4px;
+			font-size: 10pt;
+		}
+		
+		.MessageAuthor {
+			display:inline;
+			font-size: 10pt;
+			font-weight:bold;
+		}
+		
+		.MessageCommand {
+			display:inline;
+		}
+		
+		.MessageAttached {
+			display:inline;
+		}
+		
+		.ImgEdit {
+			margin-left: 4px;
+		}
+		
+		.ImgAttached {
+			margin-left: 4px;
+		}
+		
+		a:link, a:active, a:visited  {
+			text-decoration: none;
+			color:#003399;
+		}
+
+		a:hover {
+			color:#CC0000;
+		}		
+		
+		.MessageReply {
+			float: right;
+		}
+				
+		a.btn {
+			line-height: 18px;
+			font-family: Verdana, Arial;
+			font-weight: normal;
+			font-size: 10px;
+			padding: 0 0 0 5px;
+			
+		}
+		a.btn span, a.btn nobr {
+			padding: 0px 5px 0 0;
+			cursor: hand;
+			pointer: pointer;
+		}
+				
+				
+		table.treetable span.indenter {
+		  display: block;
+		  float: left;
+		  margin: 6px 0px 0px 0px;
+		  padding: 0;
+		  text-align: right;
+		  user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -o-user-select: none;
+		  -webkit-user-select: none;
+		  width: 19px;
+		}
+
+		table.treetable span.indenter a {
+		  background-position: left center;
+		  background-repeat: no-repeat;
+		  display: inline-block;
+		  text-decoration: none;
+		  width: 19px;
+		}
+
+		table.treetable {
+		  border-collapse: collapse;
+		  font-family: Verdana, Helvetica, Arial;
+		  font-size: 10pt;
+		  line-height: 1;
+		  width: 100%;
+		  background-color:#fff;
+		}
+
+		table.treetable thead tr th {
+		  border: 1px solid #888;
+		  font-weight: normal;
+		  padding: .3em 1em .1em 1em;
+		  text-align: left;
+		}
+
+		table.treetable tbody tr td {
+		  cursor: default;
+		}
+
+		table.treetable span {
+		  background-position: center left;
+		  background-repeat: no-repeat;
+		  padding: .2em 0 .2em 1.5em;
+		}
+
+<!--
+		table.treetable tr.collapsed span.indenter a {
+		  background-image: url(v8config://v8cfgHelp/mdpicture/id8b92c77c-89c1-4cad-8414-ccd3015e3be4);
+		}
+
+		table.treetable tr.expanded span.indenter a {
+		  background-image: url(v8config://v8cfgHelp/mdpicture/id9cebd397-8bc2-4a3b-85c3-0714f51c543b);
+		}		
+-->
+		
+		</style>
+	
+	</head>
+
+	<body>
+		<xsl:apply-templates select="f:Обсуждение"/>
+	</body>
+	
+	</html>	
+	
+</xsl:template>
+
+<xsl:template match="f:Обсуждение">
+	<xsl:apply-templates select="f:Сообщения"/>
+</xsl:template>
+
+<xsl:template match="f:Сообщения">
+
+<div id="tree">
+	
+	<table id="tableMessage" class="treetable">
+		<xsl:apply-templates select="f:Сообщение"/>
+	</table>
+	
+</div>	
+
+	
+</xsl:template>
+
+<xsl:template match="f:Сообщение">
+
+	<xsl:variable name="НомерСообщения"><xsl:value-of select="@Номер" disable-output-escaping="yes"/></xsl:variable>
+	<xsl:variable name="НомерРодительскогоСообщения"><xsl:value-of select="@НомерРодительскогоСообщения" disable-output-escaping="yes"/></xsl:variable>
+	<xsl:variable name="ИдентификаторАвтора"><xsl:value-of select="f:Автор/u:Ссылка" disable-output-escaping="yes"/></xsl:variable>
+
+	<tr>
+
+	<xsl:attribute name="data-tt-id"><xsl:value-of select="@Номер" disable-output-escaping="yes"/></xsl:attribute>
+
+	<xsl:if test="$НомерРодительскогоСообщения != ''">
+		<xsl:attribute name="data-tt-parent-id"><xsl:value-of select="@НомерРодительскогоСообщения" disable-output-escaping="yes"/></xsl:attribute>
+	</xsl:if>	
+
+	<td>
+
+
+		<div>
+
+			<xsl:if test="/f:Обсуждение/f:ЭтоДерево = 'true'">
+				<xsl:attribute name="style">margin-left: <xsl:value-of select="@Уровень*19" disable-output-escaping="yes"/>px;</xsl:attribute>
+			</xsl:if>
+
+			<xsl:if test="f:Новое = 'true'">
+				<xsl:attribute name="class">Message MessageNew</xsl:attribute>
+			</xsl:if>	
+		
+			<xsl:if test="f:Новое != 'true'">
+				<xsl:attribute name="class">Message</xsl:attribute>
+			</xsl:if>	
+			
+			<xsl:if test="/f:Обсуждение/f:Закрыто = 'false'">
+				<div class="MessageReply">
+					<a class="btn" href="?action=reply&amp;message={$НомерСообщения}"><nobr>Ответить</nobr></a>
+				</div>
+			</xsl:if>
+			
+			<div class="MessageHead">
+			
+				<div class="MessageAuthor"><a href="?action=user&amp;ref={$ИдентификаторАвтора}"><xsl:value-of select="f:Автор/u:ПолноеИмя" disable-output-escaping="yes"/></a></div>
+				
+				<div class="MessageInfo"><xsl:value-of select="f:Дата" disable-output-escaping="yes"/></div>
+				
+				<xsl:if test="/f:Обсуждение/f:ДоступноМодерирование = 'true'">
+					<div class="MessageCommand">
+						<a href="?action=edit&amp;message={$НомерСообщения}"><img src="v8config://v8cfgHelp/mdpicture/id56dd5d3d-683b-4b5b-8da8-d778e77f667a" alt="Редактировать сообщение" width="16" height="16" border="0" class="ImgEdit" /></a>
+					</div>
+				</xsl:if>
+				
+				<xsl:if test="f:ЕстьПрикрепленныеФайлы = 'true'">
+					<div class="MessageAttached"><a href="?action=attached&amp;message={$НомерСообщения}"><img src="v8config://v8cfgHelp/mdpicture/id787c49ce-1c9b-4bfb-b0fc-521cabacb1fb" width="16" height="16" border="0" class="ImgAttached" /></a></div>
+				</xsl:if>			
+			
+			</div>
+			
+			<div>
+			
+				<xsl:if test="/f:Обсуждение/f:ЭтоДерево = 'true'">
+					<xsl:attribute name="class">MessageBody</xsl:attribute>
+				</xsl:if>
+			
+				<xsl:if test="/f:Обсуждение/f:ЭтоДерево = 'false'">
+					<xsl:attribute name="class">MessageBody MessageBodyNoTree</xsl:attribute>
+				</xsl:if>
+			
+				<xsl:value-of select="f:Текст" disable-output-escaping="yes"/>
+				
+			</div>
+			
+		</div>
+
+   	</td>
+   	
+   	</tr>
+	
+</xsl:template>
+
+</xsl:stylesheet>

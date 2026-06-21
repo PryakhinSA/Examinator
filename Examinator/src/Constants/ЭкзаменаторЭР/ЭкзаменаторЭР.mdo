@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f66afa38-1f19-489a-b253-22d16327bbb6">
+  <producedTypes>
+    <managerType typeId="d9dc30f6-3f1e-432a-b3d9-d624761bbc1e" valueTypeId="29409db1-16bf-499a-9173-acc58ed11289"/>
+    <valueManagerType typeId="74640646-669c-4226-91b5-a299d9d42566" valueTypeId="c26955a8-cf76-4377-8309-07f89c753332"/>
+    <valueKeyType typeId="97d7f3f1-75bb-5d03-a51a-807881f78adf" valueTypeId="69d6a46a-4e2b-5041-a571-835336cc22ba"/>
+  </producedTypes>
+  <name>ЭкзаменаторЭР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экзаменатор</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

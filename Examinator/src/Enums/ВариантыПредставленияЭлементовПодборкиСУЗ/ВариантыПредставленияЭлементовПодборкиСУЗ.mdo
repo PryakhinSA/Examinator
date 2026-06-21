@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b4161c9-034d-445f-a941-b1afe6827429">
+  <producedTypes>
+    <refType typeId="45b9c075-85b2-4069-8167-fa4e81632204" valueTypeId="bb979444-41dc-40cf-8112-2553d490a587"/>
+    <listType typeId="b46e661d-b534-4313-b5b7-2982d4544553" valueTypeId="70e3f5df-a0db-40d1-963a-040e22e83f39"/>
+    <managerType typeId="47f7a132-4a17-47fc-bacc-264f039a1bd6" valueTypeId="dc57f801-346e-4151-a859-1f3d71b014e1"/>
+  </producedTypes>
+  <name>ВариантыПредставленияЭлементовПодборкиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты представления элементов подборки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f14e20c0-fb0a-477a-b259-0e485b040003">
+    <name>Последовательно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8949b6b3-d519-4b76-868a-70f6dd8e961a">
+    <name>КлассификационнаяТаблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификационная таблица</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

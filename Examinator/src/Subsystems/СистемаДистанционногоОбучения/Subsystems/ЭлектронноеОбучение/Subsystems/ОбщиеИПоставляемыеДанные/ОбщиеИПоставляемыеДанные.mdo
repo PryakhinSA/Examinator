@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07c98446-ce71-4e7a-91d2-8f82db732d82">
+  <name>ОбщиеИПоставляемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие и поставляемые данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.МакетыЭлектронныхКурсов</content>
+  <content>Enum.ТемыОформленияЭлектронныхКурсов</content>
+  <content>Enum.ЯзыкиИнтерфейсаЭлектронныхКурсов</content>
+  <content>CommonTemplate.ПоставляемыеМакетыЭлектронныхКурсов</content>
+  <content>InformationRegister.ОбщиеНастройкиЭлектронногоОбучения</content>
+  <parentSubsystem>Subsystem.СистемаДистанционногоОбучения.Subsystem.ЭлектронноеОбучение</parentSubsystem>
+</mdclass:Subsystem>

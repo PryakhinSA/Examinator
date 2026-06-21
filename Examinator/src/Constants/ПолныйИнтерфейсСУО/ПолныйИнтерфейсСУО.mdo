@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2ff52b2-d8ef-4e0b-94ae-efc8a1a92b58">
+  <producedTypes>
+    <managerType typeId="88ff80ca-2f2c-4423-8247-f017b92f2ca9" valueTypeId="6f4ab907-166b-45bd-95f5-53e8636f1de4"/>
+    <valueManagerType typeId="824edb29-8f78-443d-8e69-f67b01753e11" valueTypeId="54afefe3-5dd7-4cd9-94a7-50b5e6f42554"/>
+    <valueKeyType typeId="aaed664e-5897-5fec-b81d-0f1525225f58" valueTypeId="34275500-7674-507f-a0a2-cfc686d35ee8"/>
+  </producedTypes>
+  <name>ПолныйИнтерфейсСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный интерфейс</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

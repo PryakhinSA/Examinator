@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9113eb8-fad7-4ffe-a58d-2ab581d8e3bf">
+  <producedTypes>
+    <containerType typeId="72d9323e-5795-4cab-b6cc-e2fd6c923262" valueTypeId="dd18404c-8348-4042-9692-8e76a2a5cd27"/>
+  </producedTypes>
+  <name>ПроведениеЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение электронного обучения</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПроведениеОбученияСУО</types>
+  </type>
+</mdclass:DefinedType>

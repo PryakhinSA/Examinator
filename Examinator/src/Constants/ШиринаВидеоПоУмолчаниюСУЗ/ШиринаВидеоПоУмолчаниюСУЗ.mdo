@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9f68a22-5d2e-4bdf-ad32-8759993254b4">
+  <producedTypes>
+    <managerType typeId="ed9b3055-ee03-4226-8dcd-02e09e8af271" valueTypeId="59ea8cad-1e0e-4e55-9e51-7418e8c60555"/>
+    <valueManagerType typeId="7cccb9c9-69e3-4ce3-8040-94eac7036732" valueTypeId="2a37fbf9-1983-4c55-a439-1650fcde73c7"/>
+    <valueKeyType typeId="9b4b4214-90d0-50a8-9148-046d70457a4a" valueTypeId="26897541-b1a9-56e2-8b73-754abf1d5f19"/>
+  </producedTypes>
+  <name>ШиринаВидеоПоУмолчаниюСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ширина видео по умолчанию</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <format>
+    <key>ru</key>
+    <value>ЧН=640</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ЧН=640</value>
+  </editFormat>
+  <toolTip>
+    <key>ru</key>
+    <value>Ширина видео, которая будет установлена по умолчанию при конвертации</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a81d05a-90d9-4910-9b82-0ed3fd2d5c10">
+  <name>ПоказыватьУрокиПоРаботеСКонструкторомСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать уроки по работе с конструктором электронных ресурсов</value>
+  </synonym>
+  <location>Constant.ПоказыватьУрокиПоРаботеСКонструкторомСУЗ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.УрокСУЗ</content>
+</mdclass:FunctionalOption>

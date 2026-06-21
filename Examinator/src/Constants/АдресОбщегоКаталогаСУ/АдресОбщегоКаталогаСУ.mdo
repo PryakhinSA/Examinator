@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13ca9ad5-d6cb-4e61-a52d-c0a867f54e75">
+  <producedTypes>
+    <managerType typeId="c6b6a8b2-36bd-4f4b-8733-5c0b716d7da3" valueTypeId="b6c35499-8f34-43bf-a96a-cb64c4772a72"/>
+    <valueManagerType typeId="b5d8485f-e4dc-4446-94a4-1a8392d42ed1" valueTypeId="b00dbeda-0c9a-4c2f-b7a6-ce3e2f103ffa"/>
+    <valueKeyType typeId="0588eb5e-34b7-5ae2-95b7-a3ec917fae22" valueTypeId="3b38f59c-6283-5294-9ad0-d58295680c05"/>
+  </producedTypes>
+  <name>АдресОбщегоКаталогаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес общего каталога</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Указывается адрес (URL) общего каталога на сервере. Параметр используется для отображения электронных ресурсов через веб-клиент.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

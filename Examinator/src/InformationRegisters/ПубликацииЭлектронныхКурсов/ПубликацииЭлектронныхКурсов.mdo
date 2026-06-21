@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="541342f1-e1a0-405a-bb15-e5442a13e775">
+  <producedTypes>
+    <selectionType typeId="0d5d30ae-f86c-4f34-ba5d-74121ec3cfae" valueTypeId="f86fe95b-8abe-437d-aaa7-67febc96ce86"/>
+    <listType typeId="c9438aa8-29f0-4f34-9330-e71f4891fe7b" valueTypeId="3097c86f-06c3-4342-8639-a409cfb15544"/>
+    <managerType typeId="5978cf76-e91f-4d64-beb2-ac6a9b738996" valueTypeId="2f7a9148-32c7-420f-a5d9-20517d7c44db"/>
+    <recordSetType typeId="c09fbdc5-8c2f-4265-b4b9-ec5fba3120f8" valueTypeId="c37cc6f7-e459-47d8-986b-9c39beb728a8"/>
+    <recordKeyType typeId="fdd83b12-b0ca-4d63-b530-91b82897c06c" valueTypeId="ec430604-1190-481a-8c86-c3f2cd2b2d6f"/>
+    <recordType typeId="2709bc63-c7db-4fbc-9613-d969c4eadeb5" valueTypeId="a67fc3f8-a7e4-4073-b6d2-0f8eecaae651"/>
+    <recordManagerType typeId="f8ba31a3-a640-4f58-bebe-3e4cfd181f2a" valueTypeId="b134f5b5-dd5e-4d8a-a6d4-a5337aaf85c0"/>
+  </producedTypes>
+  <name>ПубликацииЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Публикации электронных курсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8196952c-c718-44b1-8579-5639961c3111">
+    <name>ДатаПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата публикации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="7f40b2ea-38cc-457c-ac6a-e003a5ff9051">
+    <name>СтруктураКурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура курса</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d817bbe-cd19-4f68-8cc9-cac142bb18c5">
+    <name>Ресурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b84caa1-2353-4d74-ab5b-33019d60399b">
+    <name>ЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный курс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

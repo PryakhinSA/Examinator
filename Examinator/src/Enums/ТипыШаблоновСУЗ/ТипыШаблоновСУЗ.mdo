@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e77e6f97-52ba-4cf4-8261-e99af7c57da1">
+  <producedTypes>
+    <refType typeId="383e25f8-df1e-439b-bedd-3cdc6cae4d4e" valueTypeId="c1a98536-67f8-4bb1-9a68-1925f31adcd4"/>
+    <listType typeId="e14f91c2-d79e-4cca-9c65-b0c627ebd963" valueTypeId="05749a22-f3b9-4282-98dc-8238250bb442"/>
+    <managerType typeId="6c53d8e6-67ea-476c-b1b6-cd82cdd9f3e6" valueTypeId="eb783b83-e9f5-4917-b0c8-47efd7a3b98b"/>
+  </producedTypes>
+  <name>ТипыШаблоновСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы шаблонов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="2ff8799b-6bc0-436a-9a41-26231d3fa593">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b6ffb85-ed61-43a6-8ca5-4091098c3ed5">
+    <name>Скрипт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

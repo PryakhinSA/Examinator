@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae8ef5ad-f265-44d7-9746-fc58a45d19df">
+  <producedTypes>
+    <refType typeId="3c0f63ad-6e92-4252-8be8-8a258a98bb0d" valueTypeId="805b14a8-886a-42ce-99ec-c5906ca2b1bc"/>
+    <listType typeId="dfc84083-92da-497d-86a6-695ee4e9b871" valueTypeId="9b51d624-6d35-48b7-b615-4002f644b045"/>
+    <managerType typeId="f7a4a949-d6a6-4aa1-a07b-13b9de062a88" valueTypeId="57bb33fb-71c1-4eda-9d82-19b45ab348b5"/>
+  </producedTypes>
+  <name>ТипыДанныхВебКабинетаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных веб-кабинета электронных ресурсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1f51c6f-94a8-43f6-91bc-544cf5975852">
+    <name>КаталогЭлектронныхРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог электронных ресурсов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa94773e-0fdc-482a-8daf-153ab4f4ec57">
+  <producedTypes>
+    <refType typeId="68679398-a8b3-4ea0-938f-e541d7de4ff4" valueTypeId="bcb045ad-2006-4889-a5a6-4869faa76b1a"/>
+    <listType typeId="c2441bd1-3064-409a-a444-e5d1de18b452" valueTypeId="fee5d92a-8ba3-49d0-a439-f7d64080420e"/>
+    <managerType typeId="b03aeddf-df77-4e1b-a0fb-f35066479f48" valueTypeId="8d069618-b7b9-4553-be8d-bf693a1bcdc5"/>
+  </producedTypes>
+  <name>ОтборыДанныхВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отборы данных веб-кабинета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a5cca27-6ed2-4235-8cea-ed4d62017431">
+    <name>Активные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="803c1ccf-a567-4cc4-86f0-fdb4796e4e50">
+    <name>Открытые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0320c56-b295-44e9-87f3-c52bd091ccce">
+    <name>Видимые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e995bea8-c97c-4730-889c-3438129dc250">
+    <name>Входящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4e83297-a0e6-473c-b8d5-38db607c33f6">
+    <name>Исходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0e497ed-c470-46f8-8c7d-bf208c1b37c2">
+    <name>Удаленные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1206075e-9cbd-4338-98af-40966bc74189">
+    <name>Помеченные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помеченные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2527cbd3-4d83-4ccc-ba41-8b5e123f40fd">
+    <name>Завершенные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершенные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

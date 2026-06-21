@@ -1,0 +1,40 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/1/TeacherActivity">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/lms/1/Book"/>
+	<import namespace="http://v8.1c.ru/lms/1/ElectronicResource"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduFiles"/>
+	<import namespace="http://v8.1c.ru/lms/1/UserActivity"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduMarks"/>
+	<import namespace="http://v8.1c.ru/lms/3/EduTemplate"/>
+	<objectType name="ПроведениеПреподавателемОбучения" ordered="false">
+		<property name="Наименование" type="xs:string"/>
+		<property name="СтатусПреподавания" type="xs:integer"/>
+		<property name="СтатусПреподаванияСтрока" type="xs:string"/>
+		<property name="Проведено" type="xs:boolean"/>
+		<property name="ДатаНачалаПроведенияЧисло" type="xs:integer"/>
+		<property name="ДатаОкончанияПроведенияЧисло" type="xs:integer"/>
+		<property name="ПериодСтрока" type="xs:string" lowerBound="0"/>
+		<property name="СкрытьВремяПроведения" type="xs:boolean"/>
+		<property name="ДатаКонтроляЧисло" type="xs:integer"/>
+		<property name="ДатаКонтроляСтрока" type="xs:string" lowerBound="1"/>
+		<property name="Аудитория" type="xs:string"/>
+		<property name="Территория" type="xs:string"/>
+		<property name="КомментарийПреподавателюОтМенеджера" type="xs:string"/>
+		<property name="КомментарийПреподавателюОтМенеджераКонтекстный" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ПроведениеПреподавателемОбучения" type="d3p1:DocumentRef.ПроведениеПреподавателемОбученияСУО"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ПроведениеОбучения" type="d3p1:DocumentRef.ПроведениеОбученияСУО"/>
+		<property name="АдресВИнтернете" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="Ресурсы" type="d3p1:Ресурсы"/>
+		<property name="ДоступенРазделФорума" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/1/UserActivity" name="ЕдинственноеЗадание" type="d3p1:Задание"/>
+		<property name="ВыставляетсяОценка" type="xs:boolean"/>
+		<property name="КоличествоЗаданий" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduMarks" name="ШкалаОценок" type="d3p1:ШкалаОценок"/>
+		<property name="ЭлектронноеОбучение" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/lms/3/EduTemplate" name="Сценарий" type="d3p1:Сценарий"/>
+		<property name="РазрешеноУчащимсяПрикреплятьФайлы" type="xs:boolean"/>
+		<property name="ЗавершаетсяАвтоматически" type="xs:boolean"/>
+		<property name="Картинка" type="xs:string"/>
+	</objectType>
+</package>

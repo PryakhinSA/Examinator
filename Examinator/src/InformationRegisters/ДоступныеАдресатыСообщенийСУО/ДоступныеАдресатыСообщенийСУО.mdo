@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75c32860-a085-4566-9fb7-7bee9ef9edbb">
+  <producedTypes>
+    <selectionType typeId="c339ed30-4b6b-4b9d-9ad0-6ebe633c90a8" valueTypeId="61536de8-a286-44e9-a4c7-c9c1aff9f382"/>
+    <listType typeId="fc8c8999-f577-40a7-885a-18bfd5d1f13d" valueTypeId="f9bea09f-f6c5-499a-8f77-7a28d7708918"/>
+    <managerType typeId="3dfbe2a8-ba1f-46b8-89fa-2c950af4f5e9" valueTypeId="117fbdd0-f793-44cf-b395-a5b1d1246ddd"/>
+    <recordSetType typeId="38ec9535-442a-40f0-904a-dc1bc4fc5a59" valueTypeId="cf3c6631-6d3f-49e6-b49e-8d332dd157d3"/>
+    <recordKeyType typeId="08067e4a-257e-4f9e-a6b9-c8cc0f82aaf7" valueTypeId="97dbf428-61ab-4452-95fa-57079412992b"/>
+    <recordType typeId="914a9366-69ef-4423-bd4d-df2d374d478d" valueTypeId="ceaff4d6-d8ca-412a-8a2c-349bb58761e0"/>
+    <recordManagerType typeId="f179a62c-2a6c-4143-9f28-bef0b47228f3" valueTypeId="8b2cb003-8765-460e-ac32-7372e8353467"/>
+  </producedTypes>
+  <name>ДоступныеАдресатыСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступные адресаты обсуждений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДоступныеАдресатыСообщенийСУО.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Адресат сообщения</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Доступный адресат сообщения</value>
+  </extendedRecordPresentation>
+  <dimensions uuid="3108fc08-0301-4e50-87e4-3802a6c0b820">
+    <name>АдресатОбсуждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат обсуждения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АдресатыСообщенийСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="79e46187-0fdf-4152-a96a-001ef469fb43">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

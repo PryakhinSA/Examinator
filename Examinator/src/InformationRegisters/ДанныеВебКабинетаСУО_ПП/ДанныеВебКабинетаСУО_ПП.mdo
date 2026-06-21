@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0857a1ff-6230-4ad9-b5e7-5fd3e9e50584">
+  <producedTypes>
+    <selectionType typeId="27dabce5-2d59-4aea-8af0-e73b718b6525" valueTypeId="3532c598-d51d-49f9-a2c7-c2640cf780c1"/>
+    <listType typeId="d318a01f-7d9f-48f4-ba23-3fc3b1d090ed" valueTypeId="595f9327-2ea9-4bc2-8123-de5ff754cc3a"/>
+    <managerType typeId="9d77cd2d-9456-47f6-a939-a79ce4ca7d8c" valueTypeId="decaf35c-12c9-437f-86a8-6aec7ce206cf"/>
+    <recordSetType typeId="a880a458-0d4c-43e7-bed4-eeca0242f7da" valueTypeId="b64340be-b641-4cbd-81d4-88157b1ba614"/>
+    <recordKeyType typeId="af446da7-b88a-4216-ac8b-1e5b36391254" valueTypeId="4836183c-22b8-4773-b4fc-66fd15f1f340"/>
+    <recordType typeId="a7b5e618-2e47-48fb-a65b-af5b2ac9e500" valueTypeId="a9e5828c-e31b-4cb0-9322-04f8f8c53653"/>
+    <recordManagerType typeId="0060b4e8-7f24-4bf3-ad16-75847031e076" valueTypeId="9099972a-8253-43b8-b465-c3ea6406fd49"/>
+  </producedTypes>
+  <name>ДанныеВебКабинетаСУО_ПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные веб-кабинета обучения (пользовательские, периодические)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДанныеВебКабинетаСУО_ПП.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="fe67e05b-6b74-4b59-8d5a-791396a252a6">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb6e87b4-c34f-409c-abe0-30b726833075">
+    <name>Формат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФорматыВебДанныхСУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ffbe707-28fd-43b8-8fb7-cab9a7d153c1">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5fc7a0ac-5ac8-4475-9786-cf845e351b86">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="40497e41-33c2-441b-bff7-cc5889e5573d">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыДанныхВебКабинетаСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9fb4902e-80e2-4cb7-8fb6-e4e08368f6bd">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5afdda4a-fa8b-4902-802b-32b587aa2177">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

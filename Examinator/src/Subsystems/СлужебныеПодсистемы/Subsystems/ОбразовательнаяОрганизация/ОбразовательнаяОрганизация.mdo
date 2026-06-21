@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19a38aa1-c6ba-43cf-901f-3c86d9106a6c">
+  <name>ОбразовательнаяОрганизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Образовательная организация</value>
+  </synonym>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Предприятие</picture>
+  </picture>
+  <content>Catalog.Заметки</content>
+  <content>InformationRegister.НапоминанияПользователя</content>
+  <content>Constant.ОбразовательнаяОрганизацияОО</content>
+  <content>FunctionalOption.ОбразовательнаяОрганизацияОО</content>
+  <content>Report.ИспользованиеЭлектронныхРесурсовОО</content>
+  <content>Report.ОтветыНаВопросыОО</content>
+  <content>Report.РезультатыТестированийОО</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

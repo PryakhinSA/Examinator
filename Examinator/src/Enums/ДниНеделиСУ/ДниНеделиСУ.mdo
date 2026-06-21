@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a957d70-c9e1-4754-ad00-fe8016ccb519">
+  <producedTypes>
+    <refType typeId="2af2f811-ee4e-431b-b520-6ee0ee902ff8" valueTypeId="9097a6d8-303f-44e9-bc44-bb2d9302349c"/>
+    <listType typeId="5a9cee9c-4e87-4b5f-9aab-2143d0f0e655" valueTypeId="5075b75d-8aa8-48d1-9d97-c16665560a24"/>
+    <managerType typeId="c8cd811f-c29b-4a3f-be13-b669c6ae19e8" valueTypeId="024b7280-4968-41ff-b0ca-4a959eba8ea3"/>
+  </producedTypes>
+  <name>ДниНеделиСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни недели</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9121358c-0fd9-42de-820a-87ca97f20bf1">
+    <name>Понедельник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Понедельник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1e60d37-1aa2-48b4-afa5-29d675c1c851">
+    <name>Вторник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25f038f2-2a2f-456d-a2b6-a71574ca2487">
+    <name>Среда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3beeac87-cff1-43c1-89a8-dea4ed9105b6">
+    <name>Четверг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четверг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86e89352-c84c-4358-89b5-afc360f2bf31">
+    <name>Пятница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="132f572b-cd4c-458d-9770-08ad7ef4ab70">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cdd87af-ac2c-4356-a613-b37ecbad1f90">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

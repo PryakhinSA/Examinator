@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28fff23c-45f9-4ae7-9e59-59b970ab9db1">
+  <producedTypes>
+    <refType typeId="9033c359-197f-4ae6-9669-c1222392b1d5" valueTypeId="ca2ab57a-d435-43cc-b714-e01f0b6e836b"/>
+    <listType typeId="6d7a6f97-7ef8-494c-9a49-2d7e14eb6746" valueTypeId="c493ad2c-a4d8-4bbb-a06e-764750cbeb5a"/>
+    <managerType typeId="b7116f9f-3f6c-40c5-9874-8dfe83377c0d" valueTypeId="a030793a-73ca-489d-9622-d3f81d520f69"/>
+  </producedTypes>
+  <name>СпособыПодключенияКУчебнойИнформационнойБазе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы подключения к учебной информационной базе</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="df5b6da5-30e8-4df6-8f53-225ca6082d5f">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>На сервере 1С:Предприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e2e0185-50f7-47c8-847c-c291db6209db">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>На данном компьютере или на компьютере в локальной сети</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d95afdff-00c4-4036-b471-b99800766710">
+    <name>ВебСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>На веб-сервере</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68b01958-f010-4387-bbd6-498784591136">
+  <producedTypes>
+    <refType typeId="7a198aff-d40c-4bfc-ab67-e1da23615694" valueTypeId="ec9771b2-fd91-425f-8600-5698866ea0e6"/>
+    <listType typeId="0bcc4fe4-f255-42dc-acc7-2579932ae4b1" valueTypeId="f9be0019-a049-4ec1-94b5-af77e5c830cf"/>
+    <managerType typeId="1c889657-9d14-49cc-8af3-f9826ad65c5e" valueTypeId="c0651036-622b-4f9a-9f88-d518ab15cd54"/>
+  </producedTypes>
+  <name>ВариантыПримененияУсловийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты применения условий зачисления участников обучения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4583fa52-7fc7-4cf2-9a6c-f83ffa9a8947">
+    <name>ИЛИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется хотя бы одно условие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33cc58bb-c245-4dd8-aee8-4620a220abed">
+    <name>И</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняются все условия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,163 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:b="http://v8.1c.ru/lms/1/Book">
+
+<xsl:output method="html"/>
+
+<xsl:template match="/">
+
+	<html>
+
+	<head>
+	
+		<style>
+		
+			.NameRazdel {
+				text-align: left;
+				border-bottom: 1px solid black;
+				font-style: italic; 
+			}
+		
+		</style>
+	
+	</head>
+
+	<body>
+		<xsl:call-template name="template_book"/>
+	</body>
+	
+	</html>
+	
+</xsl:template>
+
+<xsl:template name="template_book">
+	<xsl:apply-templates select="b:Книга"/>
+</xsl:template>
+
+<xsl:template match="b:Книга">
+	
+	<h2>
+	
+		<xsl:if test="b:ВебСсылка = '' or count(b:ВебСсылка) = 0">
+			<xsl:value-of select="b:Наименование" disable-output-escaping="yes"/>
+		</xsl:if>
+	
+		<xsl:if test="b:ВебСсылка != ''">
+			<a target="_blank">
+				<xsl:attribute name="href">?book=<xsl:value-of select="b:id" disable-output-escaping="yes"/></xsl:attribute>
+				<xsl:value-of select="b:Наименование" disable-output-escaping="yes"/>
+			</a>
+		</xsl:if>	
+	
+		
+	</h2>
+	
+	<div style="margin-bottom: 10px;">
+		<xsl:apply-templates select="b:УДК"/>
+		<xsl:apply-templates select="b:ББК"/>
+		<xsl:apply-templates select="b:ISBN"/>
+	</div>
+	
+	<xsl:apply-templates select="b:Описание"/>
+	<xsl:apply-templates select="b:Авторы"/>
+	<xsl:apply-templates select="b:Содержание"/>
+	<xsl:apply-templates select="b:КлючевыеСлова"/>
+	<xsl:apply-templates select="b:ДополнительныеРеквизиты"/>
+	
+</xsl:template>
+
+<xsl:template match="b:Описание">
+	<div style="margin-bottom: 10px;"><xsl:value-of select="." disable-output-escaping="yes"/></div>
+</xsl:template>
+
+<xsl:template match="b:УДК">
+	УДК: <xsl:value-of select="." disable-output-escaping="yes"/>;
+</xsl:template>
+
+<xsl:template match="b:ББК">
+	ББК: <xsl:value-of select="." disable-output-escaping="yes"/>;
+</xsl:template>
+
+<xsl:template match="b:ISBN">
+	ISBN: <xsl:value-of select="." disable-output-escaping="yes"/>;
+</xsl:template>
+
+
+<xsl:template match="b:Содержание">
+	
+	<div class="NameRazdel">Содержание</div>
+
+	<ul style="list-style-type:none;">
+    	<xsl:apply-templates select="b:ЭлементСодержания"/>	
+	</ul>
+	
+	
+</xsl:template>
+
+<xsl:template match="b:ЭлементСодержания">
+	
+	<li>
+	
+		<xsl:attribute name="level"><xsl:number level="multiple" /></xsl:attribute>
+		
+		<xsl:if test="b:Выделен = 'true'">
+			<xsl:attribute name="style">text-decoration: underline;</xsl:attribute>
+		</xsl:if>
+		
+		<xsl:value-of select="b:Наименование" disable-output-escaping="yes"/>
+
+		<xsl:if test="count(b:ЭлементСодержания) > 0">
+			<ul style="list-style-type:none;">
+				<xsl:apply-templates select="b:ЭлементСодержания"/>	
+			</ul>
+		</xsl:if>
+
+	</li>
+	
+</xsl:template>
+
+<xsl:template match="b:Авторы">
+	
+	<div class="NameRazdel">Авторы</div>
+
+	<ul style="list-style-type:none;">
+    	<xsl:apply-templates select="b:Автор"/>	
+	</ul>
+	
+</xsl:template>
+
+<xsl:template match="b:Автор">
+	<li><xsl:value-of select="b:ФИО" disable-output-escaping="yes"/></li>
+</xsl:template>
+
+<xsl:template match="b:КлючевыеСлова">
+	
+	<div class="NameRazdel">Ключевые cлова</div>
+
+	<div style="margin-bottom: 10px;">
+		<xsl:apply-templates select="b:Слово"/>	
+	</div>
+	
+</xsl:template>
+
+<xsl:template match="b:Слово">
+	<xsl:value-of select="." disable-output-escaping="yes"/>;
+</xsl:template>
+
+<xsl:template match="b:ДополнительныеРеквизиты">
+	
+	<div class="NameRazdel">Дополнительные реквизиты</div>
+
+	<table>
+		<xsl:apply-templates select="b:Реквизит"/>	
+	</table>
+	
+</xsl:template>
+
+<xsl:template match="b:Реквизит">
+	<tr>
+		<td><xsl:value-of select="b:Имя" disable-output-escaping="yes"/>:</td>
+		<td><xsl:value-of select="b:Значение" disable-output-escaping="yes"/></td>
+	</tr>
+</xsl:template>
+
+
+</xsl:stylesheet>

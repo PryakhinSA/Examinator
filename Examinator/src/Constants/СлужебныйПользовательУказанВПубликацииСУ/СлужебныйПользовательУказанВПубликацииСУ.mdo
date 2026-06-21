@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a2c707b-857f-4125-ab38-9cdb5d127c05">
+  <producedTypes>
+    <managerType typeId="06e17f6e-e221-4d0f-877d-1b98d377c14d" valueTypeId="7c33ddaf-89a1-4a5a-a114-46504b7c5374"/>
+    <valueManagerType typeId="02977bbf-1b15-40e6-b115-656ec3c797c8" valueTypeId="dfcbc9e7-abdc-40c4-bb3e-99e9885a5cad"/>
+    <valueKeyType typeId="ed5d64ca-2da5-5339-b284-40e9ae43a958" valueTypeId="61196638-81c3-5fe4-9d95-13cf6fb488ca"/>
+  </producedTypes>
+  <name>СлужебныйПользовательУказанВПубликацииСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебный пользователь указан в файле default.vrd</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

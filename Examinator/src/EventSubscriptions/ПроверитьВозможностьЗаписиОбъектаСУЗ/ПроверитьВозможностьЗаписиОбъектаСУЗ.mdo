@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="542834fc-c857-4dc2-aa25-9afc7adc8627">
+  <name>ПроверитьВозможностьЗаписиОбъектаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить возможность записи объекта</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.РубрикаторыСУЗ</types>
+    <types>CatalogObject.КлассификационныеГруппировкиСУЗ</types>
+    <types>CatalogObject.ПространстваИменШаблоновСУЗ</types>
+    <types>CatalogObject.КлассификаторОбъектовСУЗ</types>
+    <types>CatalogObject.ЗависимыеРесурсыСУЗ</types>
+    <types>CatalogObject.ОпределенияТерминаСУЗ</types>
+    <types>CatalogObject.СтраницыСУЗ</types>
+    <types>CatalogObject.СодержаниеГлоссарияСУЗ</types>
+    <types>CatalogObject.СводыЗнанийСУЗ</types>
+    <types>CatalogObject.СлотыФреймаСУЗ</types>
+    <types>CatalogObject.ФайлыСУЗ</types>
+    <types>CatalogObject.СложностиТестовСУЗ</types>
+    <types>ChartOfCharacteristicTypesObject.пФреймыСУЗ</types>
+    <types>CatalogObject.ЭлементыПодборкиСУЗ</types>
+    <types>CatalogObject.ФреймыСУЗ</types>
+    <types>CatalogObject.КартыСУЗ</types>
+    <types>CatalogObject.ШаблоныСУЗ</types>
+    <types>CatalogObject.ВариантыОтветовНаВопросСУЗ</types>
+    <types>CatalogObject.ШаблоныТекстаСУЗ</types>
+    <types>CatalogObject.ШаблоныДокументовСУЗ</types>
+    <types>CatalogObject.НастройкиИнтерактивногоРесурсаСУЗ</types>
+    <types>CatalogObject.ДополнительныеШаблоныСУЗ</types>
+    <types>CatalogObject.ПрограммныеПродуктыСУЗ</types>
+    <types>CatalogObject.РесурсыСУЗ</types>
+    <types>CatalogObject.РесурсыОбъектовСУЗ</types>
+    <types>CatalogObject.СхемаАнализаПсихологическогоТестированияСУЗ</types>
+    <types>CatalogObject.ВопросыСУЗ</types>
+    <types>CatalogObject.СодержаниеСУЗ</types>
+    <types>CatalogObject.ФасетыВопросовСУЗ</types>
+    <types>CatalogObject.ТерминыСУЗ</types>
+    <types>CatalogObject.СсылкиОбъектовСУЗ</types>
+    <types>CatalogObject.ЭлементыРубрикатораСУЗ</types>
+    <types>CatalogObject.ЭлементыПодборкиИзРубрикатораСУЗ</types>
+    <types>CatalogObject.КомментарииКТестамСУЗ</types>
+    <types>CatalogObject.ГлоссарииСУЗ</types>
+    <types>CatalogObject.ПодборкиСУЗ</types>
+    <types>CatalogObject.КатегорииВариантовОтветовНаВопросСУЗ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РазработкаСУЗ.ПроверитьВозможностьЗаписиОбъектаСУЗПередЗаписью</handler>
+</mdclass:EventSubscription>

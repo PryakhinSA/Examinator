@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1561cb8d-33f4-4fd8-9c1d-30ffaea2828e">
+  <producedTypes>
+    <selectionType typeId="dc9fc74c-e593-4d98-b482-da365a13a0ef" valueTypeId="37367786-02d7-4b18-aa36-0dd7e38a22e5"/>
+    <listType typeId="0cb4a24d-55e7-40d6-aa24-3e4d0ea9b3cc" valueTypeId="b631a755-95eb-4908-8812-9680d1b33554"/>
+    <managerType typeId="32808150-6565-4910-86fe-17740111e784" valueTypeId="457eafe2-adbf-414b-a6c3-d90acd163976"/>
+    <recordSetType typeId="b501b441-f897-4c16-afb3-06141733411a" valueTypeId="3bd46dbc-7af6-4e7e-9b24-ac194acf1acf"/>
+    <recordKeyType typeId="df64256f-7170-4391-9c3d-a0bdc3e18ef4" valueTypeId="250391e3-03f4-4318-9a1b-d38c82e3346a"/>
+    <recordType typeId="54127f02-aa93-4d71-b2ac-36af352df94b" valueTypeId="aae17283-8cac-4e06-9f5e-4ab2e24b442d"/>
+    <recordManagerType typeId="f48efa62-2121-4ff4-bd3d-3c501848ad66" valueTypeId="fffc0eda-ce3f-4efe-9cf3-4c5bfe03c3c1"/>
+  </producedTypes>
+  <name>ТестыНаПроверкуСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тесты на проверку</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ТестыНаПроверкуСУЗ.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="00fa3a8b-aadb-456d-aafb-8adf267221e0">
+    <name>Проверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0c318f46-2d5b-416f-8e6c-4a0c7063a0af">
+    <name>ЭлектронныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fb7ea3ac-27bf-4bf6-a93c-e1ab5e68a999">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="daf8aa2d-6888-4824-abb3-62be2014ae17">
+    <name>ПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрохождениеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прохождение обучения, в рамках которого выполняется прохождение электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a0046a52-f65a-472c-a87a-34bd58e2e5df">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ЗаданиеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задание, в рамках которого выполняется прохождение электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="db8dfaa1-a2bc-454a-926d-961f74df95b0">
+    <name>ЭлементСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент содержания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент содержания электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1bf3a17c-9e0b-4209-a63f-977270b9dcf9">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодборкиСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="be705772-8bf4-4333-9fda-8be70fbd1293">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="84e76f3a-0a6d-419a-9c60-30049a41e713">
+    <name>ТестыНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тесты на проверку</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

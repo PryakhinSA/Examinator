@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0357971f-7ac5-4ebc-b042-44ea7b62c8a4">
+  <producedTypes>
+    <objectType typeId="9e874572-0e4e-4a8e-85ce-7d305fb80674" valueTypeId="acafdec3-c2f7-4096-84fb-035e98eceb75"/>
+    <refType typeId="a40b5439-4c7f-47ee-84ed-de393715a9e0" valueTypeId="0d533562-a1d8-4946-a772-6413efe90e07"/>
+    <selectionType typeId="5b693c3b-01ed-4b67-a6ca-1de8ab7865d0" valueTypeId="56b06b27-fe31-4b24-b99f-d8e831142b3b"/>
+    <listType typeId="0ae43e27-a5be-48cd-bafc-5fbfba1a08ef" valueTypeId="215ae7dc-c4c1-485b-944c-3f877b48332d"/>
+    <managerType typeId="765538e9-79a7-4208-b7db-3a21f0c30cc5" valueTypeId="8623efa5-7fd3-4e4d-8040-ffec22fb21b5"/>
+  </producedTypes>
+  <name>СессияЭлектронногоРесурсаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессия электронного ресурса</value>
+  </synonym>
+  <inputByString>Document.СессияЭлектронногоРесурсаСУЗ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сессия</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сессии</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СессияЭлектронногоРесурсаСУЗ.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>InformationRegister.ТестыНаПроверкуСУЗ</registerRecords>
+  <registerRecords>InformationRegister.ОтветыНаВопросыСУЗ</registerRecords>
+  <registerRecords>InformationRegister.ПрохожденияЭлектронныхРесурсовСУЗ</registerRecords>
+  <registerRecords>InformationRegister.ВопросыТестированийСУЗ</registerRecords>
+  <registerRecords>InformationRegister.ПовторноеПрохождениеЭлектронныхРесурсовСУЗ</registerRecords>
+  <registerRecords>InformationRegister.ВыбранныеВариантыОтветовВопросовСУЗ</registerRecords>
+  <registerRecords>InformationRegister.ПопыткиПрохожденияЭлектронныхРесурсовСУЗ</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e018c7d6-22bb-4500-9ac5-0070feda4904">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76c4437f-fa5d-4250-9f4e-3ee510335d9e">
+    <name>ЭлектронныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Изучаемый пользователем электронный ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c48c4cf-9dca-4fce-9ef9-f9f4e46696df">
+    <name>ПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение обучения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрохождениеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прохождение пользователем обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e43962e5-ae0f-4ad9-ad7e-b0adb0e23e96">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ЗаданиеЭлектронногоОбучения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задание, которое выполняет пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d39cc472-1b03-4215-a75b-f3b5e68b5599">
+    <name>РодительскаяСессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительская сессия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СессияЭлектронногоРесурсаСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сессия к которой относится текущая сессия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30f31943-f49f-48f2-af9c-6988851d57e5">
+    <name>ТипСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сессии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСессийЭлектронныхРесурсовСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип сессии элемента электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7f5ae0b-a8e4-4383-ae05-a35f234fc25c">
+    <name>КонтрольнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрольная сумма электронного ресурса, который изучал пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3ebe2cb-8b13-42b3-a30a-ef968006509c">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Данные сессии без обработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0eaa3648-74b2-4ab2-ba66-b0f0a92ed5c9">
+    <name>ДанныеТекстовые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные текстовые</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текстовые данные сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41e17105-99c5-47c0-ad79-1f7f47cb326d">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата записи данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e043c89-ee3c-49c6-a4f2-10c17cfe4f68">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bcd70075-8f96-463e-8cff-38486f4ee6ad">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e7632ea3-b1e3-49c3-bb7c-f110751fe302">
+    <producedTypes>
+      <objectType typeId="29210876-fd98-4588-9a4b-618be2e4ff67" valueTypeId="f38b3b3e-b531-4e28-b366-1c39b0de4b80"/>
+      <rowType typeId="5bca79c9-fef1-49fb-b4ac-5728f64a8dec" valueTypeId="db43b91c-fa49-43d6-978a-78eea5cb5cd7"/>
+    </producedTypes>
+    <name>ИсторияИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменений</value>
+    </synonym>
+    <attributes uuid="9fedb80a-946c-4714-bc75-a02c4342e4a6">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата записи данных сессии</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d8b75ad-2212-44d0-be6e-afa9cf9c30dc">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Данные сессии без обработки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c3211fcc-8abf-41f8-972f-6d62c23610dc">
+      <name>ДанныеТекстовые</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные текстовые</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Текстовые данные сессии</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

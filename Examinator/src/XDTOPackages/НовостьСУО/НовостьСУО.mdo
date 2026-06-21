@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75de71e6-7e82-4fd1-bdb4-0a538014c902">
+  <name>НовостьСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новость</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/lms/3/News</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="729362a6-bc95-4f84-b637-6e77e0639310">
+  <name>ВестиИсториюРазработкиЭлектронныхРесурсовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести историю разработки электронных ресурсов</value>
+  </synonym>
+  <location>Constant.ВестиИсториюРазработкиЭлектронныхРесурсовСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.РазработкаЭлектронныхРесурсовСУО</content>
+  <content>InformationRegister.ИсторияРазработкиЭлектронныхРесурсовСУО</content>
+  <content>Report.РазработкаЭлектронныхРесурсовСУО.Command.РазработкаЭлектронныхРесурсов</content>
+  <content>Report.РазработкаЭлектронныхРесурсовСУО.Command.РазработкаЭлектронногоРесурса</content>
+</mdclass:FunctionalOption>

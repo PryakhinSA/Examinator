@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ad6cfe0-a7f7-4574-a8c6-3f608f1f0c95">
+  <producedTypes>
+    <selectionType typeId="5fbc1b2f-c396-4f0e-9b2a-fc16de5bbb45" valueTypeId="16329804-b537-4be3-b960-05ec73c2ea5e"/>
+    <listType typeId="25ad5fce-c18f-4455-a339-ede4cffab194" valueTypeId="a9893fe9-188c-4e32-a8a5-d6080cfa6541"/>
+    <managerType typeId="d5b46af9-4e91-47d9-88cd-fb93bb17a9e6" valueTypeId="55f72ae9-ab78-4cd1-bff2-6f86da57b44b"/>
+    <recordSetType typeId="f4764fa1-1b6e-4488-aa51-1d0ffd862212" valueTypeId="c0e1c8a9-e590-4b59-a182-07d7e2fcecad"/>
+    <recordKeyType typeId="af86d44d-164b-40e4-82b4-f877f1c73828" valueTypeId="7000b6c8-25de-4400-b3cc-66e0d59ec6b2"/>
+    <recordType typeId="744b93a4-c873-46b7-9b90-fa31d836c8aa" valueTypeId="ec663ab5-5e10-458c-9eb3-24d2e8927e09"/>
+    <recordManagerType typeId="a0e3f82e-028c-4979-944e-0b384117eade" valueTypeId="a0a4b0f4-468b-46de-8c6b-595ff93c7d32"/>
+  </producedTypes>
+  <name>ПользователиВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи веб-кабинета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПользователиВебКабинетаСУ.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Пользователь</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Пользователь веб-кабинета</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Пользователь веб-кабинета</value>
+  </extendedListPresentation>
+  <attributes uuid="7bd7813f-839f-42d9-98bc-d5f30885d61b">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Логин пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="2463636e-6705-4994-98ae-c97aa75d015c">
+    <name>СохраняемоеЗначениеПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемое значение пароля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хэш пароля</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="9ef7fd13-e97e-4a7d-a128-b5c1313d02ce">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата создания записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f444cc5-dfbb-4ca2-a85f-90d7da21775b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который добавил пользователя веб-кабинета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ddc758a-22bb-4a22-8e77-bdf13b55c09e">
+    <name>Права</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Список прав пользователя веб-кабинета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="aa4c82e7-3b5a-43a9-8f2f-e80543ac1474">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который имеет доступ к веб-кабинету</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="aac3b6f4-58fc-44a6-bcf4-f01afcb8d609">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="76106506-eb0a-4a7d-8ab4-b621c385df47">
+    <name>ПользователиВебКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи веб-кабинета</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователи, являющиеся пользователями веб-кабинета.</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

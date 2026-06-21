@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="465f50c4-5f3b-4bf3-a8b3-d68e3120ff73">
+  <name>ОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение</value>
+  </synonym>
+  <content>Role.ВебКабинетАдминистрированиеСУО</content>
+  <content>EventSubscription.ДанныеВебКабинетаОбновлениеОбъектовСУО</content>
+  <content>EventSubscription.ДанныеВебКабинетаУдалениеДокументовСУО</content>
+  <content>EventSubscription.ДанныеВебКабинетаОбновлениеДокументовСУО</content>
+  <content>EventSubscription.ДанныеВебКабинетаОбновлениеРегистровСУО</content>
+  <content>CommonModule.ВебКабинетСУО</content>
+  <content>HTTPService.ОбучениеСУО</content>
+  <content>Enum.КатегорииДанныхВебКабинетаСУО</content>
+  <content>Enum.ОтборыДанныхВебКабинетаСУО</content>
+  <content>Enum.ТипыДанныхВебКабинетаСУО</content>
+  <content>Enum.ТипыУчебныхАктивностейСУО</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ОН</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ОП</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ПН</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУО_ПП</content>
+  <content>InformationRegister.ОтборыДанныхВебКабинетаСУО_О</content>
+  <content>InformationRegister.ОтборыДанныхВебКабинетаСУО_П</content>
+  <content>EventSubscription.ГруппыПользователейВебКабинетаОбновлениеСУО</content>
+  <content>Enum.ВариантыКалендаряВебКабинетаСУО</content>
+  <content>Role.ВебКабинетУправлениеПользователямиСУО</content>
+  <content>InformationRegister.ОтложенныеЗаданияНаПроверкуСУО</content>
+  <content>Enum.ВариантыРазмещенияОтчетовВебКабинетаСУО</content>
+  <content>Enum.ГруппировкиОбученийВебКабинетаСУО</content>
+  <parentSubsystem>Subsystem.ВебКабинетСУ</parentSubsystem>
+</mdclass:Subsystem>

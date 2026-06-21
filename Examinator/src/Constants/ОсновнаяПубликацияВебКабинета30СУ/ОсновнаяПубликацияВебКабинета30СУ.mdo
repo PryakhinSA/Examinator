@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98c72497-868a-4a52-a04c-807a66931caa">
+  <producedTypes>
+    <managerType typeId="b0a84051-6dfa-4b07-b3fd-f7ee66787598" valueTypeId="b018d20c-ca1c-434a-8e79-5be3bf64bc87"/>
+    <valueManagerType typeId="27073b7f-84b8-484b-816b-9ea6a0237d2a" valueTypeId="c6f2665a-1a26-4c99-a0d4-20fe2c061526"/>
+    <valueKeyType typeId="4ba59d32-e774-4d48-a76b-9be59a451609" valueTypeId="59b07095-5139-4bea-b272-d53250f10846"/>
+  </producedTypes>
+  <name>ОсновнаяПубликацияВебКабинета30СУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная публикация веб-кабинета 3.0</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПубликацииВебКабинетаСУ</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

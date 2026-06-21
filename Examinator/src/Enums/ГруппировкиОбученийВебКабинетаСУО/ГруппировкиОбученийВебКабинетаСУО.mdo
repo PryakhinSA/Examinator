@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cdcbfc4-14c9-4705-a84e-8bb03385a34f">
+  <producedTypes>
+    <refType typeId="a60bf184-c468-4718-8b78-7156803c6156" valueTypeId="e18b5020-fc48-4c4c-b4b5-af37fe62876b"/>
+    <listType typeId="833b810c-a602-4ea1-8507-4be85bb7126c" valueTypeId="490a7559-6f8d-47aa-a5f3-358dbfa9a470"/>
+    <managerType typeId="0bc0b8b2-d669-4d9b-816d-791c1d199473" valueTypeId="2749cb87-e2bd-4851-ac96-3c24d16c8c36"/>
+  </producedTypes>
+  <name>ГруппировкиОбученийВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группировки обучений веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6f0dbc6b-1f95-4298-a55a-1245df26c645">
+    <name>БезГруппировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без группировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48fc538b-f0e7-4397-b130-b59132384d90">
+    <name>ВидОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43192240-8710-4f1c-b309-da0c09a2a645">
+    <name>ПрограммаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="002d0ff4-2544-4b39-80f2-de9d2d0f6f30">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93900b0e-75d4-41b6-975d-4d471b2ba8ea">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d6a1bf5-1ad5-4995-8bad-db0886bbd33d">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e87370e-197b-492e-84aa-4121a96eb5a9">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0ade890-af91-4941-8196-0bae559314d2">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

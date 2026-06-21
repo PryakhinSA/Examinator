@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d046816-69df-41b0-bab9-4c13f3dee9cd">
+  <producedTypes>
+    <refType typeId="cf64d8ee-65f4-4a78-ba85-efa94ab7e430" valueTypeId="7b68d0a4-2c0e-4932-95ea-ca9aefd926f0"/>
+    <listType typeId="b016d73c-dd42-4130-9004-bfcb20a8ef37" valueTypeId="9f6c0117-b792-4860-a764-88eca5eceb7b"/>
+    <managerType typeId="1baadd34-7832-4a9f-a820-baf13a35c26f" valueTypeId="6b47797a-a444-4607-a521-484f62fdb693"/>
+  </producedTypes>
+  <name>АлфавитРусскийСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алфавит русский</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11f5cd4e-0f23-4ce5-a5be-001227bbc8d5">
+    <name>А</name>
+    <synonym>
+      <key>ru</key>
+      <value>А</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46c46edf-cc0a-4a8f-9a81-9c061bb20fe8">
+    <name>Б</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c599ab4-38a7-4193-957e-06bd91508f03">
+    <name>В</name>
+    <synonym>
+      <key>ru</key>
+      <value>В</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27457a2e-e523-436c-b9eb-f99caf592433">
+    <name>Г</name>
+    <synonym>
+      <key>ru</key>
+      <value>Г</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3270f7d6-ce85-41a0-b32a-8d34369b9780">
+    <name>Д</name>
+    <synonym>
+      <key>ru</key>
+      <value>Д</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e1b8e42-fcb1-4685-a24d-26c5711e7bce">
+    <name>Е</name>
+    <synonym>
+      <key>ru</key>
+      <value>Е</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05eafe65-e3f2-49d2-a6c0-2bc291b9f03e">
+    <name>Ё</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ё</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28d2658f-c8c0-407a-8fc1-5acdac2dd2bb">
+    <name>Ж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9dcdef91-abba-401f-abcb-beecc96afdaf">
+    <name>З</name>
+    <synonym>
+      <key>ru</key>
+      <value>З</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5a0459f-7506-44d8-8167-933ba6c5a939">
+    <name>И</name>
+    <synonym>
+      <key>ru</key>
+      <value>И</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45840696-ad6a-407b-9c99-266f398bb2e6">
+    <name>К</name>
+    <synonym>
+      <key>ru</key>
+      <value>К</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e381f992-1ede-4fd8-bd7e-f8ad49d333cf">
+    <name>Л</name>
+    <synonym>
+      <key>ru</key>
+      <value>Л</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbc60c60-4b26-4853-a0f5-92b100a2d7e4">
+    <name>М</name>
+    <synonym>
+      <key>ru</key>
+      <value>М</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84f3ee36-1c04-4e89-bd78-94bdf1dee7c3">
+    <name>Н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5212522d-9ecb-4d39-8afc-cef2143b6069">
+    <name>О</name>
+    <synonym>
+      <key>ru</key>
+      <value>О</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="179f7ee3-bb77-4043-9c8d-c05c68985ecc">
+    <name>П</name>
+    <synonym>
+      <key>ru</key>
+      <value>П</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f74bf81-3d78-4677-86ee-1f5508d224e9">
+    <name>Р</name>
+    <synonym>
+      <key>ru</key>
+      <value>Р</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="398990bb-9382-4c7a-adfd-a8b84ffc770b">
+    <name>С</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b76020e7-d409-4c30-89e2-1ceddd20fd14">
+    <name>Т</name>
+    <synonym>
+      <key>ru</key>
+      <value>Т</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9530746e-c7dc-4a9c-b8e0-94c95cf97c36">
+    <name>У</name>
+    <synonym>
+      <key>ru</key>
+      <value>У</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="caf33400-c96c-429d-bb3f-bbf6b04939bf">
+    <name>Ф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3038456e-b600-4d0d-956c-422773c2da6f">
+    <name>Х</name>
+    <synonym>
+      <key>ru</key>
+      <value>Х</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="773de7cd-11c7-463a-8986-402135184683">
+    <name>Ц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a143eef-2b72-49e5-92ea-e8df4750a073">
+    <name>Ч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ч</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01fa1bbf-703c-4d70-b773-bf084fdc43ae">
+    <name>Ш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ш</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0aebcb92-84df-4d73-9137-f7b20b791b65">
+    <name>Щ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Щ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c538b730-5865-4453-919c-ed20749bfcb1">
+    <name>Ъ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ъ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54f1c669-d6cf-4749-9f63-91c4a1d4705b">
+    <name>Ы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1b35b2f-ab8f-4f2f-a046-12adf0944504">
+    <name>Ь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61caa5fc-81f5-4105-ae0e-fb3c9564d3d4">
+    <name>Э</name>
+    <synonym>
+      <key>ru</key>
+      <value>Э</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2db200e9-e075-44cb-b891-284dfaf43d78">
+    <name>Ю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b48c4d6e-75ee-4242-9a77-3b4c2a6316aa">
+    <name>Я</name>
+    <synonym>
+      <key>ru</key>
+      <value>Я</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

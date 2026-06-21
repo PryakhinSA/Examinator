@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54529ab0-d196-419a-90cf-8ccba73a5290">
+  <producedTypes>
+    <refType typeId="d3eb32a7-73ed-447b-b527-59ec629933c4" valueTypeId="ce1c2101-e1ba-4479-9a47-ba50f162608a"/>
+    <listType typeId="b1c1dfff-5ed0-4508-b399-e6b8b1e8f7c9" valueTypeId="5aea664b-456a-4b80-8cd0-41241eb156e6"/>
+    <managerType typeId="6cefeaa2-0e79-4d7b-b037-e3dd798145d3" valueTypeId="c89cae4c-7232-4e9d-8cbd-762e2e787585"/>
+  </producedTypes>
+  <name>ВариантыРазмещенияОтчетовВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты размещения отчетов веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9b844d16-8eef-4d3b-8e9f-23343a8a4d0e">
+    <name>ОбучениеПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение преподавателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07bd6b13-0ebe-4722-9748-3a6d3fefd3d7">
+    <name>СтраницаПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница преподавателя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

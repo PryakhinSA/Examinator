@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13d17b00-2fcc-4230-be8f-fdc5049b8cda">
+  <producedTypes>
+    <objectType typeId="b12439ab-022c-4c16-afc4-625be4e727b3" valueTypeId="06ca0e42-1b0f-42ed-96a5-340a87fc35f3"/>
+    <refType typeId="3e69d255-8076-4253-852e-9ae6432cf0e6" valueTypeId="50492658-6275-436d-870a-f5986964cabc"/>
+    <selectionType typeId="b13f5a7c-a4e8-4cb3-9a09-49952c0c7e28" valueTypeId="e7d65a48-470f-4200-804d-c4d0592f0328"/>
+    <listType typeId="60e0a26c-1cbd-421c-a286-cd408826b1dd" valueTypeId="7b42605e-2452-4497-8347-4fe6af4f2263"/>
+    <managerType typeId="9a0d41f7-3f93-40b3-ae83-3f7238b5a88f" valueTypeId="1969f48c-bf66-4069-bf54-f404922174a2"/>
+  </producedTypes>
+  <name>ТемыСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темы для обсуждений</value>
+  </synonym>
+  <inputByString>Catalog.ТемыСообщенийСУО.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тема</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Тема для обсуждения</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обсуждения</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТемыСообщенийСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТемыСообщенийСУО.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8d89dae2-6efb-4f7a-96c2-a5fe3128497d">
+    <name>Кому</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кому</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АдресатыСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Круг участников обсуждения темы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71ecea70-c5e4-4c1c-acb0-15495e86ef41">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст (общий)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыФорумаСУО</types>
+      <types>CatalogRef.ОрганизаторыСУО</types>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПреподавателемОбученияСУО</types>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>CatalogRef.УчебныеГруппыОО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент, по которому проходит обсуждение темы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8a6f24b-7a99-470c-8782-1192fd6f8f81">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53a6846e-df59-487b-83da-bc2c7bccbf10">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор темы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37b40974-5d58-4617-9bde-d20463ae3442">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата создания новой темы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="adadec4e-7e6d-4b6f-aa54-a2778efc7eaf">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РассылкаСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рассылка, в рамках которой создана тема для обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5539eda6-3bdb-4952-9af0-bf045ee97d5b">
+    <producedTypes>
+      <objectType typeId="a2bf9045-4ebc-41ba-a55f-53d5ff933a0c" valueTypeId="65548d07-5219-4feb-9603-f117dc2db731"/>
+      <rowType typeId="53d174fb-ebf7-4694-b723-3f616261f3fe" valueTypeId="3f1cc1da-71f7-4feb-9971-1df854dee200"/>
+    </producedTypes>
+    <name>ДополнительныеПолучатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные получатели</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b08d8ba2-f24a-44aa-9518-d55268a8eae0">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83acbb82-9fef-47b3-9ff2-7233349edf31">
+      <name>ДатаДобавления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата добавления</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fb3bc585-06d6-495a-89d0-a09eefc511f8">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8f04e873-40e6-48bc-b264-b954351983fc">
+    <producedTypes>
+      <objectType typeId="4c3de739-b879-4758-a94f-74095bc655c3" valueTypeId="53f66e79-027d-492f-bbb5-de36a67b239e"/>
+      <rowType typeId="b6d10d4c-a659-4731-8bd1-195293ac8ca5" valueTypeId="123835ab-ee6f-4f16-9f59-b1e6facb0e64"/>
+    </producedTypes>
+    <name>ИсключенныеПолучатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключенные получатели</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2cec1bc3-c49c-4905-a06f-c1ae04895633">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66af93da-a255-4caf-b6f8-1053e9e1466b">
+      <name>ДатаДобавления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата добавления</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc627cee-b4d3-487c-820f-8b8a2b510ee5">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="92e42c05-ac54-4076-9db2-f9d5d4edc3eb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e10fa74d-1da8-492b-81f7-ca372c0832d1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="30cd9b36-9050-44d2-855d-35d9befca42f">
+    <name>ШаблонОбсуждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон обсуждения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="a4d77a99-7ea0-4566-8eed-fdc6fafcf4fc">
+    <name>ОбщениеПользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по данному пользователю</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="8203bf54-cb32-4f68-a86e-44738046c10e">
+    <name>ОбщениеУчебныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по учебной группе</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="892b4d6b-8d20-4812-96f8-2b88bfe65b55">
+    <name>ОбщениеПроведениеМероприятий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по данному проведению мероприятия</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="cfec591c-5d8d-4fe5-bf61-f0ccf17c6aa1">
+    <name>ОбщениеПроведениеПреподавателемОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеПреподавателемОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по данному проведению мероприятия преподавателем</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="39825a58-e826-4e4f-8026-107b1431308e">
+    <name>ОбщениеПроведениеПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по данному проведению программы обучения</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="f5cc6486-7497-431d-befe-1516bead13b9">
+    <name>ОбщениеПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по данному прохождению мероприятия</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="d5c90dd4-2e81-4a71-8cc7-bd511e1cc602">
+    <name>ОбщениеПрохождениеПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения по данному прохождению программы обучения</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="096af3d5-4eed-49bf-a60a-a5bc1d0d52a3">
+    <name>ОбщениеРассылкаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.РассылкаСообщенийСУО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывает все сообщения рассылки</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Общение</picture>
+    </picture>
+  </commands>
+  <commands uuid="43f7a4d0-f5fe-4d38-8974-5cad5af20726">
+    <name>НаписатьПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать пользователю</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправить личное сообщение пользователю</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Почта</picture>
+    </picture>
+  </commands>
+  <commands uuid="3ea8c55b-cb6e-41ee-b372-c0804cc40192">
+    <name>НаписатьУчебнойГруппе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать обсуждение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать новую тему в разделе форума учебной группы</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.НоваяТемаДляОбсуждений</picture>
+    </picture>
+  </commands>
+  <commands uuid="a012c9ed-2424-4a5f-9dfa-c286c11f4649">
+    <name>НаписатьУчастникамОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать обсуждение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать новую тему в разделе форума участников текущего обучения</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.НоваяТемаДляОбсуждений</picture>
+    </picture>
+  </commands>
+  <commands uuid="9dc8f16a-8f17-4148-aed2-d2f59f08fa9d">
+    <name>НаписатьУчастникамПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать обсуждение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать новую тему в разделе форума участников текущей программы обучения</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.НоваяТемаДляОбсуждений</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

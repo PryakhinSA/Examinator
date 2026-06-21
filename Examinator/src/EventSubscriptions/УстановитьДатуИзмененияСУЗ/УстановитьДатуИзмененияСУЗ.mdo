@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56456ade-a6f2-41a6-89e6-6f1f9c9ed479">
+  <name>УстановитьДатуИзмененияСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить дату изменения</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.РубрикаторыСУЗ</types>
+    <types>CatalogObject.КлассификационныеГруппировкиСУЗ</types>
+    <types>CatalogObject.ПространстваИменШаблоновСУЗ</types>
+    <types>ChartOfCharacteristicTypesObject.ВидыНастроекЭлектронныхРесурсовСУЗ</types>
+    <types>CatalogObject.КлассификаторОбъектовСУЗ</types>
+    <types>CatalogObject.ЗависимыеРесурсыСУЗ</types>
+    <types>CatalogObject.ОпределенияТерминаСУЗ</types>
+    <types>CatalogObject.СтраницыСУЗ</types>
+    <types>CatalogObject.СодержаниеГлоссарияСУЗ</types>
+    <types>CatalogObject.СводыЗнанийСУЗ</types>
+    <types>CatalogObject.СлотыФреймаСУЗ</types>
+    <types>CatalogObject.ФайлыСУЗ</types>
+    <types>CatalogObject.СложностиТестовСУЗ</types>
+    <types>ChartOfCharacteristicTypesObject.пФреймыСУЗ</types>
+    <types>CatalogObject.ЭлементыПодборкиСУЗ</types>
+    <types>CatalogObject.ФреймыСУЗ</types>
+    <types>CatalogObject.КартыСУЗ</types>
+    <types>CatalogObject.ШаблоныСУЗ</types>
+    <types>CatalogObject.ВариантыОтветовНаВопросСУЗ</types>
+    <types>CatalogObject.ШаблоныТекстаСУЗ</types>
+    <types>CatalogObject.ШаблоныДокументовСУЗ</types>
+    <types>CatalogObject.НастройкиИнтерактивногоРесурсаСУЗ</types>
+    <types>CatalogObject.ДополнительныеШаблоныСУЗ</types>
+    <types>CatalogObject.ПрограммныеПродуктыСУЗ</types>
+    <types>CatalogObject.РесурсыСУЗ</types>
+    <types>CatalogObject.РесурсыОбъектовСУЗ</types>
+    <types>ExchangePlanObject.ОбменМатериаламиСУЗ</types>
+    <types>CatalogObject.ПоставщикиСУЗ</types>
+    <types>CatalogObject.СхемаАнализаПсихологическогоТестированияСУЗ</types>
+    <types>CatalogObject.ВопросыСУЗ</types>
+    <types>CatalogObject.СодержаниеСУЗ</types>
+    <types>CatalogObject.ФасетыВопросовСУЗ</types>
+    <types>CatalogObject.ТерминыСУЗ</types>
+    <types>CatalogObject.СсылкиОбъектовСУЗ</types>
+    <types>CatalogObject.ЭлементыРубрикатораСУЗ</types>
+    <types>CatalogObject.ЭлементыПодборкиИзРубрикатораСУЗ</types>
+    <types>CatalogObject.КомментарииКТестамСУЗ</types>
+    <types>CatalogObject.ГлоссарииСУЗ</types>
+    <types>CatalogObject.ПодборкиСУЗ</types>
+    <types>CatalogObject.КатегорииВариантовОтветовНаВопросСУЗ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РазработкаСУЗ.УстановитьДатуИзмененияПередЗаписью</handler>
+</mdclass:EventSubscription>

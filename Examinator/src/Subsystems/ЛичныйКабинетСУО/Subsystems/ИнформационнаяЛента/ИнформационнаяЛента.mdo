@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c3249f5-dc9d-4932-9718-e9ce00a468a4">
+  <name>ИнформационнаяЛента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационная лента</value>
+  </synonym>
+  <content>CommonForm.ИнформационнаяЛентаСУО</content>
+  <content>Role.ЛичныйКабинетИнформационнаяЛентаСУО</content>
+  <content>CommonForm.МоиНовостиСУО</content>
+  <content>CommonCommand.МоиНовостиСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныйКабинетНовостиСУО</content>
+  <parentSubsystem>Subsystem.ЛичныйКабинетСУО</parentSubsystem>
+</mdclass:Subsystem>

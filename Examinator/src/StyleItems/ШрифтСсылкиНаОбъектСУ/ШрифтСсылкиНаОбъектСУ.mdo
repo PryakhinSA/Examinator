@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0477b6af-f11a-43e9-90bf-ca5a61382442">
+  <name>ШрифтСсылкиНаОбъектСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылка на объект</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+    </value>
+  </value>
+</mdclass:StyleItem>

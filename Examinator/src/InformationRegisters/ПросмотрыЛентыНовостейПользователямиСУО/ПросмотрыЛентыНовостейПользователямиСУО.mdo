@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c36b382d-10f6-428f-b646-b41aab701071">
+  <producedTypes>
+    <selectionType typeId="cf3ca7a7-8b1b-4d4b-b283-96b75e19b357" valueTypeId="e38e82fc-d726-41cd-afd0-cae9e67f7e4c"/>
+    <listType typeId="7eb18aff-26e9-4573-8366-82fa698fc63b" valueTypeId="86833f4a-466c-4bd1-87af-057c8e860f12"/>
+    <managerType typeId="1ac7a672-0ba7-4245-a3cf-dabd306af501" valueTypeId="1dc84521-4208-4a92-9277-d476c60d327e"/>
+    <recordSetType typeId="d0d5d71f-5728-4c3e-8673-f8b190aa1f19" valueTypeId="f0f8de01-d697-426f-81df-fe969b3a3aac"/>
+    <recordKeyType typeId="1a635cb8-093c-4bf3-bb17-5a341afddcdf" valueTypeId="5630c449-737b-4865-bb78-a86019ddd8bd"/>
+    <recordType typeId="5e8139a7-f29a-4441-a1dc-7507e614e162" valueTypeId="9bee4e1b-c6c3-4401-a6dd-90f8084e6f06"/>
+    <recordManagerType typeId="56f3739c-89ce-4cae-8dc2-dd6e7a075c44" valueTypeId="4f3157d4-6c40-455e-a314-7933cead85c9"/>
+  </producedTypes>
+  <name>ПросмотрыЛентыНовостейПользователямиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотры ленты новостей пользователями</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a4484414-0cb2-4886-b43e-fe8ff382bd04">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="341e8d30-3777-4d59-b34e-d0df6a74aaf4">
+  <producedTypes>
+    <objectType typeId="f824d9ad-83bc-49b6-9059-b86c9db1e93b" valueTypeId="7639b270-d350-4a4a-8258-0e7bd1cde383"/>
+    <managerType typeId="381d4775-e5fb-4a0d-80c2-9a90de9d0466" valueTypeId="b55d7976-9146-4bce-9a71-a5315fa5c27c"/>
+  </producedTypes>
+  <name>ИспользованиеЭлектронныхРесурсовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование электронных ресурсов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИспользованиеЭлектронныхРесурсовСУЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использование электронных ресурсов пользователями</value>
+  </extendedPresentation>
+  <templates uuid="78ee9e7c-cc16-4809-8c59-55fbefd33980">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2278f973-f4b4-42fe-88f5-a34d82af7756">
+    <name>ИспользованиеЭлектронныхРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="8dc9bfbf-ffb5-4487-953b-a2e4432fec68">
+    <name>ИспользованиеЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="922e0b54-f1ad-413d-a792-51e01c97bb6d">
+    <name>ИспользованиеПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование электронных ресурсов</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="4037b505-c2cc-4790-9e02-7136b946b606">
+    <name>ИспользованиеПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование электронных ресурсов</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

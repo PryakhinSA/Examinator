@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd11b99-1318-46ed-b9a4-cda3f86a683c">
+  <producedTypes>
+    <selectionType typeId="664e9aef-7260-459e-99d3-237b57014de7" valueTypeId="9a44e5d8-786e-4bc2-b48b-fc994b43edc0"/>
+    <listType typeId="043eb752-9da6-49b6-a9be-cde728cc35ba" valueTypeId="da4c48bd-6f1a-49b7-8891-3b8abda1cf32"/>
+    <managerType typeId="ef662066-29f8-4d73-a9a3-6237d993e273" valueTypeId="cd0a6eba-5ebe-420c-8b00-db7eed5d1711"/>
+    <recordSetType typeId="dba8f5b5-d57f-412f-83f9-4a0a603347ee" valueTypeId="818e72c0-a675-4bf9-88ff-055ca267b6ec"/>
+    <recordKeyType typeId="d6739d7a-4a88-4f96-b55a-91b3759b0276" valueTypeId="0be37567-1371-4166-83e1-a78bcf5e1010"/>
+    <recordType typeId="00d8ea87-b93f-4488-a984-ccd7ce3ad516" valueTypeId="9728f3a7-c647-4af0-9487-95de1689469b"/>
+    <recordManagerType typeId="0d5a053d-c861-4772-9ca4-62969b77fafb" valueTypeId="ec2e8b3f-bb85-4b29-a082-2f8af319904d"/>
+  </producedTypes>
+  <name>НовостиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <attributes uuid="1981cb89-74c7-4ee6-bee7-3844036f5998">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заголовок новости</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="90ca5ae5-259b-4f64-b842-52ac49bab8a0">
+    <name>Выделить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Новость выделена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6e6ea76d-0a03-4f6f-ab43-66d06f6a7277">
+    <name>Закрепить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрепить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Новость закреплена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="2a8d26df-6dd8-4785-b202-aaa09e1e7b20">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=DD; ДП=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=DD; ДП=0</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата новости</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="25d5c8d7-50c9-424c-9eaa-b4f5b0938d6c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

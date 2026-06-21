@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea26b3eb-4510-49d1-bae7-b0cae02b9203">
+  <name>ИспользоватьЛичныйКабинетНовостиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личный кабинет новости</value>
+  </synonym>
+  <location>InformationRegister.НастройкиЛичногоКабинетаСУО.Resource.ПоказатьНовости</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.МоиНовостиСУО</content>
+</mdclass:FunctionalOption>

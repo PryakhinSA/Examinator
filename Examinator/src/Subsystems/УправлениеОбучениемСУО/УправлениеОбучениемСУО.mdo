@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e0e8a55-d40e-483b-b212-c2b743c010b9">
+  <name>УправлениеОбучениемСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление обучением</value>
+  </synonym>
+  <content>CommandGroup.ОрганизацияОбученияСУО</content>
+  <subsystems>Проведение</subsystems>
+  <subsystems>Каталог</subsystems>
+  <subsystems>Пользователи</subsystems>
+  <subsystems>Новости</subsystems>
+  <subsystems>Рассылки</subsystems>
+  <subsystems>Библиотека</subsystems>
+  <subsystems>Коммуникации</subsystems>
+  <subsystems>Анкетирование</subsystems>
+  <subsystems>Интеграция</subsystems>
+  <subsystems>ПинКоды</subsystems>
+</mdclass:Subsystem>

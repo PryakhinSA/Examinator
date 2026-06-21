@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1e4d9ed-1505-4618-b645-8b8cdb6b9020">
+  <name>ИспользоватьЗаявкиНаОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заявки на обучение</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗаявкиНаОбучениеСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаявкаНаОбучениеСУО</content>
+  <content>Document.ЗаявкаНаОбучениеСУО.Command.СписокЗаявок</content>
+</mdclass:FunctionalOption>

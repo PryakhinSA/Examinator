@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e683963-875f-4e10-8b1b-de14dbdaa432">
+  <producedTypes>
+    <selectionType typeId="fdeddc1a-340e-444f-bfb0-80802fddba28" valueTypeId="36787273-677c-47d0-8d4e-90f7e10d158b"/>
+    <listType typeId="834694b4-3418-45d1-b35b-ba403738b2ea" valueTypeId="07c7ae69-3627-4e3a-bb5f-aa33cfea9d85"/>
+    <managerType typeId="ef56b7f2-1d23-4be9-819f-198900dbe934" valueTypeId="1fc7510a-5e7c-4044-a7a2-69387fc02a0c"/>
+    <recordSetType typeId="a9e300c2-8508-4e7c-968c-a0bece8de634" valueTypeId="4d764f0f-0a4f-4429-a91c-113f15f61365"/>
+    <recordKeyType typeId="0a0e5cb4-05e5-440d-b566-5d0e8a81e249" valueTypeId="39625070-b925-4604-9524-0746ed7d8411"/>
+    <recordType typeId="e8df137b-75f4-49de-9992-20e42814bc51" valueTypeId="9a18c03e-2f0f-4ebb-87ae-98fc1b9593b7"/>
+    <recordManagerType typeId="7b5126ff-523a-471a-b1b2-077813828db0" valueTypeId="4e66ca73-10ee-4cef-b529-0b628fd30535"/>
+  </producedTypes>
+  <name>МакетыЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макеты электронных курсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Макет</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Макеты</value>
+  </listPresentation>
+  <resources uuid="17a40c2e-019d-45d0-a04d-cf53ee3c6383">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5839683b-9aef-481c-80e0-6625c93332e9">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ebf8388a-a40b-4236-bdb8-5b77807174ee">
+    <name>Язык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЯзыкиИнтерфейсаЭлектронныхКурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="531374b7-5e60-413f-a6f5-a92f341b44ba">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТемыОформленияЭлектронныхКурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

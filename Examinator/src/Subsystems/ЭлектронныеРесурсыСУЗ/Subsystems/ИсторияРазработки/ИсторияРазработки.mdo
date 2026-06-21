@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baf1c1b4-9738-4b1d-84f3-e3358032843e">
+  <name>ИсторияРазработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>История разработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ИсторияРазработкиЭлектронныхРесурсовСУО</content>
+  <content>Report.РазработкаЭлектронныхРесурсовСУО</content>
+  <content>Enum.ДействияНадЭлектроннымиРесурсамиСУО</content>
+  <content>Constant.ВестиИсториюРазработкиЭлектронныхРесурсовСУО</content>
+  <content>FunctionalOption.ВестиИсториюРазработкиЭлектронныхРесурсовСУО</content>
+  <content>EventSubscription.УчетИсторииРазработкиЭлектронныхРесурсовПриЗаписиСУО</content>
+  <content>EventSubscription.УчетИсторииРазработкиЭлектронныхРесурсовПередЗаписьюСУО</content>
+  <parentSubsystem>Subsystem.ЭлектронныеРесурсыСУЗ</parentSubsystem>
+</mdclass:Subsystem>

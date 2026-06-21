@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03ab5c30-e3f0-4a17-99d1-2ef3052ea492">
+  <producedTypes>
+    <objectType typeId="00f71ec8-189c-437c-b2be-033d119e6791" valueTypeId="3108018c-c6ef-4ced-9b75-bda85e2e8554"/>
+    <managerType typeId="00c40fc5-3ac2-4ba8-8c9a-fb12793206d9" valueTypeId="78e9d692-b18b-484d-9908-d7d3bb44d72f"/>
+  </producedTypes>
+  <name>ОтветыНаТестовыеВопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы на тестовые вопросы</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтветыНаТестовыеВопросы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="27336e24-7688-4a51-9dd3-d489ab322065">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="ab2239d7-3a22-4b89-835a-05331c6d0fd3">
+    <name>ОтветыНаВопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы на вопрос</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТестовыеВопросы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26469eac-8235-41e3-89d7-aff3f140cbc6">
+  <producedTypes>
+    <refType typeId="cf53b7e4-3668-4de9-a74e-cef841aafb10" valueTypeId="fb156d76-87d6-4ce3-9712-d05a64000135"/>
+    <listType typeId="d28316a5-1471-403e-9b45-76822c8ebd7a" valueTypeId="29d4498f-1c16-45c7-9a7c-d4cc63876d76"/>
+    <managerType typeId="f124f29b-e216-422e-b257-179b3e39b121" valueTypeId="fec58026-1a78-4810-8e4e-8f4f9fabdcbf"/>
+  </producedTypes>
+  <name>МестаПроведенияМероприятийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места Проведения обучения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64e7f47f-5f60-4d61-92d2-25b117cd8af9">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebef1118-7155-464c-aee7-30d43cdf509c">
+    <name>Дистанционно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дистанционно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

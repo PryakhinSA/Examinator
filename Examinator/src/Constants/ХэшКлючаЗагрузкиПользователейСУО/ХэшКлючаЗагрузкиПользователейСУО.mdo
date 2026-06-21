@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3deb9262-7923-4303-824a-459bd7677c6d">
+  <producedTypes>
+    <managerType typeId="15e30b39-fadf-453a-a725-9e5b5239b212" valueTypeId="98d7e3b7-3e6f-45fd-a529-f04c712e6212"/>
+    <valueManagerType typeId="cff90edb-107b-421b-9557-38264d5b7030" valueTypeId="e2a05642-ec27-42de-be96-0f60aa46ed7a"/>
+    <valueKeyType typeId="2d80241d-c3e3-4906-80af-4ff112175790" valueTypeId="b68f7f33-af2b-43db-b956-5fa876f97ad1"/>
+  </producedTypes>
+  <name>ХэшКлючаЗагрузкиПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хэш ключа загрузки пользователей</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

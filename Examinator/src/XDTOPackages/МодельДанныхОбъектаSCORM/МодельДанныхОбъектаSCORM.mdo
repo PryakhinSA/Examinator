@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1d4583e-aa1a-424a-87c0-1ab69481403e">
+  <name>МодельДанныхОбъектаSCORM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель данных объекта SCORM</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/kms/1/SCORM/DataModel</namespace>
+</mdclass:XDTOPackage>

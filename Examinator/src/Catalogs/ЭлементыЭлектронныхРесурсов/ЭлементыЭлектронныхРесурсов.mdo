@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ca95e56-2440-4c08-8d0e-8cbeefc7cb47">
+  <producedTypes>
+    <objectType typeId="342dbce4-9ead-40cd-b26b-5775d965c475" valueTypeId="28bc7918-402c-4b9d-9640-b09dae48019e"/>
+    <refType typeId="64524a75-0317-46b7-bb0f-fc43c40702fe" valueTypeId="6cf493f5-717a-45ac-b677-e1b8f44538f7"/>
+    <selectionType typeId="86f4941e-4b50-4860-b383-91b642259f34" valueTypeId="7e322414-5332-4e20-af55-8fdbafafcf14"/>
+    <listType typeId="c65a4770-c10e-4d82-a0b8-e47cd8479403" valueTypeId="1f433dfb-4650-4ada-813e-b4495395caca"/>
+    <managerType typeId="27a783a2-9b19-429c-8bf2-c0953cd645eb" valueTypeId="58f47694-ec64-4e25-9c8b-00495191b17d"/>
+  </producedTypes>
+  <name>ЭлементыЭлектронныхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы электронных ресурсов</value>
+  </synonym>
+  <inputByString>Catalog.ЭлементыЭлектронныхРесурсов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ЭлектронныеРесурсы.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ЭлементыЭлектронныхРесурсов.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Элемент ресурса</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Элемент электронного ресурса</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Элементы ресурсов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Элементы электронных ресурсов</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ЭлектронныеРесурсы</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="23bcfa5f-6c47-4f02-a899-bf6a9c48f447">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЭлементовЭлектронныхРесурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип содержимого файла</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d3785b5-1860-48fe-9a1a-9974d4e442aa">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла, как оно будет задано при размещении его на жестком диске</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="525970be-715c-477f-9187-866e5496b6e1">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57e77864-3ffb-4d7b-bad5-b5e3bc66bcd3">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиЭлектронныхКурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разработчик контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e0023c5-3111-4bb3-97ad-f1d337d4b850">
+    <name>Ширина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ширина области просмотра с указанием единиц измерения (например, 25px или 5pt) или в процентах (например, 100%).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5f39865-2168-4078-a7d3-ffd45d65a310">
+    <name>Высота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Высота области просмотра с указанием единиц измерения (например, 25px или 5pt) или в процентах (например, 100%).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e7bd5ad-3be2-4912-8eee-5532e0803e1d">
+    <name>ПроигрыватьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проигрывать автоматически</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Видео или другой файл будет проигран автоматически сразу после его показа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d3da4fc-96fb-46f4-942c-fc00ad1147b1">
+    <name>ЭтоВнешнийЭлемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это внешний элемент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл будет храниться вне информационной базы и загружаться по ссылке. При создании тиражных курсов запрещается пользоваться этой опцией.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13d5e30a-77af-46c1-bb88-8607a00259cf">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание элемента, отображаемое пользователю</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d8447942-f420-4f05-84ee-c9ff322d4cad">
+    <producedTypes>
+      <objectType typeId="570f9799-ae56-40b3-aec3-f1387ef2123d" valueTypeId="269a5a24-69ed-46a6-b193-f189ba59c994"/>
+      <rowType typeId="2ea710cd-d4f6-47f8-aa72-36cc0cac8db2" valueTypeId="d3d651f2-53c6-49c6-ab28-be3df887e29b"/>
+    </producedTypes>
+    <name>ДанныеЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные элемента</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3774dd76-10ec-402b-81b6-f8e67ef5d9d9">
+      <name>КодДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8babe2f-0884-43da-bcc7-28b1d4d40d09">
+      <name>ХранилищеДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хранилище данных</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5bf273e-364e-47fc-9ce6-67c5940e89c4">
+      <name>ПрисоединенныйФайл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Присоединенный файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЭлементыЭлектронныхРесурсовПрисоединенныеФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d1aba40-94f1-4c6d-8a28-ef28044230be">
+      <name>ДанныеОбмена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные обмена</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебные данные, используемые при обмене</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1c43aa6b-3ea1-42fd-b4de-12d0166071f2">
+      <name>Расширение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расширение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Расширение присоединенного файла</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="619c9a96-462e-4986-9474-9cf74b0d5385">
+      <name>ДанныеДляИндексирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные для индексирования</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cb253ce3-91fa-4fd8-b52a-4dbaa0f710b7">
+    <producedTypes>
+      <objectType typeId="9cfc45c8-c74c-4087-95da-271d155cf61d" valueTypeId="68a8d605-c73e-4312-a10e-d9ea02182d24"/>
+      <rowType typeId="b7d14e70-859f-45e1-81f4-854a5dae67ed" valueTypeId="b943f209-5234-412b-8f73-1f65980cc585"/>
+    </producedTypes>
+    <name>Гиперссылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гиперссылки</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранит гиперссылки в старом формате редакции 3.0 и заполняется только для загруженных из 3.0 документов</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7f07536d-38e8-4e28-ad12-0bf07e6a91ff">
+      <name>ЭлементСодержания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент содержания</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеЭлектронныхКурсов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3067c18-30a9-4e48-b251-ef55df761f2d">
+      <name>Страница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страница</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтраницыЭлементовЭлектронныхКурсов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d093a9c-aaea-475a-b8f9-a231119635f6">
+      <name>Адрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7bc6e0b4-8c8c-4074-a6f2-98364fa82c5c">
+    <name>ФормаКонвертерВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертер видео</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b34e5ad-683d-4519-bbc1-259d40464c62">
+    <name>ФормаВыбораНастроекКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки конвертации видео</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5cddb87-5908-48aa-9392-d5f671aef7da">
+    <name>ФормаВыбораСпособаРазмещенияВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выберите способ размещения видео</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a0c4fd22-32f6-49d6-a3ff-1ed2f8be68af">
+    <name>КонвертерВидеоWindows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертер видео для windows</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5c43408f-b44b-4e4f-af82-f6c3375d99f5">
+    <name>КонвертерВидеоLinux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертер видео для Linux</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="103ac959-5384-4853-861b-d4afcb6a9a5b">
+    <name>КонвертерВидеоMac</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертер видео для Mac</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d2b51a41-3a6c-48d8-95c2-54198407b01f">
+    <name>КонвертерДокументовMac</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертер документов для macOS</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="13bf0190-8f7e-45b9-8768-a980892c1e39">
+    <name>КонвертерПрезентацийMac</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертер презентаций для macOS</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85c18988-b2f1-4d19-af85-a3648e49f50f">
+  <producedTypes>
+    <objectType typeId="10550781-632e-475f-995d-9726e5e65ce9" valueTypeId="280b720f-9c5e-4ca2-9f68-cc4f97fa2a49"/>
+    <refType typeId="b12141c3-48cb-411c-b799-2ee509453807" valueTypeId="f2e17277-65cb-4135-896f-d6e0c9ee045c"/>
+    <selectionType typeId="9276b9d2-bc7a-4931-b3ab-35153fb791ae" valueTypeId="2ac54e2b-1f85-4505-ad8f-4d7001689717"/>
+    <listType typeId="37c41ebf-c95c-417b-a14e-e19ac4ceccd0" valueTypeId="bdfb5aa5-c47f-4173-a519-357242b1d2ab"/>
+    <managerType typeId="3b5944d9-294b-49d0-8adf-0cbd158218fe" valueTypeId="c6bb125a-b6cb-4923-af80-863fa998bcd0"/>
+    <containerType typeId="5a3c2bc8-fdc1-4045-89e8-0592471b7600" valueTypeId="9843ec57-f4de-4f10-9f80-24c7df803b0b"/>
+  </producedTypes>
+  <name>ВидыНастроекЭлектронныхРесурсовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды настроек электронных ресурсов</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ВидыНастроекЭлектронныхРесурсовСУЗ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование вида настройки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код вида настройки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>EnumRef.ВариантыПредставленияЭлементовПодборкиСУЗ</types>
+    <types>Boolean</types>
+    <types>EnumRef.ТипыНавигацииПодборкиСУЗ</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6521fefb-6b4c-47c5-a2a6-ac2249d9b7fa">
+      <name>ГруппироватьЭлементыТеории</name>
+      <description>Группировать элементы теории</description>
+      <code>ГруппироватьЭлементыТеории</code>
+      <type>
+        <types>EnumRef.ВариантыПредставленияЭлементовПодборкиСУЗ</types>
+      </type>
+    </items>
+    <items id="c9b3715d-ca6d-4fb1-b702-137d7f400950">
+      <name>СворачиватьПодразделыТеории</name>
+      <description>Сворачивать подразделы теории</description>
+      <code>СворачиватьПодразделыТеории</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="3dabf2b6-2f56-4797-a298-6a852e541e82">
+      <name>ТипНавигацииТеории</name>
+      <description>Тип навигации теории</description>
+      <code>ТипНавигацииТеории</code>
+      <type>
+        <types>EnumRef.ТипыНавигацииПодборкиСУЗ</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="46fb1445-f957-4d1d-80e2-de33ef160c71">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

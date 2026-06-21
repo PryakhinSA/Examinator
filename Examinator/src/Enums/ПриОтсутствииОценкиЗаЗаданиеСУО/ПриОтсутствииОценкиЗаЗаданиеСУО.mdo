@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a69defc8-5d39-4bf1-a2ef-1874d90ca73f">
+  <producedTypes>
+    <refType typeId="555fe7d7-5f15-4a82-91bf-78265ba76286" valueTypeId="a606bd0d-ed9f-43ef-8c9f-94df0c3c641e"/>
+    <listType typeId="350e6cfc-0d84-46d1-8709-c55956d9125b" valueTypeId="e62dfbaf-50fa-47e6-9961-d3fa639df88f"/>
+    <managerType typeId="f2406a4b-a2ce-49f9-a501-d573cfcf1edd" valueTypeId="e9b4dcfb-0013-4047-bedc-42f5ecb11278"/>
+  </producedTypes>
+  <name>ПриОтсутствииОценкиЗаЗаданиеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>При отсутствии оценки за задание</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1848fc91-1a58-45ff-9ac5-3dfa224466c2">
+    <name>БезОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без оценки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6da2e29c-3fc7-4a2b-9664-0a29e71de576">
+    <name>МаксимальныйБалл</name>
+    <synonym>
+      <key>ru</key>
+      <value>100 баллов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

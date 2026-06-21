@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64974173-5aac-4b28-bbf7-1a255082f062">
+  <name>РасширеннаяФункциональностьСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенная функциональность</value>
+  </synonym>
+  <location>Constant.РасширеннаяФункциональностьСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЛитератураСУО</content>
+  <content>InformationRegister.ПреподавателиСУО</content>
+</mdclass:FunctionalOption>

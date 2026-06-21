@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="303d4fd7-83e0-4544-b1b0-08bf2b9136bc">
+  <name>ИспользоватьСотрудниковСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сотрудников СУО</value>
+  </synonym>
+  <location>Constant.ИспользоватьСотрудниковСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.РуководительПредприятия</content>
+  <content>Catalog.ДолжностиСУО</content>
+  <content>Catalog.ДолжностиСУО.Command.Должности</content>
+  <content>Catalog.ПодразделенияОрганизацииСУО.Command.ПодразделенияОрганизации</content>
+  <content>Catalog.ПодразделенияОрганизацииСУО</content>
+  <content>Catalog.ПодразделенияПредприятияСУО</content>
+  <content>Catalog.ПодразделенияПредприятияСУО.Command.Подразделения</content>
+  <content>Catalog.УчебныеГруппыСУО</content>
+  <content>Catalog.УчебныеГруппыСУО.Command.МоиУчебныеГруппы</content>
+  <content>Catalog.УчебныеГруппыСУО.Command.УчебныеГруппы</content>
+  <content>Enum.ХарактеристикиСотрудниковСУО</content>
+  <content>Report.СотрудникиСУО.Command.Сотрудники</content>
+  <content>Report.СотрудникиСУО</content>
+  <content>InformationRegister.РуководителиСУО</content>
+  <content>InformationRegister.РуководителиСУО.Command.МоиПодчиненные</content>
+  <content>InformationRegister.СотрудникиСУО</content>
+  <content>InformationRegister.СотрудникиСУО.Command.СотрудникиПредприятия</content>
+  <content>InformationRegister.СотрудникиСУО.Command.СписокСотрудников</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Организации.Command.Организации</content>
+  <content>Report.РезультатыОбученияСУО</content>
+  <content>Report.РезультатыОбученияСУО.Command.РезультатыОбученияСУО</content>
+  <content>DataProcessor.ИмпортСотрудниковСУО</content>
+  <content>DataProcessor.ИмпортСотрудниковСУО.Command.ИмпортСотрудников</content>
+  <content>Document.ПроведениеОбученияСУО.Command.Сотрудники</content>
+</mdclass:FunctionalOption>

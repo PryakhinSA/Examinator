@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0460df4d-6167-4278-9a1e-f4d25ae734a5">
+  <name>УчетИсторииРазработкиЭлектронныхРесурсовПередЗаписьюСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет истории разработки электронных ресурсов (перед записью)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.РубрикаторыСУЗ</types>
+    <types>CatalogObject.СтраницыСУЗ</types>
+    <types>CatalogObject.СводыЗнанийСУЗ</types>
+    <types>CatalogObject.ФайлыСУЗ</types>
+    <types>CatalogObject.ФреймыСУЗ</types>
+    <types>CatalogObject.КартыСУЗ</types>
+    <types>CatalogObject.РесурсыСУЗ</types>
+    <types>CatalogObject.ВопросыСУЗ</types>
+    <types>CatalogObject.СодержаниеСУЗ</types>
+    <types>CatalogObject.ТерминыСУЗ</types>
+    <types>CatalogObject.ГлоссарииСУЗ</types>
+    <types>CatalogObject.ПодборкиСУЗ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ЭлектронныеРесурсыСУЗ.УчетИсторииРазработкиЭлектронныхРесурсовПередЗаписьюСУОПередЗаписью</handler>
+</mdclass:EventSubscription>

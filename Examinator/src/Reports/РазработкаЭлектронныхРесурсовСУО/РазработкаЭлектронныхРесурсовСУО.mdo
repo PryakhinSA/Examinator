@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dbc7a75-59e6-4ecc-a12f-469d2059b275">
+  <producedTypes>
+    <objectType typeId="41315f6d-dbcb-4759-a709-3f57704222e6" valueTypeId="1bb0b7a3-fa9f-4580-af42-8757eb1d34ab"/>
+    <managerType typeId="9d7bddd0-3b21-4611-b6d6-5b7f5451bcc5" valueTypeId="2589b5fd-fc22-4273-96a8-a596ca924145"/>
+  </producedTypes>
+  <name>РазработкаЭлектронныхРесурсовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработка электронных ресурсов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РазработкаЭлектронныхРесурсовСУО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="ce223e39-17ec-4fe8-8101-92c592d0af77">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="0f1de518-160f-49e7-966a-24274f5ccab1">
+    <name>РазработкаЭлектронныхРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика разработки</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c846e4b6-5457-43d1-b718-1380c93dca35">
+    <name>РазработкаЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработка электронного ресурса</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3a5957b-114f-48f0-aff9-9b431152fd22">
+  <name>ЭлектронныеКурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные курсы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ДанныеИзученияЭлектронныхКурсовВебКабинетаСУО</content>
+  <parentSubsystem>Subsystem.ВебКабинетСУ</parentSubsystem>
+</mdclass:Subsystem>

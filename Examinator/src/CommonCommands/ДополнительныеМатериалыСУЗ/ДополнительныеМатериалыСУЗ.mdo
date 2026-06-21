@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4c63663-dcc8-4ff3-98ed-8fc804fc9118">
+  <name>ДополнительныеМатериалыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы пользователей</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Дополнительные материалы пользователей</value>
+  </toolTip>
+</mdclass:CommonCommand>

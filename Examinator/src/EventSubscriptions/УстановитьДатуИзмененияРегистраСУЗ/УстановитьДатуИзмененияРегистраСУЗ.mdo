@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b778cc25-43a4-438e-9005-7ed44c6525e5">
+  <name>УстановитьДатуИзмененияРегистраСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить дату изменения регистра</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ГруппыОбъектовСУЗ</types>
+    <types>InformationRegisterRecordSet.РубрикиОбъектовСУЗ</types>
+    <types>InformationRegisterRecordSet.ИмпортированныеЭлементыПакетаSCORM</types>
+    <types>InformationRegisterRecordSet.ЗначенияНастроекИнтерактивныхРесурсовСУЗ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РазработкаСУЗ.УстановитьДатуИзмененияРегистраСУЗПередЗаписью</handler>
+</mdclass:EventSubscription>

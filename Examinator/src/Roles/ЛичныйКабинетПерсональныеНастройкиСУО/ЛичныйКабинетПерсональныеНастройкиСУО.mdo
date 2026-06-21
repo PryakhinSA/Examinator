@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f0688f9-9582-4dbe-a405-69aab9a7a061">
+  <name>ЛичныйКабинетПерсональныеНастройкиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет - персональные настройки</value>
+  </synonym>
+</mdclass:Role>

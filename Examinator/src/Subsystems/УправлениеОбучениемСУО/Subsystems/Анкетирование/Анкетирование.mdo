@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5edd719-2122-43e2-8664-b5b52f56be48">
+  <name>Анкетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкетирование</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>c067276a-a33c-4562-8425-7971787954dc</content>
+  <content>Catalog.ШаблоныАнкет</content>
+  <content>Document.Анкета</content>
+  <content>Document.НазначениеОпросов</content>
+  <content>Enum.ТипыОпросовСУО</content>
+  <content>Report.АнализОпроса</content>
+  <content>Report.АналитическийОтчетПоАнкетированию</content>
+  <content>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</content>
+  <content>3e763919-cb91-4aa5-9fe5-e653bbe18b70</content>
+  <content>CommonPicture.Опрос</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

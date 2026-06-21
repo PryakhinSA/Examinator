@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82d4aee9-8fe1-4f88-915c-aeb72411f523">
+  <name>ИспользоватьЛичныйКабинетСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личный кабинет</value>
+  </synonym>
+  <location>Constant.ИспользоватьЛичныйКабинетСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

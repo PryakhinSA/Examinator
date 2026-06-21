@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d67b04e1-527a-40a9-b202-2f6460470c62">
+  <producedTypes>
+    <selectionType typeId="4a77a788-d794-4824-9ea2-fa86b82e6b41" valueTypeId="80a2f41c-ceba-4a07-8b72-2f85feca0412"/>
+    <listType typeId="3ba79a0d-6b73-4c43-9f1f-e0139c801d08" valueTypeId="6bf22f1b-8da2-4c34-9180-82e3213e812a"/>
+    <managerType typeId="a0c1a604-3005-4449-a5ca-d72a59a7692f" valueTypeId="7e566b3e-7db6-4b8e-8f7c-a411b2bd7cf6"/>
+    <recordSetType typeId="220e0c30-3bf1-4da7-8897-d50284d7c1c3" valueTypeId="fb157fc8-439f-4fea-9241-b814d05f58b8"/>
+    <recordKeyType typeId="94b5b854-8e19-4009-af0c-7b22b4ea83b9" valueTypeId="9900f79a-cf20-4f01-8d94-646b609f0691"/>
+    <recordType typeId="de7702dc-9d34-4b23-8389-860b045392e9" valueTypeId="8f749f9f-dd7c-4937-92ed-47b235cbfc3b"/>
+    <recordManagerType typeId="979325f1-abe6-4762-acdb-7e3213426c81" valueTypeId="eb499987-4085-4d39-be54-1f8750c237dc"/>
+  </producedTypes>
+  <name>ОткрытыеПрограммыОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открытые программы обучения</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <attributes uuid="7803ee2e-ea77-4a03-b838-0b740fbdd61a">
+    <name>ОткрытоДляРуководителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыто для руководителей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что программа обучения предназначена для руководителей, которые смогут записать на нее своих подчиненных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="538c8bb8-ff95-468d-a02b-11405ac1d560">
+    <name>ДатаОткрытияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой можно записаться на открытую программу обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="4df5c250-22c9-469b-81e0-b82f124c39ec">
+    <name>ДатаЗакрытияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, до которой можно записаться на открытую программу обучения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="f8c4315f-1928-4dd6-b2d7-5024703ec7c1">
+    <name>ТребуетсяЗаявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется заявка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что запись на программу обучения возможна только через заявку</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="67d4b169-e28d-4d87-8d44-90a7a5e96d51">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, которому открыта программа обучения для записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a7a93ee5-0d15-4513-86be-7ed4027eeaf7">
+    <name>ПроведениеПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение программы обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение программы обучения, на которое будет записан пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

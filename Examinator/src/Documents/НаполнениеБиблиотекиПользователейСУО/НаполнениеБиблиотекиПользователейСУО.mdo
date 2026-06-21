@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f56fac6d-1303-4e16-b91c-b5af3a687bc3">
+  <producedTypes>
+    <objectType typeId="f6ec9bea-a3d3-49ac-8ef5-219affeddd34" valueTypeId="c8913486-26b8-4a0c-8373-044843308203"/>
+    <refType typeId="329e20d2-5e07-48d2-a45e-9bf4f3992e51" valueTypeId="bbfa45ff-18d7-4e75-acd3-61b72fb84a90"/>
+    <selectionType typeId="5b05ae28-9308-4cc9-b2b5-563592997a9b" valueTypeId="e749fdd0-d250-4302-8b4a-c1c4c844a3df"/>
+    <listType typeId="cbdf3e2f-21eb-442a-9634-420b261ff1ba" valueTypeId="8c67f3bd-65f6-41a1-84e4-bf5c0ab7bad9"/>
+    <managerType typeId="fb345509-f7a8-40a1-bfed-814436f2653c" valueTypeId="dc9d06ae-5e97-4c5f-904b-f510e092d656"/>
+  </producedTypes>
+  <name>НаполнениеБиблиотекиПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наполнение библиотеки пользователей</value>
+  </synonym>
+  <inputByString>Document.НаполнениеБиблиотекиПользователейСУО.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Наполнение</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Наполнение библиотеки пользователей</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Библиотека</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Библиотека пользователей</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НаполнениеБиблиотекиПользователейСУО.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.БиблиотекаПользователейСУО</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="df20d8d0-21f2-42e3-9b95-a8f9693008c3">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0911432-bf85-4ff2-99cf-2605d1e7b83b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2736f7fc-ee78-4a80-a370-69b336aa440c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d046f854-2c12-429b-82db-f81a8801972f">
+    <producedTypes>
+      <objectType typeId="3f1ce856-2511-4e04-8b93-6de994512f34" valueTypeId="82606890-0b0d-4eac-8525-7062f7889415"/>
+      <rowType typeId="a95ae793-4efc-4ba0-848f-604aa802cb38" valueTypeId="c2dcc650-c8c8-4d6f-a20c-a0101333bf16"/>
+    </producedTypes>
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Книги, которые должны быть помещены в персональную библиотеку пользователей</value>
+    </toolTip>
+    <attributes uuid="aaf6a294-4c53-4a28-b1ea-268c6cdb4807">
+      <name>Книга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Книга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЛитератураСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Книга для размещения в персональной библиотеке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dea1721a-7b88-4be0-89cb-00f26a5d9fff">
+      <name>Фрагмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фрагмент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеКнигиСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фрагмент книги для размещения в персональной библиотеке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.НаполнениеБиблиотекиПользователейСУО.TabularSection.Книги.Attribute.Книга</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c1130e1-bf4c-410b-8621-26c528871717">
+      <name>МеткаВБиблиотеке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Раздел библиотеки пользователя, в которой будет размещена книга</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>ВладелецМетки</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.СхемыМероприятийСУО.Общая</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="536928eb-07ef-4b7d-9f73-d8927f2df96d">
+    <producedTypes>
+      <objectType typeId="d6de700f-b7dc-45e4-a4ea-886847161838" valueTypeId="de8b22f1-e56e-4f8a-88fb-2e37c4378f2c"/>
+      <rowType typeId="76fcb16d-1ad6-46b6-9767-43f0f62c967b" valueTypeId="adf9ca90-1248-4fe5-ac15-1ed7f11351f0"/>
+    </producedTypes>
+    <name>ЭлектронныеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные ресурсы</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Электронные ресурсы, которые должны быть помещены в персональную библиотеку пользователей</value>
+    </toolTip>
+    <attributes uuid="04b5c3e6-bfd7-497f-9f21-29b0538619cc">
+      <name>ЭлектронныйРесурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Электронный ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СводыЗнанийСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс для размещения в персональной библиотеке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="112e353f-032f-42cd-aad2-dd475160f60c">
+      <name>Фрагмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фрагмент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фрагмент электронного ресурса для размещения в персональной библиотеке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.НаполнениеБиблиотекиПользователейСУО.TabularSection.ЭлектронныеРесурсы.Attribute.ЭлектронныйРесурс</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5141dca0-9295-4291-a638-a8ac564f0d97">
+      <name>МеткаВБиблиотеке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Раздел библиотеки пользователя, в которой будет размещен электронный ресурс</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>ВладелецМетки</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.СхемыМероприятийСУО.Общая</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="eaf4fab3-4386-458c-804e-b18075b40f14">
+    <producedTypes>
+      <objectType typeId="b220d92c-274a-4a13-90c2-5994db007d5b" valueTypeId="a925c399-8b83-484e-98d0-91ca15aae37d"/>
+      <rowType typeId="61944780-51e3-436d-83ab-7171845f75eb" valueTypeId="64ae8af4-c11f-43c8-b77c-256359e72006"/>
+    </producedTypes>
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Файлы, которые должны быть помещены в персональную библиотеку пользователей</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="80f516e4-198b-40e7-8572-5679cc94ada0">
+      <name>Файл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Файлы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Файл для размещения в персональной библиотеке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a32ba82b-596a-4a0a-b844-c2215e893535">
+      <name>МеткаВБиблиотеке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел библиотеки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Раздел библиотеки пользователя, в которой будет размещен файл</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>ВладелецМетки</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.СхемыМероприятийСУО.Общая</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="21523105-763c-444e-b63f-874f4d1758bf">
+    <producedTypes>
+      <objectType typeId="9a05a564-fcb8-4110-b55f-715e173dedbe" valueTypeId="a723f7ad-a8de-4550-92e0-f9e349f01e82"/>
+      <rowType typeId="580abb96-9c4d-4266-b8c7-52f04f8408ba" valueTypeId="5b0c284a-e1d3-40e5-a1cc-c186b78bd93d"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователи, которым будут добавлены элементы в персональную библиотеку</value>
+    </toolTip>
+    <attributes uuid="39bf2b5e-dca9-4809-b1cd-028649418023">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пользователь, которому будут добавлены элементы в персональную библиотеку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="da57be33-3f56-4ee6-95ff-d8db89e0942d">
+    <producedTypes>
+      <objectType typeId="0e31cc53-ec82-4ca3-a0bc-a524960a2098" valueTypeId="d3ec1410-b01b-4f02-a9c6-156a19613851"/>
+      <rowType typeId="ad98af5e-a53a-44d3-b208-0a424852c1af" valueTypeId="4c81d10c-e896-4626-923f-e4c5004262c0"/>
+    </producedTypes>
+    <name>УчебныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебные группы</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Учебные группы, пользователям которых будут добавлены элементы в персональную библиотеку</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="858f7c4f-33ce-4e5e-bc34-59dd25096ead">
+      <name>УчебнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГруппыСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Учебная группа, пользователям которой будут добавлены элементы в персональную библиотеку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5a122a0f-0131-4a0e-a0d1-e15be4fb8d6f">
+    <producedTypes>
+      <objectType typeId="32980685-48be-44e4-bc49-898b81e75f04" valueTypeId="1d2d0bb4-2a99-43f4-acb5-5120c52560f1"/>
+      <rowType typeId="d494fdb2-03fa-467b-bb3d-d26f2630b3d5" valueTypeId="5f6629c4-89d8-4d54-b7dd-ce1ab6f61bd8"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Должности, сотрудникам которой будут добавлены элементы в персональную библиотеку</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1224fbe1-ebc8-4a57-9317-c1bd3e0c33c7">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДолжностиСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Должность, сотрудникам которой будут добавлены элементы в персональную библиотеку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="92c303a6-0827-49a8-9216-415e65dd9526">
+    <producedTypes>
+      <objectType typeId="27e913d7-c8d2-4652-926b-190c3b17d586" valueTypeId="50fada04-e939-46b3-a0af-b1dda6172f92"/>
+      <rowType typeId="7e33f0ec-9384-411d-a9b2-a9781f736e08" valueTypeId="1933cc0c-03eb-47e3-a325-c0fd4885c8e5"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Организации, сотрудникам которой будут добавлены элементы в персональную библиотеку</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1c90d9ec-33a5-4853-815d-c8df6e2c308b">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация, сотрудникам которой будут добавлены элементы в персональную библиотеку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc1593f4-36ae-4ce7-b53c-1c24d76b7dd5">
+      <name>ПодразделениеОрганизации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПодразделенияОрганизацииСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подразделение организации, сотрудникам которой будут добавлены элементы в персональную библиотеку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.НаполнениеБиблиотекиПользователейСУО.TabularSection.Организации.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f3dea4dc-a5c3-4671-8fe7-0da01613feee">
+    <producedTypes>
+      <objectType typeId="ceec7a11-a0f8-48f1-9952-74743bc4d5f1" valueTypeId="7a640e8c-9f95-4c01-bea7-c3e8e2458998"/>
+      <rowType typeId="f793a182-121e-47fc-9cc0-bc06c6af80f1" valueTypeId="39c8b44b-901f-4911-8bb8-0a5424f47411"/>
+    </producedTypes>
+    <name>ПодразделенияПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения предприятия</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделения предприятия, сотрудникам которых будут добавлены элементы в персональную библиотеку</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="779615d9-11e1-4d0f-a21b-623f3bfb250f">
+      <name>ПодразделениеПредприятия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение предприятия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПодразделенияПредприятияСУО</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подразделение предприятия, сотрудникам которого будут добавлены элементы в персональную библиотеку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e2064042-3400-4cc9-9116-98d191e1de3f">
+    <producedTypes>
+      <objectType typeId="36804932-312d-4777-879f-186ef3b50a03" valueTypeId="350b912e-9fd4-4b7e-8ebf-93e4ca9a8801"/>
+      <rowType typeId="535de325-66e2-4be0-ae51-5a75046fcaed" valueTypeId="dbd8e35b-c10e-41e5-8aaa-2df171b4c99b"/>
+    </producedTypes>
+    <name>Организаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организаторы</value>
+    </synonym>
+    <comment>Заполняется в подписке УстановитьОтветственногоДокументаСУО</comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="62283ddb-78d0-4284-bba8-3f0eefcf9ade">
+      <name>Организатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОрганизаторыСУО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

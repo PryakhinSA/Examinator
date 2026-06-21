@@ -1,0 +1,130 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/Question">
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Вопрос" base="d2p1:ОбъектСУЗ">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Сессия" type="d3p1:Сессия" lowerBound="0"/>
+		<property name="ТипВопроса" type="xs:string"/>
+		<property name="Результат" type="xs:decimal" lowerBound="0"/>
+		<property name="РезультатБезШтрафа" type="xs:decimal" lowerBound="0"/>
+		<property name="НабраноБалловВТесте" type="xs:decimal" lowerBound="0"/>
+		<property name="СтоимостьВопросаВТесте" type="xs:decimal" lowerBound="0"/>
+		<property name="ПоказыватьСтоимостьВопроса" type="xs:boolean"/>
+		<property name="ПереходитьВпередАвтоматически" type="xs:boolean"/>
+		<property name="ФасетныйВопрос" type="xs:boolean"/>
+		<property name="ЗаблокированныйВопрос" type="xs:boolean"/>
+		<property name="ВопросИзменялсяПослеОтвета" type="xs:boolean"/>
+		<property name="ТекстВопроса" type="xs:string" lowerBound="0"/>
+		<property name="РазвернутыйОтветПользователя" type="xs:string" lowerBound="0"/>
+		<property name="ЭлементActiveX" type="d2p1:ОбъектСУЗ" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="ВариантыОтветов" type="d3p1:ВариантыОтветов" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Фасет" type="d3p1:Фасет" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="КатегорииВариантовОтветов" type="d3p1:КатегорииВариантовОтветов" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="ГруппыВариантовОтветов" type="d3p1:ГруппыВариантовОтветов" lowerBound="0"/>
+		<property name="ОтображатьНаименование" type="xs:boolean"/>
+		<property name="ОтображатьИменаПолей" type="xs:boolean"/>
+		<property name="РазрешенРазвернутыйОтвет" type="xs:boolean"/>
+		<property name="ПредставлениеВариантовОтветов" type="xs:string" lowerBound="0"/>
+		<property name="ПредставлениеГрупп" type="xs:string" lowerBound="0"/>
+		<property name="ПредставлениеКатегорий" type="xs:string" lowerBound="0"/>
+		<property name="ГоризонтальноеРазмещениеВариантов" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ОтображениеВариантов" type="d3p1:EnumRef.ОтображениеВариантовВопросаСУЗ"/>
+		<property name="ПоследовательныйВыводВариантов" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="ОтветыПоШаблону" type="d3p1:ОтветыПоШаблону" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Подсказка" type="d3p1:Подсказка"/>
+		<property name="ВопросОтвечен" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Комментарии" type="d3p1:Комментарии" lowerBound="0"/>
+		<property name="ПроверяетсяПреподавателем" type="xs:boolean"/>
+		<property name="ПроверенПреподавателем" type="xs:boolean"/>
+		<property name="ВозможноПовторитьОтвет" type="xs:boolean"/>
+		<property name="ЭтоПроверкаПреподавателем" type="xs:boolean"/>
+		<property name="ПропущенныйВопрос" type="xs:boolean"/>
+		<property name="Вес" type="xs:integer"/>
+		<property name="РежимЭкспорта" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="РаботаВПрограммномПродукте" type="d3p1:РаботаВПрограммномПродукте" lowerBound="0"/>
+		<property name="ПрикреплятьКомментарииКВариантамОтвета" type="xs:boolean"/>
+		<property name="СкрытьКомментарии" type="xs:boolean"/>
+		<property name="СкрытьРезультат" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Сессия">
+		<property name="numDocument" type="xs:string" lowerBound="0"/>
+		<property name="numGroup" type="xs:string" lowerBound="0"/>
+		<property name="numAnswerDocument" type="xs:string"/>
+	</objectType>
+	<objectType name="Фасет">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID" form="Attribute"/>
+	</objectType>
+	<objectType name="ВариантОтвета">
+		<property name="Номер" type="xs:integer" form="Attribute"/>
+		<property name="Код" type="xs:string"/>
+		<property name="Идентификатор" type="xs:string"/>
+		<property name="Выбран" type="xs:boolean"/>
+		<property name="Текст" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Ресурс" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="НомерВыбраннойГруппы" type="xs:integer" lowerBound="0"/>
+		<property name="НомерВыбраннойКатегории" type="xs:integer" lowerBound="0"/>
+		<property name="НомерГруппы" type="xs:integer" lowerBound="0"/>
+		<property name="ПозицияВарианта" type="xs:integer"/>
+	</objectType>
+	<objectType name="КатегорияВариантаОтвета">
+		<property name="Номер" type="xs:integer" form="Attribute"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+	<objectType name="ГруппаВариантаОтвета">
+		<property name="Номер" type="xs:integer" form="Attribute"/>
+		<property name="Идентификатор" type="xs:string"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="ПредлагатьВыборВариантов" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ВариантыОтветов">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="ВариантОтвета" type="d3p1:ВариантОтвета" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="КатегорииВариантовОтветов">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="КатегорияВариантаОтвета" type="d3p1:КатегорияВариантаОтвета" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ГруппыВариантовОтветов">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="ГруппаВариантаОтвета" type="d3p1:ГруппаВариантаОтвета" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ОтветыПоШаблону">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Ответ" type="d3p1:ОтветПоШаблону" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ОтветПоШаблону">
+		<property name="ТекстОтвета" type="xs:string"/>
+		<property name="НомерГруппы" type="xs:integer" lowerBound="0"/>
+	</objectType>
+	<objectType name="Подсказка">
+		<property name="ДоступнаПодсказка" type="xs:boolean"/>
+		<property name="ШтрафЗаПодсказку" type="xs:decimal" lowerBound="0"/>
+		<property name="ТекстПодсказки" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Комментарии">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Комментарий" type="d3p1:Комментарий" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Комментарий" ordered="false">
+		<property name="НомерВарианта" type="xs:integer" lowerBound="0"/>
+		<property name="ТекстКомментария" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Ресурс" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="ЭтоКомментарийПреподавателя" type="xs:boolean" lowerBound="0"/>
+		<property name="Выделить" type="xs:boolean" lowerBound="0"/>
+	</objectType>
+	<objectType name="РаботаВПрограммномПродукте">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="Этап" type="d3p1:ЭтапРаботыВПрограммномПродукте" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ЭтапРаботыВПрограммномПродукте">
+		<property name="Номер" type="xs:integer"/>
+		<property name="Имя" type="xs:string"/>
+		<property name="Код" type="xs:string"/>
+		<property name="Тип" type="xs:string"/>
+		<property name="Описание" type="xs:string"/>
+		<property name="Активный" type="xs:boolean"/>
+		<property name="Завершен" type="xs:boolean"/>
+		<property name="НеЗавершен" type="xs:boolean"/>
+		<property name="ДатаНачала" type="xs:string"/>
+		<property name="ДатаОкончания" type="xs:string"/>
+		<property name="ОтветПользователя" type="xs:string"/>
+		<property name="Ссылка" type="xs:string"/>
+		<property name="Результат" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Question" name="КомментарииЭтапа" type="d3p1:Комментарии"/>
+	</objectType>
+</package>

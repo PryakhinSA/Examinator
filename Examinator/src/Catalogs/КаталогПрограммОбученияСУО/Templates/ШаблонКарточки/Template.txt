@@ -1,0 +1,116 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:b="http://v8.1c.ru/lms/1/Book" xmlns:a="http://v8.1c.ru/lms/1/Activity" xmlns:p="http://v8.1c.ru/lms/1/Program">
+
+<xsl:output method="html"/>
+
+<xsl:template match="/">
+
+	<html>
+
+	<head>
+	
+		<style>
+		
+			#a_options {
+				background-color:#fff;
+				border: 0px;
+				border-collapse: collapse;
+				margin-bottom: 10px;
+			}
+
+			#a_options td, th {
+				border: 0px;
+				padding-top: 5px;
+				padding-right: 5px;
+				vertical-align: top;
+			}
+			
+			.NameRazdel {
+				text-align: left;
+				border-bottom: 1px solid black;
+				font-style: italic; 
+			}
+		
+		</style>
+	
+	</head>
+
+	<body>
+		<xsl:call-template name="template_program"/>
+	</body>
+	
+	</html>
+	
+</xsl:template>
+
+<xsl:template name="template_program">
+	<xsl:apply-templates select="p:ПрограммаОбучения"/>
+</xsl:template>
+
+<xsl:template match="p:ПрограммаОбучения">
+	
+	<h2>
+		Программа обучения "<xsl:value-of select="p:Наименование" disable-output-escaping="yes"/>"
+	</h2>
+	
+	<table id="a_options">
+		<xsl:apply-templates select="p:Описание"/>
+	</table>
+	
+	<xsl:apply-templates select="p:Содержание"/>
+	
+</xsl:template>
+
+<xsl:template match="p:Описание">
+    
+	<xsl:for-each select="p:Характеристика">
+		<xsl:if test="p:Значение != ''">
+			<xsl:if test="(p:СкрыватьОтУченика = 'false' or ../../p:ПросмотрУчащимся = 'false') and (p:СкрыватьОтПросмотраЧерезОбщийКаталог = 'false' or ../../p:ПросмотрИзОбщегоКаталога = 'false')">
+				<tr>
+					<td><xsl:value-of select="p:Имя" disable-output-escaping="yes"/>: </td><td><xsl:value-of select="p:Значение" disable-output-escaping="yes"/></td>
+				</tr>
+			</xsl:if>
+		</xsl:if>
+	</xsl:for-each>
+
+</xsl:template>
+
+<xsl:template match="p:Содержание">
+
+	<xsl:if test="count(p:ЭлементСодержания) > 0">
+
+		<div class="NameRazdel">Содержание</div>
+
+		<ul>
+	    	<xsl:apply-templates select="p:ЭлементСодержания"/>
+		</ul>
+
+	</xsl:if>
+
+</xsl:template>
+
+<xsl:template match="p:ЭлементСодержания">
+	
+	<li>
+		<xsl:attribute name="level"><xsl:number level="multiple" /></xsl:attribute>
+		
+		<xsl:if test="p:ЭтоМодуль = 'true'">
+			<xsl:value-of select="p:Наименование" disable-output-escaping="yes"/>
+		</xsl:if>	
+		
+		<xsl:if test="p:ЭтоМодуль = 'false'">
+			<a>
+				<xsl:attribute name="href">?object=activity&amp;id=<xsl:value-of select="p:Мероприятие/a:id" /></xsl:attribute>
+				<xsl:value-of select="p:Наименование" disable-output-escaping="yes"/>
+			</a>
+		</xsl:if>
+		
+		<xsl:if test="count(p:ЭлементСодержания) > 0">
+			<ul>
+				<xsl:apply-templates select="p:ЭлементСодержания"/>	
+			</ul>
+		</xsl:if>
+	</li>
+	
+</xsl:template>
+
+</xsl:stylesheet>

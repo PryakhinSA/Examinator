@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8366938-53f6-4e1f-b8cb-dfc3a151f3c3">
+  <name>ОбновлениеДанныхВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление данных веб-кабинета</value>
+  </synonym>
+  <methodName>CommonModule.ВебКабинетСУ.ОбновлениеДанныхВебКабинетаСУ</methodName>
+  <description>Обновление данных веб-кабинета</description>
+  <key>ОбновлениеДанныхВебКабинетаСУ</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

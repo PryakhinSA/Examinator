@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e65f2e95-6891-4e72-9df4-228a40a626f9">
+  <name>ОбменЭлектроннымиРесурсамиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

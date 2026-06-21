@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="105be53e-412d-480d-88af-03b76cff37fe">
+  <name>УправлениеОбучениемСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебный процесс</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

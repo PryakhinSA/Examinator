@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5434389-b67f-4225-ac14-3fdb58204e6b">
+  <name>МоеОбщениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общение</value>
+  </synonym>
+  <group>CommandGroup.ЛичныйКабинетСУО</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

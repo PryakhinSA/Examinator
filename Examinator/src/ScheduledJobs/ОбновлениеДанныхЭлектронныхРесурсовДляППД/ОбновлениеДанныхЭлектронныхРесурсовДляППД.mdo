@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="418877ff-3326-4a07-bb9e-eb5c505b4e34">
+  <name>ОбновлениеДанныхЭлектронныхРесурсовДляППД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление данных электронных ресурсов для ППД</value>
+  </synonym>
+  <methodName>CommonModule.ОбъектыСУЗ.ОбновитьВсеДанныеДляИндексирования</methodName>
+  <description>Обновление данных электронных ресурсов для ППД</description>
+  <key>ОбновлениеДанныхЭлектронныхРесурсовДляППД</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

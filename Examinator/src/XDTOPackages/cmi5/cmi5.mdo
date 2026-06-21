@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5815fa90-3184-4cfc-a07d-f96c25916eea">
+  <name>cmi5</name>
+  <synonym>
+    <key>ru</key>
+    <value>cmi5</value>
+  </synonym>
+  <namespace>https://w3id.org/xapi/profiles/cmi5/v1/CourseStructure.xsd</namespace>
+</mdclass:XDTOPackage>

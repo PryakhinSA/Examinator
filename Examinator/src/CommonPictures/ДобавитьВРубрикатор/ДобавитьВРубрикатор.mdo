@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4db0a576-fde0-417f-9ec9-4635541283d6">
+  <name>ДобавитьВРубрикатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить в рубрикатор</value>
+  </synonym>
+</mdclass:CommonPicture>

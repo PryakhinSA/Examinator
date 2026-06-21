@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d7726a4-4f23-4827-92be-a30b9bd464f4">
+  <name>ЛичныйКабинетСообщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет - сообщения</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b29fd9cc-a319-4aba-9a06-ad61b050e193">
+  <name>Каталог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ИспользоватьКаталогОбученийСУО</content>
+  <content>FunctionalOption.ИспользоватьКаталогОбученийСУО</content>
+  <content>CommonCommand.КаталогОбученийСУО</content>
+  <content>Catalog.КаталогМероприятийСУО</content>
+  <content>Catalog.КаталогПрограммОбученияСУО</content>
+  <content>CommonForm.КаталогОбученийСУО</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

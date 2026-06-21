@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f583c05f-7b07-4dfb-add0-60756cfbb442">
+  <name>ПользователиВебКабинетаОбновлениеКонстантСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи веб-кабинета - обновление констант</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписей</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВебКабинетСУ.ПользователиВебКабинетаОбновлениеКонстант</handler>
+</mdclass:EventSubscription>

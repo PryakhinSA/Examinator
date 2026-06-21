@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc80574b-70d9-4e99-9206-06f6ddf81888">
+  <name>Литература</name>
+  <synonym>
+    <key>ru</key>
+    <value>Литература</value>
+  </synonym>
+  <content>Catalog.ЛитератураСУО</content>
+  <content>XDTOPackage.КнигиСУО</content>
+  <content>Catalog.СодержаниеКнигиСУО</content>
+  <content>Role.УправлениеЛитературойСУО</content>
+  <parentSubsystem>Subsystem.УчебныеМатериалыСУО</parentSubsystem>
+</mdclass:Subsystem>

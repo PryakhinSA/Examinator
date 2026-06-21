@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de001a4d-bdfc-4284-a723-5ffe831eab03">
+  <producedTypes>
+    <selectionType typeId="85696354-3569-498b-b9bb-1592f884f981" valueTypeId="a00861de-7409-4ee7-9678-b2db6c1c2089"/>
+    <listType typeId="41b93dd4-87b2-402e-a4b6-42d0b4e55224" valueTypeId="224058ad-9dbb-4e09-9ab1-5cc91f049000"/>
+    <managerType typeId="6bbbaab5-b3be-44cb-a79f-0f3d61515f13" valueTypeId="9f884794-15c2-48c1-8320-713683cb6e68"/>
+    <recordSetType typeId="610379fc-73e9-4594-ade1-c173f78d81df" valueTypeId="335e33e9-fb30-4608-a00f-e5a259e3d402"/>
+    <recordKeyType typeId="02b70659-da74-48a0-b726-2371019bc883" valueTypeId="09357aaa-6a92-4a27-a4b1-bb8f1d7f3685"/>
+    <recordType typeId="e29b9945-1397-47f9-bce9-1c8ab634bf4a" valueTypeId="2ec36a79-2bc1-45bb-bc15-43d0ca40364e"/>
+    <recordManagerType typeId="94bd2f25-1d56-4df4-9b66-7970da468bb7" valueTypeId="da6fe602-1ee7-4a14-ba54-711e9d2ce896"/>
+  </producedTypes>
+  <name>РасписаниеОбученияОбщееСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание мероприятий (общее)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="873b1d68-10f6-493e-b13d-c562017f3725">
+    <name>ДатаНачалаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала проведения мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4c3e539b-1635-420a-8380-dc512fe398d6">
+    <name>ДатаОкончанияПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания проведения мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9a82b624-9559-4931-87f3-ff9849f82cc2">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПроведенияОбъектовСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8448a5c-60cf-4bce-ae06-7f12cfcb66f4">
+    <name>ЦветНаКалендаре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет на календаре</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="4c60ddc5-ca87-49bd-90ad-3a750d56993a">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Мероприятие, которое проводится</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

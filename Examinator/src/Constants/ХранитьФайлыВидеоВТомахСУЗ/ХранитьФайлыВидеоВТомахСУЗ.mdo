@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec925abf-5205-4a3f-bf89-2f5bb2fdfa42">
+  <producedTypes>
+    <managerType typeId="c0c382de-1d4d-476d-9c23-746949789c96" valueTypeId="1ebc9b5d-6a35-497f-9645-66b751b255f7"/>
+    <valueManagerType typeId="2b19c12b-501e-4bba-a8dd-cf69b9b91f6b" valueTypeId="ce20ad1a-cb42-477f-9170-fb4fdf9d61c1"/>
+    <valueKeyType typeId="b0464737-1c79-5d18-8768-768860cf39b4" valueTypeId="2605eee1-63dd-5aa2-904b-9ab6f2a97cff"/>
+  </producedTypes>
+  <name>ХранитьФайлыВидеоВТомахСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранить файлы видео в томах</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

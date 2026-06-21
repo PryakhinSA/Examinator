@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32968dc-f0a3-4826-9205-ab6fe6292e6d">
+  <producedTypes>
+    <containerType typeId="2dc14ec6-bf29-4ba6-a3dd-4ef443756574" valueTypeId="45d857ae-689d-4659-9738-408f14693161"/>
+  </producedTypes>
+  <name>СценарийОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарий обучения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КаталогМероприятийСУО</types>
+    <types>CatalogRef.СводыЗнанийСУЗ</types>
+    <types>DocumentRef.ПроведениеОбученияСУО</types>
+  </type>
+</mdclass:DefinedType>

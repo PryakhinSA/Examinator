@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f8f0cf9-672f-4729-9ff1-522fdf5fabab">
+  <producedTypes>
+    <managerType typeId="0e278e1e-fe2b-43a8-a401-24e5568126ee" valueTypeId="2f09b885-9c77-4bd1-aae9-2224ee8e565a"/>
+    <valueManagerType typeId="899e0b76-e8db-48d6-9d1b-a820213b6c3f" valueTypeId="4a82ee48-a248-49dc-b68f-1fe2d0b14f8d"/>
+    <valueKeyType typeId="ecac4bb7-f864-4d9b-851d-d42f162f4e58" valueTypeId="adb86029-ef52-4051-89ba-30491395f81b"/>
+  </producedTypes>
+  <name>ИспользоватьЭлектронноеОбучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронное обучение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

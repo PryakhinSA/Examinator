@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="471642be-8690-465b-b2f4-25a35b078923">
+  <producedTypes>
+    <managerType typeId="7b2874b0-2557-4311-8743-b3d8f3fb78dc" valueTypeId="2802abdb-12c0-42b4-9dac-d422d9aebcfa"/>
+    <valueManagerType typeId="b03a0323-73cb-46f4-9ba7-e4e66eb23a42" valueTypeId="fe3545ca-214b-422a-8153-290bd54c38aa"/>
+    <valueKeyType typeId="f9ffb934-0c4f-58b8-a976-01235a07643a" valueTypeId="1503dcfc-b153-5b9d-abcc-dfa3735cb9bb"/>
+  </producedTypes>
+  <name>ИспользоватьПинКодыВПерсональныхНастройкахСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать пин-коды в персональных настройках</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Пользователи смогут активировать пин-код в своих персональных настройках</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

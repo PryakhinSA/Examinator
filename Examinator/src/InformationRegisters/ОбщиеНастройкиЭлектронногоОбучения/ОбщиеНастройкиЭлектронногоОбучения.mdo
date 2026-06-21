@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6e050f9-ee48-4462-b0c7-61c2ae70e23b">
+  <producedTypes>
+    <selectionType typeId="10cf8bf0-4e72-426a-80a0-bc1ba6146b17" valueTypeId="ee451872-5bfa-4d66-976f-f70ce7728d5d"/>
+    <listType typeId="7edc2ffc-0651-46e3-82be-d559b1183bf1" valueTypeId="30bc3558-6e89-43f4-9f04-829262adfc1c"/>
+    <managerType typeId="9aad3de7-de91-4d9a-806a-6fbce3a53b3c" valueTypeId="f1b55a0e-bcfc-467b-8ef5-4d3c4cbcf600"/>
+    <recordSetType typeId="30e38a44-e9e2-4861-b139-b692ae092699" valueTypeId="c0fb5e46-3842-4460-b505-b97af2703566"/>
+    <recordKeyType typeId="314c305b-bd55-4e94-9d40-db9d9ec55e59" valueTypeId="1da2cc68-6fcf-460c-a2bf-f78de26d616b"/>
+    <recordType typeId="7d07dc92-8f71-4dad-806c-52594fc4f295" valueTypeId="2ecb4406-b24b-4c71-aa3b-4a9cbe5f6484"/>
+    <recordManagerType typeId="9c32ba29-1982-44c4-b729-7fbe55e65b4a" valueTypeId="086f737c-b355-46a3-a6c7-22298d629751"/>
+  </producedTypes>
+  <name>ОбщиеНастройкиЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие настройки электронного обучения</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05fedb15-ac35-4fde-9e28-041223ad3b80">
+    <name>АдресОбщегоКаталогаНаВебСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес общего каталога на веб-сервере</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Веб-адрес (URL) каталога электронных курсов на веб-сервере.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="9d0802f4-38ae-40f0-8c3f-0cc69fafe616">
+    <name>ПутьКОбщемуКаталогуНаВебСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к общему каталогу на веб-сервере</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Локальный или сетевой путь к каталогу электронных курсов относительно кластера серверов 1С:Предприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="d6424505-5d28-4f9f-89aa-d3a13882e3e6">
+    <name>ИспользоватьОбщийКаталогВТонкомКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать общий каталог в тонком клиенте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В тонком клиенте электронные курсы будут открываться через общий каталог без выгрузки файлов на локальный компьютер пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="36b9cc13-5c6f-4a70-b30b-82fccd8d33f8">
+    <name>ФормироватьВОбщемКаталогеМанифестCMI5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать в общем каталоге манифест CMI5</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будет сформирован файл cmi5.xml с описанием всех курсов в общем каталоге </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="d6a75adb-ad33-48af-b712-60dc404875a7">
+    <name>ФормаРедактированияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d5981794-ae6d-4eb7-9a46-10eb1506ca30">
+    <name>ФормаМастерНастройкиОбщегоКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер настройки общего каталога</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="79117902-6717-4a1f-8945-e4678a693e57">
+    <name>ЗагрузчикОбластиПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузчик области просмотра</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="aba23538-5281-44c3-9176-1ee3010c486c">
+    <name>ТестированиеОбластиПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование области просмотра</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

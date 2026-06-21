@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b70cbb1-875f-4a3c-bc55-cf1c65bae5f5">
+  <producedTypes>
+    <refType typeId="92aef1e7-b6ef-48e6-9ad0-5e97e0b7048d" valueTypeId="8de0bc9b-4414-4364-bd3f-b8bf1158ae60"/>
+    <listType typeId="d1b8abda-38bc-4ebe-bce7-c2cfbe1eaaea" valueTypeId="8ff4cbbe-e703-4bc6-8836-00362f6c5429"/>
+    <managerType typeId="9955be6c-4475-42aa-b45a-b17c30d872a2" valueTypeId="6169b7e1-6cd7-43f1-b0b5-e37b48e4dd7b"/>
+  </producedTypes>
+  <name>РазмещениеУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение учебных материалов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1610f7fd-b5e1-4fe5-bebd-f5f72017a490">
+    <name>БиблиотекаЭлектронногоОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека электронного обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60e02ca4-864c-43fd-b9b3-fa865cf8b0c4">
+    <name>КонструкторКурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор курсов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8aa0902c-6d5c-47eb-9c8d-5d7fba9b0fb2">
+    <name>КорпоративныйУниверситет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпоративный университет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

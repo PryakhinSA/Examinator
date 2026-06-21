@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b025cd1d-fa8a-42e3-833b-c8ef07d3c0af">
+  <producedTypes>
+    <selectionType typeId="30562e07-2868-4b34-871a-044edfe415b0" valueTypeId="07ad5c98-4edb-4e1c-ae21-eb7673f977e2"/>
+    <listType typeId="03f15a69-add6-45e1-89eb-7717383dce9e" valueTypeId="292296be-f4ef-4d5a-a356-7dfe93bfa80b"/>
+    <managerType typeId="63980641-1dc6-4123-a82d-2d14307c9f2c" valueTypeId="73323ce5-1576-436d-988f-0682548bfb64"/>
+    <recordSetType typeId="3b0d56e6-283a-4694-b3bb-ef52715823bf" valueTypeId="a3ea342b-6c99-4809-96c9-af9b0d948156"/>
+    <recordKeyType typeId="dd1e4f8f-3b3f-4b78-a923-c342aa18cad6" valueTypeId="d7a83693-c044-4a19-8be4-c4e0aeb2f176"/>
+    <recordType typeId="b58784e1-cfa2-40ce-b24b-7e3c568e8b75" valueTypeId="964e2ea2-5757-459b-a8bc-4ebc65d35d48"/>
+    <recordManagerType typeId="d1e3c47f-9990-4d66-989a-b88ef8853eb4" valueTypeId="2dff1e95-d85d-4d71-9ba6-242134089071"/>
+  </producedTypes>
+  <name>ПлеерКурсовВебКабинетаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плеер курсов веб-кабинета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2fe02246-125c-4a95-b967-82ebfbc0ba4c">
+    <name>Плеер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плеер</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПлеерыКурсовВебКабинетаСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2f128b59-a8fe-43e5-bc03-6d999a66f52d">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9d8affa6-ab75-426c-bff7-a653a66304ff">
+    <name>ЭлектронныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95c07794-04c5-4ab1-bd0d-698d8e64527a">
+  <name>ЛичныйКабинетСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет</value>
+  </synonym>
+  <content>CommandGroup.ЛичныйКабинетСУО</content>
+  <content>Role.ЛичныйКабинетБазовыеПраваСУО</content>
+  <content>Constant.ИспользоватьЛичныйКабинетСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныйКабинетСУО</content>
+  <content>InformationRegister.НастройкиЛичногоКабинетаСУО</content>
+  <subsystems>Обучение</subsystems>
+  <subsystems>Коммуникации</subsystems>
+  <subsystems>ИнформационнаяЛента</subsystems>
+  <subsystems>Библиотека</subsystems>
+  <subsystems>Анкеты</subsystems>
+  <subsystems>Настройки</subsystems>
+</mdclass:Subsystem>

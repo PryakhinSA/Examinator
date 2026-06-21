@@ -1,0 +1,15 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/lms/3/News">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/User"/>
+	<objectType name="Новость">
+		<property name="Заголовок" type="xs:string"/>
+		<property name="Номер" type="xs:string"/>
+		<property name="Дата" type="xs:dateTime"/>
+		<property name="ДатаЧисло" type="xs:integer"/>
+		<property name="Текст" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/User" name="Автор" type="d3p1:Пользователь"/>
+		<property name="Выделить" type="xs:boolean"/>
+		<property name="Закрепить" type="xs:boolean"/>
+	</objectType>
+</package>

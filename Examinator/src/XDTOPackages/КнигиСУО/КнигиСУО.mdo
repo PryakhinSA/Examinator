@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc0c2f72-f622-4ea7-a184-acca59911d92">
+  <name>КнигиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книги</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/lms/1/Book</namespace>
+</mdclass:XDTOPackage>

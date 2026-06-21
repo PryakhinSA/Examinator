@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1845bd4f-68bd-490e-bf1c-bb531f855efa">
+  <name>ИспользоватьСтудентовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать студентов</value>
+  </synonym>
+  <location>Constant.ИспользоватьСтудентовСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ДисциплиныОО</content>
+  <content>Catalog.КурсыОО</content>
+  <content>Catalog.ОтделенияОО</content>
+  <content>Catalog.СпециализацииОО</content>
+  <content>Catalog.СпециальностиОО</content>
+  <content>Catalog.СтатусыСтудентовОО</content>
+  <content>Catalog.УчебныеГруппыОО</content>
+  <content>Catalog.ФормыОбученияОО</content>
+  <content>Report.ИспользованиеЭлектронныхРесурсовОО</content>
+  <content>Report.ОтветыНаВопросыОО</content>
+  <content>Report.РезультатыОбученияОО</content>
+  <content>Report.РезультатыТестированийОО</content>
+  <content>DataProcessor.ИмпортСтудентовОО</content>
+  <content>InformationRegister.СтудентыОО</content>
+  <content>InformationRegister.СтудентыОО.Command.СтудентыОО</content>
+  <content>DataProcessor.ИмпортСтудентовОО.Command.ИмпортСтудентов</content>
+  <content>Report.РезультатыОбученияОО.Command.РезультатыОбученияОО</content>
+  <content>Catalog.ДисциплиныОО.Command.Дисциплины</content>
+  <content>Catalog.КурсыОО.Command.Курсы</content>
+  <content>Catalog.ОтделенияОО.Command.Отделения</content>
+  <content>Catalog.СпециализацииОО.Command.Специализации</content>
+  <content>Catalog.СпециальностиОО.Command.Специальности</content>
+  <content>Catalog.СтатусыСтудентовОО.Command.СтатусыСтудентов</content>
+  <content>Catalog.УчебныеГруппыОО.Command.УчебныеГруппы</content>
+  <content>Catalog.ФормыОбученияОО.Command.ФормыОбучения</content>
+</mdclass:FunctionalOption>

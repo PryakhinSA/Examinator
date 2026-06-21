@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d503606d-e950-4ddd-9dbe-c7e9dbd15a9b">
+  <name>БазоваяФункциональность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЭлектронноеОбучениеСлужебный</content>
+  <content>CommonModule.ЭлектронноеОбучениеСлужебныйВызовСервера</content>
+  <content>CommonModule.ЭлектронноеОбучениеСлужебныйКлиент</content>
+  <content>CommonModule.ЭлектронноеОбучениеСлужебныйКлиентСервер</content>
+  <content>Role.БазовыеПраваЭлектронногоОбучения</content>
+  <content>FunctionalOption.ИспользоватьЭлектронноеОбучение</content>
+  <content>Constant.ИспользоватьЭлектронноеОбучение</content>
+  <content>CommonModule.ЭлектронноеОбучение</content>
+  <content>CommonCommand.НастройкиЭлектронногоОбучения</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБЭО</content>
+  <content>CommonPicture.ЭлементыЭлектронныхКурсов</content>
+  <content>CommonModule.ЭлектронноеОбучениеПереопределяемый</content>
+  <parentSubsystem>Subsystem.СистемаДистанционногоОбучения.Subsystem.ЭлектронноеОбучение</parentSubsystem>
+</mdclass:Subsystem>

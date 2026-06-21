@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14a60029-d80e-4847-9286-c096359b966e">
+  <producedTypes>
+    <refType typeId="caa26318-ef22-491b-9b41-bc06e2f528e7" valueTypeId="6bb54bb3-2e9a-4ba4-92a8-caa50ccaea90"/>
+    <listType typeId="80d08d82-a08c-4b16-b398-9d0d50a870c2" valueTypeId="d645d4fc-dbb0-4a7e-b6dc-f37b9f297cd2"/>
+    <managerType typeId="dffb1481-dcde-4128-bd33-ad8b7d87f7da" valueTypeId="ff9a2628-afd6-4c8b-81d0-c2ba24e46395"/>
+  </producedTypes>
+  <name>ТипыУчебныхПрограммныхПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы учебных программных продуктов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56447b14-310b-4211-815e-076461d31914">
+    <name>УчебнаяБаза1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебная база &quot;1С:Предприятие 8&quot;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

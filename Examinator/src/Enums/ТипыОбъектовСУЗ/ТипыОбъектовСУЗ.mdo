@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36e8059c-ed04-4b16-afd0-291ada83410e">
+  <producedTypes>
+    <refType typeId="461152aa-654c-4474-949e-5ca42d8103d8" valueTypeId="c976cb2b-945d-4c4e-ae6d-227d357eaecb"/>
+    <listType typeId="53368653-5c18-46b0-b7f9-fe8c32ad2840" valueTypeId="acd8c451-f9b9-40bc-859c-0997d8d2aab6"/>
+    <managerType typeId="4f16e7f0-fcba-4384-8db1-670f14efa24d" valueTypeId="08bc7798-a87b-44ee-8cfd-3a1bcc15ead3"/>
+  </producedTypes>
+  <name>ТипыОбъектовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>object</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f98f3c56-a3d1-47dc-b594-1afa41846171">
+    <name>collection</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подборки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64edf1b7-f257-48bc-a8b5-b591767d19d4">
+    <name>file</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0c8f264-1157-4bbf-ba85-f1a3ad0dbdbf">
+    <name>frame</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фреймы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffcacdef-d762-473c-b323-0e505b9b394f">
+    <name>glossary</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глоссарии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7c82d36-a14d-4575-91da-65dbc24f8c7c">
+    <name>knowledgeBase</name>
+    <synonym>
+      <key>ru</key>
+      <value>СводыЗнаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca34e75a-9c39-4015-ad98-84c3dad92f19">
+    <name>map</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="012be214-d07f-4172-a5d9-d0350aae2d0e">
+    <name>page</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страницы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aef796c6-5748-4068-b701-7fefe153ad98">
+    <name>question</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопросы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8132b4e3-3672-420f-ad3a-72d24a920908">
+    <name>res</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c762aded-6884-457b-b59f-a53315e53c97">
+    <name>term</name>
+    <synonym>
+      <key>ru</key>
+      <value>Термины</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

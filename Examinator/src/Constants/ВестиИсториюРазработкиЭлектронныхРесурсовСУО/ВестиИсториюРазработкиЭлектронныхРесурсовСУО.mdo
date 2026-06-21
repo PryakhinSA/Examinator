@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c6378ca-fe84-45b4-9a58-d3af637c5902">
+  <producedTypes>
+    <managerType typeId="2787b065-1412-43b7-ba32-67bb73eeb262" valueTypeId="6925c553-9b87-4478-917e-fe9af44a59e0"/>
+    <valueManagerType typeId="a40ee9e7-c3f0-40af-ab3f-5fe930fc7866" valueTypeId="1d2b35be-f126-4f37-b7cf-f782b5cacfd7"/>
+    <valueKeyType typeId="88eef039-032b-5ad2-b2c4-4e49238aa06a" valueTypeId="948d9243-44c0-50ba-bf43-81faace45bf0"/>
+  </producedTypes>
+  <name>ВестиИсториюРазработкиЭлектронныхРесурсовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести историю разработки электронных ресурсов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Активность разработчиков электронных ресурсов будет фиксироваться для дальнейшего анализа</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2548a4ea-5c54-4851-9da0-5c19eecc17e7">
+  <producedTypes>
+    <selectionType typeId="6b2e9de7-ff59-479d-8a9a-273470de201d" valueTypeId="9db6cbea-ebb4-4607-aa84-ff8a97a986e8"/>
+    <listType typeId="a2fbef96-e0fb-4ef7-a0dc-41f3a8229877" valueTypeId="055180ed-64ac-4db6-9e26-cef2fdf0d601"/>
+    <managerType typeId="d6e2e71f-52bc-4a80-8ff3-d320158e7f5d" valueTypeId="20dab1a4-69b3-4751-9c92-bc51c3adcbf2"/>
+    <recordSetType typeId="5c55af5d-b93e-45de-83ae-c880e4edc642" valueTypeId="f6d9d22b-3e75-47fb-8775-67418f5e9f9c"/>
+    <recordKeyType typeId="325276a2-a05b-4cf5-ae73-1dd0484a0f82" valueTypeId="77daf8b1-dec7-4713-ab2b-20e26ca86043"/>
+    <recordType typeId="bf251ac8-e795-4f65-afe4-3c8effc85d11" valueTypeId="e2b386e0-05c6-4eac-baac-0372c362b392"/>
+    <recordManagerType typeId="cf25a69f-3c71-4153-85a4-f5fd5967b9dc" valueTypeId="517cb245-c4e0-43d6-a7e9-daf183412df7"/>
+  </producedTypes>
+  <name>МодераторыОбщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модераторы сообщений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Модератор сообщений</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модераторы сообщений</value>
+  </listPresentation>
+  <dimensions uuid="cbe4307f-5c6c-4a47-a311-923c16822384">
+    <name>Модератор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модератор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, которому будут доступны все групповые обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

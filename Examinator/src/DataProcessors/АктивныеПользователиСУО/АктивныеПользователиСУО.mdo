@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="857902d5-62c6-4569-bd4a-44d90241e039">
+  <producedTypes>
+    <objectType typeId="8e169ab5-ff24-4eec-b408-c8a90a063799" valueTypeId="0e1f8683-4743-4d4c-b405-86b75eccfb89"/>
+    <managerType typeId="4b6b66e9-1be7-4f45-9e1e-84a86879158c" valueTypeId="66e8c579-c108-4f50-af2d-63c0b9769cd9"/>
+  </producedTypes>
+  <name>АктивныеПользователиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активные пользователи</value>
+  </synonym>
+  <defaultForm>DataProcessor.АктивныеПользователиСУО.Form.СписокАктивныхПользователей</defaultForm>
+  <attributes uuid="2734fed3-aee6-435b-bb80-a29c8fee6836">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Интервал обновления списка активных пользователей в минутах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="89bd4e9d-b828-4bfd-97f7-97e0f6240073">
+    <name>СписокАктивныхПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список активных пользователей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

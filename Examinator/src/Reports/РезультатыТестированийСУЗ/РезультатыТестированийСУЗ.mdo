@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd82dfc4-1bb4-46e8-9414-21b4aaaa353f">
+  <producedTypes>
+    <objectType typeId="eaf2f020-47ac-4e80-b92f-490e1469dabb" valueTypeId="967b2f1a-2a78-4dc1-9ff0-19fff967a525"/>
+    <managerType typeId="8fb2a335-d167-4059-bd94-72be2c87b352" valueTypeId="e1b7791e-64a1-47c9-87d0-e6662a4cda92"/>
+  </producedTypes>
+  <name>РезультатыТестированийСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты тестирований</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РезультатыТестированийСУЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Результаты тестирований пользователей</value>
+  </extendedPresentation>
+  <templates uuid="1f33a243-76c1-424f-ae48-6a988c1f40d6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="6347a232-c4c3-42d5-9c0d-9ee28257d77f">
+    <name>РезультатыТестирований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирований</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="061094b6-f1cc-4139-a72f-2aa896710e30">
+    <name>РезультатыТестированийЭлектронногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирований</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="f369788f-7ede-4542-8b34-2b93dba5cf04">
+    <name>РезультатыТестированийПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирований</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="733963a9-b820-46aa-bc9f-e8c8414d7ec7">
+    <name>РезультатыТестированийПрохожденияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирований</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="3ee3f7f0-1665-4c0a-868e-9109d99529d7">
+    <name>РезультатыТестированийЭлектронногоРесурса1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирований</value>
+    </synonym>
+    <group>CommandGroup.Отчеты</group>
+    <commandParameterType>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

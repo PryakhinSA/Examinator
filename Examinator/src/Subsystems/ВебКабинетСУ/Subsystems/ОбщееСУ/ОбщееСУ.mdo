@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e8a7917-fbb7-4ba7-b988-361ac2d95152">
+  <name>ОбщееСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общее</value>
+  </synonym>
+  <content>InformationRegister.ЗависимостиДанныхВебКабинетаСУ</content>
+  <content>Enum.ФорматыВебДанныхСУ</content>
+  <content>Constant.ИспользоватьВебКабинетСУ</content>
+  <content>CommonTemplate.ВерсияAPIВебКабинетаСУ</content>
+  <content>EventSubscription.ДанныеВебКабинетаОбновлениеЗависимостейСУ</content>
+  <content>Role.ВебКабинетСлужебныйПользовательСУ</content>
+  <content>CommonModule.ВебКабинетСУ</content>
+  <content>FunctionalOption.ИспользоватьВебКабинетСУ</content>
+  <content>InformationRegister.ЗаданияНаОбновлениеДанныхВебКабинетаСУ</content>
+  <content>ScheduledJob.ОбновлениеДанныхВебКабинетаСУ</content>
+  <content>EventSubscription.ПользователиВебКабинетаОбновлениеКонстантСУ</content>
+  <content>Catalog.ПубликацииВебКабинетаСУ</content>
+  <content>Constant.ОсновнаяПубликацияВебКабинета20СУ</content>
+  <content>Enum.ТемыВебКабинетаСУ</content>
+  <content>Enum.ЯзыкиВебКабинетаСУ</content>
+  <content>CommonPicture.ТемаВебКабинетаОблако</content>
+  <content>CommonPicture.ТемаВебКабинетаАквамарин</content>
+  <content>CommonPicture.ТемаВебКабинетаПляж</content>
+  <content>CommonPicture.ТемаВебКабинетаЛето</content>
+  <content>Enum.РедакцииВебКабинетаСУ</content>
+  <content>Constant.РедакцияВебКабинетаСУ</content>
+  <content>Constant.ОсновнаяПубликацияВебКабинета30СУ</content>
+  <content>CommonModule.ЛицензированиеВебКабинетаСУ</content>
+  <parentSubsystem>Subsystem.ВебКабинетСУ</parentSubsystem>
+</mdclass:Subsystem>

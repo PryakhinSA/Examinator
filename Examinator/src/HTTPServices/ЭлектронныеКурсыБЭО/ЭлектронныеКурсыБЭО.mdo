@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="361f4253-6613-4350-a684-34698cbe4bf4">
+  <name>ЭлектронныеКурсыБЭО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные курсы</value>
+  </synonym>
+  <rootURL>courses</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="88f5b202-ed24-4205-9da8-15aab8c17fab">
+    <name>ПолучитьДанныеИзучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить данные изучения</value>
+    </synonym>
+    <template>/learning/get/{ЭлектронныйКурс}/{ИдентификаторАктивности}</template>
+    <methods uuid="8bf9efdf-d695-4568-bd5f-6b6da4618b21">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьДанныеИзученияGET</handler>
+    </methods>
+    <methods uuid="fcc94440-ef39-4381-ad1f-7e2b67284e7e">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="80ce102c-ad5e-40dc-8b96-f25a0717641b">
+    <name>СохранитьДанныеИзучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить данные изучения</value>
+    </synonym>
+    <template>/learning/commit/{ЭлектронныйКурс}/{ИдентификаторАктивности}</template>
+    <methods uuid="2c73cdb3-ca34-482c-8475-379d7f1bbdf9">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СохранитьДанныеИзученияPOST</handler>
+    </methods>
+    <methods uuid="4189cbe9-4dba-41bd-9155-4956e2dc80e0">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

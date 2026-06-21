@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6076fc5-b995-4347-87ab-53dc91c8970b">
+  <producedTypes>
+    <selectionType typeId="bfe94297-f26d-43bb-88ed-78530222e048" valueTypeId="a5d1ce5f-f2c6-4ff5-b800-545ddfd5eff6"/>
+    <listType typeId="3e836cc5-4497-4bc4-a050-f42c3139711c" valueTypeId="6bc0034e-798d-4dbd-b11c-926aad9e4fdd"/>
+    <managerType typeId="a4f9e18d-819f-4171-ad42-c6bdaf671309" valueTypeId="07028de5-bdcc-4ebf-840d-5b6c09a72e4d"/>
+    <recordSetType typeId="f647b805-95ac-452b-ba46-490017cc5f9c" valueTypeId="b1339484-8d4c-4721-912a-07776e360b1a"/>
+    <recordKeyType typeId="c532cbdb-6a76-4368-bcd9-14ed3d79911c" valueTypeId="79026b19-4678-4c56-b4a5-f9b7b2933584"/>
+    <recordType typeId="a60b1757-2cad-4e84-903c-94da0307b3db" valueTypeId="cd0e1f16-a41d-4f9f-b472-846feaa23d12"/>
+    <recordManagerType typeId="2017936c-e445-426e-9c10-74413fd892c2" valueTypeId="c4ad822d-9c5e-4b84-9300-1943a8367663"/>
+  </producedTypes>
+  <name>ЛичныеСообщенияПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a566dc54-af5b-4b88-87d8-23179f63754f">
+    <name>ОтправительИлиПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель или получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="53ca282f-b18a-48e4-895c-a2a04b316796">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тема обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d90a664-f333-422c-bae0-a46737a3d9e3">
+    <name>ЕстьВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть вложения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e0434a5d-cbe1-4b3c-95fd-ab2585a3591e">
+    <name>ЭтоГрупповоеОбсуждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это групповое обсуждение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что в обсуждении участвуют несколько участников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1088c647-ab9f-4347-9751-5ad9340bc0d8">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="21095ca2-0f8c-4b77-88c8-560a14b38d30">
+    <name>Отправленное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправленное</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1decee8d-240b-4026-ba72-ecb8aaa6899f">
+    <name>ЛичныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои сообщения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

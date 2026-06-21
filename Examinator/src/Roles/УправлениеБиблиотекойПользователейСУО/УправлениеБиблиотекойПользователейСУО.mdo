@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82f67092-b5ca-49d2-bbfb-0d9ae648d115">
+  <name>УправлениеБиблиотекойПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление библиотекой пользователей</value>
+  </synonym>
+</mdclass:Role>

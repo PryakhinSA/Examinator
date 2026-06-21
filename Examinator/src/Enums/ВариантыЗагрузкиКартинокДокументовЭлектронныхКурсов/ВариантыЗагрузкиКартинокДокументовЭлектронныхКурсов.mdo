@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be035d63-0f5b-4926-8578-da41588e520d">
+  <producedTypes>
+    <refType typeId="a0ded64a-ff5b-4855-82a9-77beaf28a613" valueTypeId="3982e3e6-1da2-4d12-a6fe-7837461513cf"/>
+    <listType typeId="a72fac51-ea7c-42ba-a953-88c8a0179111" valueTypeId="7c53da4f-a719-4540-af71-11f602cc0aca"/>
+    <managerType typeId="2b7854cf-102e-462c-bf0f-2c3491a4e193" valueTypeId="c00df6e8-e71b-45c2-8ddc-22930534f331"/>
+  </producedTypes>
+  <name>ВариантыЗагрузкиКартинокДокументовЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты загрузки картинок документов электронных курсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="0d8ca0da-4ca9-4717-9bd2-58fd8f3665f2">
+    <name>Стандартные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd847fb5-b802-412a-b6ac-26bbd79df352">
+    <name>Исходные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13e2feaf-e522-42ea-9565-bd235f86e413">
+    <name>УвеличиватьСтандартные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увеличивать стандартные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4dedbbb9-1536-4275-acb9-81c1baa7d96a">
+    <name>УвеличиватьИсходные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увеличивать исходные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8a6617a-c779-4841-86c6-59989d83650b">
+    <name>РасширятьСтандартные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширять стандартные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d686cd92-b81f-4b6c-986a-617702866542">
+    <name>РасширятьИсходные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширять исходные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

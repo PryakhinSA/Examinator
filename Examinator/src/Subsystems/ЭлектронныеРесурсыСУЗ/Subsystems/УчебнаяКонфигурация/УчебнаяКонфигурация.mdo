@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3de24498-49aa-4fa5-95c7-bf59dfe0b75d">
+  <name>УчебнаяКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебная конфигурация</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.ЭлектронныеРесурсыУчебнаяБазаСУЗ</content>
+  <content>HTTPService.УчебныеЗаданияСУЗ</content>
+  <content>CommonModule.УчебнаяКонфигурацияСУЗ</content>
+  <parentSubsystem>Subsystem.ЭлектронныеРесурсыСУЗ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e8e6c4-24d9-4a7f-b587-b5d67a4ba8d4">
+  <producedTypes>
+    <managerType typeId="cf249eef-d704-4123-b756-1d421ef3ac53" valueTypeId="419191de-eab4-4387-a9b9-324d610b4425"/>
+    <valueManagerType typeId="0e680109-4ff9-4996-ba13-97ee92d6e7bc" valueTypeId="d78ead52-1fc2-4f5d-aa78-2c6d28bbefc1"/>
+    <valueKeyType typeId="0357e22b-f4e0-4028-bc9e-7135413fc5b0" valueTypeId="e9c40290-5f07-4baa-86a0-210d87943776"/>
+  </producedTypes>
+  <name>ИспользоватьСлушателейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программа используется в учебном центре</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

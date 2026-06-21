@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64576417-03d5-4ff8-bbb7-e074bc8f09ef">
+  <name>РассылкаСообщенийНаЭлектроннуюПочтуСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка сообщений на электронную почту</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеОбучениемСУО.РазослатьСообщенияРассылокНаЭлектроннуюПочту</methodName>
+  <description>Рассылка сообщений на электронную почту</description>
+  <key>РассылкаСообщенийНаЭлектроннуюПочту</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

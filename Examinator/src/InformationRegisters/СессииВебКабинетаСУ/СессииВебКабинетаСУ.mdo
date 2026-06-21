@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a07d2c4-d366-4fc7-aa5d-ce8ea5c0add0">
+  <producedTypes>
+    <selectionType typeId="2354c298-4183-444e-a973-780e5521587f" valueTypeId="cb8ff040-6f19-4f5f-b32a-fc4429c60bf2"/>
+    <listType typeId="a8ff27ec-8caa-4919-a8e3-5a45318825fb" valueTypeId="67e230d0-a5ce-44bf-a2b1-e0d692ef54d7"/>
+    <managerType typeId="f726b351-4b60-45c2-8a17-b3c2d8f67c05" valueTypeId="f8d890b5-7787-4cbb-8222-063fb210cc0f"/>
+    <recordSetType typeId="8cfd85f5-02d2-40be-9589-423eaa3a3e57" valueTypeId="38f48b5d-f9f0-40a4-aacd-458af0423d55"/>
+    <recordKeyType typeId="4a012d5b-172a-4c71-a47b-836bc1eb35de" valueTypeId="8ec76780-8e4e-4a75-b6af-1da914cf7bef"/>
+    <recordType typeId="3a0775f8-2230-49b6-bf3b-e8829cbffa9f" valueTypeId="5cca591e-9712-4763-bf4b-5cb648b09d84"/>
+    <recordManagerType typeId="311c154f-7420-45c0-94eb-f277bb5a314a" valueTypeId="6863d396-fea1-47eb-8f19-41aa0a6f1bbc"/>
+  </producedTypes>
+  <name>СессииВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессии пользователей веб-кабинета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СессииВебКабинетаСУ.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сессия</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Сессия пользователя учебного кабинета</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сессии</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Сессии пользователей учебного кабинета</value>
+  </extendedListPresentation>
+  <attributes uuid="4a6402e2-c981-499d-a885-7cbeb39924a4">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="11940674-5bc2-4edf-a0f1-092076dac9ae">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что пользователь завершил сессию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="983e0641-45af-43f3-9fc0-49de1090c17c">
+    <name>ДатаПоследнейАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней активности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда была последняя активность пользователя в данной сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="117b4583-3de8-4011-ab97-2a561772c7d8">
+    <name>ДатаНачалаСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата входа пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56d8be33-a417-40a0-baac-da64c4238a81">
+    <name>ДатаЗакрытияСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия сессии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата выхода пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00c870ad-2aff-45f6-8412-30b0fa9a71b9">
+    <name>ИдентификаторКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиентский идентификатор сессии, который хранится в браузере пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5bc17e8b-982e-4f2c-89c3-55eab5d1dbac">
+    <name>СохраняемоеЗначениеПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемое значение пароля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хэш пароля</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="0de855f4-2e9d-43ac-b263-8d8c949ca561">
+    <name>Права</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Права, доступные пользователю в этой сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e659ccf4-17e3-4bcc-92f1-f112be889dc9">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип аутентификации, использованный при открытии сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="677cfd51-b767-4c81-bdf0-8b50f1c8813f">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор сессии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e4323ad6-2291-4cdc-9d64-b35b328b7bad">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1e807172-e573-4fee-91ad-3393992cf8c0">
+    <name>СессииПользователейВебКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессии пользователей веб-кабинета</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Список сессий авторизованных пользователей веб-кабинета.</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

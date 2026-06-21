@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8391dcfc-67e7-4b5e-b045-73f9ef0abee3">
+  <producedTypes>
+    <managerType typeId="91a0bafa-1924-4b9f-9b96-59803b013537" valueTypeId="764d9309-b731-4fe2-9d24-3a7612c16c61"/>
+    <valueManagerType typeId="ceb018de-dbac-4305-8d41-ba722cd83aee" valueTypeId="39a5ad3b-127c-464c-b6cf-9878852b7c23"/>
+    <valueKeyType typeId="1e54b29b-4a8c-5d97-ac48-e8c7f73e2ebf" valueTypeId="56e19761-f3b6-58a3-a819-91f52f276047"/>
+  </producedTypes>
+  <name>ИспользоватьДополнительныеОтчетыИОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные отчеты и обработки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

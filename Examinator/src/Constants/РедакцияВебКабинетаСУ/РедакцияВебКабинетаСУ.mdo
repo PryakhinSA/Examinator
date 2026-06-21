@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a0d25d0-a933-4f52-8c55-3ab2b8a26932">
+  <producedTypes>
+    <managerType typeId="5e5d2795-4b2a-488a-bc25-bf9454acfac9" valueTypeId="055dd135-9e86-4b08-9801-4b82311732ce"/>
+    <valueManagerType typeId="ee68a253-213c-4eba-8a6c-1e251bfe538d" valueTypeId="ed39cfc3-8169-4a73-93de-2b3fd0d0340f"/>
+    <valueKeyType typeId="39b5cf33-1842-448f-8ec1-aabef11d32de" valueTypeId="7c7d511d-b7a4-4f1c-b86f-75182b143788"/>
+  </producedTypes>
+  <name>РедакцияВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редакция веб-кабинета</value>
+  </synonym>
+  <type>
+    <types>EnumRef.РедакцииВебКабинетаСУ</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

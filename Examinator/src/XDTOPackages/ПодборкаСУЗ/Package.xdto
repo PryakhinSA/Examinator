@@ -1,0 +1,144 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/Collection">
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/kms/1/User"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Подборка" base="d2p1:ОбъектСУЗ">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="СтартоваяСтраница" type="d3p1:СтартоваяСтраница" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ТекущаяСтраница" type="d3p1:ТекущаяСтраница"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ФинальнаяСтраница" type="d3p1:ФинальнаяСтраница" lowerBound="0"/>
+	</objectType>
+	<objectType name="СтартоваяСтраница">
+		<property name="Заголовок" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="НастройкиТестирования" type="d3p1:НастройкиТестирования" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="СтартовыйРесурс" type="d3p1:ОбъектСУЗ"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ВыравниваниеСтартовогоРесурса" type="d3p1:EnumRef.СпособыВыравниванияСУЗ" lowerBound="0"/>
+	</objectType>
+	<objectType name="НастройкиТестирования">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="НазначениеТестирования" type="d3p1:EnumRef.НазначенияТестированийСУЗ"/>
+		<property name="КоличествоСделанныхПопыток" type="xs:integer"/>
+		<property name="КоличествоРазрешенныхПопыток" type="xs:integer"/>
+		<property name="ИтоговыйРезультат" type="xs:integer" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ПодробноеОписаниеПопытки" type="d3p1:СессияВыполненияТеста" lowerBound="0" upperBound="-1"/>
+		<property name="ТолькоПросмотр" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="СложностьПоУмолчанию" type="d3p1:СложностьПоУмолчанию" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="Сложности" type="d3p1:Сложности" lowerBound="0"/>
+		<property name="ЕстьПравоДобавитьПопытку" type="xs:boolean"/>
+		<property name="КоличествоДобавленныхПопыток" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="НезавершеннаяСессияТеста" type="d3p1:СессияВыполненияТеста" lowerBound="0"/>
+	</objectType>
+	<objectType name="ВремяТеста">
+		<property name="НеОграниченно" type="xs:boolean" form="Attribute"/>
+		<property name="ЧасовПрописью" type="xs:string"/>
+		<property name="МинутПрописью" type="xs:string"/>
+		<property name="СекундПрописью" type="xs:string"/>
+		<property name="Время" type="xs:time"/>
+	</objectType>
+	<objectType name="ГруппаПользователей">
+		<property name="Код" type="xs:integer"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+	<objectType name="Навигация">
+		<property name="КоличествоСтраниц" type="xs:integer"/>
+		<property name="ПоказыватьНавигацию" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ТипНавигации" type="d3p1:EnumRef.ТипыНавигацииПодборкиСУЗ"/>
+		<property name="ПереходитьВпередАвтоматически" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ГруппаЭлементов" type="d3p1:ГруппаЭлементов" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Карта" type="d3p1:ОбъектСУЗ"/>
+		<property name="НумероватьСтраницы" type="xs:boolean"/>
+		<property name="КоличествоЗавершенныхСтраницВопросов" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="НазначениеТестирования" type="d3p1:EnumRef.НазначенияТестированийСУЗ"/>
+	</objectType>
+	<objectType name="ФинальнаяСтраница">
+		<property name="РезультатТестирования" type="xs:integer"/>
+		<property name="ПроверяетсяПреподавателем" type="xs:boolean"/>
+		<property name="ПроверенПреподавателем" type="xs:boolean"/>
+		<property name="ОбщийКомментарий" type="xs:string" lowerBound="0"/>
+		<property name="Комментарий" type="xs:string" lowerBound="0"/>
+		<property name="КомментарийПсихологическогоТестирования" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="РесурсОбщийФинальный" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="РесурсКомментария" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="РесурсКомментарияПсихологическогоТестирования" type="d3p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="ИнформацияНаФинальнойСтранице" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ВопросыТеста" type="d3p1:ВопросыТеста" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="НазначениеТестирования" type="d3p1:EnumRef.НазначенияТестированийСУЗ"/>
+	</objectType>
+	<objectType name="ГруппаЭлементов">
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ЭлементПодборки" type="d3p1:ЭлементПодборки" lowerBound="0" upperBound="-1"/>
+		<property name="Номер" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ГруппаЭлементов" type="d3p1:ГруппаЭлементов" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+		<property name="ВсеВопросыОтвечены" type="xs:boolean" lowerBound="0"/>
+		<property name="ЕстьВопросыНаПроверку" type="xs:boolean"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="ЭлементПодборки" base="d2p1:ОбъектСУЗ">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="Класс" type="d3p1:Класс"/>
+	</objectType>
+	<objectType name="ТаблицаКлассов">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="Класс" type="d3p1:Класс" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Класс">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="Иконка" type="d3p1:ОбъектСУЗ"/>
+		<property name="ПорядковыйНомер" type="xs:integer" lowerBound="0"/>
+		<property name="Код" type="xs:string"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+	<objectType name="ТекущаяСтраница">
+		<property name="СвернутьРазделы" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="ПредставлениеЭлементов" type="d3p1:EnumRef.ВариантыПредставленияЭлементовПодборкиСУЗ"/>
+		<property name="ПоказыватьКлассификатор" type="xs:boolean"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ГруппаЭлементов" type="d3p1:ГруппаЭлементов" upperBound="-1"/>
+		<property name="numDocument" type="xs:string" lowerBound="0"/>
+		<property name="numGroup" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="Навигация" type="d3p1:Навигация" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ТаблицаКлассов" type="d3p1:ТаблицаКлассов" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="Таймер" type="d3p1:Таймер" lowerBound="0"/>
+		<property name="РежимПроверки" type="xs:boolean"/>
+		<property name="РежимЭкспорта" type="xs:boolean"/>
+		<property name="ВозможноПоказатьОдинФайл" type="xs:boolean"/>
+		<property name="ЭтоВстроенныйWeKit" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Преподаватели">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/User" name="Преподаватель" type="d3p1:Пользователь" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="СессияВыполненияТеста">
+		<property name="ДатаНачалаВыполненияТеста" type="xs:string" lowerBound="0"/>
+		<property name="ИтоговыйРезультат" type="xs:integer" lowerBound="0"/>
+		<property name="ПроверяетсяПреподавателем" type="xs:boolean" lowerBound="0"/>
+		<property name="ПроверенПреподавателем" type="xs:boolean" lowerBound="0"/>
+		<property name="НомерСессии" type="xs:integer"/>
+		<property name="ДатаОкончанияВыполненияТеста" type="xs:string" lowerBound="0"/>
+		<property name="ВремяВыполненияТеста" type="xs:string" lowerBound="0"/>
+		<property name="ТестЗавершен" type="xs:boolean" lowerBound="0"/>
+		<property name="Сложность" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Сложности">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="Сложность" type="d3p1:Сложность" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Сложность">
+		<property name="Номер" type="xs:integer"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="Идентификатор" type="xs:string"/>
+		<property name="КоличествоГруппЭлементов" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ВремяТеста" type="d3p1:ВремяТеста"/>
+	</objectType>
+	<objectType name="СложностьПоУмолчанию">
+		<property name="Номер" type="xs:integer"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="Идентификатор" type="xs:string"/>
+		<property name="КоличествоГруппЭлементов" type="xs:integer"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ВремяТеста" type="d3p1:ВремяТеста"/>
+	</objectType>
+	<objectType name="Таймер">
+		<property name="Формат" type="xs:string"/>
+		<property name="ОтносительноеЗначение" type="xs:integer"/>
+	</objectType>
+	<objectType name="ВопросыТеста">
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/Collection" name="ВопросТеста" type="d3p1:ВопросТеста" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ВопросТеста">
+		<property name="Номер" type="xs:integer"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+</package>

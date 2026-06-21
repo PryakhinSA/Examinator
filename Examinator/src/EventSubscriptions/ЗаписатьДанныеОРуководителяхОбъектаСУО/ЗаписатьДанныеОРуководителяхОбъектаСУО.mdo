@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f663973a-6d0a-4516-b486-8aecfa353923">
+  <name>ЗаписатьДанныеОРуководителяхОбъектаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать данные о руководителях объекта</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ПодразделенияПредприятияСУО</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.УчебныеГруппыСУО</types>
+    <types>CatalogObject.ПодразделенияОрганизацииСУО</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УправлениеОбучениемСУОПодписки.ЗаписатьДанныеОРуководителяхОбъектаСУОПриЗаписи</handler>
+</mdclass:EventSubscription>

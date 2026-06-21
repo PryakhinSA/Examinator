@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ba364e3-11c2-4781-8b34-caa1d91395fa">
+  <name>ХранитьФайлыВТомахНаДискеПриЗаписиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранить файлы в томах на диске (При записи)</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РазработкаСУЗ.ХранитьФайлыВТомахНаДискеПриЗаписиСУЗПриЗаписи</handler>
+</mdclass:EventSubscription>

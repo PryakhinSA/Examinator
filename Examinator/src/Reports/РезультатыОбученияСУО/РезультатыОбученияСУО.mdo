@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0769803d-0e82-4b18-8986-3554a704a9af">
+  <producedTypes>
+    <objectType typeId="fb616fee-ac05-47ca-ac0c-a0c1308a7b4b" valueTypeId="f487530e-7857-4a14-91c5-a8aaa7e64e32"/>
+    <managerType typeId="9b97afc7-ca5a-42e7-9ec8-b778350c89a2" valueTypeId="517ae217-940c-48c6-87c2-831aeef30eab"/>
+  </producedTypes>
+  <name>РезультатыОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты обучения</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РезультатыОбученияСУО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Результаты сотрудников</value>
+  </extendedPresentation>
+  <templates uuid="d22970fb-8055-4d27-815d-145509b78dbc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="13026b13-c618-4445-8153-084d70682ac2">
+    <name>РезультатыОбученияСУО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты сотрудников</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="749edfef-3b37-4919-b531-49c7325908df">
+  <name>ИспользоватьФорумыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать форумы</value>
+  </synonym>
+  <location>Constant.ИспользоватьФорумыСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.ФорумСУО</content>
+  <content>CommonCommand.НастройкаКоммуникацийСУО</content>
+</mdclass:FunctionalOption>

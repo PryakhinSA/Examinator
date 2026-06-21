@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4466a718-6bdd-42f8-a4c7-d3471d6402cb">
+  <name>ОбразовательнаяОрганизацияОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Образовательная организация</value>
+  </synonym>
+  <location>Constant.ОбразовательнаяОрганизацияОО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.СлужебныеПодсистемы.Subsystem.ОбразовательнаяОрганизация</content>
+  <content>CommonForm.РассылкиСУО</content>
+  <content>InformationRegister.СтудентыОО</content>
+  <content>Catalog.КурсыОО</content>
+  <content>Catalog.СтатусыСтудентовОО</content>
+  <content>Catalog.СпециализацииОО</content>
+  <content>Catalog.СпециальностиОО</content>
+  <content>Catalog.ФормыОбученияОО</content>
+  <content>Catalog.ОтделенияОО</content>
+  <content>Report.РезультатыОбученияОО</content>
+  <content>Catalog.УчебныеГруппыОО</content>
+  <content>DataProcessor.ИмпортСтудентовОО</content>
+  <content>Catalog.ДисциплиныОО</content>
+  <content>InformationRegister.СтудентыОО.Command.СтудентыОО</content>
+  <content>Catalog.ДисциплиныОО.Command.Дисциплины</content>
+  <content>Catalog.КурсыОО.Command.Курсы</content>
+  <content>Catalog.ОтделенияОО.Command.Отделения</content>
+  <content>Catalog.СпециализацииОО.Command.Специализации</content>
+  <content>Catalog.СпециальностиОО.Command.Специальности</content>
+  <content>Catalog.СтатусыСтудентовОО.Command.СтатусыСтудентов</content>
+  <content>Catalog.УчебныеГруппыОО.Command.УчебныеГруппы</content>
+  <content>Catalog.ФормыОбученияОО.Command.ФормыОбучения</content>
+  <content>DataProcessor.ИмпортСтудентовОО.Command.ИмпортСтудентов</content>
+  <content>Report.РезультатыОбученияОО.Command.РезультатыОбученияОО</content>
+  <content>CommonForm.НастройкиПроведенияОбученияОО</content>
+  <content>CommonCommand.НастройкиПроведенияОбученияОО</content>
+  <content>Catalog.СводыЗнанийСУЗ.Command.СоздатьКурсИзФайлов</content>
+  <content>InformationRegister.ПреподавателиСУО</content>
+  <content>Report.ИспользованиеЭлектронныхРесурсовОО</content>
+  <content>Report.ОтветыНаВопросыОО</content>
+  <content>Report.РезультатыТестированийОО</content>
+</mdclass:FunctionalOption>

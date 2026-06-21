@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="128d4111-3fa3-421f-ae0b-e6e91f45a885">
+  <name>УправлениеПроведениемОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление проведением обучения</value>
+  </synonym>
+</mdclass:Role>

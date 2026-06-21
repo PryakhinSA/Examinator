@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0deb198-9d5a-497d-9134-b57e494f0c60">
+  <name>Коммуникации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коммуникации</value>
+  </synonym>
+  <content>CommonForm.НастройкаКоммуникацийСУО</content>
+  <content>ScheduledJob.КонтрольНепрочитанныхЛичныхСообщенийСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныеСообщенияСУО</content>
+  <content>FunctionalOption.ИспользоватьУниверсальныйСервисОбщенияСУО</content>
+  <content>FunctionalOption.ИспользоватьФорумыСУО</content>
+  <content>Constant.ИспользоватьЛичныеСообщенияСУО</content>
+  <content>Constant.ИспользоватьУниверсальныйСервисОбщенияСУО</content>
+  <content>Constant.ИспользоватьФорумыСУО</content>
+  <content>Catalog.РазделыФорумаСУО</content>
+  <content>Enum.АдресатыСообщенийСУО</content>
+  <content>InformationRegister.ДоступныеАдресатыСообщенийСУО</content>
+  <content>Role.УправлениеКоммуникациямиСУО</content>
+  <content>CommonCommand.НастройкаКоммуникацийСУО</content>
+  <content>InformationRegister.ТемыПользователейСУО</content>
+  <content>Document.СообщениеСУО</content>
+  <content>ScheduledJob.КонтрольНепрочитанныхТемФорумаСУО</content>
+  <content>f5c37239-9d72-4dd3-8b72-35ac06812d81</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

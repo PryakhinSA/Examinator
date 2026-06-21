@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7304e5b-cc48-4da8-bf8d-294265173bc9">
+  <name>ИспользоватьЛичныеСообщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личные сообщения</value>
+  </synonym>
+  <location>Constant.ИспользоватьЛичныеСообщенияСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

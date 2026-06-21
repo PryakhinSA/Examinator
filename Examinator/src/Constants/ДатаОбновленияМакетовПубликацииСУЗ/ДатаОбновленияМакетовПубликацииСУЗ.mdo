@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="769a2e0d-9663-4e3a-b4df-17169fe96976">
+  <producedTypes>
+    <managerType typeId="731c6572-57fc-43ae-877b-30cf66432c80" valueTypeId="95af9029-e216-4654-b7b6-bf31f564f47d"/>
+    <valueManagerType typeId="af78e36f-dcca-4ff2-b691-1b4a4e17a8fd" valueTypeId="b4ab6aba-bdbb-4996-a98f-c182c22bb0b7"/>
+    <valueKeyType typeId="5fcd9fce-4f00-48f6-80b7-c6f81d755d30" valueTypeId="03285b4a-6293-42fc-bf28-8b3361615151"/>
+  </producedTypes>
+  <name>ДатаОбновленияМакетовПубликацииСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата актуальности макетов публикации</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

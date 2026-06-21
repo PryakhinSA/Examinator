@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9f96f68-b3e6-4352-8505-b1314ed49e7f">
+  <name>ЭлектронныеРесурсыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные ресурсы</value>
+  </synonym>
+  <content>HTTPService.ЭлектронныеРесурсыСУЗ</content>
+  <content>InformationRegister.ДанныеВебКабинетаСУЗ_ПН</content>
+  <content>Enum.ТипыДанныхВебКабинетаСУЗ</content>
+  <content>WebService.ЭлектронныеРесурсыСУЗ</content>
+  <content>CommonModule.ВебКабинетСУЗ</content>
+  <content>EventSubscription.ДанныеВебКабинетаСозданиеОбъектовСУЗ</content>
+  <content>e25ed7d0-9b95-4b4b-ab6e-b6fa5ab3fdd4</content>
+  <parentSubsystem>Subsystem.ВебКабинетСУ</parentSubsystem>
+</mdclass:Subsystem>

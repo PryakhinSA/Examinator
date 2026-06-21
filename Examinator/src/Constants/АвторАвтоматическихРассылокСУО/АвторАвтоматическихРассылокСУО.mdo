@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a7067e9-b512-41e0-9789-336c648a3e11">
+  <producedTypes>
+    <managerType typeId="0859eb1c-8ea2-4b91-8c67-43cc7434545c" valueTypeId="a5e55c8b-79cd-4ace-b0bb-1feae74a38bd"/>
+    <valueManagerType typeId="bd929019-4da5-45ee-9cdf-c60b39291b67" valueTypeId="ca04c2c3-e6c2-48bb-aa51-58355d488f0c"/>
+    <valueKeyType typeId="3787a701-ec1a-56fb-bfb6-26b9968b4590" valueTypeId="5a7f211c-ba42-5a66-a387-eea294b72ce7"/>
+  </producedTypes>
+  <name>АвторАвтоматическихРассылокСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автор автоматических рассылок для личных сообщений</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Пользователь, от имени которого будут выполняться автоматические рассылки в системе личных сообщений</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

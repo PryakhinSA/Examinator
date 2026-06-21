@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e6e2a20-6d4e-4826-ab1d-de91d915dd25">
+  <name>ОписаниеПакетаЦОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание пакета ЦОР</value>
+  </synonym>
+  <namespace>http://ltsc.ieee.org/xsd/LOM</namespace>
+</mdclass:XDTOPackage>

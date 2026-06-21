@@ -1,0 +1,15 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/User">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<objectType name="Пользователь">
+		<property name="ПолноеИмя" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" name="Ссылка" type="d3p1:CatalogRef.Пользователи" lowerBound="0"/>
+		<property name="Аватар" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/kms/1/User" name="УчебнаяГруппаОО" type="d3p1:УчебнаяГруппаОО" lowerBound="0"/>
+	</objectType>
+	<objectType name="УчебнаяГруппаОО">
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Идентификатор" type="d3p1:UUID"/>
+	</objectType>
+</package>

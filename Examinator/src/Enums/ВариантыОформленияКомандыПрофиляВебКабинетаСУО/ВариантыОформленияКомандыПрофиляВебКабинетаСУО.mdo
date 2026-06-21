@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbf3b205-e438-4384-8b18-4439d7b91143">
+  <producedTypes>
+    <refType typeId="a9e61f55-89ec-4e1a-9576-e363825bd683" valueTypeId="63b10d93-0416-4f2d-bc6e-74cc477ed50d"/>
+    <listType typeId="de93f4f5-7843-4770-8e3b-3273bf876242" valueTypeId="428461eb-69ef-4640-ba66-a939ed7f72a5"/>
+    <managerType typeId="a97b941b-2916-406f-9e4b-29fc62aa348c" valueTypeId="5474e71c-0f97-41de-80d2-193d55ac1170"/>
+  </producedTypes>
+  <name>ВариантыОформленияКомандыПрофиляВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты оформления команды профиля веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="47863476-c3db-4c3f-a234-4021ce82c73a">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3ae6eae-912e-4e95-befc-df4de6d5e30e">
+    <name>ИмяДляВходаИФотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя для входа (логин) и фотография</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00406982-568c-4240-85ad-f4a24f934d3a">
+    <name>ПолноеИмяИАватар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя и фотография</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7eebe235-2439-493c-ab43-53656f1febdf">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="deba4e3c-6169-4b89-ad3c-6d3a7bbf6a15">
+    <name>ИмяДляВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя для входа (логин)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

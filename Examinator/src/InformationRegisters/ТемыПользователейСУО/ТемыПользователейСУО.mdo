@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55511d58-19e0-4052-865f-ef0be6a9b723">
+  <producedTypes>
+    <selectionType typeId="d4139b48-bdd4-4091-9e9f-b4aee2f3c27b" valueTypeId="990a644f-2b19-47e7-af09-c7b05e627d59"/>
+    <listType typeId="a494df35-3c34-4218-bda9-ad7e44583eeb" valueTypeId="e3143825-c8ea-47bc-a5bf-5c4eb9a8d2fd"/>
+    <managerType typeId="e9db16dc-4388-43e8-8c00-d8f497a1aa8e" valueTypeId="28af4213-7f10-4c65-bde6-15fa03da0b61"/>
+    <recordSetType typeId="e0e844f1-28d9-4f57-9730-6d32ae20c070" valueTypeId="b4175203-aee9-4206-a5a9-ab18181753b5"/>
+    <recordKeyType typeId="dccac7be-60b8-4a10-8403-3afd150afff9" valueTypeId="36f7090f-e132-4f58-8bbb-2995a07fdc8c"/>
+    <recordType typeId="8a9b723d-82b2-451d-a859-fd18e1363b0e" valueTypeId="92d45f72-541b-4ee3-9ed5-8b11da6d4b1c"/>
+    <recordManagerType typeId="86013019-efed-420d-9a7b-b5e8fb0cb6e0" valueTypeId="ff5173df-79ac-4f0d-ad82-3932cb4497e6"/>
+  </producedTypes>
+  <name>ТемыПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темы пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="66503cd4-e8f4-4fad-998d-aebc868e9456">
+    <name>Кому</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кому</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АдресатыСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресаты обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74a2b6b4-e2f9-4918-906b-b0facf529049">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыФорумаСУО</types>
+      <types>CatalogRef.УчебныеГруппыСУО</types>
+      <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПреподавателемОбученияСУО</types>
+      <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контекст обсуждения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b4dd900-c970-42f7-a5b0-db6d100826bd">
+    <name>ЭтоАвтор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это автор</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что пользователь начал обсуждение темы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dbe9ea1e-6003-43be-b77c-eb2117ba368d">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда тема была создана</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68afc5a7-f5fc-457e-9e19-0167eccf107d">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РассылкаСообщенийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тема была создана в рассылке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e964cd5e-9992-4874-aba5-e472f7994544">
+    <name>ЭтоГрупповоеОбсуждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это групповое обсуждение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что в обсуждении участвуют несколько участников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2f205baa-db74-4cde-956e-6ccc3c012a1f">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="cc543513-a32b-4496-8ed8-34f0f7dd2786">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="852a7806-b6bc-4ee1-bc9b-cd6a34520002">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыСообщенийСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

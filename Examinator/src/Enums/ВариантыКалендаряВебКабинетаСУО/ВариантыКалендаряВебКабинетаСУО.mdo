@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b141983-3c04-4b32-8736-ae1d531f599b">
+  <producedTypes>
+    <refType typeId="446c0473-e29c-4097-ad21-20a9c4c96df2" valueTypeId="04126ea1-16e1-4660-b4f8-16ec89f4e7a2"/>
+    <listType typeId="3088ad8a-5e36-41a6-857d-a6dd60856d83" valueTypeId="8e17b2d0-7ba0-4db3-91ac-f741b96557ac"/>
+    <managerType typeId="d4558ec3-c396-46d1-aef3-cce7bdd022c9" valueTypeId="75c1e25b-b140-4221-b46f-953524e4d3eb"/>
+  </producedTypes>
+  <name>ВариантыКалендаряВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты календаря веб-кабинета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6d98243c-5ec6-481e-8d77-60ae2a9a93ee">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15c19384-d86f-4f92-9ab8-2969fc592dfa">
+    <name>Классический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1713e33e-4deb-4b29-9d7f-f2677fd92eee">
+    <name>Компактный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компактный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

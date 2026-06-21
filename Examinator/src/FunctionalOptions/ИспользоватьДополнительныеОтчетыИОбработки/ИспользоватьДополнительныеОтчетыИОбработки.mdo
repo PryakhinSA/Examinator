@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4e3c50c-ef7f-43fd-a8b0-454046aaf2ac">
+  <name>ИспользоватьДополнительныеОтчетыИОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные отчеты и обработки</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеОтчетыИОбработки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>InformationRegister.НазначениеДополнительныхОбработок</content>
+  <content>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</content>
+  <content>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыОрганизацияОбучения</content>
+  <content>CommonCommand.ДополнительныеОбработкиОрганизацияОбучения</content>
+</mdclass:FunctionalOption>

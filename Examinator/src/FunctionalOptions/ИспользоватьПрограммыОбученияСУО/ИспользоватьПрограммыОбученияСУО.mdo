@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca53fc56-3ccf-4f43-85f8-76e7f4f807eb">
+  <name>ИспользоватьПрограммыОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать программы обучения</value>
+  </synonym>
+  <location>Constant.ИспользоватьПрограммыОбученияСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПроведениеПрограммыОбученияСУО</content>
+  <content>Document.ПроведениеПрограммыОбученияСУО.Command.ПрограммыОбучения</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33d5f875-e59b-4d10-bd26-17a09b34cf37">
+  <producedTypes>
+    <objectType typeId="dde2230e-f317-4e77-a9b9-37269eae85f9" valueTypeId="1697b752-7e70-45f5-904d-cbd0dc00ccad"/>
+    <managerType typeId="5e2e439a-2710-4217-93d8-c26aaff7b99d" valueTypeId="379c8bbf-74fa-4dc4-9cb8-0f3b6f6d4128"/>
+  </producedTypes>
+  <name>УправлениеДоступомСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <defaultForm>DataProcessor.УправлениеДоступомСУО.Form.Форма</defaultForm>
+  <tabularSections uuid="84a625df-e402-4656-9c55-c4fc30c12662">
+    <producedTypes>
+      <objectType typeId="6b246d4a-81fc-4d6b-bd96-8cb941963011" valueTypeId="80bda226-5abf-4259-8490-eeb24d19dc86"/>
+      <rowType typeId="16302f5a-9f81-4c8b-9275-616c14b835ed" valueTypeId="71d1de4b-0e27-4553-a79d-d00bf944ea50"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7100bd11-7637-4b73-82d0-527bebfb2666">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="13a99c28-11c4-4a87-9cc7-ecde929e4bb2">
+      <name>ПолноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="8884b78b-7806-4ee5-88ba-e9b9c59f4a0e">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя для входа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="85fb1e4a-2ab8-4351-92c8-bdcac3655319">
+      <name>ВходВПрограммуРазрешен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вход в программу разрешен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4bb0d56a-eff1-4e91-a6d8-8700a00ce06f">
+      <name>АутентификацияСтандартная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аутентификация стандартная</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b933e863-527e-45c1-a79c-2c6c85c86504">
+      <name>АутентификацияOpenID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аутентификация OpenID</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e4a2a9af-a4a2-40f7-ac3e-4e0e5dd190de">
+      <name>АутентификацияОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аутентификация ОС</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d973bb56-3653-4e63-b188-e07069b1c35d">
+      <name>ПоказыватьВСпискеВыбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показывать в списке выбора</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b7cf5a83-c9bd-4d77-80cb-65c3e45f6b2c">
+      <name>ВходВВебКабинетРазрешен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вход в веб-кабинет разрешен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8278e2b9-5c28-4540-920b-251c72a4aa74">
+      <name>ПарольУстановлен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль установлен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e44fb379-1bd2-4601-82fb-3483551806af">
+      <name>ЗапрещеноИзменятьПароль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запрещено изменять пароль</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8359d05e-6d32-4f97-a0b3-c407270e6444">
+      <name>ЭлектроннаяПочта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Электронная почта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="0622d39a-dd50-4a27-8405-d13f1aa7317f">
+      <name>Недействителен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Недействителен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5783de4f-e71e-4b19-bc54-d8fd0c77ad11">
+      <name>ГруппыДоступаСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группы доступа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="3529b002-5e7d-4888-92d4-b99462116a9e">
+      <name>ГруппыПользователейСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группы пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="f4531b73-798d-409c-819d-3d7b900e1ef4">
+      <name>ВремяДоступаИстекло</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время доступа истекло</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="102e376d-f28b-423a-aa47-426f3cf47841">
+      <name>ДатаНачалаДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала доступа</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДЛФ=D</value>
+      </format>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bbd8a384-9600-4c59-9257-3dc082dbba42">
+      <name>ДатаОкончанияДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания доступа</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДЛФ=D</value>
+      </format>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1a08aeb5-d8bc-477a-b63d-d5eb5bd6d6b0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f38f025-c66c-49a3-87d9-162acf6e510e">
+    <name>НастроитьДоступ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настроить доступ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f2254516-447c-46df-9919-ae634df26aa0">
+    <name>УправлениеДоступом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление доступом</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

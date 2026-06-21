@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d6cda3-73fb-44a1-be00-62294bb56db0">
+  <name>ПриИзмененииИспользованияЭлектронныхКурсовБЭО</name>
+  <synonym>
+    <key>ru</key>
+    <value>При изменении использования электронных курсов</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьЭлектронноеОбучение</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УправлениеОбучениемСУОПодписки.ПриИзмененииИспользованияЭлектронныхКурсовБЭОПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd048023-463f-478c-9c2c-4e3ea4a8e030">
+  <name>ИспользоватьОграниченияВремениДоступаКПрограммеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ограничения времени доступа к программе</value>
+  </synonym>
+  <location>Constant.ИспользоватьОграниченияВремениДоступаКПрограммеСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ВремяДоступаПользователейСУО.Command.ВремяДоступаПользователя</content>
+  <content>InformationRegister.ВремяДоступаПользователейСУО.Command.ВремяДоступа</content>
+</mdclass:FunctionalOption>

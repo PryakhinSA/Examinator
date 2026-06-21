@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c0cb125-c2ec-4b0e-9ae8-345df862de9a">
+  <producedTypes>
+    <managerType typeId="417b4425-6fb3-43d2-8384-094458bfa497" valueTypeId="65f8f4b9-088b-4cfd-9742-1e6c25746eff"/>
+    <valueManagerType typeId="a0ddd144-523c-47cc-b666-8662dc1d0885" valueTypeId="ed535107-75bc-4e09-93a1-8ee6d3a6c347"/>
+    <valueKeyType typeId="27b2816a-16e2-590d-ae63-331e3966fb38" valueTypeId="a5fdc1b1-0995-5275-9813-c2168927e815"/>
+  </producedTypes>
+  <name>ПоказыватьОбщиеДополнительныеМатериалыПослеПроверкиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать общие дополнительные материалы после проверки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Материалы пользователей, которые они установили, как общие станут доступны другим пользователям, только после проверки</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

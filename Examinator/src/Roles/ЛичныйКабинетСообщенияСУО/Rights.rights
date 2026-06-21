@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>Document.СообщениеСУО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>СообщениеСУО ИЗ Документ.СообщениеСУО КАК СообщениеСУО
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ЛичныеСообщенияПользователейСУО КАК ЛичныеСообщенияПользователейСУО
+	ПО СообщениеСУО.Ссылка = ЛичныеСообщенияПользователейСУО.Регистратор
+ГДЕ ЛичныеСообщенияПользователейСУО.Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ГДЕ Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ГДЕ Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ТемыСообщенийСУО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ТемыСообщенийСУО ИЗ Справочник.ТемыСообщенийСУО КАК ТемыСообщенийСУО
+	ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЛичныеСообщенияПользователейСУО КАК ЛичныеСообщенияПользователейСУО
+	ПО ТемыСообщенийСУО.Ссылка = ЛичныеСообщенияПользователейСУО.Тема
+ГДЕ (ЛичныеСообщенияПользователейСУО.Пользователь = &amp;ТекущийПользователь
+			ИЛИ ТемыСообщенийСУО.Контекст = &amp;ТекущийПользователь
+			ИЛИ ТемыСообщенийСУО.Автор = &amp;ТекущийПользователь)</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ТемыСообщенийСУО.Command.НаписатьПользователю</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.МоиЛичныеСообщенияСУО</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ОрганизаторыСУО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ОрганизаторыСУО ГДЕ (ОрганизаторыСУО.Пользователь = &amp;ТекущийПользователь
+			ИЛИ ОрганизаторыСУО.Видимость.Пользователь = &amp;ТекущийПользователь
+			ИЛИ ОрганизаторыСУО.ДляВсех = ИСТИНА)</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиЛичныхСообщенийСУО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ГДЕ Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ГДЕ Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ЗагрузкаФайловСУ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СообщениеСУОПрисоединенныеФайлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЛичныеСообщенияПользователейСУО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ГДЕ Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+</Rights>

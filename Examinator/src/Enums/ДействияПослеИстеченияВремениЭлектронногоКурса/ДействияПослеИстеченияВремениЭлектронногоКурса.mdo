@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df2b84f5-2b2f-433a-bba2-a1182d5ea101">
+  <producedTypes>
+    <refType typeId="4346a9a0-c411-49c6-9eae-2653c6fb500e" valueTypeId="c0e67408-4b71-4472-add8-23668717fae1"/>
+    <listType typeId="c0e2ec3b-ddee-4be9-b4c0-51249914c083" valueTypeId="9e8b3a82-54d7-4d1f-9719-7e5d3d0c4619"/>
+    <managerType typeId="a7017794-03d6-4028-b344-b6027e775b68" valueTypeId="dde65359-9279-4d8e-994a-da98a830cbef"/>
+  </producedTypes>
+  <name>ДействияПослеИстеченияВремениЭлектронногоКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия после истечения времени электронного курса</value>
+  </synonym>
+  <comment>timeLimitAction</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="659b4218-5b78-4d8b-98b4-72899f4cd987">
+    <name>Выйти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выйти</value>
+    </synonym>
+    <comment>exit,no message</comment>
+  </enumValues>
+  <enumValues uuid="741c4911-2921-4f1d-843e-8c58a375561a">
+    <name>СообщитьИВыйти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщить и выйти</value>
+    </synonym>
+    <comment>exit,message</comment>
+  </enumValues>
+  <enumValues uuid="b68c9c65-8820-4494-b1fc-410b75727c6c">
+    <name>ПродолжитьРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжить работу</value>
+    </synonym>
+    <comment>continue,no message</comment>
+  </enumValues>
+  <enumValues uuid="4f5e7aed-dac1-439e-b772-690a3d4c4f91">
+    <name>СообщитьИПродолжитьРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщить и продолжить работу</value>
+    </synonym>
+    <comment>continue,message</comment>
+  </enumValues>
+</mdclass:Enum>

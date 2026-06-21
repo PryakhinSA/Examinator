@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97a860f9-1ca0-4098-ae24-d651af5f3ba7">
+  <name>ЭлектронныеРесурсыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные ресурсы</value>
+  </synonym>
+  <content>Catalog.СводыЗнанийСУЗ</content>
+  <content>CommonTemplate.НомерБазовогоПакетаДанныхСУЗ</content>
+  <content>CommonTemplate.БазовыйПакетДанныхСУЗ</content>
+  <content>CommonModule.ЭлектронныеРесурсыПереопределяемый</content>
+  <content>Enum.МетодВыбораПопыткиПрохожденияСУЗ</content>
+  <content>Constant.ХранитьФайлыВидеоВТомахСУЗ</content>
+  <content>Report.ИспользованиеЭлектронныхРесурсовСУЗ</content>
+  <content>Report.ОтветыНаВопросыСУЗ</content>
+  <content>Report.РезультатыТестированийСУЗ</content>
+  <subsystems>Разработка</subsystems>
+  <subsystems>Просмотр</subsystems>
+  <subsystems>ВебПубликации</subsystems>
+  <subsystems>УчебнаяКонфигурация</subsystems>
+  <subsystems>МатериалыПользователей</subsystems>
+  <subsystems>Управление</subsystems>
+  <subsystems>ИсторияРазработки</subsystems>
+  <subsystems>Роли</subsystems>
+</mdclass:Subsystem>

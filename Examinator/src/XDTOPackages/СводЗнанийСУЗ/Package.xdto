@@ -1,0 +1,12 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/kms/1/KnowledgeBase">
+	<import namespace="http://v8.1c.ru/8.1/data/enterprise/current-config"/>
+	<import namespace="http://v8.1c.ru/kms/1/KnowledgeSources"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/kms/1/KnowledgeSources" name="СводЗнаний" base="d2p1:ОбъектСУЗ">
+		<property name="Версия" type="xs:string"/>
+		<property name="Редакция" type="xs:string"/>
+		<property name="Карта" type="d2p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="СтартоваяСтраница" type="d2p1:ОбъектСУЗ" lowerBound="0"/>
+		<property name="ЭтоБазоваяКонфигурация" type="xs:boolean"/>
+	</objectType>
+</package>

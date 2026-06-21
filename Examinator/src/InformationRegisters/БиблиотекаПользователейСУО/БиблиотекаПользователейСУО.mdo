@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b36ae88d-96ff-4184-90a3-e609983799b5">
+  <producedTypes>
+    <selectionType typeId="dcffaa8e-50f7-40e7-b97e-1c8ff7ebe8b7" valueTypeId="fda928fc-8cc3-4a71-aa57-6e3867e2d8d8"/>
+    <listType typeId="8fe408f2-9b10-4042-9eb4-9dc83fc343f0" valueTypeId="1c34de91-32c2-40cd-926e-2855ccf05efd"/>
+    <managerType typeId="fae02390-bc0c-4c65-9028-5eea5a242662" valueTypeId="910b56e3-fe73-4db3-a8db-7796bf68355a"/>
+    <recordSetType typeId="57fcf162-8ab5-4f22-987a-dffba793a954" valueTypeId="740910ae-c425-42bf-aa31-58837561dbe9"/>
+    <recordKeyType typeId="f8874513-bffc-4a52-934d-8b5193229a4f" valueTypeId="0093e117-f073-42ab-b51a-1b6e86dcce06"/>
+    <recordType typeId="bcda181d-c629-4b5a-964b-3ac05bd340d4" valueTypeId="f4c0a3ab-dd59-441a-9f0d-52ff9e5a335e"/>
+    <recordManagerType typeId="01a0b6cc-8432-46ba-a7f1-625deb942df0" valueTypeId="d1714c02-a763-4f1f-a28d-7025a4419b77"/>
+  </producedTypes>
+  <name>БиблиотекаПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="262ddf0e-543c-4647-91c4-26642c3edd57">
+    <name>Метка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Раздел библиотеки пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="24d711a5-f0e7-4337-ad77-8c0d37a18f21">
+    <name>Библиотека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+      <types>CatalogRef.СхемыМероприятийСУО</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c4fca1a5-3bb2-4352-8304-7cff71672ff3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь в библиотеке, которого размещен ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="900b2ffb-e610-4434-a0fe-4a31e37109d5">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛитератураСУО</types>
+      <types>CatalogRef.Файлы</types>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+      <types>CatalogRef.ЗаданияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ресурс, который размещен в библиотеке пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e9b8025-38d3-4079-a111-5d0c18f9c39b">
+    <name>Фрагмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фрагмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеКнигиСУО</types>
+      <types>CatalogRef.СодержаниеСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фрагмент ресурса, который размещен в библиотеке пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="aa94fccc-44e0-4e87-a75d-eb68f8065b58">
+    <name>БиблиотекаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека пользователя</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Библиотека пользователя</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Библиотека</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

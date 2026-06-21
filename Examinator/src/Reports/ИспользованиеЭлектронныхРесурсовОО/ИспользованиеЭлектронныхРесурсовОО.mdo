@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c9a59ca-add5-4cfc-bbdb-2e1d92f35988">
+  <producedTypes>
+    <objectType typeId="0e39d6ba-773d-4107-9c86-9d64473a021b" valueTypeId="a58f9362-6f74-4dc2-b8ce-fad98860c576"/>
+    <managerType typeId="6feba80d-e9a9-4db9-a66e-caff97f18fe4" valueTypeId="6b0a8ac2-1a3a-488a-b413-cb8279dea0d3"/>
+  </producedTypes>
+  <name>ИспользованиеЭлектронныхРесурсовОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование электронных ресурсов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИспользованиеЭлектронныхРесурсовОО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использование электронных ресурсов студентами</value>
+  </extendedPresentation>
+  <templates uuid="20fa9b9a-ec17-4328-86fc-6d1cf5976952">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

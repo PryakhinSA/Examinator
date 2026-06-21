@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1598935-63ee-4ec6-ad0c-7092f8aff34c">
+  <name>ИспользоватьУниверсальныйСервисОбщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать универсальный сервис общения</value>
+  </synonym>
+  <location>Constant.ИспользоватьУниверсальныйСервисОбщенияСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеПользователи</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеУчебныеГруппы</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеПроведениеМероприятий</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеПроведениеПреподавателемОбучения</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеПроведениеПрограммыОбучения</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеПрохождениеОбучения</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеПрохождениеПрограммыОбучения</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.ОбщениеРассылкаСообщений</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.НаписатьУчебнойГруппе</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.НаписатьУчастникамОбучения</content>
+  <content>Catalog.ТемыСообщенийСУО.Command.НаписатьУчастникамПрограммыОбучения</content>
+  <content>CommonForm.ОбщениеСУО</content>
+</mdclass:FunctionalOption>

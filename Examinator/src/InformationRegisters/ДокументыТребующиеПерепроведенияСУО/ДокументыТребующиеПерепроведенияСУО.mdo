@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40fbc19e-d2cb-4102-8aa2-9af134605995">
+  <producedTypes>
+    <selectionType typeId="34abb3d9-9d89-4184-ade6-bcfee6816799" valueTypeId="4bb91724-76ef-4aff-9fbb-709ab3da6752"/>
+    <listType typeId="caf19056-04d7-47e3-9736-3abbac406174" valueTypeId="7aff9b1c-3731-4f36-8c8b-c21094a679fd"/>
+    <managerType typeId="40e0438f-8601-4d1b-9d7c-22456eee7af5" valueTypeId="0d7bfdca-d720-4774-8bd1-5e6f9568f460"/>
+    <recordSetType typeId="a711fa3b-422e-4f00-b138-a359353fe506" valueTypeId="41b6b796-5093-4794-ab6b-cb441fca439d"/>
+    <recordKeyType typeId="4aa12b12-6101-48af-9411-8831bb66da58" valueTypeId="83f80edb-92ec-4472-b745-6d41775017de"/>
+    <recordType typeId="5cab09b2-6d40-4d5b-b823-f8b1fb243d35" valueTypeId="f297f2c9-cc05-4298-b7bc-f2c303089d8b"/>
+    <recordManagerType typeId="b27205b4-72de-4986-bd8f-10cd9b088a53" valueTypeId="374c26d4-9006-412e-b723-a241bf5eff5e"/>
+  </producedTypes>
+  <name>ДокументыТребующиеПерепроведенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы требующие перепроведения</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="f180cb3d-564b-48b6-af62-e51e735182b4">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ae86e2c-b0c0-4e65-ab29-a663b552d6fb">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fa3d5d85-0b5d-4391-8ed6-77b3c83efe71">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f39a7144-8542-4bf9-b286-3a7ef814464e">
+    <name>РежимЗаписиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим записи документа</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4117287c-e508-44bd-abd1-d954860a387c">
+    <name>ОбновлятьПодчиненныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять подчиненные документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2aad2e5e-6632-4e7b-809a-a2462c929176">
+    <name>НомерПовтора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер повтора</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="62afbe31-a59c-45de-bc88-a2fb7e28545d">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ, который требуется перепровести</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

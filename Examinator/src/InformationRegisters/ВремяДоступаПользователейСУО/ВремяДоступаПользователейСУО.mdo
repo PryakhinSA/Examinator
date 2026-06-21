@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81e9ece5-3914-4008-9350-f4e8fef6f39d">
+  <producedTypes>
+    <selectionType typeId="e2c18972-a07a-4593-9364-cc800a4945e9" valueTypeId="5a8282e7-0a9f-462d-afb7-edb55181819f"/>
+    <listType typeId="e4656721-f69d-412e-a341-f847c0fa6884" valueTypeId="b75f1a3f-a6ae-4dce-8704-c5346844aa2d"/>
+    <managerType typeId="6fd0a468-a51e-4ada-9e48-0eeb59500aaf" valueTypeId="5efab8ad-57a4-44ec-bb33-157601f63f58"/>
+    <recordSetType typeId="3a479953-3c27-44e3-91ff-0a93b5648bce" valueTypeId="44bff408-5098-4b77-bc59-b6722554024a"/>
+    <recordKeyType typeId="d6ac1632-9a45-4f55-9384-0058af1ca2a2" valueTypeId="2159dee6-de38-4c06-a3ba-5bc9154afccf"/>
+    <recordType typeId="350e5d33-18b2-473c-abf4-4b6a92a4818f" valueTypeId="12db7f66-1bf8-4d60-80ec-903954e39d36"/>
+    <recordManagerType typeId="0fa859c8-9b92-4b44-aa29-116e82f1830d" valueTypeId="fb24fe5f-96ce-4dd9-b5ab-ee75cd491196"/>
+  </producedTypes>
+  <name>ВремяДоступаПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время доступа пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВремяДоступаПользователейСУО.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ВремяДоступаПользователейСУО.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Время доступа</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Время доступа пользователя к программе</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Время доступа</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Время доступа пользователей к программе</value>
+  </extendedListPresentation>
+  <attributes uuid="4d240b06-66fc-4404-b5a5-b2002dd54720">
+    <name>ДатаНачалаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала доступа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой доступ разрешен</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78ad2904-2f57-47f8-8e35-f986830ad326">
+    <name>ДатаОкончанияДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания доступа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, до которой доступ разрешен</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa372fa8-2c58-437a-89fe-46e2d068fdb3">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата установки ограничения времени доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="101ebed6-0f7b-477c-90a1-fe03baa7cc95">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который установил ограничение по времени</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="2739c1ba-d6a1-4d0f-9cd1-ec7538eef9a6">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, для которого ограничено время доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="50a26086-46dd-4d33-8132-03f76a1cafab">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3bea101-6ce9-4b13-b4c2-0c5348fb8114">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50ba6d9b-b660-4094-8122-5c7f34ba3467">
+    <name>ФормаЗапретВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход закрыт</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e74b5a-c531-4a62-9e2c-e00a436c273f">
+    <name>ФормаУстановкаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка времени доступа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c2907737-761d-4275-a169-fa9477ceef75">
+    <name>ВремяДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время доступа</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="7b4ca784-e454-464f-8f75-46de1add6050">
+    <name>ВремяДоступаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время доступа</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

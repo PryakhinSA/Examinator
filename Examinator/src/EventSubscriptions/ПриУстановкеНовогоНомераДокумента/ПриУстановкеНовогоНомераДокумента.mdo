@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd58ec33-6e3c-4bbb-a032-2bb926feafa5">
+  <name>ПриУстановкеНовогоНомераДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>При установке нового номера документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПроведениеПрограммыОбученияСУО</types>
+    <types>DocumentObject.ПрохождениеОбученияСУО</types>
+    <types>DocumentObject.СертификатСУО</types>
+    <types>DocumentObject.ПопыткаВыполненияСтатичногоОбъектаСУЗ</types>
+    <types>DocumentObject.ПроведениеОбученияСУО</types>
+    <types>DocumentObject.ВосстановлениеПароляСУ</types>
+    <types>DocumentObject.РассылкаСообщенийСУО</types>
+    <types>DocumentObject.ПопыткаВыполненияАктивногоРесурсаSCORM</types>
+    <types>DocumentObject.НазначениеОпросов</types>
+    <types>DocumentObject.НовостьСУО</types>
+    <types>DocumentObject.СообщениеСУО</types>
+    <types>DocumentObject.ПопыткаВыполненияЗаданияСУО</types>
+    <types>DocumentObject.СессияЭлектронногоРесурсаСУЗ</types>
+    <types>DocumentObject.ЗаявкаНаОбучениеСУО</types>
+    <types>DocumentObject.Анкета</types>
+    <types>DocumentObject.ПроведениеПреподавателемОбученияСУО</types>
+    <types>DocumentObject.ПопыткаВыполненияПодборкиВопросовСУЗ</types>
+    <types>DocumentObject.ЗапросНаОбучениеСУО</types>
+    <types>DocumentObject.НаполнениеБиблиотекиПользователейСУО</types>
+    <types>DocumentObject.ПрохождениеПрограммыОбученияСУО</types>
+    <types>DocumentObject.ОтветНаВопросСУЗ</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

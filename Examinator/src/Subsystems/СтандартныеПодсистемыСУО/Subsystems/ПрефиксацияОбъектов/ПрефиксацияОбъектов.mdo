@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcc8376d-0d4b-4491-a52c-81bb28cfb11f">
+  <name>ПрефиксацияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация объектов</value>
+  </synonym>
+  <content>EventSubscription.ПриУстановкеНовогоКодаЭлементаСправочника</content>
+  <content>EventSubscription.ПриУстановкеНовогоНомераДокумента</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыСУО</parentSubsystem>
+</mdclass:Subsystem>

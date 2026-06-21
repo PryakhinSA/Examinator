@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3418060-83f3-4eb7-a77d-ed61de095159">
+  <name>ИспользоватьКаталогОбученийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать каталог обучений</value>
+  </synonym>
+  <location>Constant.ИспользоватьКаталогОбученийСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.КаталогОбученийСУО</content>
+  <content>Catalog.КаталогМероприятийСУО</content>
+  <content>Catalog.КаталогПрограммОбученияСУО</content>
+</mdclass:FunctionalOption>

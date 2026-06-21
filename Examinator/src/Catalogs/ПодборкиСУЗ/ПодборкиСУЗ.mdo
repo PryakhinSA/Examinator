@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b04497c0-1554-461c-a471-5091ac167799">
+  <producedTypes>
+    <objectType typeId="e7f9238d-205d-46b3-993c-f4ce1d477491" valueTypeId="0ec43853-e9e2-415f-bf93-365da7c68ab4"/>
+    <refType typeId="051c03e5-7743-4d4d-ab44-0f891adfc3f4" valueTypeId="eac83fa4-8897-42d4-9240-f28015a8b915"/>
+    <selectionType typeId="511addb4-ebea-489b-b7fa-4d4def17aaae" valueTypeId="5d5373d0-4b2f-4f6a-8513-57fd5fb95bba"/>
+    <listType typeId="17038a6e-942f-476e-b100-db05771d5a03" valueTypeId="ec8a6911-70fa-4f4a-a0f4-8451c4d2ab62"/>
+    <managerType typeId="36fbab09-3e57-4653-b912-7c86d62ad848" valueTypeId="9824f3fe-0ef9-44e5-9d9d-55b2c78645d9"/>
+  </producedTypes>
+  <name>ПодборкиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подборки</value>
+  </synonym>
+  <inputByString>Catalog.ПодборкиСУЗ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ПодборкиСУЗ.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подборка</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Подборка</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Подборки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Подборки</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultFolderForm>Catalog.ПодборкиСУЗ.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ПодборкиСУЗ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПодборкиСУЗ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="64285f18-94bf-4cbe-9410-2a19fcc7eb43">
+    <name>ЭтоТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это тест</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подборка вопросов (тест)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99f06917-3060-402b-af25-804654bb60c7">
+    <name>ЭтоПрезентация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это презентация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подборка слайдов (презентация)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d11ed5fd-38d1-42f5-917e-34f69036dcf1">
+    <name>ВыбиратьЭлементыИзРубрикатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбирать вопросы по темам рубрикаторов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для формирования теста требуется указать рубрики и темы,из которых будут браться вопросы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a2e29b1-69ec-4057-9050-87f9e31964b8">
+    <name>ВремяТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время теста</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальное время для прохождения теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9820c0b-650e-43f0-87a9-8b19bbba3874">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a415425-9ef6-4023-bee7-06cb57909234">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КартыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон карты для отображения содержания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c6d5a51-a880-4f5b-86d0-edcebe1ca5be">
+    <name>КлассификационнаяГруппировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификационная группировка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификационныеГруппировкиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор классов, элементы которых будут отображаться. Элементы других классов будут отображены, но без указания класса.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2deb2dc7-f508-4530-8ce4-cfe9ef4db5ac">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН='Не ограничено'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН='Не ограничено'</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешенное количество попыток прохождения теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eea0b1fd-3596-47e0-8265-f0317125f40a">
+    <name>ПеремешиватьГруппыЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемешивать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страницы теста с вопросами будут показываться в произвольной последовательности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ebd7016-4703-4da5-a06b-7c87d119c9f7">
+    <name>ПереходитьВпередАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переходить вперед автоматически</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>После ответа на вопрос будет автоматически показан следующий вопрос</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96fc65d3-321f-499e-9c6a-a80762f01e3b">
+    <name>ПоказыватьКлассификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать классификатор</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будет показана легенда классов, чтобы пользователи могли легче понять, какой элемент какому классу соответствует</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59685194-1ba6-4557-a132-c68aab3b65ce">
+    <name>ПоказыватьНавигацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать навигацию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователи смогут самостоятельно переходить к любой странице теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08a8f702-c257-4c7e-bdde-610401ea0f0b">
+    <name>ПоказыватьСтартовуюСтраницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать стартовую страницу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будет показана стартовая страница, на которой можно описать особенности контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aaba6787-b36b-4a72-b947-958d5d6b858a">
+    <name>ПредставлениеЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление элементов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыПредставленияЭлементовПодборкиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ отображения и группировки элементов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыПредставленияЭлементовПодборкиСУЗ.EnumValue.Последовательно</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70b2fa98-71b3-4b7d-a7c0-a05c9ae3818a">
+    <name>СвернутьРазделы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свернуть разделы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элементы содержания второго уровня будут по умолчанию скрыты (свернуты в группу)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="859bad89-036b-4d98-b777-a35a0206682c">
+    <name>ТипНавигации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип навигации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыНавигацииПодборкиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант представления навигации между элементами</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыНавигацииПодборкиСУЗ.EnumValue.Последовательно</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08910166-af1d-47e7-aed7-ef0ff8e1c33b">
+    <name>ТипОбъектаСУЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыОбъектовСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный реквизит</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыОбъектовСУЗ.EnumValue.collection</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ade3601c-4622-4376-a37e-d8a3d2f76de7">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон оформления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыОбъектовСУЗ.EnumValue.collection</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="296bc99e-8d0a-40ce-a21b-edb4a86f8946">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разработчик контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c709fe35-58a8-4864-8be0-eba0cbb06979">
+    <name>КоличествоГруппЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество групп элементов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=Все</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=Все</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальное количество страниц вопросов теста (совпадает с количеством вопросов, если каждая страница теста содержит один вопрос)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62e6770f-e670-49e7-b0e0-c44f676f32ab">
+    <name>СтартовыйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовый ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраницыСУЗ</types>
+      <types>CatalogRef.РесурсыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Картинка или другой ресурс. который будет показан на стартовой странице</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e15d43da-c64d-4bbc-97e2-89d75a74dcb8">
+    <name>ВыравниваниеСтартовогоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выравнивание стартового ресурса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыВыравниванияСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Положение картинки или ресурса на стартовой странице</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыВыравниванияСУЗ.EnumValue.center</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="427704e8-d52e-4ce6-8db7-da5a62cce74a">
+    <name>НазначениеТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение тестирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначенияТестированийСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Аттестация - будет доступна одна попытка ответа на вопрос. Упражнение - учащийся может отвечать на вопросы теста сколько угодно раз.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a81a35a-8425-44ec-95d9-8bd5f7b148a0">
+    <name>НаименованиеСложностиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование сложности по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Название сложности, которая определяется настройками самого теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>По умолчанию</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2bccadb-e560-428c-8e8f-7bbd4c7eaaee">
+    <name>НомерСложностиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сложности по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер сложности, которая определяется настройками самого теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5588d0ca-0562-4033-9408-452768a9ab8d">
+    <name>ПоказыватьТаймер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать таймер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При прохождении теста будет показан таймер, показывающий оставшееся время</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90797c83-b04c-4c82-bd00-e2ed1a08c9a1">
+    <name>ФорматТаймера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат таймера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФорматыТаймераСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид таймера</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ФорматыТаймераСУЗ.EnumValue.МинутыИСекунды</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a645ba37-d465-4d0f-b9b2-cf627ca332b7">
+    <name>ОбщийФинальныйКомментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий финальный комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который будет выведен после прохождения теста</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f8c2450-c3e6-45cc-8ee0-3345a19e2bf1">
+    <name>ОбщийФинальныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл или набор файлов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РесурсыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Картинка или другой ресурс. который будет выведен после окончания теста</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb15a66c-5352-4166-8324-e01cf3bf2b47">
+    <name>НумероватьСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумеровать страницы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При навигации «Выпадающим списком» или «Выпадающим меню» будут выведены номера страниц</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57199270-e7eb-4ef4-af38-7c1919c4d2d0">
+    <name>УчитыватьПредыдущиеПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать предыдущие попытки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При формировании теста будут исключены вопросы, которые были отвечены пользователем ранее и включены те, в которых он делал ошибки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca66a869-c01f-4288-80f9-c6dc80e64245">
+    <name>ИсключитьОткрытыеВопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить открытые вопросы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тест не будет включать открытые вопросы, а опция &quot;Разрешен развернутый ответ&quot; будет игнорироваться</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0b6dc78-df8e-4561-b870-9e3d23bf3576">
+    <name>ПоказыватьСтоимостьВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать стоимость вопроса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Стоимость вопроса - это вклад вопроса в общий итоговый результат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21cbe5c5-5002-4837-91be-067cc7a3cfc9">
+    <name>СкрытьКомментарииВопросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть комментарии вопросов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>После ответа на вопрос, никакие комментарии к нему не отображаются</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ef4f0f7-ee31-4fd4-a342-5dc12e35e2c1">
+    <name>ИнформацияНаФинальнойСтранице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация на финальной странице</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИнформацияНаФинальнойСтраницеТестаСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a57fd63c-1c44-418b-8211-b5011d8ed6d9">
+    <name>Презентация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Презентация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РесурсыСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Оригинал файла презентации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="395a44da-e406-40e2-8599-23ef7856cdbc">
+    <producedTypes>
+      <objectType typeId="7188001d-0e9f-460f-9271-df8066aaacc5" valueTypeId="ac12b75b-cbf4-4ef4-ae15-5a85b669ff0d"/>
+      <rowType typeId="7121212d-8a8d-4648-9a96-9a38d3df334e" valueTypeId="477c0482-b8d0-44c2-a050-56d72688411d"/>
+    </producedTypes>
+    <name>УдалитьГруппыПодчиненныхЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы подчиненных элементов (не используется)</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохраняются группы, в которые по умолчанию помещаются подчиненные элементы при создании их в мастерах</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fab8b95f-b572-4c5a-90bb-de8dcf0c31fd">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФреймыСУЗ</types>
+        <types>CatalogRef.СтраницыСУЗ</types>
+        <types>CatalogRef.РесурсыСУЗ</types>
+        <types>CatalogRef.ВопросыСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа справочника для размещения элементов подборки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="968dcff4-19bc-4db2-ad43-3976033fb307">
+    <producedTypes>
+      <objectType typeId="cc39eecc-f475-4b24-a86a-d7356f9c339d" valueTypeId="a1ced68e-392b-44e4-a210-913942cdb02f"/>
+      <rowType typeId="636a519f-76bd-4e77-af6a-8df2ef50bcc4" valueTypeId="c2b0fa88-5d81-43ab-9f50-a30fcb641189"/>
+    </producedTypes>
+    <name>СкрытыеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытые ресурсы</value>
+    </synonym>
+    <attributes uuid="a3de5b90-371a-4b90-934c-730989955aad">
+      <name>Ресурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РесурсыСУЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="687632a5-c236-4574-8751-73a8da21dba9">
+    <name>ФормаТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма теста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="28fc1397-63e4-41bc-a9bb-ce02d2f7fe24">
+    <name>ФормаТеории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма теории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea268b0f-83a5-4895-adb1-99215820fb60">
+    <name>ФормаПрезентации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма презентации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1c8ceae-681d-4011-a727-b0f592f673e8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2bcbf9b-018d-4abc-851a-d2a2b53ef1b6">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="297f85d0-4934-4e97-8195-71855ad78cf1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7721d0d5-7876-4419-a50c-ada9658214f0">
+    <name>ФормаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание подборки учебных элементов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="162a9ac2-f0a5-4f88-95af-f681634a8fc6">
+    <name>ФормаСозданияИзФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание теста из файлов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="61d0ba17-7b1e-4ac3-a638-2b3675792b60">
+    <name>ШаблонФайловДляИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон файлов для импорта</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e11d6bd-dab9-441d-b86f-a92dfdb0a10f">
+  <producedTypes>
+    <objectType typeId="f714c976-6d69-4048-8488-3ed9a30369a2" valueTypeId="12d4402c-4805-4e3e-9d05-164af196d910"/>
+    <managerType typeId="b822a859-2dea-4dfd-9f82-ff2009b7adbe" valueTypeId="360aa177-0692-4fa2-89c2-d2b10440baa4"/>
+  </producedTypes>
+  <name>ПросроченноеОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просроченное обучение</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПросроченноеОбучениеСУО.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8a336d81-8eb9-4c2f-9ce8-e71f77ceab50">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="16c07c3d-6c61-4193-a722-7e9fd98ec4ee">
+    <name>ПросроченноеОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченное</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

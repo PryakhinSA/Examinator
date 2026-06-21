@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92b94ba3-0401-4a56-b56b-b06dd12c1b50">
+  <producedTypes>
+    <objectType typeId="8070369e-7126-4b59-9dba-c06dbb352561" valueTypeId="1a9dc6be-186b-484b-b240-2d38a3b51080"/>
+    <refType typeId="faa6448d-51d8-4b5d-a7c3-07fe0cc81f73" valueTypeId="a6cdef69-b417-4d88-88a7-c39c08863875"/>
+    <selectionType typeId="cd3ef4cb-d982-4a0f-ae7a-423172f1f4c0" valueTypeId="86f98fb9-c248-4b82-8061-f680357d0796"/>
+    <listType typeId="2d32f78c-1590-46d0-b824-37ff656f3512" valueTypeId="83ccb9ab-95bb-4ae7-8f57-a37c765814e5"/>
+    <managerType typeId="95b30202-7cb0-45c0-b611-24a13e894518" valueTypeId="c30182bc-2431-4d8a-a690-4911fc9ecbb4"/>
+  </producedTypes>
+  <name>ДолжностиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <inputByString>Catalog.ДолжностиСУО.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДолжностиСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="743a9869-b97c-415c-a7aa-de7765b4dade">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d994b196-bea8-4e7e-be78-08db26d4dfbb">
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <group>CommandGroup.ПредприятиеСУО</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

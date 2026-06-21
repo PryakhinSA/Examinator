@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24e10be-f0ab-4a96-9856-a5c6a65433d6">
+  <producedTypes>
+    <containerType typeId="3800a7b1-9a48-4b87-916b-268f470ee616" valueTypeId="4e366b7d-3d59-42e0-b851-375c58280939"/>
+  </producedTypes>
+  <name>УчащийсяЭлектронногоОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учащийся электронного обучения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

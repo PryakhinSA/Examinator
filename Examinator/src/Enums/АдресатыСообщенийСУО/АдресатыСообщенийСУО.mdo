@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d61db8cc-7b8b-49f8-bfb6-ab48780071f9">
+  <producedTypes>
+    <refType typeId="d6b1747f-e4c2-41db-b62d-d69110fb36bb" valueTypeId="f801ff78-a4ec-40d8-bc58-89819df493af"/>
+    <listType typeId="87f4fb4a-d79f-407a-b6ee-4e9489474589" valueTypeId="d95fc97c-5cd4-48e0-913e-9e68a4b5236a"/>
+    <managerType typeId="1745cac9-4630-4a1c-b894-a0d433a9bfbd" valueTypeId="f30ef14c-d49e-43a8-bf48-6bd4016df52c"/>
+  </producedTypes>
+  <name>АдресатыСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы тем обсуждений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cdcd32d0-b842-4bcf-8b44-78b2f71709b9">
+    <name>НаФоруме</name>
+    <synonym>
+      <key>ru</key>
+      <value>На форуме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efa170b5-45f1-4e8a-8896-3efb0c673d8d">
+    <name>УчастникамМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участникам мероприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="202541e2-06b6-4c67-bd15-232ec225c92c">
+    <name>УчастникамПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участникам программы обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17a92c8d-e4f8-4890-bcde-337f0140986d">
+    <name>УчастникуМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участнику мероприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ee0a373-78bc-409b-bd89-8a2f337a047a">
+    <name>УчастникуПрограммыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участнику программы обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6564be3c-0a01-4187-a431-4c9b2a22355f">
+    <name>Преподавателям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподавателям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f54320e8-18ac-4ff4-8e79-358ef4d3ff6a">
+    <name>Преподавателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподавателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee6f38c7-2565-4794-af8d-5650286131fa">
+    <name>УчебнойГруппе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебной группе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c92ac07-e86e-4b7f-b866-7a932438c1de">
+    <name>Пользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3637586b-a0ff-4245-b603-4e54aeede6dc">
+    <name>Администратору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40132019-4f57-442b-9d8f-f032160a96a0">
+    <name>Организатору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатору</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

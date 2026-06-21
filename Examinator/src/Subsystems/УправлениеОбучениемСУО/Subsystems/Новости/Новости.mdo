@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="858c8f01-896c-4ca2-a1e8-29ccaf870aaa">
+  <name>Новости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.УправлениеНовостямиСУО</content>
+  <content>Document.НовостьСУО</content>
+  <content>InformationRegister.НовостиСУО</content>
+  <content>XDTOPackage.НовостьСУО</content>
+  <content>CommonPicture.Новости</content>
+  <content>InformationRegister.ПросмотрыЛентыНовостейПользователямиСУО</content>
+  <parentSubsystem>Subsystem.УправлениеОбучениемСУО</parentSubsystem>
+</mdclass:Subsystem>

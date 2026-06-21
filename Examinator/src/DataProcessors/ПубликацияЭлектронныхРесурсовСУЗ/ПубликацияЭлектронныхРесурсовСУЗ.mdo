@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d3faec4-cfdb-47f4-84cc-c27a5a8cfb9d">
+  <producedTypes>
+    <objectType typeId="0db248a9-7962-4e5c-a123-5dbc6cd6fae7" valueTypeId="4d15220d-28b1-4e25-a3df-772736d26386"/>
+    <managerType typeId="62aa8941-b656-43e6-ba57-6ee374ba8203" valueTypeId="fe6dd80e-a3d4-4143-bd6c-c1264aff0ece"/>
+  </producedTypes>
+  <name>ПубликацияЭлектронныхРесурсовСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Публикация электронных ресурсов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПубликацияЭлектронныхРесурсовСУЗ.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="729efa35-f672-4905-bf93-22f27b2a2d3a">
+    <name>ТипПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип публикации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПубликацийЭлектронныхРесурсовСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип публикации электронных ресурсов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="570bcf1d-2b1a-460c-ab0b-6e6eac8d62fd">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольное описание публикации</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67611cf4-0294-4342-8fc6-b8e2ea7fb1a5">
+    <name>УдалитьСтарыеПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить старые публикации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Существующие публикации будут удалены. В случае активной работы пользователей рекомендуется удалять публикации вручную.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eded7db7-fa89-410e-8534-cb20a13c0b49">
+    <name>ДляТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для тестирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Публикация будет содержать исходный код без сжатия, что позволит выявить источник ошибок. Размер такой публикации будет больше обычного.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="11654e51-d675-4e3f-8f98-5612ff55109e">
+    <name>СохранятьАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять активность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Активность пользователя будет сохраняться в браузере и будет загружена при следующем открытии электронного ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1847dd2-2f13-438d-a17c-e83300ecdfd9">
+    <name>ВключитьБраузер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить браузер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В публикацию будет добавлен свободно распространяемый браузер для ОС Windows, в котором будет открываться электронный ресурс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7dc5372-ff0f-477c-89c7-32a160d38c4d">
+    <name>ПредпочитатьФорматВидеоWEBM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпочитать формат видео WebM</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Видео будет выгружено в формате WebM, если он доступен</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7673ad0-9727-4dbb-976a-2b305c6d4d70">
+    <name>КаталогДляСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог для сохранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a91962af-56d3-48e7-9867-c54ed7a1bb00">
+    <name>ВключитьИнтерфейсПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить интерфейс преподавателя</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будет добавлен файл запуска для преподавателя, при помощи которого он сможет выполнить проверку ответов учащегося</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9d595d6-063a-4ac2-8862-1d04d2e58fc5">
+    <name>ПарольПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9eeeabfc-cce7-485f-b9ac-e5e30ad65320">
+    <name>ПарольПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4dfa1f3f-ddd9-42ec-8cdc-ce0c4fba97ae">
+    <name>ПользовательскиеСтили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские стили</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныТекстаСУЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01dc7553-0559-416e-963a-0810b0b903bf">
+    <name>ЯзыкИнтерфейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык интерфейса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЯзыкиВебКабинетаСУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="37b0d318-40f1-4e94-a9ac-52070490c7f4">
+    <name>ПоискРазрешен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск разрешен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешить поиск в публикации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="aca51c97-9cec-4329-a6c3-b8d4589c5c45">
+    <producedTypes>
+      <objectType typeId="3430d877-5e76-4ff4-b434-5a0ece1f1977" valueTypeId="4bf756c3-b811-4157-b71c-dab4303e7186"/>
+      <rowType typeId="7ff84964-130d-4031-9b5c-d2eb39eaa0d3" valueTypeId="92b92b35-e248-4402-b636-1cfef66967a7"/>
+    </producedTypes>
+    <name>ЭлектронныеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные ресурсы</value>
+    </synonym>
+    <attributes uuid="9f6ab305-602b-4776-86fd-9a18f019036c">
+      <name>ЭлектронныйРесурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Электронный ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СводыЗнанийСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Электронный ресурс для публикации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8be00424-43e9-486a-8f2a-128f863109bc">
+      <name>РазмещениеКнопкиВыхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размещение кнопки выхода</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВариантыРазмещенияКнопкиВыходаСУЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="87611452-d07f-44ea-b77d-30574942e4e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="39cf1663-5247-49fd-9b24-0bd1ab982068">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8a30317f-2e64-4027-a937-80c3a3d5fccd">
+    <name>ШаблонДляТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон для тестирования</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="22cc0730-c6da-454a-b72f-099babe45744">
+    <name>БраузерGoogleChrome</name>
+    <synonym>
+      <key>ru</key>
+      <value>Браузер Google chrome</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d6cbd7c0-615c-4d31-9673-ea6577dfd755">
+    <name>СтартоваяПрограмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовая программа</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="9a88792a-0038-4843-ad1e-63a0960b2119">
+    <name>СтартоваяПрограммаДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовая программа для преподавателя</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="91ee4516-93c7-4c24-b9aa-f350d1dd928f">
+    <name>СтартовыйФайлДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовый файл для преподавателя</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="635565a7-39e3-4ef5-9ec4-37b69f95c0bb">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="651d6dd6-8f12-4ad5-aab8-898a05f8a8fb">
+    <name>enEN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский язык</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="90caaa72-0699-4517-8e09-d375d75b2b9a">
+    <name>ruRU</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский язык</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7f83cd6f-c7c0-4410-a6a9-504145b65029">
+    <name>resJS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл res.js веб-кабинета</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="acb7348f-06c1-4c69-a232-14ce41554a0d">
+    <name>Опубликовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликовать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Опубликовать электронный ресурс</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Экспорт</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

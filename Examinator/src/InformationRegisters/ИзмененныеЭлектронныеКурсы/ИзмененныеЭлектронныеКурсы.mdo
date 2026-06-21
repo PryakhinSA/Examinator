@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc0973d6-9eb7-49e8-9725-9396b05c1794">
+  <producedTypes>
+    <selectionType typeId="78bb2ed2-8051-426d-a5ba-d82a6c88f083" valueTypeId="2b340e97-645d-458b-928d-185c6f9eea70"/>
+    <listType typeId="d9285175-c63a-43a2-b594-6cc6ea62effe" valueTypeId="2d3a960d-eee9-4dfd-a540-3317431a9acd"/>
+    <managerType typeId="6b86e89a-69b9-4132-b9b9-3cc57f7c1b39" valueTypeId="b42ddab6-9218-497d-8981-df8456da7780"/>
+    <recordSetType typeId="b4d00890-2e6c-4a2a-9f14-fea73e7597c6" valueTypeId="dc76aa69-3c5a-476f-b10f-698ce14576cc"/>
+    <recordKeyType typeId="53cbfa46-e4da-4c7a-959e-9bbd8c10f31f" valueTypeId="581277ac-6552-41b7-aa02-93d7e8ecf777"/>
+    <recordType typeId="a278ebc8-00c0-46f8-8b67-2e42c43ec19e" valueTypeId="e75a642d-87e0-4f40-85be-dd0364b69bda"/>
+    <recordManagerType typeId="5381db5f-5fec-431b-8fff-04c3472ddf6e" valueTypeId="bdea5724-ea78-4e65-9747-ad003c9b2bbc"/>
+  </producedTypes>
+  <name>ИзмененныеЭлектронныеКурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измененные электронные курсы</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИзмененныеЭлектронныеКурсы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f09b4a20-6adc-4467-adcf-499e8c7b9458">
+    <name>ГотовКПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к публикации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="801a3947-f17b-4d5b-8bd8-1878b4d18979">
+    <name>ДатаНачалаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3c3a75ca-5e6c-4adb-a813-d2f6d1b93090">
+    <name>ДатаОкончанияИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="836a69c5-9496-4c9e-aa12-5552f43033e5">
+    <name>ЭлектронныйКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный курс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9897cd18-2e0e-435e-be27-32f789db4b2e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e2cd9afc-1168-468c-a6c2-c037dd920a0d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

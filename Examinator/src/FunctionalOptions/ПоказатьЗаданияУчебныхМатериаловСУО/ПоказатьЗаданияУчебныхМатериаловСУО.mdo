@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e21eb5bd-9fe1-4be8-9229-aa4aaf376da7">
+  <name>ПоказатьЗаданияУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать задания</value>
+  </synonym>
+  <location>InformationRegister.НастройкиУчебныхМатериаловСУО.Resource.ПоказатьЗадания</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЗаданияСУО.Command.ЗаданияНаПроверку</content>
+</mdclass:FunctionalOption>

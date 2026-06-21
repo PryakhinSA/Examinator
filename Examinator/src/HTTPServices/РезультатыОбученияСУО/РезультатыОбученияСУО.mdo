@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="088f1052-869d-4b38-a409-9ce6210829ae">
+  <name>РезультатыОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты обучения</value>
+  </synonym>
+  <rootURL>results</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="d100dea0-f8a3-4315-a0f2-6fae95ea521a">
+    <name>ПолучитьОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить оценки</value>
+    </synonym>
+    <template>/get</template>
+    <methods uuid="3b00d7d3-0fce-45c7-8d6b-a980865a20a3">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьРезультатыОбучения</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="498aebd2-e7e4-4910-b93d-ac804167d595">
+    <name>ПолучитьУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить уведомления</value>
+    </synonym>
+    <template>/notifications/get/{ИдентификаторПользователя}</template>
+    <methods uuid="a7a4a914-0007-49d5-94a8-58896503f53c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьУведомленияGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7162022c-62ff-4021-9850-f5cd3041dc45">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <content>CommonCommand.МоиПерсональныеНастройкиСУО</content>
+  <content>CommonForm.ИзменениеПароляПользователяИБ</content>
+  <content>CommonForm.ПерсональныеНастройкиСУО</content>
+  <content>InformationRegister.НастройкиПользователейСУО</content>
+  <content>Role.ЛичныйКабинетПерсональныеНастройкиСУО</content>
+  <content>Constant.ИспользоватьПинКодыВПерсональныхНастройкахСУО</content>
+  <content>CommonForm.МоиПинКодыСУО</content>
+  <content>FunctionalOption.ИспользоватьПинКодыВПерсональныхНастройкахСУО</content>
+  <content>CommonCommand.МоиПинКодыСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныйКабинетПерсональныеНастройкиСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныйКабинетПинКодыСУО</content>
+  <parentSubsystem>Subsystem.ЛичныйКабинетСУО</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8efe23fb-b380-4a26-9320-df7bfe77b608">
+  <producedTypes>
+    <refType typeId="900f708a-270b-4bb6-9987-bb60cc7a5c39" valueTypeId="3c918a82-0576-4139-8c0c-8eb2d7b80fa6"/>
+    <listType typeId="12e7d17d-da1f-448a-9cdd-249e1876c105" valueTypeId="2aeae0bd-73d8-4d0c-8bba-ac6787d8b058"/>
+    <managerType typeId="061847ed-695c-4d4f-804b-5a815ca180f7" valueTypeId="2f50a1a2-bf80-4ffa-941b-66051bc071a1"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="14a54661-2690-4cce-b8b7-0471339e2ff5">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b6f5f81-1c21-46b6-8711-6985ed37b268">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49a99759-2e39-4ba2-b224-7e166d91785a">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fef27478-ddfd-4ad9-8161-148761f29698">
+    <name>Skype</name>
+    <synonym>
+      <key>ru</key>
+      <value>Skype</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b16b9e00-33fb-4bbf-a715-092bfe308649">
+    <name>ВебСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб страница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e4c0c4f-98b8-4ef2-b0fe-1e17e9c403a8">
+    <name>Факс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebfd7df2-c87c-419c-8a7b-71ec8f91ceae">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

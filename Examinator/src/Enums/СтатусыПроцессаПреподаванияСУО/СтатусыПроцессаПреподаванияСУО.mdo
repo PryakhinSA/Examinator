@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5edd4f5e-13fe-4306-95c1-77dd1fec28b5">
+  <producedTypes>
+    <refType typeId="5e73809e-8c36-4060-8820-8a03e4a4cfea" valueTypeId="43a35632-af37-4181-84ac-8294cb0d2e82"/>
+    <listType typeId="868c63de-0c37-4c10-9998-dfc436bca398" valueTypeId="40c04a6d-46d1-46bc-8720-01878ada640d"/>
+    <managerType typeId="ebe935cd-6f97-482d-b1c0-22e46ee4348c" valueTypeId="8d4799d0-b941-4d8a-aa26-d5e6ad618b01"/>
+  </producedTypes>
+  <name>СтатусыПроцессаПреподаванияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы процесса преподавания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="713efc2c-d09e-45d5-a621-eae23b39155f">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="077b4567-de6c-4071-9ef6-8094b2ed2e35">
+    <name>Провожу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провожу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="495112d1-c4b6-4b02-a73d-2b00ee8f9008">
+    <name>Провел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провел</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58e457f3-e048-41ca-a7a5-87b57cec2627">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

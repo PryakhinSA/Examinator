@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff0e92e7-8d00-4861-9219-574392819f0d">
+  <producedTypes>
+    <selectionType typeId="fcdafb3e-fa71-48b4-8140-a73c10c2fc61" valueTypeId="e3105d36-dca8-4904-922d-63f07c99d381"/>
+    <listType typeId="e5d58221-4e81-4589-acb1-3ca3dc5a32a5" valueTypeId="05752fd4-a860-4651-aee6-89ac48c839ed"/>
+    <managerType typeId="5d6d5bc1-125d-4a0a-94a1-823c14cd44a7" valueTypeId="ec6c46d3-8564-4b8a-8e6a-cb860becef70"/>
+    <recordSetType typeId="6b5f36af-8b2a-4da9-a795-3ea089e6b3f0" valueTypeId="44adbe22-c173-4def-8714-5660075085a5"/>
+    <recordKeyType typeId="aeb05180-d00b-4b0d-8033-53b089562218" valueTypeId="b0bb7818-05bf-483c-9dec-e7241f01d519"/>
+    <recordType typeId="553cca08-7f75-4ecd-92c6-55315d3eed1a" valueTypeId="f35635b2-f08f-4ffe-b76b-d511a8afca7e"/>
+    <recordManagerType typeId="acbbdb23-6717-40f0-83ee-aae4608cf25a" valueTypeId="07a35054-f68d-4493-b83b-127c729136cd"/>
+  </producedTypes>
+  <name>БиблиотекаПользователейМеткиРесурсовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотеки пользователей (метки ресурсов)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="49d3826d-0ea9-4e04-b643-73a36217f9ed">
+    <name>Метка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураБиблиотекиПользователейСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Раздел персональной библиотеки пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="59183cfe-8082-46d1-a60c-e18e2aadaad6">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который создал метку</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a05f829a-a128-4cc8-9f1f-b6d9d512f4e9">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛитератураСУО</types>
+      <types>CatalogRef.СводыЗнанийСУЗ</types>
+      <types>CatalogRef.ЗаданияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ресурс, к которому относится раздел</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="33e37f91-fd61-4d9c-b871-d85efc9cfd22">
+    <name>Фрагмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фрагмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеКнигиСУО</types>
+      <types>CatalogRef.СодержаниеСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фрагмент электронного ресурса, к которому относится раздел</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

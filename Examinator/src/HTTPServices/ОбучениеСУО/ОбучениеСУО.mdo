@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91ba72f4-a9a1-4700-93ba-710da4c6bde7">
+  <name>ОбучениеСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение</value>
+  </synonym>
+  <rootURL>cabinet</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="404b0f64-9f37-4e12-bceb-60e07afd61f3">
+    <name>АктивироватьПинКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активировать пин-код</value>
+    </synonym>
+    <template>/userSettings/pinCodes/activate</template>
+    <methods uuid="96c1981d-2a54-4fe9-9ef1-0d6a4a71ade4">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>АктивироватьПинКодPOST</handler>
+    </methods>
+    <methods uuid="e0d197d1-fdf5-40f7-94ff-b46c7121364b">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5d8df977-94c6-4e31-909e-17a951994d59">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version</template>
+    <methods uuid="993c71db-a751-4ea9-b611-dd958ae66f73">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>ВерсияANY</handler>
+    </methods>
+    <methods uuid="5f0d50cf-b4bf-4efc-a698-17a87b6ef13d">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="abb250e3-b662-4a37-a9a5-0818f22667fe">
+    <name>ЗавершитьВыполнениеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершить выполнение задания</value>
+    </synonym>
+    <template>/edu/task/complete/{ВыполнениеЗадания}</template>
+    <methods uuid="f9b749f5-8a06-42f7-8a79-5d9c24a7dcf0">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗавершитьВыполнениеЗаданияPOST</handler>
+    </methods>
+    <methods uuid="a630bb80-a527-47c7-a667-58bf77c41b4a">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="34b47b69-d98e-4166-9719-5e5fff5554f0">
+    <name>ЗавершитьПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершить прохождение обучения</value>
+    </synonym>
+    <template>/edu/activity/complete/{ИдентификаторАктивности}</template>
+    <methods uuid="1d8f0850-9f00-4fd6-b53e-a94ad07322d5">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗавершитьПрохождениеОбученияPOST</handler>
+    </methods>
+    <methods uuid="cfc75ce5-8db1-493f-b849-5b74abfa99b6">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0238c4ec-d973-410b-882b-4ad4cd563c37">
+    <name>ЗагрузитьФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить файл</value>
+    </synonym>
+    <template>/file/upload/{ТипВладельца}/{ИдентификаторВладельца}</template>
+    <methods uuid="7e5aa258-61de-4052-99c1-a10ba485cc18">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗагрузитьФайлPOST</handler>
+    </methods>
+    <methods uuid="e7605337-6eae-42cd-8831-5493e23faf27">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8c880de2-ab3d-420c-a510-fe407dd3c9a4">
+    <name>ЗаписатьВедомостьУчастниковОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать ведомость участников обучения</value>
+    </synonym>
+    <template>/edu/checkList/save/{ПроведениеОбучения}/{ТипСценария}/{Сценарий}</template>
+    <methods uuid="371494fc-a09e-4cc5-a9a8-034b05659437">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьВедомостьУчастниковОбученияPOST</handler>
+    </methods>
+    <methods uuid="8163e203-3b68-4881-aa2f-daaf5d63ca8a">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="4a305b86-34fb-44c4-ae74-74d3380a5284">
+    <name>ЗаписатьДанныеВыполненияЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать данные выполнения задания</value>
+    </synonym>
+    <template>/edu/task/save/{ВыполнениеЗадания}</template>
+    <methods uuid="fa7df36f-719a-47af-89fd-93c465cfd46e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьДанныеВыполненияЗаданияPOST</handler>
+    </methods>
+    <methods uuid="6ca9ada7-f41f-4b6e-89b5-f9dc0a8d2863">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b7c9a35c-2569-4618-a3ca-baa2b64718b7">
+    <name>ЗаписатьНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать настройки</value>
+    </synonym>
+    <template>/userSettings/save</template>
+    <methods uuid="8a265f61-8d6d-4816-a556-19d5aab13594">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьНастройкиPOST</handler>
+    </methods>
+    <methods uuid="2e351496-6468-44a3-a4a5-69d5d3b2abd6">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="cd016c8f-3d27-44ed-b9de-aa630fae0274">
+    <name>ЗаписатьНастройкиЛентыНовостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать настройки ленты новостей</value>
+    </synonym>
+    <template>/news/settings/save</template>
+    <methods uuid="4ebdd87c-b2ce-4d59-9abc-6451bd58830d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьНастройкиЛентыНовостейPOST</handler>
+    </methods>
+    <methods uuid="55c4e9bd-7bc3-44b0-a3aa-afaa73f9ad66">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c12c8b61-c07e-41dd-8129-3a3db29ee39f">
+    <name>ЗаписатьНастройкиСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать настройки сообщения</value>
+    </synonym>
+    <template>/communication/messages/{Сообщение}/settings/save</template>
+    <methods uuid="d7d54666-b599-4014-89ae-cca2cf7355a8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьНастройкиСообщенияPOST</handler>
+    </methods>
+    <methods uuid="19266790-ee6c-47b8-9645-3d25f5495d2b">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="44225819-c4c9-414e-8cf3-a2fa7d352ad3">
+    <name>ЗаписатьНастройкиТемыРазделаФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать настройки темы раздела форума</value>
+    </synonym>
+    <template>/communication/topics/{Тема}/settings/save</template>
+    <methods uuid="8cad39a6-8e88-4e4a-a092-e948ba9efe16">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьНастройкиТемыРазделаФорумаPOST</handler>
+    </methods>
+    <methods uuid="0c22120c-3eac-410d-a025-3e6d9b500bb0">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c612018a-a023-4452-9489-441153f5a8e0">
+    <name>ЗаписатьНастройкиФайлаУчастникаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать настройки файла участника обучения</value>
+    </synonym>
+    <template>/edu/usersFiles/saveSettings/{ФайлУчастникаОбучения}</template>
+    <methods uuid="502e6c76-2916-42bc-8187-45911372cb0a">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьНастройкиФайлаУчастникаОбученияPOST</handler>
+    </methods>
+    <methods uuid="d693383d-df22-4708-89fb-1b1ec09e223f">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0c6daa29-efde-4d4b-916c-7e7ff6736cc6">
+    <name>ЗаписатьОценкиЗаданийОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать оценки заданий обучения</value>
+    </synonym>
+    <template>/edu/tasks/save/{ПрохождениеОбучения}</template>
+    <methods uuid="f6fed333-6f43-412e-a2cb-dd8a7781607d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьОценкиЗаданийОбученияPOST</handler>
+    </methods>
+    <methods uuid="a25f6ee2-aa7d-4bbd-802f-01d340569a29">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="eb608b8d-4531-4133-8b4d-85ffdab54cff">
+    <name>ОтложитьЗаданияНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложить задания на проверку</value>
+    </synonym>
+    <template>/edu/tasks/postpone</template>
+    <methods uuid="3d0b018a-a208-4fa2-8e22-6576f0d68712">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОтложитьЗаданияНаПроверкуPOST</handler>
+    </methods>
+    <methods uuid="bcd16b93-e2fd-4be6-b268-cc55d6387626">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="bba4a93b-3e93-458f-bff7-344e4f29b12f">
+    <name>ЗаписатьОценкуКачестваОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать оценку качества обучения</value>
+    </synonym>
+    <template>/edu/quality/save/{ПрохождениеОбучения}</template>
+    <methods uuid="0f7c0981-89d8-4d6a-a154-e0a90d00a373">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьОценкуКачестваОбученияPOST</handler>
+    </methods>
+    <methods uuid="e44046b0-4c86-42aa-ae16-47f7fe9a751b">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="df8c9e18-1a5d-41d9-b3af-acc9cd610ccb">
+    <name>ЗаписатьсяНаОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записаться на обучение</value>
+    </synonym>
+    <template>/edu/education/{ПроведениеОбучения}/entry</template>
+    <methods uuid="7e7bdfbd-54fc-4e5f-83d7-835cba3ec773">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписатьсяНаОбучениеPOST</handler>
+    </methods>
+    <methods uuid="01a15c73-cc3e-4374-a848-1936ee31d09c">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ebda9cad-1152-4b37-ac64-b4eb5e6b192f">
+    <name>НачатьПрохождениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать прохождение обучения</value>
+    </synonym>
+    <template>/edu/activity/start/{ПрохождениеОбучения}</template>
+    <methods uuid="988d9bb9-1855-4b67-a208-88b35f42a310">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>НачатьПрохождениеОбученияPOST</handler>
+    </methods>
+    <methods uuid="ce66c854-10c9-4520-aa7a-b431b01ce3b0">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="822bdac6-49a5-4f10-9705-29b85f783e58">
+    <name>ОтменитьВыполнениеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить выполнение задания</value>
+    </synonym>
+    <template>/edu/task/cancelAnswer/{ВыполнениеЗадания}</template>
+    <methods uuid="089832c6-2df7-4530-9e40-761cbd1f9f12">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОтменитьВыполнениеЗаданияPOST</handler>
+    </methods>
+    <methods uuid="20543f41-06d7-4be3-9a5d-85252e712688">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dc83a079-2182-4aaf-bc71-991a07b81edf">
+    <name>ПолучитьАдресФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить адрес файла</value>
+    </synonym>
+    <template>/file/url/{ТипВладельца}/{ИдентификаторВладельца}/{ИдентификаторФайла}</template>
+    <methods uuid="9707bca1-4255-4078-8bc1-05b84cf03eae">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьАдресФайлаPOST</handler>
+    </methods>
+    <methods uuid="a40b26fb-f94e-4af0-b8e9-0847123c3840">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="55964fa9-2a13-4d71-874b-ee5de5a5ab00">
+    <name>ПолучитьАктивностиУчастникаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить активности участника обучения</value>
+    </synonym>
+    <template>/edu/activities/{ТипОбучения}/{Отбор}/{ДатаНачала}/{ДатаОкончания}</template>
+    <methods uuid="d71a9536-ef40-4381-90ea-b5d799e9ccf4">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьАктивностиУчастникаОбученияPOST</handler>
+    </methods>
+    <methods uuid="4227dd22-e8a0-40d5-b7dc-e7094443d828">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8a52d36c-6fd9-4bc5-9ac8-ccb03266ee3e">
+    <name>ПолучитьБиблиотекуПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить библиотеку пользователя</value>
+    </synonym>
+    <template>/userLibrary/get</template>
+    <methods uuid="506a265f-899b-4695-b457-8c28af7a75e7">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьБиблиотекуПользователяPOST</handler>
+    </methods>
+    <methods uuid="40d57b61-946c-43ef-b793-4ed7f8e9cb6f">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8eb3093d-1b58-496d-abc5-a1524dc018df">
+    <name>ПолучитьВедомостьУчастниковОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить ведомость участников обучения</value>
+    </synonym>
+    <template>/edu/checkList/get/{ПроведениеОбучения}/{ТипСценария}/{Сценарий}</template>
+    <methods uuid="44a1ba63-44a3-426e-b349-1dbe0b607089">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьВедомостьУчастниковОбученияPOST</handler>
+    </methods>
+    <methods uuid="1102f70c-dd88-413e-a1b3-58740dcd2048">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7b8ed998-efac-4fe6-9426-c7d84d6c3a64">
+    <name>ПолучитьДополнительныеСведенияАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить дополнительные сведения активности</value>
+    </synonym>
+    <template>/edu/additional/get/{ПрохождениеОбучения}</template>
+    <methods uuid="2fd830b7-53e7-436c-a7fd-54e66fdf2e20">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьДополнительныеСведенияАктивностиPOST</handler>
+    </methods>
+    <methods uuid="8b5119d3-b98b-447c-8637-609816caaa89">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="fc886270-4ecf-4c5f-adce-0e1fdbb62864">
+    <name>ПолучитьЗаданияНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить задания на проверку</value>
+    </synonym>
+    <template>/edu/tasks/check/get</template>
+    <methods uuid="8b582410-eb0e-4010-a144-c5ba8153c3e8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьЗаданияНаПроверкуPOST</handler>
+    </methods>
+    <methods uuid="ddce051e-937b-4e8c-92e1-5f7776ffab11">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ad9d6bbc-4c6b-474e-b861-17ddfb0f1b21">
+    <name>ПолучитьИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить имя файла</value>
+    </synonym>
+    <template>/file/name/{ТипВладельца}/{ИдентификаторВладельца}/{ИдентификаторФайла}</template>
+    <methods uuid="b5121e54-e1dd-43c2-9222-d8c53143e9e9">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьИмяФайлаGET</handler>
+    </methods>
+    <methods uuid="46ab9537-adb6-4a19-bae9-e1154c48950e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьИмяФайлаGET</handler>
+    </methods>
+    <methods uuid="76492a1d-5704-4302-b87f-1902356c0218">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="cd82daf3-b1b3-485a-95b7-d06a6335e65e">
+    <name>ПолучитьКаталогПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить каталог пользователей</value>
+    </synonym>
+    <template>/usersCatalog/get</template>
+    <methods uuid="2beada97-1ef4-422e-8c69-85380431c3e3">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьКаталогПользователейPOST</handler>
+    </methods>
+    <methods uuid="72616dce-8af5-4b76-9600-ee2994123200">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d9e5f0f1-20b9-4499-bf37-96d563a4d7ab">
+    <name>ПолучитьКоличествоТемСНовымиСообщениямиРазделовФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить количество тем с новыми сообщениями разделов форума</value>
+    </synonym>
+    <template>/forum/categories/countTopicsWithNewMessages</template>
+    <methods uuid="cb49b56f-0dfb-496b-9ddf-c10af0d5a079">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьКоличествоТемСНовымиСообщениямиРазделовФорумаPOST</handler>
+    </methods>
+    <methods uuid="215eb27e-d65d-40db-a89e-af0002c75769">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3971bb4d-6007-40a4-ba40-151fa7ba25e2">
+    <name>ПолучитьЛичныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить личные сообщения</value>
+    </synonym>
+    <template>/pm/messages/{Тип}/{ДатаНачала}/{ДатаОкончания}</template>
+    <methods uuid="f5b65348-b1ec-41e3-9fd5-8194b6ae91a4">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьЛичныеСообщенияPOST</handler>
+    </methods>
+    <methods uuid="035af098-79ff-4fca-92b1-35cafd198367">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d0e84ed2-2c1a-4412-b950-d44c68ad0c56">
+    <name>ПолучитьЛичныеСообщенияТемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить личные сообщения темы</value>
+    </synonym>
+    <template>/pm/{Тема}/messages</template>
+    <methods uuid="ee91a364-968e-4e19-8e87-52237ab1bfa5">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьЛичныеСообщенияТемыPOST</handler>
+    </methods>
+    <methods uuid="4946f6ff-5eb0-41ce-a5a9-3e5d3559d334">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="42c6a020-3636-493c-9111-646fffcebd7f">
+    <name>ПолучитьНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить настройки</value>
+    </synonym>
+    <template>/userSettings/get</template>
+    <methods uuid="7c9e1e20-0075-4055-b970-92a7bbdbf508">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьНастройкиPOST</handler>
+    </methods>
+    <methods uuid="115856b2-957f-4e42-b94f-6e958ef99992">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a101218b-5827-4735-8b97-3de60f5d5932">
+    <name>ПолучитьНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить новости</value>
+    </synonym>
+    <template>/news/get/{ДатаНачала}/{ДатаОкончания}/{Количество}</template>
+    <methods uuid="0a20dfc9-2f83-4bc1-a993-5b6275532aec">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьНовостиPOST</handler>
+    </methods>
+    <methods uuid="6391302c-f2d5-44de-bf24-e61f6afb84b6">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1bb789d3-65ec-47d3-88f4-7d6218fc9f07">
+    <name>ПолучитьОписаниеАктивностиУчастникаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить описание активности участника обучения</value>
+    </synonym>
+    <template>/edu/activity/{Действие}/{ТипАктивности}/{ИдентификаторАктивности}</template>
+    <methods uuid="37781da6-1613-4998-ac0b-7aa72b46f14e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОписаниеАктивностиУчастникаОбученияPOST</handler>
+    </methods>
+    <methods uuid="8405253f-c2f8-4318-a194-54fa584ef776">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9148b578-c321-422d-99ab-a95238585b53">
+    <name>ПолучитьОписаниеВыполненияЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить описание выполнения задания</value>
+    </synonym>
+    <template>/edu/task/get/{ПрохождениеОбучения}/{Задание}</template>
+    <methods uuid="24ef2a11-64c9-4a0a-86aa-cde7d2c4d0f6">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОписаниеВыполненияЗаданияPOST</handler>
+    </methods>
+    <methods uuid="3747d201-b603-43dc-927b-452787bd77db">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="842ee316-dd50-4934-9bbd-4eb746ccfd9b">
+    <name>ПолучитьОписаниеЗаявкиНаОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить описание заявки на обучение</value>
+    </synonym>
+    <template>/edu/education/{ПроведениеОбучения}/application/get</template>
+    <methods uuid="3523c86d-4487-471f-9681-61e38b0e808e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОписаниеЗаявкиНаОбучениеPOST</handler>
+    </methods>
+    <methods uuid="47322dc3-7950-4f13-8dac-7c4ccf873b2c">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e58d5bb5-29c7-4ff3-92f7-6c7730a61e85">
+    <name>ПолучитьОписаниеКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить описание книги</value>
+    </synonym>
+    <template>/book/{Идентификатор}/description</template>
+    <methods uuid="3e1eec87-afa0-471d-b9ae-f474d3e10760">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОписаниеКнигиPOST</handler>
+    </methods>
+    <methods uuid="1f03e303-703b-409c-9c6a-88fa0e322894">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3c6625e3-3537-49ce-989f-084e9d0d3e77">
+    <name>ПолучитьОписаниеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить описание пользователя</value>
+    </synonym>
+    <template>/usersCatalog/{Пользователь}/description</template>
+    <methods uuid="93b001d2-86d3-409b-a020-032b68428a53">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОписаниеПользователяPOST</handler>
+    </methods>
+    <methods uuid="28f56232-a27d-4027-a4b9-4bde133184d8">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ea037d2c-ed25-4a1f-93f6-ee76abc989df">
+    <name>ПолучитьОписаниеПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить описание проведения обучения</value>
+    </synonym>
+    <template>/edu/education/{ПроведениеОбучения}/description</template>
+    <methods uuid="60518874-285e-4c89-b9fe-9198db48700b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОписаниеПроведенияОбученияPOST</handler>
+    </methods>
+    <methods uuid="b23a2f2a-d05b-4202-bdad-83d95f0425b1">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8e342aa2-883b-408e-99a1-81cc0bd7cbf5">
+    <name>ПолучитьОценкиКачестваОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить оценки качества обучения</value>
+    </synonym>
+    <template>/edu/quality/get/{ПроведениеОбучения}</template>
+    <methods uuid="860e023d-787a-4bbc-8512-6bd97b460b2d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОценкиКачестваОбученияPOST</handler>
+    </methods>
+    <methods uuid="2fe862c3-516f-4c24-b2dd-dc3bafffa4c4">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8ab25f95-4857-4cb2-9f28-28eb787b8f6f">
+    <name>ПолучитьПредставлениеСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить представление сертификата</value>
+    </synonym>
+    <template>/edu/certificate/get/{Сертификат}</template>
+    <methods uuid="1088aca7-629c-4af4-9eef-734bb85ca795">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьПредставлениеСертификатаPOST</handler>
+    </methods>
+    <methods uuid="5727b00a-81aa-4838-a53b-cc89cd52c837">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьПредставлениеСертификатаGET</handler>
+    </methods>
+    <methods uuid="8e10b051-c519-41f3-97c8-19ba45d11ea1">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="be4496e3-c251-45d4-904b-6b6ec65f3c84">
+    <name>ПолучитьПреподавателейОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить преподавателей обучения</value>
+    </synonym>
+    <template>/edu/teachers/{ПроведениеОбучения}/{ТипСценария}/{Сценарий}</template>
+    <methods uuid="b8803918-2687-4072-b87f-431195fcab08">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьПреподавателейОбученияPOST</handler>
+    </methods>
+    <methods uuid="6dea1e1c-b90e-48f0-a8d4-ae973d91f111">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7acd834c-1845-45dc-a26f-e87b872d2e9f">
+    <name>ПолучитьРазделыФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить разделы форума</value>
+    </synonym>
+    <template>/forum/categories</template>
+    <methods uuid="0b24f050-6700-48b7-bbe9-d6cf32adda3c">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьРазделыФорумаPOST</handler>
+    </methods>
+    <methods uuid="2328566d-0de1-4791-9d98-c91fd5e97cd4">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="bb959157-afb8-4f2d-9a17-93f0100957fe">
+    <name>ПолучитьРезультатыТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить результаты тестирования</value>
+    </synonym>
+    <template>/edu/quizResults/get/{ТипАктивности}/{ПрохождениеОбучения}</template>
+    <methods uuid="6cb1a0f4-ef99-472c-a913-7a25f1ed5462">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьРезультатыТестированияPOST</handler>
+    </methods>
+    <methods uuid="cc07739f-c04a-42d1-95e9-127f05201b4b">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dec4830e-0bab-42cd-85c1-9499126bf332">
+    <name>ПолучитьСвоиУчебныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить свои учебные группы</value>
+    </synonym>
+    <template>/usersCatalog/myEduGroups/get</template>
+    <methods uuid="fb6f77ae-8010-4bb1-9a13-3fb8ca6f51eb">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьСвоиУчебныеГруппыPOST</handler>
+    </methods>
+    <methods uuid="83ccd2f8-8143-4512-9450-19596949232f">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8be70f9e-6be9-4639-8ee4-b1668dd2f8a5">
+    <name>ПолучитьСообщенияТемыФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить сообщения темы форума</value>
+    </synonym>
+    <template>/forum/{ТемаФорума}/messages</template>
+    <methods uuid="4edd7331-a1e7-47ca-b109-3ec0fedc0c49">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьСообщенияТемыФорумаPOST</handler>
+    </methods>
+    <methods uuid="27a8c49f-c679-4607-b401-08465bcee581">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e1ce19ed-bfcd-4f56-8656-4ae2422c6134">
+    <name>ПолучитьСписокСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить список сертификатов</value>
+    </synonym>
+    <template>/edu/certificates/list</template>
+    <methods uuid="669f377e-ade2-41a4-ba7b-44898dcda733">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьСписокСертификатовPOST</handler>
+    </methods>
+    <methods uuid="2758b846-1d77-495c-b0b5-7446652137b9">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3d53107b-a5ad-4574-abb3-31ad0a9b22d8">
+    <name>ПолучитьТекстЛичногоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить текст личного сообщения</value>
+    </synonym>
+    <template>/pm/messages/{Сообщение}/text</template>
+    <methods uuid="c09e8a09-1604-43eb-9a4b-c299805f5008">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьТекстЛичногоСообщенияPOST</handler>
+    </methods>
+    <methods uuid="82b1a494-f2dc-44ee-be0d-0914f4f49901">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="eef6b896-c200-4997-a8a0-dc1e20041f81">
+    <name>ПолучитьТекстНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить текст новости</value>
+    </synonym>
+    <template>/news/{Новость}/text</template>
+    <methods uuid="c9ddd6cf-e976-4708-a0b8-5862c3cdb55f">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьТекстНовостиPOST</handler>
+    </methods>
+    <methods uuid="1e51b9e5-1e37-4157-9808-856b52e8294c">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="62724a8f-c01f-4834-8e1d-a82f0181fdd5">
+    <name>ПолучитьТекстыСообщенийТемыФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить тексты сообщений темы форума</value>
+    </synonym>
+    <template>/forum/{ТемаФорума}/messages/text</template>
+    <methods uuid="c59aa057-8a8c-4c3f-82b1-dc5c9fbb4e04">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьТекстыСообщенийТемыФорумаPOST</handler>
+    </methods>
+    <methods uuid="66a0709d-41d4-4197-a2b9-a46f7010f2c8">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="73b42eaa-b462-4a90-92e3-d9442542ef37">
+    <name>ПолучитьТемыРазделаФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить темы раздела форума</value>
+    </synonym>
+    <template>/forum/{РазделФорума}/topics</template>
+    <methods uuid="d26f2ae3-b1ea-4bb0-9884-a9921bc21e10">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьТемыРазделаФорумаPOST</handler>
+    </methods>
+    <methods uuid="62dd8fdf-9c30-41f7-8cf1-f0c5ee1fe57e">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f52df1ef-abb6-468b-8512-2877390e0ecf">
+    <name>ПолучитьТемыФорума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить темы форума</value>
+    </synonym>
+    <template>/forum/topics</template>
+    <methods uuid="ed9cd1a2-188a-426b-a23b-1a41dff8e411">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьТемыРазделаФорумаPOST</handler>
+    </methods>
+    <methods uuid="8071526b-d508-4b1f-9cce-afb66d575249">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a34d6578-2b5d-4fbb-a20b-3f5c90d49f21">
+    <name>ПолучитьУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить уведомления</value>
+    </synonym>
+    <template>/notifications</template>
+    <methods uuid="614100ae-2d80-4117-8389-82cb859feaf1">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьУведомленияPOST</handler>
+    </methods>
+    <methods uuid="c5719016-6ec5-4c22-88f2-246ce3c26108">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5aef3121-94a5-4c79-9c34-385f485d9ea7">
+    <name>ПолучитьУчастниковОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить участников обучения</value>
+    </synonym>
+    <template>/edu/participants/{ПроведениеОбучения}/{ТипСценария}/{Сценарий}</template>
+    <methods uuid="131fe252-1b45-4096-af8c-ccaf9072021e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьУчастниковУчебнойАктивностиPOST</handler>
+    </methods>
+    <methods uuid="22053667-c8cf-469e-924e-5a13d26981fa">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="20a6aa0a-440f-4f1c-af54-e55c789b0cd7">
+    <name>ПолучитьФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить файл</value>
+    </synonym>
+    <template>/file/download/{ТипВладельца}/{ИдентификаторВладельца}/{ИдентификаторФайла}</template>
+    <methods uuid="4751b28b-f455-458e-ad2c-84fe0ea861bf">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьФайлGET</handler>
+    </methods>
+    <methods uuid="5a78195c-df37-4b2b-9f42-79c662a737cd">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="157294ab-3559-45d2-9ca4-6d331328d191">
+    <name>ПолучитьФайлыУчастниковОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить файлы участников обучения</value>
+    </synonym>
+    <template>/edu/usersFiles/get/{ПроведениеОбучения}</template>
+    <methods uuid="2d62ad66-6686-454f-afb8-8c337b78da52">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьФайлыУчастниковОбученияPOST</handler>
+    </methods>
+    <methods uuid="702aa020-ba73-47ff-9034-071b5deee28c">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="585010ba-15cf-4ad6-98f3-9f45833624da">
+    <name>ПолучитьОтчетПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить отчет преподавателя</value>
+    </synonym>
+    <template>/report/teacher/get/{Отчет}/{Формат}</template>
+    <methods uuid="8390b2dd-1299-4233-a78a-75ba7d9b4072">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьОтчетПреподавателяGET</handler>
+    </methods>
+    <methods uuid="a4485353-c4eb-4a05-83db-8eb3a44fa903">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0443d8bd-a7df-45c2-845d-c2ef9c13220c">
+    <name>ПолучитьОтчетПроведенияОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить отчет проведения обучения</value>
+    </synonym>
+    <template>/report/activity/get/{Отчет}/{ПроведениеОбучения}/{Формат}</template>
+    <methods uuid="a36a2ea2-11f5-4ad9-9365-7dec31c5c140">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьОтчетПроведенияОбученияGET</handler>
+    </methods>
+    <methods uuid="ce0df049-29e1-474d-9895-8df522139810">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d6bcc24a-bc4c-42ca-b4d2-033e29caf832">
+    <name>СоздатьЗаявкуНаОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать заявку на обучение</value>
+    </synonym>
+    <template>/edu/education/{ПроведениеОбучения}/application/new</template>
+    <methods uuid="1aac0913-7bfa-4063-b5ec-7821b2eaa5fa">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьЗаявкуНаОбучениеPOST</handler>
+    </methods>
+    <methods uuid="503da03a-01e0-452c-a4e2-bc55f9ff1125">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2ced3ce8-594b-4baa-bd1e-b18b811cc6de">
+    <name>СоздатьНовость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новость</value>
+    </synonym>
+    <template>/news/create</template>
+    <methods uuid="c76adcb6-7d28-42cf-be29-f6ff7daa5968">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьНовостьPOST</handler>
+    </methods>
+    <methods uuid="09457530-294b-4b68-875d-008d1b40d95f">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0931a980-1e99-4a8d-9294-441b9d40a268">
+    <name>СоздатьРассылку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать рассылку</value>
+    </synonym>
+    <template>/communication/mass_message/new</template>
+    <methods uuid="e8223a09-c970-49e5-a5d4-064e49e8898e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьРассылкуPOST</handler>
+    </methods>
+    <methods uuid="d60a0f66-b24c-4ab1-bc72-3957ece6295d">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="fbf40660-bc0e-448f-860c-1717dc421e36">
+    <name>СоздатьСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать сообщение</value>
+    </synonym>
+    <template>/communication/messages/new</template>
+    <methods uuid="2c063521-8834-427d-a2bc-044b85f5d449">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьСообщениеPOST</handler>
+    </methods>
+    <methods uuid="0d70b9c3-4095-4277-9e0d-bfd1c544d326">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="04195a4b-9d37-4bea-83c1-7f34553f1615">
+    <name>СохранитьДополнительныеСведенияАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить дополнительные сведения активности</value>
+    </synonym>
+    <template>/edu/additional/save/{ПрохождениеОбучения}</template>
+    <methods uuid="75fc8319-caca-4880-80b9-047ed74536c2">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СохранитьДополнительныеСведенияАктивностиPOST</handler>
+    </methods>
+    <methods uuid="3f3b920a-1024-4013-9799-73bdbd161051">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7cd5f446-38fa-4910-be4a-25373b6fb98c">
+    <name>УдалитьСообщениеФорумаМодератором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить сообщение форума модератором</value>
+    </synonym>
+    <template>/forum/messages/{Сообщение}/delete</template>
+    <methods uuid="4cc1a58a-c3f4-4420-8db4-1f1553af5b2a">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>УдалитьСообщениеФорумаМодераторомPOST</handler>
+    </methods>
+    <methods uuid="d32de2ef-0f39-4658-9c1d-5c53900a2447">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9becaa22-5581-49ff-99f8-b92b7c88f84a">
+    <name>УдалитьФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить файл</value>
+    </synonym>
+    <template>/file/delete/{ТипВладельца}/{ИдентификаторВладельца}/{ИдентификаторФайла}</template>
+    <methods uuid="c32c184d-a7d7-4d9a-8511-181523eff8c3">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>УдалитьФайлPOST</handler>
+    </methods>
+    <methods uuid="297ea7cd-822d-4453-9322-96364f72945a">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d932247a-6a1a-45ed-b337-8435d7590cd8">
+    <name>УстановитьПроведениеПреподавателемОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить проведение преподавателем обучения</value>
+    </synonym>
+    <template>/edu/checkList/end/{Проведено}/{ПроведениеПреподавателемОбучения}</template>
+    <methods uuid="2f74d845-ba9b-4f55-be9b-a730f07c3658">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>УстановитьПроведениеПреподавателемОбученияPOST</handler>
+    </methods>
+    <methods uuid="fa5a0b7f-f9d4-4a08-b8ca-3863cea7b327">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

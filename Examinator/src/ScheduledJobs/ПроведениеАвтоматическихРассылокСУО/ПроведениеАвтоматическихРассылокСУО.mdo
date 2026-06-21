@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c079c802-47b5-4372-a9c0-fddc7f77a329">
+  <name>ПроведениеАвтоматическихРассылокСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение автоматических рассылок</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеОбучениемСУО.ПровестиСозданныеАвтоматическиеРассылки</methodName>
+  <description>Проведение автоматических рассылок</description>
+  <key>ПроведениеАвтоматическихРассылок</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ed5cc7b-e900-4587-8f62-264f56b354e6">
+  <producedTypes>
+    <objectType typeId="e683eb0c-e1c9-4596-ad08-3a413b08db14" valueTypeId="1e6946b1-c055-4df3-b372-a66490cc3da3"/>
+    <managerType typeId="fae7d868-577a-4918-9213-353eb4a2e8ab" valueTypeId="876e5413-9b6c-41c0-8cae-57a7e78b018d"/>
+  </producedTypes>
+  <name>УчебныеЗаданияСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

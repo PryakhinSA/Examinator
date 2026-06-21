@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ba7734c-affa-43c7-881b-23ffc5a8c82f">
+  <name>ПубликацияЭлектронногоРесурсаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Публикация электронного ресурса</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/kms/2/KnowledgeSources</namespace>
+</mdclass:XDTOPackage>

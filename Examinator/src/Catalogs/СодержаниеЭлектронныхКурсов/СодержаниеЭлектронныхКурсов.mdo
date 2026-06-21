@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3e604b1-199a-465a-8116-60baa254362e">
+  <producedTypes>
+    <objectType typeId="bb000fdb-dffc-4e00-a18f-f4c758a1ee23" valueTypeId="7d3e6554-51c4-4720-9bab-d630e62d8581"/>
+    <refType typeId="74851614-0c28-4c37-b835-4cdacea0edbb" valueTypeId="00ff0a32-d2f0-4afe-ac03-ce32719ed950"/>
+    <selectionType typeId="fd7828fe-ba9f-47cb-a142-3cc61fdd4bc5" valueTypeId="68080666-a69e-4a49-bbf5-c601c34f1f7a"/>
+    <listType typeId="8acd11d0-78b2-46cc-a498-b8cf65aacbe4" valueTypeId="ca3c6a29-457b-4a7e-9760-8870e5bcfca5"/>
+    <managerType typeId="70494ef7-7e49-4994-a245-e9b80e5a67a3" valueTypeId="38249ee8-cb4a-4506-8f83-df9e8e7d3476"/>
+  </producedTypes>
+  <name>СодержаниеЭлектронныхКурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержание электронных курсов</value>
+  </synonym>
+  <inputByString>Catalog.СодержаниеЭлектронныхКурсов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СодержаниеЭлектронныхКурсов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный курс</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ЭлектронныеКурсы.EmptyRef</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СодержаниеЭлектронныхКурсов.EmptyRef</value>
+    </fillValue>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.СодержаниеЭлектронныхКурсов.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Элемент содержания</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Элемент содержания электронного курса</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Содержание курса</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Содержание электронного курса</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <owners>Catalog.ЭлектронныеКурсы</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>BothWays</editType>
+  <attributes uuid="7cefe2ef-a247-46f0-95cb-42379d0f3c66">
+    <name>Элемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент курса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлектронныеТесты</types>
+      <types>CatalogRef.ТеорияЭлектронныхКурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, с которым связан элемент содержания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="743d4d57-5568-4475-8c7f-7f139cd5e761">
+    <name>ТипЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип элемента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЭлементовСодержанияЭлектронногоКурса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dbb51964-9732-4d11-87e1-90a79d679336">
+    <name>Скрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент содержания скрыт и не будет показан использоваться в навигации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4451113-d893-4c6a-bc17-19d775fbb579">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиЭлектронныхКурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разработчик контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="49cdeb3a-5646-43ae-a7c2-b0670bc8d848">
+    <name>ПараметрыЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запуска</value>
+    </synonym>
+    <comment>Item / parameters</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметры запуска элемента содержания. Используется в курсах SCORM.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5ded308-f251-48f3-883b-00c18a81fd05">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <comment>limitConditions / attemptLimit</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество попыток для выполнения элемента. Используется в курсах SCORM.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0265577-0a05-45de-97f4-94778bc57059">
+    <name>ПродолжительностьПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность попытки</value>
+    </synonym>
+    <comment>limitConditions / attemptAbsoluteDurationLimit (Тип: duration SCORM)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время, которое отводится для прохождения элемента. Используется в курсах SCORM.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="beb06018-5e87-4a72-b4a5-16be25d6dbcf">
+    <name>ПорогВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог выполнения</value>
+    </synonym>
+    <comment>completionThreshold</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количества баллов, которые необходимо набрать для успешного выполнения элемента. Используется в курсах SCORM.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f3ece34-581c-4bad-9656-67c82140b0a1">
+    <name>ДанныеИнициализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные инициализации</value>
+    </synonym>
+    <comment>dataFromLMS</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Данные для инициализации элемента. Используется в курсах SCORM.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="824d5c66-ca49-400d-9d73-675e69d9ec78">
+    <name>ДействиеПослеИстеченияВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие после истечения времени</value>
+    </synonym>
+    <comment>timeLimitAction</comment>
+    <type>
+      <types>EnumRef.ДействияПослеИстеченияВремениЭлектронногоКурса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действия, которые будут выполнены после истечения времени выполнения элемента. Используется в курсах SCORM.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4dee4f83-e983-4efa-92ef-b7004325b546">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fb1956ac-4b1f-4f8c-b371-aaa56fb4a0d3">
+    <producedTypes>
+      <objectType typeId="bdbe4dbb-0b78-489d-8911-e0e7efff8b41" valueTypeId="48ef12ff-4c22-4cda-9ac5-0043e6c60ce6"/>
+      <rowType typeId="b460ff93-3309-449e-abc9-cd05c9e9d6fa" valueTypeId="7be90500-16f5-4ee1-8448-4fe00a922940"/>
+    </producedTypes>
+    <name>Гиперссылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гиперссылки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c6a56ef8-adcc-40a5-a491-4b78dc47beeb">
+      <name>Привязка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Привязка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеЭлектронныхКурсов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="294f5593-86fe-4d2b-b0de-cb3eff5a0765">
+      <name>АдресВДокументе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес в документе</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

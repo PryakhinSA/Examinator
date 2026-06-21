@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f0dd0b-827f-400a-bf14-b8b205a05ffb">
+  <producedTypes>
+    <managerType typeId="769ef527-9052-4acf-a606-43a3b9dc40e0" valueTypeId="2ac26119-546f-4515-82ee-3edcaa12cde3"/>
+    <valueManagerType typeId="0c73cc1c-00bd-499f-a568-03a47b1c6b7a" valueTypeId="9781eabb-7853-48de-a58f-1f0f6a2be887"/>
+    <valueKeyType typeId="f033a5f2-ee0b-53c0-8c18-e90230c1e928" valueTypeId="fac0b617-4b95-5365-ab02-71f8157c1294"/>
+  </producedTypes>
+  <name>ХэшКлючаВыгрузкиРезультатовОбученияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хэш ключа выгрузки результатов обучения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

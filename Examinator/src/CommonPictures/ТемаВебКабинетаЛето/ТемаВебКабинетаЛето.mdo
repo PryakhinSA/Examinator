@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed61be03-7538-41d2-aaf6-517f34054d48">
+  <name>ТемаВебКабинетаЛето</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тема веб-кабинета лето</value>
+  </synonym>
+</mdclass:CommonPicture>

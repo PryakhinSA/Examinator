@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e42e8df-fa92-463b-9a49-9b4faee2320e">
+  <name>ПоказатьЭлектронныеКурсыУчебныхМатериаловСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать электронные курсы</value>
+  </synonym>
+  <location>InformationRegister.НастройкиУчебныхМатериаловСУО.Resource.ПоказатьЭлектронныеКурсы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ЭлектронныеКурсыБЭО</content>
+</mdclass:FunctionalOption>

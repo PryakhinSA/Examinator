@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0b94407-3c9b-42cb-9c3f-79238dd55fb0">
+  <producedTypes>
+    <managerType typeId="ccdc81ac-2962-4122-8846-a9e42823db91" valueTypeId="8b503d7c-61e0-487e-af75-deb7eebe1127"/>
+    <valueManagerType typeId="d8303b23-663b-4db2-b67e-7d8a3ffdbf71" valueTypeId="dcb2fc59-21da-4b6b-8ba8-007555c45e64"/>
+    <valueKeyType typeId="e54b33fa-e869-5cfa-afb5-15a1ae27ac8c" valueTypeId="c2a40612-ad22-53f0-b4ef-2494650ef98c"/>
+  </producedTypes>
+  <name>ИспользоватьТолькоПользователейСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать только пользователей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

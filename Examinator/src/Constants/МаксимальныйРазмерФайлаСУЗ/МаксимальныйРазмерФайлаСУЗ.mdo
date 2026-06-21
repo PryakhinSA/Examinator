@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd5159b1-0b03-4e03-bc0e-9c1146f811a0">
+  <producedTypes>
+    <managerType typeId="0e424c11-86cc-46c2-8562-d102f9ce943b" valueTypeId="acf00a8e-b5bf-4bcf-9024-28c979d701ed"/>
+    <valueManagerType typeId="e282487c-f4cb-46c1-82a7-d34c7c660fab" valueTypeId="3f559f43-4a43-4b74-9e6c-137a92d4f1b2"/>
+    <valueKeyType typeId="e78b1438-2fa3-5373-9148-14cc124608a7" valueTypeId="d2922f1a-f355-52be-ba15-52002a1d9384"/>
+  </producedTypes>
+  <name>МаксимальныйРазмерФайлаСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный размер файла</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <format>
+    <key>ru</key>
+    <value>ЧН='Без ограничений'</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ЧН='Без ограничений'</value>
+  </editFormat>
+  <toolTip>
+    <key>ru</key>
+    <value>Максимальный размер файла в мегабайтах, который можно загрузить в электронный ресурс </value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

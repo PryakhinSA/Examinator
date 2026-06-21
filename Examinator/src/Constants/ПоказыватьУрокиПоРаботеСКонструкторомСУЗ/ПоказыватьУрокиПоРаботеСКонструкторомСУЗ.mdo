@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e92a758c-6540-4723-aed5-bdc0d0ab4ec5">
+  <producedTypes>
+    <managerType typeId="64226860-4e7a-4f78-afb6-690473b2f629" valueTypeId="acf4308b-d27e-403e-9464-29d50c03a008"/>
+    <valueManagerType typeId="20ffa540-9211-4eb7-b66b-5e309eafdce8" valueTypeId="65bd50e3-5752-4016-bb26-0839b6ec4dbc"/>
+    <valueKeyType typeId="85c4ac09-63af-5680-bd3c-95d93e0bf690" valueTypeId="65051144-34f7-5aff-9685-2be4afeb1936"/>
+  </producedTypes>
+  <name>ПоказыватьУрокиПоРаботеСКонструкторомСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать уроки по работе с конструктором электронных ресурсов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>В формах конструктора будет показана команда Урок, которая позволит перейти к уроку по использованию функциональности программы</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

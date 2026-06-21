@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aef2531-acab-4bcb-89e1-b5dfd350cae3">
+  <producedTypes>
+    <containerType typeId="acdbc476-a17f-4459-a2b2-a99da0ca0624" valueTypeId="7079a1aa-0bbc-487e-99a4-d8bb06fb067e"/>
+  </producedTypes>
+  <name>УчебныйМатериалСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебный материал</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СводыЗнанийСУЗ</types>
+    <types>CatalogRef.ЗаданияСУО</types>
+    <types>CatalogRef.ЭлектронныеКурсы</types>
+  </type>
+</mdclass:DefinedType>

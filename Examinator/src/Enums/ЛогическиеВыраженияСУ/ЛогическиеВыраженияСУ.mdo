@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="072d48f3-303c-4dd9-aa71-9c71051c2cc4">
+  <producedTypes>
+    <refType typeId="20201e53-d17c-4f9b-a2ed-1e1d00585970" valueTypeId="e961678c-dbaa-4879-bdc5-f867c2828fd1"/>
+    <listType typeId="aa6e9f88-9154-42a9-985f-ba0acf223ff9" valueTypeId="50aa230e-fdca-46ec-9bd4-ce352dee1713"/>
+    <managerType typeId="64575e4d-2968-4d33-8701-ce669722c142" valueTypeId="4b20bf09-5a68-4ae0-989d-cddb957b9f5d"/>
+  </producedTypes>
+  <name>ЛогическиеВыраженияСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логические выражения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a3015209-4dfd-4e47-aee5-2866f3ec1c51">
+    <name>И</name>
+    <synonym>
+      <key>ru</key>
+      <value>И</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="785e834e-7e4e-4c9d-892e-ef51a0936ea6">
+    <name>ИЛИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИЛИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7be7da8-1ccb-403a-a0c7-8e22198905c1">
+    <name>НЕ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НЕ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

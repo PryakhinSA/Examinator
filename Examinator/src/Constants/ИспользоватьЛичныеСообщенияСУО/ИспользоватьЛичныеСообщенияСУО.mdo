@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d036637-c9b6-4986-b347-0ebd98eca819">
+  <producedTypes>
+    <managerType typeId="ac9f7d8a-f656-4746-a757-dcd83cd13840" valueTypeId="1ae03dbd-cdaa-4474-8070-985f63dcfea4"/>
+    <valueManagerType typeId="1355a9ae-82da-40fd-bc60-f23bf15a840a" valueTypeId="166e49c9-6095-4d72-bfe0-60781d637e9b"/>
+    <valueKeyType typeId="7b1245c3-0e45-50fb-8c91-1ffdfa585426" valueTypeId="601ba663-3d8a-58c7-bf67-47b510c48633"/>
+  </producedTypes>
+  <name>ИспользоватьЛичныеСообщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать личные сообщения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

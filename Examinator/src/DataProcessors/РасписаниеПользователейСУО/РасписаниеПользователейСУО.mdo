@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd0ba80a-f60d-4380-9487-bc097afb6bf4">
+  <producedTypes>
+    <objectType typeId="14edfacb-91aa-467e-a9ee-a0515f2b53af" valueTypeId="34d17a87-74e9-478c-9c24-f92e15d206ef"/>
+    <managerType typeId="eaf30a48-3f04-425f-9fc8-0b237e2202a1" valueTypeId="de254502-590d-4218-bc76-bca8dd163707"/>
+  </producedTypes>
+  <name>РасписаниеПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание пользователей</value>
+  </synonym>
+  <defaultForm>DataProcessor.РасписаниеПользователейСУО.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ff786df3-0634-456a-80dd-7ca1cf32ed48">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

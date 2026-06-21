@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fac81d02-e74c-48af-b39e-c024114f9e89">
+  <producedTypes>
+    <managerType typeId="7b093490-79cb-47c3-b700-374f63d7996c" valueTypeId="d88f9d7a-5856-4877-8efc-277535004a29"/>
+    <valueManagerType typeId="273eee53-af62-4fd3-956b-c7de4ad9d8da" valueTypeId="20c5f53b-cc0e-4c99-b04f-cbe2107bc17c"/>
+    <valueKeyType typeId="5137e68e-38dd-5229-aec7-6d6c2def8726" valueTypeId="72404651-2e6d-5c45-af3a-4641dba60a25"/>
+  </producedTypes>
+  <name>КэшироватьЭлектронныеРесурсыСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэшировать электронные ресурсы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Устарело</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

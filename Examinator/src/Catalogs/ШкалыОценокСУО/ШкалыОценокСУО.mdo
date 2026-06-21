@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d707b6-dda2-4550-814e-9f84587ea3f4">
+  <producedTypes>
+    <objectType typeId="ec2e4c3f-5c77-4a1a-bf59-e0b8a8110ddd" valueTypeId="a7d0eae1-aa22-4a2e-aacd-a1dd0e40fa11"/>
+    <refType typeId="885fc8c4-605c-4005-b4fd-b0221fc50a7d" valueTypeId="865898f1-de2a-4fe3-a8b4-6bd1e7ec46a2"/>
+    <selectionType typeId="8bd72f0a-4cfe-4c3b-a82e-34c7e17d75a9" valueTypeId="7927f5a8-e47d-4cc3-8dcb-633c38ecce05"/>
+    <listType typeId="37502809-2d5c-4972-bd6f-c0d5309f40c4" valueTypeId="42f506b9-46cc-4384-9298-a9dce6c12772"/>
+    <managerType typeId="df901aa6-ae77-4f57-8ee3-677e858dc19f" valueTypeId="6b100bee-bc5e-4bf4-bc07-d89d6d5787db"/>
+  </producedTypes>
+  <name>ШкалыОценокСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкалы оценок</value>
+  </synonym>
+  <inputByString>Catalog.ШкалыОценокСУО.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шкала оценок</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шкалы оценок</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1f50f845-9aa5-4b27-979b-ef8942210cda">
+      <name>Двухбалльная</name>
+      <description>Двухбалльная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1b50db5d-badb-4271-b948-84b9f6062fab">
+      <name>Десятибалльная</name>
+      <description>Десятибалльная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f740ce78-7cd2-4c25-bc3e-1fa3a52b3bfe">
+      <name>НеОценивается</name>
+      <description>Не оценивается</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d2d8a381-9ab1-487c-92b5-7d115be23d41">
+      <name>Пятибалльная</name>
+      <description>Пятибалльная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9edb5c22-ed3a-4bed-9655-2c7d30e2dce1">
+      <name>Стобалльная</name>
+      <description>Стобалльная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШкалыОценокСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="2e45d3d4-7207-4589-aa63-40f4b2217b98">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

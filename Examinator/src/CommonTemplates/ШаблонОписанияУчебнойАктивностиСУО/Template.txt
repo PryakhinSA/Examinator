@@ -1,0 +1,411 @@
+<xsl:stylesheet version="1.0"
+   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   xmlns:ua="http://v8.1c.ru/lms/1/UserActivity"
+   xmlns:ta="http://v8.1c.ru/lms/1/TeacherActivity"
+   xmlns:a="http://v8.1c.ru/lms/1/Activity"
+   xmlns:b="http://v8.1c.ru/lms/1/Book"
+   xmlns:e="http://v8.1c.ru/lms/1/ElectronicResource"
+   xmlns:f="http://v8.1c.ru/lms/3/EduFiles"
+   xmlns:m="http://v8.1c.ru/lms/3/EduMarks">
+
+<xsl:output method="html"/>
+
+<xsl:param name="ПросматриваетВладелец"></xsl:param>
+
+<xsl:template match="/">
+
+	<html>
+
+	<head>
+	
+		<style>
+		
+			html,body {
+				height:100%;
+			}		
+		
+			body {
+				color: #333;
+				font-size: 11pt;
+				font-family: Arial;
+				background-color: #fff;
+			}
+			
+			a:link, a:active, a:visited  {
+				text-decoration: underline;
+				color:#003399;
+			}
+			
+			div {
+				margin-bottom: 5px;
+			}
+					
+		</style>
+	
+	</head>
+
+	<body>	
+		<xsl:apply-templates select="ua:ПрохождениеОбучения"/>
+		<xsl:apply-templates select="ta:ПроведениеПреподавателемОбучения"/>
+	</body>
+	
+	</html>
+	
+</xsl:template>
+
+<xsl:template match="ua:ПрохождениеОбучения">
+
+	<div>
+	
+		<xsl:if test="ua:СтатусОбучения = 1">
+			Обучение запланировано
+		</xsl:if>
+
+		<xsl:if test="ua:СтатусОбучения = 2">
+			Новое обучение
+		</xsl:if>
+
+		<xsl:if test="ua:СтатусОбучения = 3">
+			Обучение активно
+		</xsl:if>
+
+		<xsl:if test="ua:СтатусОбучения = 4">
+			Обучение окончено
+		</xsl:if>
+
+		<xsl:if test="ua:СтатусОбучения = 5">
+			Обучение не окончено
+		</xsl:if>
+
+		<xsl:if test="ua:СтатусОбучения = 6">
+			Проверяется
+		</xsl:if>
+
+		<xsl:if test="ua:СтатусОбучения = 7">
+			Возвращено на доработку
+		</xsl:if>
+
+	    
+	</div>	
+		
+	<xsl:if test="ua:ДатаКонтроляСтрока != '' and ua:ПериодСтрока = ''">
+	
+		<div>		
+			Обучение должно быть пройдено до <xsl:value-of select="ua:ДатаКонтроляСтрока" disable-output-escaping="yes"/>		
+		</div>
+		
+	</xsl:if>	
+	
+	<xsl:if test="ua:ПериодСтрока != ''">
+	
+		<div>
+		
+			<xsl:value-of select="ua:ПериодСтрока" disable-output-escaping="yes"/>
+		
+			<xsl:if test="ua:Территория != ''">
+				на территории "<xsl:value-of select="ua:Территория" disable-output-escaping="yes"/>"
+			</xsl:if>
+
+			<xsl:if test="ua:Аудитория != ''">
+				в аудитории "<xsl:value-of select="ua:Аудитория" disable-output-escaping="yes"/>"
+			</xsl:if>
+			
+		</div>
+		
+	</xsl:if>
+
+	<xsl:if test="ua:СтатусОбучения = 2 and ua:ВариантПродолжительности = 3 and ua:ПродолжительностьВСекундах > 0">
+		<div>Продолжительность обучения <xsl:value-of select="ua:ПродолжительностьСтрока" /></div>
+	</xsl:if>
+
+	<xsl:if test="ua:СтатусОбучения != ''">
+		<div><xsl:value-of select="ua:ОсталосьВремениСтрока" /></div>
+	</xsl:if>
+
+	<xsl:if test="ua:АдресВИнтернете != ''">
+		
+		<xsl:variable name="АдресВИнтернете"><xsl:value-of select="ua:АдресВИнтернете" /></xsl:variable>
+	
+		<div>
+		
+			<a href="{$АдресВИнтернете}" target="_blank"><xsl:value-of select="ua:АдресВИнтернете" disable-output-escaping="yes"/></a>
+		
+		</div>
+		 		
+	</xsl:if>	
+	
+	<xsl:if test="ua:ДоступенРазделФорума = 'true'">
+		
+		<div>		
+			<a href="?action=openContextForum">Обсудить</a>		
+		</div>
+		 		
+	</xsl:if>	
+	
+	
+	<xsl:if test="ua:ЕдинственноеЗадание/node()">
+	
+		<div>		
+			<div><a href="?action=openOneTask">Открыть</a></div>		
+		</div>
+		
+	</xsl:if>		
+	
+	<xsl:if test="ua:СтатусОбучения = 2 and ua:ВариантПродолжительности = 3">
+		<div>		
+			<div><a href="?action=start">Начать</a></div>		
+		</div>
+	</xsl:if>
+		
+	<xsl:if test="ua:ЗавершаетУчащийся = 'true' and ua:СтатусОбучения = 3">
+			
+		<div>			
+			<div>
+				<a>
+					<xsl:attribute name="href">?action=completeActivity</xsl:attribute>
+					Завершить
+				</a>
+			</div>
+		</div>
+	</xsl:if>
+	
+	
+	<xsl:if test="ua:КомментарийУчастникуОтМенеджера != ''">
+		
+		<div>
+		
+			<xsl:value-of select="ua:КомментарийУчастникуОтМенеджера" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>		
+
+	<xsl:if test="ua:КомментарийУчастникуОтПреподавателя != ''">
+		
+		<div>
+		    Комментарий преподавателя:
+			<xsl:value-of select="ua:КомментарийУчастникуОтПреподавателя" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>		
+
+	<xsl:if test="ua:КомментарийУчастникуОтМенеджераКонтекстный != ''">
+		
+		<div>
+		
+			<xsl:value-of select="ua:КомментарийУчастникуОтМенеджераКонтекстный" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>		
+
+	<xsl:if test="ua:ПоказыватьРезультатыТестирования = 'true'">
+		<div>
+			<a>
+				<xsl:attribute name="href">?action=openTestResult</xsl:attribute>
+				Результаты тестирования
+			</a>
+		</div>
+	</xsl:if>
+
+
+	<xsl:if test="ua:Оценка != ''">
+		
+		<div>
+		
+			Оценка: <xsl:value-of select="ua:Оценка/m:Наименование" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>		
+	
+	<xsl:if test="ua:ТекущаяОценка != ''">
+		
+		<div>
+		
+			Текущая оценка: <xsl:value-of select="ua:ТекущаяОценка/m:Наименование" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>		
+	
+	<xsl:apply-templates select="ua:Ресурсы/ua:ЭлектронныеРесурсы"/>
+	<xsl:apply-templates select="ua:Ресурсы/ua:Книги"/>
+	<xsl:apply-templates select="ua:Ресурсы/ua:Файлы"/>
+
+
+	
+</xsl:template>
+
+<xsl:template match="ta:ПроведениеПреподавателемОбучения">
+
+	<div>
+	
+		<xsl:value-of select="ta:СтатусПреподаванияСтрока" disable-output-escaping="yes"/>
+	    
+	</div>	
+		
+	<xsl:if test="ua:ДатаКонтроляСтрока != ''">
+	
+		<div>		
+			Обучение должно быть пройдено до <xsl:value-of select="ua:ДатаКонтроляСтрока" disable-output-escaping="yes"/>		
+		</div>
+		
+	</xsl:if>	
+	
+	<div>
+	
+		<xsl:value-of select="ta:ПериодСтрока" disable-output-escaping="yes"/>
+
+		<xsl:if test="ta:Территория != ''">
+			на территории "<xsl:value-of select="ta:Территория" disable-output-escaping="yes"/>"
+		</xsl:if>
+
+		<xsl:if test="ta:Аудитория != ''">
+			в аудитории "<xsl:value-of select="ta:Аудитория" disable-output-escaping="yes"/>"
+		</xsl:if>
+
+	
+	</div>
+
+	<xsl:if test="ta:АдресВИнтернете != ''">
+		
+		<xsl:variable name="АдресВИнтернете"><xsl:value-of select="ta:АдресВИнтернете" /></xsl:variable>
+	
+		<div>
+		
+			<a href="{$АдресВИнтернете}" target="_blank"><xsl:value-of select="ta:АдресВИнтернете" disable-output-escaping="yes"/></a>
+		
+		</div>
+		 		
+	</xsl:if>
+
+	<xsl:if test="ta:ДоступенРазделФорума = 'true'">
+		
+		<div>
+		
+			<a href="?action=openContextForum">Обсудить</a>
+		
+		</div>
+		 		
+	</xsl:if>
+	
+	<xsl:if test="ta:ЕдинственноеЗадание/node()">
+	
+		<div>
+		
+			<div><a href="?action=openOneTask">Открыть</a></div>
+		
+		</div>
+		
+	</xsl:if>
+
+	<xsl:if test="ta:КомментарийПреподавателюОтМенеджера != ''">
+		
+		<div>
+		
+			<xsl:value-of select="ta:КомментарийПреподавателюОтМенеджера" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>	
+
+	<xsl:if test="ta:КомментарийПреподавателюОтМенеджераКонтекстный != ''">
+		
+		<div>
+		
+			<xsl:value-of select="ta:КомментарийПреподавателюОтМенеджераКонтекстный" disable-output-escaping="yes"/>
+		
+		</div>
+		 		
+	</xsl:if>		
+
+
+</xsl:template>
+
+<xsl:template match="ua:ЭлектронныеРесурсы">
+
+	<div>Электронные ресурсы:</div>
+	
+	<ol>
+
+		<xsl:for-each select="e:ЭлектронныйРесурс">
+			
+			<li>
+
+				<xsl:if test="count(e:Фрагмент) = 0">
+					<a>
+						<xsl:attribute name="href">?object=electronicResource&amp;id=<xsl:value-of select="e:Идентификатор" /></xsl:attribute>
+						<xsl:value-of select="e:Наименование" disable-output-escaping="yes"/>
+					</a>
+				</xsl:if>
+			
+				<xsl:if test="count(e:Фрагмент) = 1">
+					<a>
+						<xsl:attribute name="href">?object=electronicResource&amp;id=<xsl:value-of select="e:Идентификатор" />&amp;item=<xsl:value-of select="e:Фрагмент/e:Идентификатор" /></xsl:attribute>
+						<xsl:value-of select="e:Наименование" disable-output-escaping="yes"/> / <xsl:value-of select="e:Фрагмент/e:Наименование" disable-output-escaping="yes"/>
+					</a>
+				</xsl:if>
+			
+			</li>
+			
+		</xsl:for-each>
+	
+	</ol>
+	
+</xsl:template>
+
+<xsl:template match="ua:Книги">
+
+	<div>Книги:</div>
+	
+	<ol>
+
+		<xsl:for-each select="b:Книга">
+			<li>
+				<a>
+					<xsl:attribute name="href">?object=book&amp;id=<xsl:value-of select="b:Идентификатор" /></xsl:attribute>
+					<xsl:apply-templates select="b:Авторы"/>  <xsl:value-of select="b:Наименование" disable-output-escaping="yes"/>
+				</a>
+			</li>
+		</xsl:for-each>
+
+	</ol>
+
+</xsl:template>
+
+
+<xsl:template match="b:Авторы">
+
+	<xsl:variable name="КоличествоАвторов"><xsl:value-of select="count(b:Автор)" /></xsl:variable>
+
+	<xsl:for-each select="b:Автор">
+		<xsl:value-of select="b:ФИО" disable-output-escaping="yes"/> 
+		<xsl:if test="position() != $КоличествоАвторов">, </xsl:if>
+		<xsl:if test="position() = $КоличествоАвторов"><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text></xsl:if>
+	</xsl:for-each>
+
+</xsl:template>
+
+<xsl:template match="ua:Файлы">
+
+	<div>Файлы:</div>
+	
+	<ol>
+
+		<xsl:for-each select="f:Файл">
+			<li>
+				<a>
+					<xsl:attribute name="href">?object=file&amp;id=<xsl:value-of select="f:Идентификатор" /></xsl:attribute>
+					<xsl:value-of select="f:Наименование" disable-output-escaping="yes"/>;
+				</a>
+			</li>
+		</xsl:for-each>
+
+	</ol>
+
+</xsl:template>
+
+
+</xsl:stylesheet>

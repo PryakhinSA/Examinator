@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95af2d76-c1f3-4b51-a58e-a66f3eec8342">
+  <producedTypes>
+    <managerType typeId="cd63869e-a1dd-4bdc-8f39-7f1339ad10f2" valueTypeId="f0db899e-dfa2-4351-8c8c-c77929099544"/>
+    <valueManagerType typeId="f42bbf0c-2879-49b6-b362-a088028e1acd" valueTypeId="0c9778f4-73e7-43b0-a12e-281846e39e72"/>
+    <valueKeyType typeId="6baa23a7-ddb5-507a-8699-c58d687bd5ed" valueTypeId="08af61c9-aa4b-588b-b970-6063756caadf"/>
+  </producedTypes>
+  <name>ИспользоватьУниверсальныйСервисОбщенияСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать универсальный сервис общения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

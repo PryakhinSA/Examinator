@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8972b85e-4931-4d2f-adf0-c4618f328323">
+  <name>ПутьКРабочемуКаталогуСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к рабочему каталогу</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:SessionParameter>

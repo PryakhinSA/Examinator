@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af6716a3-f3b1-425d-afce-55e04610b810">
+  <producedTypes>
+    <refType typeId="e4f66994-82a9-4cd7-94da-cd32db3ed208" valueTypeId="7f39f7ad-14b8-47ab-8565-7dc151e89064"/>
+    <listType typeId="de6f5ba5-3126-499c-a147-150050109679" valueTypeId="db694cae-61bd-4b24-b2a5-7a108d5bf7c4"/>
+    <managerType typeId="17c52187-53db-486a-8fe7-0fbb4624b6f6" valueTypeId="9e4f037d-f3db-48f2-91b4-e35db82aa6ee"/>
+  </producedTypes>
+  <name>ТипыПолейРегистрацииВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы полей регистрации веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc6ca8a7-f549-480c-9e02-95c4cb8c2bac">
+    <name>ПолеВвода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле ввода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86cab7f3-b578-4a8e-be2e-8f9a7770fe2c">
+    <name>ЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3376b9eb-cf6f-4133-bc5f-5e78e08c0d99">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b59c2cf2-7323-4491-b712-edfc9ce11965">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

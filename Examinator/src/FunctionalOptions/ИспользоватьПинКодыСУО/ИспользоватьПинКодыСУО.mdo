@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="063d4322-62c1-401b-aae4-b839c55713a1">
+  <name>ИспользоватьПинКодыСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать пин-коды</value>
+  </synonym>
+  <location>Constant.ИспользоватьПинКодыСУО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СерииПинКодовСУО.Command.ПинКоды</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="905b00ea-2110-42ac-bdc4-133a87ef0904">
+  <producedTypes>
+    <selectionType typeId="4835d8c7-35b1-4b87-818c-5e0752349b5a" valueTypeId="130197d9-a176-46eb-a1d5-a2f3e84c8c10"/>
+    <listType typeId="aae2d2e9-5b1a-4b59-ac05-c5f2bc8e2cf1" valueTypeId="c18b437c-79b0-44fb-aa75-411fda89d836"/>
+    <managerType typeId="5d393e60-aee8-4847-9aeb-97791556089f" valueTypeId="ea30f6c0-c204-4bb6-9d5c-96184c1f5840"/>
+    <recordSetType typeId="eb5cb591-5314-4d24-a186-8cddb73c9843" valueTypeId="9d3c7d24-0df1-4214-8555-0a149396f88b"/>
+    <recordKeyType typeId="d00f59aa-4a78-433e-b78e-32327dc127de" valueTypeId="ccd284ad-2597-42e1-a24b-d332b56a4e87"/>
+    <recordType typeId="6526b502-70c4-4f2f-86fd-9c1bea81de40" valueTypeId="f28fdff9-ebe5-4d8d-bce2-1e393f4b0166"/>
+    <recordManagerType typeId="b6df8c36-1ce0-4b06-aeee-a5159dbbae9e" valueTypeId="afef56b9-fe28-4cbc-bcfb-2e1c05f1aea1"/>
+  </producedTypes>
+  <name>ПроведениеПодчиненныхМероприятийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение подчиненных мероприятий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПроведениеПодчиненныхМероприятийСУО.Form.ФормаЗаписи</defaultRecordForm>
+  <attributes uuid="3d75f3fe-2bb8-493d-ad20-4ed05d00d00a">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер подчиненного мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9abcbf2-1167-4e22-8654-7ef1f403962a">
+    <name>ДатаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проведения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда мероприятие должно быть проведено</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="135d59c8-3b99-465f-9281-a6836b9ec8b5">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АудиторииСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Аудитория, где должно быть проведено мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51b431eb-677a-4620-82e2-a4e35981c731">
+    <name>КомментарийДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий для участника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который увидят учащиеся при прохождении мероприятия</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="acc62b1a-28d0-4ed6-8150-dace897a4b6a">
+    <name>КомментарийДляПреподавателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий для преподавателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который увидят преподаватели при проведении мероприятия</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="7b65d04b-ed9d-4b5a-9377-3e354af80053">
+    <name>КомментарийДляМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий для менеджера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий для менеджера мероприятия</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="41ab0bed-500a-46c9-be2e-0bb0bd33901c">
+    <name>АдресВИнтернете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес в интернете</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страница, которая будет представлена пользователю при прохождении мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="3914c255-5f8d-4017-a7ef-e00571dea7db">
+    <name>ПроведениеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение обучения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроведениеОбученияСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проведение родительского мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3e470a1f-77b5-4b03-aa16-feb75b289bbf">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подчиненное мероприятие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3542b89d-0e38-40ba-860e-cb8748f4164f">
+    <name>СхемаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема проведения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СхемыМероприятийСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Схема проведения родительского мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="42c1f84b-e202-4ae7-8a96-6b91fee30826">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

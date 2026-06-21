@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf7cbd6d-91d7-42fe-a586-56edcf75101c">
+  <name>Файлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <content>XDTOPackage.ФайлыСУО</content>
+  <content>CommonCommand.ПолучитьСсылкуНаФайлВебКабинетаСУО</content>
+  <content>CommonForm.СсылкаНаФайлВебКабинетаСУО</content>
+  <parentSubsystem>Subsystem.УчебныеМатериалыСУО</parentSubsystem>
+</mdclass:Subsystem>

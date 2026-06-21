@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Сертификат</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <style>
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sert {
+            height: 900px;
+            width: 738px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 222px 20px 0 20px;
+            font-size: 14pt;
+            position: relative
+        }
+
+        h2 {
+            color: #988600;
+            font-size: 2.7em;
+            line-height: 1;
+            margin-bottom: 0;
+        }
+
+        h2.kurs {
+            font-size: 2em;
+            left: 0;
+            position: absolute;
+            top: 660px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 1em;
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+
+        .finish {
+            color: #988600;
+        }
+
+        .footer {
+            bottom: 80px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+
+        .dir {
+            float: left;
+            margin-left: 5em;
+        }
+
+        .sign {
+            position: relative;
+            float: right;
+            margin-right: 5em;
+        }
+
+        .facsimile {
+            width: 120px;
+            height: 80px;
+            position: absolute;
+            left: -120px;
+            top: -40px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        p.date {
+            margin-top: 2em;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="sert">
+    <h2>Сертификат о прохождении<br/>курса</h2>
+    <p>удостоверяет, что</p>
+    <h1>{{КомуВыдан}}</h1>
+    <p class="finish">Успешно окончил(а) курс электронного обучения</p>
+    <h2 class="kurs">{{ЗаЧтоВыдан}}</h2>    
+</div>
+
+</body>
+</html>

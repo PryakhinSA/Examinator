@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfc901a1-3655-4fe9-9f49-b8c743bd7fbb">
+  <producedTypes>
+    <refType typeId="a950a2db-18f8-4dd6-8b43-8275581db72f" valueTypeId="c96c2c68-dde1-48cd-a456-1ccbe1a3de60"/>
+    <listType typeId="857f1ac0-7c21-4e37-bb9d-422c2c792985" valueTypeId="d9ba1db4-c127-46b4-b2f4-441116c7f813"/>
+    <managerType typeId="7f0232bd-1233-4b3b-9426-206657414602" valueTypeId="2baba15d-3bca-40f6-8f84-82b1847b018b"/>
+  </producedTypes>
+  <name>ТипыУчебныхАктивностейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы учебных активностей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a625f89-2a6e-4d84-89e7-4bc2bf2fad46">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d0f2a6e-2952-44b5-b5eb-19e4aa02507b">
+    <name>Преподавание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподавание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64254824-8966-4b22-922d-99fcb469cbcc">
+    <name>Контроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

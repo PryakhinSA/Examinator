@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01bd18f4-a181-4700-9772-2e59648848f2">
+  <name>Библиотека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека</value>
+  </synonym>
+  <content>Role.ЛичныйКабинетБиблиотекаСУО</content>
+  <content>CommonForm.МояБиблиотекаСУО</content>
+  <content>CommonCommand.МояБиблиотекаСУО</content>
+  <content>FunctionalOption.ИспользоватьЛичныйКабинетБиблиотекаСУО</content>
+  <parentSubsystem>Subsystem.ЛичныйКабинетСУО</parentSubsystem>
+</mdclass:Subsystem>

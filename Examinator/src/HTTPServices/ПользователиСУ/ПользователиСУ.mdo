@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb257481-1980-462d-8435-38efb32b02f0">
+  <name>ПользователиСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <rootURL>users</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="969c22a3-15fb-4c51-a9bb-22fa3ac42414">
+    <name>СоздатьПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать пользователя</value>
+    </synonym>
+    <template>/user/new</template>
+    <methods uuid="f58519bc-283f-435a-8d57-12666d861403">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьПользователяPOST</handler>
+    </methods>
+    <methods uuid="7a5b8258-0920-4d7d-8ba2-aa2c96b99d82">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ff8d194d-17db-428d-b176-7ae893137481">
+    <name>ВосстановлениеПароляПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление пароля пользователя</value>
+    </synonym>
+    <template>/user/password/restore/{НомерЭтапа}</template>
+    <methods uuid="04ed9dcf-63f9-467c-b147-d984f15174a8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВосстановлениеПароляПользователяPOST</handler>
+    </methods>
+    <methods uuid="18ecceac-8c2d-492c-b615-151df8192a29">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a4282583-b7e9-4207-90a9-f71fe81cdc1c">
+    <name>ДанныеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные пользователя</value>
+    </synonym>
+    <template>/user/description/{ИдентификаторПользователя}</template>
+    <methods uuid="843ac294-005c-4b1f-98b2-0320ab8fbda7">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ДанныеПользователяPOST</handler>
+    </methods>
+    <methods uuid="3dd29dcf-282e-4a0f-9da9-c30e8775a456">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e925d78b-c0ad-4b93-8413-c965fa5b807a">
+    <name>ПользователиОнлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи онлайн</value>
+    </synonym>
+    <template>/users/online</template>
+    <methods uuid="96aa9945-161a-439b-b640-dd2a2dc1da95">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПользователиОнлайнPOST</handler>
+    </methods>
+    <methods uuid="0f7b2de0-32a3-4b90-a3d0-af4b7edfdff9">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ae81719d-bb55-4b28-915c-e75a8c124525">
+    <name>ИзменитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить пароль</value>
+    </synonym>
+    <template>/user/password/change</template>
+    <methods uuid="104930f3-ec11-4f15-b536-1f55bbdc2f7b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ИзменитьПарольPOST</handler>
+    </methods>
+    <methods uuid="ffca9eee-8e72-4afb-9e8c-19a59a094f72">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e12f8d7a-58e7-43ae-bec7-caf9046f9fc5">
+    <name>СоздатьСессию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать сессию</value>
+    </synonym>
+    <template>/session/new/{ТипАутентификации}</template>
+    <methods uuid="b635f20c-5c01-4488-ad52-cb57de84e7ae">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьСессиюPOST</handler>
+    </methods>
+    <methods uuid="eec8e849-d814-45e5-86d7-91501548dd06">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d3dc9dc3-58ef-4116-8b70-11586f5e9a15">
+    <name>ЗакрытьСессию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть сессию</value>
+    </synonym>
+    <template>/session/close</template>
+    <methods uuid="62130e8a-e41b-4da5-aa6f-e57430be9ca4">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗакрытьСессиюPOST</handler>
+    </methods>
+    <methods uuid="e0ee9a02-12d5-4dfb-8e52-3578b151f637">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f4074273-9158-40d3-9b30-e4c482a90ef0">
+    <name>УстановитьДатуАктивностиСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить дату активности сессии</value>
+    </synonym>
+    <template>/session/setActiveDate</template>
+    <methods uuid="73621024-7c5a-46ea-a3c8-b51c49b6bb84">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>УстановитьДатуАктивностиСессииPOST</handler>
+    </methods>
+    <methods uuid="8acf3e44-157b-41ae-8b4d-254c47202569">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f1fee200-b34f-4b8d-bbcd-b7fb9b720790">
+    <name>ОбработатьОтветПровайдераOpenID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать ответ провайдера OpenID</value>
+    </synonym>
+    <template>/openid/process</template>
+    <methods uuid="4b91c22d-bd52-4c3b-ac1b-3333a296d631">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>ОбработатьОтветПровайдераOpenIDANY</handler>
+    </methods>
+    <methods uuid="e36d08b0-b1b3-40f7-a546-95cca80807bf">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d2fdd188-af2a-414c-bc92-71dd82163eba">
+    <name>ОбработатьОтветПровайдераOpenIDБезCookie</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать ответ провайдера OpenID без cookie</value>
+    </synonym>
+    <template>/openid/process/{КодПубликации}/{ИмяСобытия}/{ВерсияAPI}</template>
+    <methods uuid="7ff0aa7c-9b71-4307-955d-ed36070f7655">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>ОбработатьОтветПровайдераOpenIDANY</handler>
+    </methods>
+    <methods uuid="5cf83cb8-239f-4eab-a0a3-2150de8f7d58">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d2757209-e171-46a6-9d20-f833adb8b7e4">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version</template>
+    <methods uuid="b0182587-1ecd-45a0-b6de-adb2fca9e18b">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>ВерсияANY</handler>
+    </methods>
+    <methods uuid="65e46f23-2b58-4dda-b772-b0bf692c466d">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="fb9080f9-726d-404e-b492-dddfa879890a">
+    <name>ПолучитьТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить токен</value>
+    </synonym>
+    <template>/token/get/{ИдентификаторПользователя}</template>
+    <methods uuid="a5bf81cd-1ad9-4567-8403-6026955e678e">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьТокенPOST</handler>
+    </methods>
+    <methods uuid="0171d496-11f8-498b-bcc5-02757bedd70d">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="da3d47ca-d903-4f73-88af-f962b3f78e85">
+    <name>ЗагрузитьПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить пользователей</value>
+    </synonym>
+    <template>/upload</template>
+    <methods uuid="598824a0-0c10-48c4-8854-a52846e4648b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗагрузитьПользователейPOST</handler>
+    </methods>
+    <methods uuid="a70390e5-9027-4340-b69d-3d48686e129d">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="54d73867-ffc8-4f9a-b0db-50f4709ae386">
+    <name>ВыгрузитьПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить пользователей</value>
+    </synonym>
+    <template>/download</template>
+    <methods uuid="4046489e-fdf1-47f1-8ca7-e83f5a196a51">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыгрузитьПользователейPOST</handler>
+    </methods>
+    <methods uuid="7d5f7b45-b571-4303-9d52-578955162b23">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>РазрешитьМежсайтовыеЗапросыOPTIONS</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

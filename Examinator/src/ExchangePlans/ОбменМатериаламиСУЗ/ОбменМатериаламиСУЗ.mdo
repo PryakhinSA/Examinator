@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b4a40c1-a54a-4f62-8fe3-3278fce98bfd" thisNode="9bc99607-c6e6-435f-9cd6-d09156ac3541">
+  <producedTypes>
+    <objectType typeId="9d22867b-9804-4ed1-b78d-6121b2a521cf" valueTypeId="e6c2db2d-4148-4e2f-8e97-2149e2baffea"/>
+    <refType typeId="7d0d30e3-81f4-4202-a56b-e75b14e87ebf" valueTypeId="920f28e8-dff5-4cf2-a8c4-60ac1aaebc6a"/>
+    <selectionType typeId="eaf5eb9a-bd56-46b4-939e-eccfb0a65353" valueTypeId="a7b823f7-1164-492a-b4e0-adf775437545"/>
+    <listType typeId="36e9755b-e68e-4b3f-8fe5-31884ccdbe7d" valueTypeId="f7a7ca3a-6da5-44d7-be5d-cb7403a1ac76"/>
+    <managerType typeId="07d5c823-0db9-42b7-9bfe-9dbad6121b4c" valueTypeId="31539c00-0b0e-4520-873a-9e7defb178f1"/>
+  </producedTypes>
+  <name>ОбменМатериаламиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен материалами</value>
+  </synonym>
+  <inputByString>ExchangePlan.ОбменМатериаламиСУЗ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование пакета данных</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код пакета данных</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пакет данных</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обмен электронными ресурсами</value>
+  </listPresentation>
+  <codeLength>36</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.ШаблоныТекстаСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлементыРубрикатораСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СлотыФреймаСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РесурсыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СодержаниеСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.пФреймыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИмпортированныеЭлементыПакетаSCORM</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПоставщикиСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДополнительныеШаблоныСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПространстваИменШаблоновСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КомментарииКТестамСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГруппыОбъектовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФреймыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлементыПодборкиИзРубрикатораСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РубрикиОбъектовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОпределенияТерминаСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КатегорииВариантовОтветовНаВопросСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныДокументовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрограммныеПродуктыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтраницыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КартыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеСтраницыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ВидыНастроекЭлектронныхРесурсовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗависимыеРесурсыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФайлыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СложностиТестовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СодержаниеГлоссарияСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РесурсыОбъектовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияНастроекИнтерактивныхРесурсовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СсылкиОбъектовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторОбъектовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПодборкиСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГлоссарииСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлементыПодборкиСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТерминыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФасетыВопросовСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВопросыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СводыЗнанийСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВариантыОтветовНаВопросСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НастройкиИнтерактивногоРесурсаСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификационныеГруппировкиСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РубрикаторыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеВопросыСУЗ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеФайлыСУЗ</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменМатериаламиСУЗ.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменМатериаламиСУЗ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ExchangePlan.ОбменМатериаламиСУЗ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="3b2204e5-8a54-4856-b3f3-6d13389459f0">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата изменения пакета данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a6fd61c-2b86-4dc9-a908-c54f26198db9">
+    <name>ТипПакетаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип пакета данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПакетовДанныхСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип пакета данных для обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыПакетовДанныхСУЗ.EnumValue.XML_V8</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba268cfa-cb0d-4c77-9967-20ccdbb375f2">
+    <name>ЭтоПакетДляЭкспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет для экспорта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пакет данных, предназначенный для экспорта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ddb33db-878e-443c-9edb-e81b6d444532">
+    <name>ЭкспортироватьДанныеДоДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортировать данные до даты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут экспортированы только элементы, которые были изменены до указанной даты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="392cd24e-39ee-4d12-848e-cbdcf74f08ee">
+    <name>ЭкспортироватьДанныеПослеДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортировать данные после даты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут экспортированы только элементы, которые были изменены после указанной даты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71a0df07-b9e7-4a9e-aecd-1b9823c384bb">
+    <name>ЭкспортироватьТолькоПомеченныеНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортировать только помеченные на удаление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут экспортированы только элементы, которые помечены на удаление</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a52cfe82-f4ea-4375-8fcb-265cbea14224">
+    <name>ЭкспортироватьПоследнююВерсию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортировать последнюю версию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут экспортированы только данные последней версии указанного поставщика</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="efb13509-5247-40bf-9d33-c57fdebb63f1">
+    <name>СохранитьПоследнююВерсию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить последнюю версию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В процессе экспорта у элемента будет установлена версия и поставщик, соответствующие экспортируемой версии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="851d0b4c-b90f-4159-98f9-4b09b06047ef">
+    <name>ПредпочитатьПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпочитать поставщика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут экспортироваться данные этого поставщика, если они есть у элемента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec7191ba-48ec-4147-ad20-bddc8fe72912">
+    <name>ЭтоИмпортированныйПакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импортированный пакет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Импортированный в базу пакет</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6d94348-588e-422d-9e15-e72834d1fa90">
+    <name>ЗапретитьИмпортИзКаталогаШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить импорт из каталога шаблонов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Программа не будет предлагать автоматически импортировать пакет данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50526875-dc3a-4620-bd65-8bf8f1a3a2ab">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиСУЗ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разработчик контента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ead9e3a9-e0b2-44a4-9bdb-a757e5309e69">
+    <name>НомерРедакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редакция</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер редакции экспортируемого пакета данных</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>65534</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1180a21f-011c-4370-8854-df8070514f98">
+    <name>НомерПодредакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подредакция</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер подредакции экспортируемого пакета данных</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>65534</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0de55643-c5a9-46c2-bfb0-f433cefe32ae">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер версии экспортируемого пакета данных</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>65534</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="546d9255-a6be-466b-a1b1-4428a7b9eebc">
+    <producedTypes>
+      <objectType typeId="a68778e3-7c04-47d6-8a81-d31c29cf4354" valueTypeId="afcb8453-7797-4301-bcf6-4bf4545dbbda"/>
+      <rowType typeId="3b4ec0f3-bd73-479a-9da0-65cfc91a49d9" valueTypeId="f6a8610f-aa6b-4e8c-8b2f-8b8b0066b7f7"/>
+    </producedTypes>
+    <name>ЭлементыДляЭкспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элементы для экспорта</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Элементы, которые требуется экспортировать</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ad646084-dab9-40b3-b60d-a0e2f855c69f">
+      <name>СсылкаНаЭлемент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СводыЗнанийСУЗ</types>
+        <types>CatalogRef.СодержаниеСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Элемент для экспорта</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="94a7b36d-a1af-47df-bf19-6b0392ed672b">
+    <producedTypes>
+      <objectType typeId="2acf6f81-fc51-44b0-b510-2e89379871e9" valueTypeId="58967ea7-a4cd-4640-9cf5-ebea6f524e7e"/>
+      <rowType typeId="d48f1f1c-231a-4591-a964-17337baa0e7c" valueTypeId="602c2209-25d2-4c28-b17a-3fb1d1bac2f3"/>
+    </producedTypes>
+    <name>ДопустимыеПакетыДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимые пакеты данных</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пакеты данных, наличие которых требуется для импорта</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8edd430e-b157-4324-9235-bbaa4c93f163">
+      <name>НомерПакетаДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер пакета данных</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер требуемого пакета данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="f14ae740-7113-420c-bc83-c47d1d51ed13">
+      <name>ПакетДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пакет данных</value>
+      </synonym>
+      <type>
+        <types>ExchangePlanRef.ОбменМатериаламиСУЗ</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Требуемый пакет данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f09bb167-55cc-4820-8384-05a6392c85c0">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cd8ad4b5-1e36-4ad2-9842-c3c6b2d8bda4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9b5b4b4-bf51-4c09-b55f-1c90177962c6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e103fc0-76d1-4db7-aa73-69c405756719">
+    <name>ФормаЭкспортаXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт в XML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73696a44-5bb5-4151-9399-c155f77747ca">
+    <name>ФормаЭкспортаSCORM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт в SCORM пакета данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30a7a7b2-2cb8-434b-8843-a6d858bd7101">
+    <name>ФормаИмпортаПакетаXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма импорта пакета XML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e06f6ad-7d6a-4202-8f9b-5c45eeb1cf29">
+    <name>ФормаИмпортаПакетаSCORM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма импорта пакета SCORM</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="992512b3-4747-43b4-9235-253ad0b31c55">
+    <name>ФормаИмпортаПакетаЦОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка цифровых образовательных ресурсов (ЦОР)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

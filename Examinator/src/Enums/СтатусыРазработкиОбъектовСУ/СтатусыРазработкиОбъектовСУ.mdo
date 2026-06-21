@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4387071-0edc-41eb-8f99-55a8e1242951">
+  <producedTypes>
+    <refType typeId="41a38c0a-bdbd-4692-bdfc-c3b072c37c1e" valueTypeId="c83677d4-0809-49e4-b803-410a487bcd5b"/>
+    <listType typeId="8c55e681-49f3-4b40-99c2-6a2e02f20d56" valueTypeId="3aa171dc-5530-43af-90a4-712f4f0b3391"/>
+    <managerType typeId="9e81fea2-3ca3-468a-8140-fe55faa517c8" valueTypeId="e4439c4a-4bf3-4d4f-8fc7-2ae440cb9a88"/>
+  </producedTypes>
+  <name>СтатусыРазработкиОбъектовСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы разработки Объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab410b39-f870-4a24-8af0-e7809ecf3000">
+    <name>ВРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В разработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd22257b-7ad9-4548-834f-748a3d28ee15">
+    <name>Действительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действительно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8354032f-431b-42f4-a466-185a9589cf44">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

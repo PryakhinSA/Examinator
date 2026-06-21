@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="608f0df3-d255-4c27-8d49-1d128cf022f8">
+  <name>ЭлектронноеОбучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное обучение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>РазработкаЭлектронныхКурсов</subsystems>
+  <subsystems>ИзучениеЭлектронныхКурсов</subsystems>
+  <subsystems>ОбщиеИПоставляемыеДанные</subsystems>
+  <parentSubsystem>Subsystem.СистемаДистанционногоОбучения</parentSubsystem>
+</mdclass:Subsystem>

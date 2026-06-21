@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e829e972-55a9-43ae-91af-66c2ff146173">
+  <producedTypes>
+    <objectType typeId="fa1c9c98-d9ac-4fdb-b33a-1d4012904a93" valueTypeId="753de4c9-ee1c-482c-be35-66745447b9f2"/>
+    <refType typeId="f9a44833-65f6-4c1e-aa87-c5a459004bc0" valueTypeId="92ae27aa-3c64-4580-847f-fbe8596bda6e"/>
+    <selectionType typeId="e00e8d34-1707-4e9e-960e-3b87b15a2bfc" valueTypeId="d0610df4-39ee-4b48-9d31-f372c2023173"/>
+    <listType typeId="68287d94-9a78-4b9f-b493-48c661240fba" valueTypeId="80d8eff6-3e67-42d1-860a-bf35ea1807d9"/>
+    <managerType typeId="07817061-3fd9-428b-ab04-4a7630cef78a" valueTypeId="fb6a8b07-7485-4547-a40e-054a2c797f3c"/>
+  </producedTypes>
+  <name>СтатусыСтудентовОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы студентов</value>
+  </synonym>
+  <inputByString>Catalog.СтатусыСтудентовОО.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусыСтудентовОО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтатусыСтудентовОО.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="40deb188-b23b-42c5-9441-413a03ff129a">
+      <name>Абитуриент</name>
+      <description>Абитуриент</description>
+      <code xsi:type="core:StringValue">
+        <value>Абитуриен</value>
+      </code>
+    </items>
+    <items id="85a11bba-8eb8-4318-852b-06d746e6d9d7">
+      <name>ВАкадемическомОтпуске</name>
+      <description>В академическом отпуске</description>
+      <code xsi:type="core:StringValue">
+        <value>Академ</value>
+      </code>
+    </items>
+    <items id="df91f476-4591-487c-8f4d-39e5189cf674">
+      <name>Выпущен</name>
+      <description>Выпущен</description>
+      <code xsi:type="core:StringValue">
+        <value>Выпущен</value>
+      </code>
+    </items>
+    <items id="b5ffe612-38af-46b9-9de5-4fffbc42bc26">
+      <name>Отчислен</name>
+      <description>Отчислен</description>
+      <code xsi:type="core:StringValue">
+        <value>Отчислен</value>
+      </code>
+    </items>
+    <items id="84fdbfb3-5f32-48c3-a505-784dc5b53caf">
+      <name>Студент</name>
+      <description>Студент</description>
+      <code xsi:type="core:StringValue">
+        <value>Студент</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусыСтудентовОО.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="54f19e14-6d2a-4258-9586-0efe353440fb">
+    <name>ЗакрыватьДоступАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать доступ автоматически</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a7a4a978-1c37-491c-a3a1-19e68574686d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ee5e0063-59f6-4ac7-bfb1-63212f8fd911">
+    <name>СтатусыСтудентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы студентов</value>
+    </synonym>
+    <group>CommandGroup.ОбразовательнаяОрганизацияОО</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

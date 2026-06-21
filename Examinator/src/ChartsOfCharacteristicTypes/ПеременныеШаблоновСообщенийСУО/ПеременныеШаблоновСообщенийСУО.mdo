@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e677ee2-cf4c-4205-9a42-7de6de13fb05">
+  <producedTypes>
+    <objectType typeId="b32a8b58-c5fc-46ef-912a-7889cb0b8ee0" valueTypeId="cd5f8570-f850-418e-8665-f53079afd38d"/>
+    <refType typeId="cc091909-6fe0-46ce-a138-905981a6f30d" valueTypeId="88eb4af8-46ff-453b-894b-70d0d2b414e2"/>
+    <selectionType typeId="dbf22687-632c-41d0-9bc1-8c2bd1a0006f" valueTypeId="d863b0e3-bd03-46cd-a0fc-1a939f3dffc1"/>
+    <listType typeId="325f9aa4-527b-476f-84ac-9cd17b00957b" valueTypeId="e374c435-7144-4cd2-bf83-f029500c6b40"/>
+    <managerType typeId="3d14e895-831c-41aa-acfd-f5624aedc25f" valueTypeId="146279df-6de9-4211-928d-c54e6759a600"/>
+    <containerType typeId="e44d5dec-8872-4c7b-88ef-a3a52aaa4e06" valueTypeId="8c4af045-0e0b-47fa-bb27-c0cb9dcefd65"/>
+  </producedTypes>
+  <name>ПеременныеШаблоновСообщенийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переменные шаблонов сообщений</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ПеременныеШаблоновСообщенийСУО.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПеременныеШаблоновСообщенийСУО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Переменная</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Переменные</value>
+  </listPresentation>
+  <type>
+    <types>DocumentRef.ПопыткаВыполненияЗаданияСУО</types>
+    <types>CatalogRef.КаталогМероприятийСУО</types>
+    <types>CatalogRef.ЛитератураСУО</types>
+    <types>CatalogRef.АудиторииСУО</types>
+    <types>Boolean</types>
+    <types>CatalogRef.УчебныеГруппыСУО</types>
+    <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+    <types>String</types>
+    <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+    <types>CatalogRef.СводыЗнанийСУЗ</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>DocumentRef.ПрохождениеОбученияСУО</types>
+    <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+    <types>DocumentRef.ПроведениеОбученияСУО</types>
+    <types>CatalogRef.Пользователи</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a5a5603f-3ac3-48a3-a0b0-d24454eaa8a3">
+      <name>АдресДляПерехода</name>
+      <description>Адрес для перехода</description>
+      <code>АдресДляПерехода</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="ab867bdd-25ac-4f32-9229-e00c09e64c3c">
+      <name>АдресСертификата</name>
+      <description>Адрес сертификата</description>
+      <code>АдресСертификата</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="798464b1-5763-4fd5-b226-6b7df3b764d0">
+      <name>ДатаНачалаДоступаПользователяКБазе</name>
+      <description>Дата начала доступа пользователя к базе</description>
+      <code>ДатаНачалаДоступаПользователяКБазе</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="00460a29-15a7-41d9-a1f8-f7ae4d0ffc8c">
+      <name>ДатаНачалаПроведенияМероприятия</name>
+      <description>Дата начала проведения мероприятия</description>
+      <code>ДатаНачалаПроведенияМероприятия</code>
+      <type>
+        <types>DocumentRef.ПроведениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="1da8f103-737e-4f77-a246-2e4804e5d55b">
+      <name>ДатаНачалаПроведенияПрограммыОбучения</name>
+      <description>Дата начала проведения программы обучения</description>
+      <code>ДатаНачалаПроведенияПрограммыОбучения</code>
+      <type>
+        <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      </type>
+    </items>
+    <items id="e909c89b-6c3c-431a-a391-f4e857dfff21">
+      <name>ДатаНачалаПрохожденияМероприятия</name>
+      <description>Дата начала прохождения мероприятия</description>
+      <code>ДатаНачалаПрохожденияМероприятия</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="def3137b-8d0a-485f-b05c-80f4f58fa83f">
+      <name>ДатаОкончанияДоступаПользователяКБазе</name>
+      <description>Дата окончания доступа пользователя к базе</description>
+      <code>ДатаОкончанияДоступаПользователяКБазе</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="8d0dd583-6f31-4600-b690-74254bb537a2">
+      <name>ДатаОкончанияПроведенияМероприятия</name>
+      <description>Дата окончания проведения мероприятия</description>
+      <code>ДатаОкончанияПроведенияМероприятия</code>
+      <type>
+        <types>DocumentRef.ПроведениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="65c4ccb0-4d34-4792-ab44-dd5a04d4ab53">
+      <name>ДатаОкончанияПроведенияПрограммыОбучения</name>
+      <description>Дата окончания проведения программы обучения</description>
+      <code>ДатаОкончанияПроведенияПрограммыОбучения</code>
+      <type>
+        <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      </type>
+    </items>
+    <items id="4a90f13d-f2b4-445c-b752-8449f7387949">
+      <name>ДатаОкончанияПрохожденияМероприятия</name>
+      <description>Дата окончания прохождения мероприятия</description>
+      <code>ДатаОкончанияПрохожденияМероприятия</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="d2531882-a8ed-4091-877f-19ac4a43fdd6">
+      <name>ЗавершеноВПроцентах</name>
+      <description>Завершено в процентах</description>
+      <code>ЗавершеноВПроцентах</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="54da7e7f-cc90-4562-8988-c24750f684f1">
+      <name>Книга</name>
+      <description>Книга</description>
+      <code>Книга</code>
+      <type>
+        <types>CatalogRef.ЛитератураСУО</types>
+      </type>
+    </items>
+    <items id="44c7fed7-dc2e-471f-9378-505af4234408">
+      <name>КодПодтверждения</name>
+      <description>Код подтверждения</description>
+      <code>КодПодтверждения</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="e373fe16-5a02-415c-8028-7b6e2d5d5567">
+      <name>КоличествоЗавершенныхМероприятий</name>
+      <description>Количество завершенных мероприятий</description>
+      <code>КоличествоЗавершенныхМероприятий</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="7d193417-ff5b-43a7-8bf2-22b85d19f849">
+      <name>КоличествоЗавершенныхТестов</name>
+      <description>Количество завершенных тестов обучения</description>
+      <code>КоличествоЗавершенныхТестов</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="ac78ee58-3194-408e-a0f0-57cffb5390b4">
+      <name>КоличествоЗавершенныхЭлектронныхКурсов</name>
+      <description>Количество завершенных электронных курсов обучения</description>
+      <code>КоличествоЗавершенныхЭлектронныхКурсов</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="4bf5b480-3e08-4bb9-ab12-1cccbceac44b">
+      <name>КоличествоОтправленныхНаПроверкуЗаданий</name>
+      <description>Количество отправленных на проверку заданий обучения</description>
+      <code>КоличествоОтправленныхНаПроверкуЗаданий</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="bf69df05-c5ea-4443-9211-87b174774704">
+      <name>КоличествоПроверенныхЗаданий</name>
+      <description>Количество проверенных заданий обучения</description>
+      <code>КоличествоПроверенныхЗаданий</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="47a7de28-79af-48e7-af77-c5b62a25789d">
+      <name>КоличествоСообщений</name>
+      <description>Количество сообщений</description>
+      <code>КоличествоСообщений</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="e4fc96f1-4f4d-40d4-9789-a832cdb18c68">
+      <name>ЛогинПользователя</name>
+      <description>Логин пользователя</description>
+      <code>ЛогинПользователя</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="651152f2-051b-4101-b4d2-23b46990132a">
+      <name>Мероприятие</name>
+      <description>Мероприятие</description>
+      <code>Мероприятие</code>
+      <type>
+        <types>CatalogRef.КаталогМероприятийСУО</types>
+        <types>CatalogRef.СводыЗнанийСУЗ</types>
+        <types>DocumentRef.ПроведениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="7312e546-5a26-4d47-82e9-a89f887612b3">
+      <name>Месторасположение</name>
+      <description>Месторасположение</description>
+      <code>Месторасположение</code>
+      <type>
+        <types>CatalogRef.АудиторииСУО</types>
+      </type>
+    </items>
+    <items id="bbe9309d-9cd8-4fca-b32a-bb4be26d633a">
+      <name>НаименованиеЗадания</name>
+      <description>Наименование задания</description>
+      <code>НаименованиеЗадания</code>
+      <type>
+        <types>DocumentRef.ПопыткаВыполненияЗаданияСУО</types>
+        <types>CatalogRef.СводыЗнанийСУЗ</types>
+      </type>
+    </items>
+    <items id="415126e4-b2cd-4598-a516-f703708a434a">
+      <name>НаименованиеОбучения</name>
+      <description>Наименование обучения</description>
+      <code>НаименованиеОбучения</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+        <types>DocumentRef.ПроведениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="e0c6e4ec-dbd3-47dd-884e-d6e2453960eb">
+      <name>НаименованиеПрограммыОбучения</name>
+      <description>Наименование программы обучения</description>
+      <code>НаименованиеПрограммыОбучения</code>
+      <type>
+        <types>DocumentRef.ПрохождениеПрограммыОбученияСУО</types>
+        <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      </type>
+    </items>
+    <items id="526e427c-965f-4728-9466-84bf9aa55490">
+      <name>НовыйПароль</name>
+      <description>Новый пароль</description>
+      <code>НовыйПароль</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="c171cc96-4682-4642-8d63-5ec00fdca457">
+      <name>ОбъединенныеЛогины</name>
+      <description>Объединенные логины</description>
+      <code>ОбъединенныеЛогины</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="f33830cd-ea96-40ea-85db-62f820b118e2">
+      <name>ОценкаЗаЗадание</name>
+      <description>Оценка за задание</description>
+      <code>ОценкаЗаЗадание</code>
+      <type>
+        <types>DocumentRef.ПопыткаВыполненияЗаданияСУО</types>
+      </type>
+    </items>
+    <items id="09bb3bd0-6a24-43ea-a7c9-a586ef8d459d">
+      <name>ОценкаЗаОбучение</name>
+      <description>Оценка за обучение</description>
+      <code>ОценкаЗаОбучение</code>
+      <type>
+        <types>DocumentRef.ПрохождениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="2a8811a8-af33-4e43-8444-93d7479cb1e4">
+      <name>ПинКод</name>
+      <description>Пин-код</description>
+      <code>ПинКод</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="58528058-0c90-4931-a210-3e6d74ae38e9">
+      <name>Пользователь</name>
+      <description>Пользователь</description>
+      <code>Пользователь</code>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+    </items>
+    <items id="8087852d-ec83-4169-aee4-792d055dafe4">
+      <name>ПрограммаОбучения</name>
+      <description>Программа обучения</description>
+      <code>ПрограммаОбучения</code>
+      <type>
+        <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+        <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      </type>
+    </items>
+    <items id="a6878496-13d0-4d46-82a0-8fdb472c0ea6">
+      <name>ПродолжительностьОбучения</name>
+      <description>Продолжительность обучения</description>
+      <code>ПродолжительностьОбучения</code>
+      <type>
+        <types>DocumentRef.ПроведениеОбученияСУО</types>
+      </type>
+    </items>
+    <items id="86110307-b012-48f5-8223-e5f0acae2e01">
+      <name>ПродолжительностьПрограммыОбучения</name>
+      <description>Продолжительность программы обучения</description>
+      <code>ПродолжительностьПрограммыОбучения</code>
+      <type>
+        <types>DocumentRef.ПроведениеПрограммыОбученияСУО</types>
+      </type>
+    </items>
+    <items id="b1777dd4-7bda-480f-b012-626635f07f11">
+      <name>УчебнаяГруппа</name>
+      <description>Учебная группа</description>
+      <code>УчебнаяГруппа</code>
+      <type>
+        <types>CatalogRef.УчебныеГруппыСУО</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ПеременныеШаблоновСообщенийСУО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ПеременныеШаблоновСообщенийСУО.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="24f4ca2b-624c-4498-8055-e9fa2c567e70">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e8230e6-edf1-49cc-a825-ce49bb18947c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

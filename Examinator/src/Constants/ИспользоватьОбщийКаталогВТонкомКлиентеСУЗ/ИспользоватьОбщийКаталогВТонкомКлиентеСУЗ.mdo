@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44fd1ea5-6dd7-4145-80bb-86a7a74ed75b">
+  <producedTypes>
+    <managerType typeId="13ff0cea-5a7e-4fc1-b900-22409bf18dd4" valueTypeId="34d72274-9cdb-4053-8525-4f66b6e9e745"/>
+    <valueManagerType typeId="9f62e8fd-42c1-49d3-80ea-8ec3f38ba7ad" valueTypeId="9b4192a4-30ef-4037-a86e-2dd53b6738cb"/>
+    <valueKeyType typeId="5b9c34f1-b523-582d-9579-f16c2954ec2b" valueTypeId="6cabb66c-a2b2-5731-92cc-983fc113ad3e"/>
+  </producedTypes>
+  <name>ИспользоватьОбщийКаталогВТонкомКлиентеСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать общий каталог в тонком клиенте</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>В тонком клиенте электронные ресурсы будут открываться через общий каталог, в противном случае файлы будут выгружаться во временный каталог на компьютере пользователя</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

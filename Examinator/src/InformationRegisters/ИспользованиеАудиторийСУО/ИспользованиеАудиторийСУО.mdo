@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42ab45ba-c8b6-44eb-ae53-0d0ffe921746">
+  <producedTypes>
+    <selectionType typeId="fc46aa01-9dc6-43c7-8da7-cba717ab9ab1" valueTypeId="9956761f-7d94-4795-8be2-ecd0cb3cbaf1"/>
+    <listType typeId="b393d983-baae-443d-ba30-b7336c4bc9d7" valueTypeId="4903b369-2a7d-4a81-82ed-9f8732df8644"/>
+    <managerType typeId="1dcd0580-2b8f-422f-9cd8-d3048d93319b" valueTypeId="1f93f7e4-6078-495b-93ed-67b9635c5238"/>
+    <recordSetType typeId="92684197-375a-4481-9f12-9b7966a7d841" valueTypeId="b8d08438-c4de-4688-b23e-134847e4fbdf"/>
+    <recordKeyType typeId="bd6ca9de-7112-4226-b3ac-4c816f478650" valueTypeId="15cade3c-a5f9-466c-adee-628d7d1d1382"/>
+    <recordType typeId="9c8d01f9-c8f1-494b-80e3-beb3fa50bead" valueTypeId="471e2e30-1f59-4d75-a8c3-f7d3f9411bb9"/>
+    <recordManagerType typeId="93620652-1c54-43d8-8b49-e64410eacd36" valueTypeId="c348f936-5aae-47a3-bd95-efe5302ec09f"/>
+  </producedTypes>
+  <name>ИспользованиеАудиторийСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование аудиторий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <attributes uuid="b27d19b0-20ca-42e3-b0e8-091026a0ca98">
+    <name>ПродолжительностьВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Продолжительность использования аудитории в секундах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28a32f17-0d94-49a3-83f1-4d78bab77cf1">
+    <name>ДатаОкончанияИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания использования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания использования аудитории</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c09bbec8-3083-4e07-929e-516865c95ac1">
+    <name>Территория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТерриторииСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Территория, где располагается аудитория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="83f5c847-ab28-44cb-afa0-426380f5f738">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АудиторииСУО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используемая аудитория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

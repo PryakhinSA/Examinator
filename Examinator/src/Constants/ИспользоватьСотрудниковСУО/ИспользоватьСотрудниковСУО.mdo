@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b81ab5d-eff5-471d-8793-f4aeed0004ef">
+  <producedTypes>
+    <managerType typeId="47def76c-9e9c-4b1a-92b2-7fffa496f72d" valueTypeId="8b8e2980-ae12-4ae8-845d-9f8620ed8da6"/>
+    <valueManagerType typeId="0ca49df7-f3a8-4ecb-b08c-231726bd4389" valueTypeId="f494a76c-f29d-47e2-a5f0-69f31d029f3b"/>
+    <valueKeyType typeId="dd132461-1966-5416-ae94-1c2bc89d80eb" valueTypeId="645a6a84-4d6f-55ed-9d4d-eb7aa2c598dc"/>
+  </producedTypes>
+  <name>ИспользоватьСотрудниковСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программа используется для обучения сотрудников предприятия</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Будут доступные списки сотрудников, структура предприятия и др.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

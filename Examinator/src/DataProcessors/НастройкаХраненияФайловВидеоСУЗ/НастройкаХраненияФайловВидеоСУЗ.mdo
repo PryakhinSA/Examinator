@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c3cc5f6-e09b-4632-9314-5358f5fc0fab">
+  <producedTypes>
+    <objectType typeId="3c1968d2-ffd1-4d33-afab-54cab4a4df1d" valueTypeId="3cf32606-7979-4eb2-9505-d18834e05a88"/>
+    <managerType typeId="636dd08a-a350-45c1-8093-7fbf41e88652" valueTypeId="91a140aa-791b-4a6b-9655-74f99fa9e15c"/>
+  </producedTypes>
+  <name>НастройкаХраненияФайловВидеоСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка хранения файлов видео в электронных курсах</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкаХраненияФайловВидеоСУЗ.Form.Форма</defaultForm>
+  <forms uuid="7aaa365c-fba4-4764-90ba-d584017f021a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

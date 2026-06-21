@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f62cf696-4811-4c8e-aff1-e799efa4bf1a">
+  <producedTypes>
+    <refType typeId="ba29af38-8f88-4086-aa70-ed276d788293" valueTypeId="01ca6f3f-03b5-4382-ae85-0e27ba95220a"/>
+    <listType typeId="a94a1204-ee85-4ae0-b08c-05820c63e2c0" valueTypeId="77cc5823-860e-4160-bfad-7fa024a6bdaf"/>
+    <managerType typeId="9974a86d-d6c5-45a5-9e44-6354b535a5f4" valueTypeId="2307bba3-ed07-4a04-8d99-9f3de4e56d23"/>
+  </producedTypes>
+  <name>ХарактеристикиСотрудниковСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики сотрудников</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="faa8d961-e81c-4a4b-972a-963839f3503d">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f8d70c6-6051-41f4-a8fc-0fead06d61a2">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5da6f493-99d8-41d9-94b3-deb936561569">
+    <name>ДатаНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата назначения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2afda390-2b5d-4a20-86d7-110c7717d645">
+    <name>ПодразделениеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66bed1ae-4b34-47b4-8980-a96df4ba3874">
+    <name>ПодразделениеПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение предприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b120aa13-059a-4e5b-87f0-e49ce4feba9d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f42bfdfc-e1f0-40ad-b79e-f86bf31d8d72">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21f1cfe3-f842-4bc3-87d6-89939b9af549">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f087fd7-2111-4fae-b10b-3dbc1335679c">
+    <name>ЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="219bfb82-7fc3-4d96-9e2e-33d184704868">
+    <name>ГруппаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4854a5ad-e46c-4965-9cc6-243c0570f9a1">
+    <name>КодПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код пользователя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adad270f-2361-4b95-a41a-4e18a97556cf">
+    <name>КодОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d608949e-bfd7-4e3c-9d3c-ef17ca9ef3c1">
+    <name>КодПодразделенияОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подразделения организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="712a735c-43ef-4939-8650-d60a68e647f6">
+    <name>КодПодразделенияПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подразделения предприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2135bba-468c-45db-8ec1-5fa697c56190">
+    <name>Уволен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уволен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02778b3a-75a9-4062-8bef-62c04452ae38">
+    <name>ВходВПрограммуРазрешен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход в программу разрешен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3fd3609-7566-4474-a24b-3ec25c90c45e">
+    <name>ПоказыватьВСпискеВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в списке выбора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06cbf8e1-571e-4bb9-a190-9973f6df7470">
+    <name>АутентификацияСтандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация стандартная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64a3cb70-926c-416d-a5f9-44d932243ebf">
+    <name>АутентификацияВебКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация веб-кабинета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f3d5920-6c98-437e-9df2-c2f217188110">
+    <name>АутентификацияОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация ОС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d8da39c-5f6e-4122-b8d7-4ebe2bb17d51">
+    <name>ПользовательОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ОС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bb570b8-6b91-458d-a31f-e21659d95629">
+    <name>ОсновнойИнтерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной интерфейс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a940ae5-3d60-4910-99d3-c4e75c930bd8">
+    <name>РежимЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим запуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f032e3af-71e6-4bd3-8ef5-29f894bf70db">
+    <name>Язык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="966d7cb0-687e-4510-b081-31e23e3c3548">
+    <name>ЗапрещеноИзменятьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещено изменять пароль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="462fcad2-f050-42a3-a6c7-8fe58062bd01">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f81e0aa2-c3ad-48d7-bf71-310324a09260">
+    <name>АутентификацияOpenID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация OpenID</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

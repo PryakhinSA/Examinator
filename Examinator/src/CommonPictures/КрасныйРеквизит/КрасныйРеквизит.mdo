@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38384bad-8308-4168-8563-b86cd0166d54">
+  <name>КрасныйРеквизит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Красный реквизит</value>
+  </synonym>
+</mdclass:CommonPicture>

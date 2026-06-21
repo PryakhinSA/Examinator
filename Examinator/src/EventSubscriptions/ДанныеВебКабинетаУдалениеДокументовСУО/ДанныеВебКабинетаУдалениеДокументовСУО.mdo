@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13cb1fc3-001b-46b1-9da2-612a8da924aa">
+  <name>ДанныеВебКабинетаУдалениеДокументовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные веб-кабинета - удаление документов системы управления обучением</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПрохождениеОбученияСУО</types>
+    <types>DocumentObject.СертификатСУО</types>
+    <types>DocumentObject.ПроведениеОбученияСУО</types>
+    <types>DocumentObject.НовостьСУО</types>
+    <types>DocumentObject.СообщениеСУО</types>
+    <types>DocumentObject.ПопыткаВыполненияЗаданияСУО</types>
+    <types>DocumentObject.ПроведениеПреподавателемОбученияСУО</types>
+    <types>DocumentObject.НаполнениеБиблиотекиПользователейСУО</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.ВебКабинетСУО.ДанныеВебКабинетаУдалениеДокументовСУООбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

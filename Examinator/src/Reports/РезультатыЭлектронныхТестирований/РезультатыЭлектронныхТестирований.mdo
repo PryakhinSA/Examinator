@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e0a589d-eac9-4f16-a272-53129b102399">
+  <producedTypes>
+    <objectType typeId="f3316434-fbe5-423c-af1d-7ef7898eea5f" valueTypeId="73038165-ab56-4d4b-b240-e4eefaf3a730"/>
+    <managerType typeId="d9cf2b23-d186-4919-ac3b-ecb825732ec9" valueTypeId="0fc85a59-d56a-4cf1-b6db-be9967410cf8"/>
+  </producedTypes>
+  <name>РезультатыЭлектронныхТестирований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты электронных тестирований</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РезультатыЭлектронныхТестирований.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="9d255e49-6ab7-4e47-844b-5b7bc008ee73">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="8f404696-0174-4c8c-8879-0f101f1a44f6">
+    <name>РезультатыЭлектронногоТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирований</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ЭлектронныеКурсы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5f8fa49-f893-4627-bc7a-cff28e52ff4c">
+  <producedTypes>
+    <refType typeId="7c4363f9-2e1f-4099-a38a-178e2f04c4db" valueTypeId="900bd431-cfce-4ff8-9be7-6f2f00fb108a"/>
+    <listType typeId="d9a7d427-fdc8-471b-891f-be5285f73536" valueTypeId="6c8be3df-cb1d-4de2-8f53-071dab06c3a9"/>
+    <managerType typeId="884202fd-973f-4e4a-a9dd-62289ab3dd44" valueTypeId="41447f1e-88e0-482a-8026-c6f83d9d5f33"/>
+  </producedTypes>
+  <name>ВидыПолейРегистрацииВебКабинетаСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды полей регистрации веб-кабинета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="22bf0361-76df-4433-97a7-938f46d65be3">
+    <name>FirstName</name>
+    <synonym>
+      <key>ru</key>
+      <value>FirstName</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a05d9793-3c38-46f8-852b-6d996f62f8b4">
+    <name>LastName</name>
+    <synonym>
+      <key>ru</key>
+      <value>LastName</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5929659-16f9-4393-bf75-3802471099a5">
+    <name>Patronymic</name>
+    <synonym>
+      <key>ru</key>
+      <value>Patronymic</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9fc8ed4-046f-4e3a-94da-2bcaa80a3473">
+    <name>Password</name>
+    <synonym>
+      <key>ru</key>
+      <value>Password</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="241fa88a-b068-4e5d-b256-29ad00f8f326">
+    <name>Login</name>
+    <synonym>
+      <key>ru</key>
+      <value>Login</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

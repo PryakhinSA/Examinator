@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc652f00-9d31-4a8d-8b75-8e766b9c63f3">
+  <producedTypes>
+    <objectType typeId="c09fb5cf-0ae2-4305-b3d6-24b825ff06f6" valueTypeId="f3fe6995-ed39-4cbc-9ded-1e67e87c944e"/>
+    <managerType typeId="6b682102-2db9-46be-b1d8-1e6a4be82cf5" valueTypeId="e22a6c39-85b3-4d4f-a139-e84b599be5be"/>
+  </producedTypes>
+  <name>ИспользованиеВебКабинетаСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование веб-кабинета</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИспользованиеВебКабинетаСУ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="888fdc2c-9b3f-4f62-84b2-b45458d64e60">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7748e23b-3ec8-4c08-967e-115c7ed90ada">
+    <name>ИспользованиеВебКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика использования веб-кабинета</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

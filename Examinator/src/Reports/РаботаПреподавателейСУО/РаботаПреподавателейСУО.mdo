@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203993a9-5a6a-46cf-8b22-b6ca4136b870">
+  <producedTypes>
+    <objectType typeId="79c9c81e-858c-4263-88df-28a321c96ef7" valueTypeId="494f3066-d7dd-4aa4-bf9c-df960bca1041"/>
+    <managerType typeId="09daf42d-bf6f-48f1-b4c4-b10fb7ea6a4a" valueTypeId="a7cbcd81-e2a3-4dd6-b78c-a18d378c80ee"/>
+  </producedTypes>
+  <name>РаботаПреподавателейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа преподавателей</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РаботаПреподавателейСУО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="54be8444-fef7-4d67-9ba1-7bce384f8c35">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="c0232c93-e888-417a-b6ce-4e539e9353ea">
+    <name>РаботаПреподавателейСУО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа преподавателей</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

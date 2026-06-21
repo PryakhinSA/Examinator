@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0732e35c-33bb-4d4d-aa39-1d7b1993fe4d">
+  <name>ВебКабинетУправлениеПользователямиСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб-кабинет - управление пользователями</value>
+  </synonym>
+</mdclass:Role>

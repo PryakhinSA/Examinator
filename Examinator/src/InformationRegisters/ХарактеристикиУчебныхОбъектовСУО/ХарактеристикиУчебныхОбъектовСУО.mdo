@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89c74bec-411d-4ff9-a53b-d46f11762d33">
+  <producedTypes>
+    <selectionType typeId="77c0da80-229c-4a18-8612-377559a40029" valueTypeId="3ba4e429-3fde-40ef-9b6a-e54ff050e0ea"/>
+    <listType typeId="ce7ddbc9-d66e-4940-bb45-6566e550bc74" valueTypeId="e649238d-6ac2-42de-8aaa-b9a934c7a4ad"/>
+    <managerType typeId="4e029ca2-6b9c-4556-96e6-38b4b104768d" valueTypeId="abfcba41-b868-4d89-b3c2-67212f5ac77d"/>
+    <recordSetType typeId="413da5fe-e6c2-4952-a0ca-147a7a5cab24" valueTypeId="34b0ecce-ecdc-4aa6-a8ad-aedb66950362"/>
+    <recordKeyType typeId="f5f25ed8-8bc0-4684-a3d9-3f9b99476be6" valueTypeId="985b1d2a-1180-4ecf-9141-69411c1bede9"/>
+    <recordType typeId="9bac7864-1cf2-4bb5-bcb0-8356ec185ea1" valueTypeId="bff54e70-5142-4dd9-990d-4890df3bf155"/>
+    <recordManagerType typeId="707c1a55-11ec-4d37-aa51-63725a36b682" valueTypeId="59f6691f-564e-4b31-aef8-8a0f38867793"/>
+  </producedTypes>
+  <name>ХарактеристикиУчебныхОбъектовСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики учебных объектов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <resources uuid="0096f8cd-3661-4e17-9ce7-dfa501ae45d4">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ХарактеристикиУчебныхОбъектовСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9b9e90ca-5f52-4efc-9b9b-922b65780a6b">
+    <name>УчебныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаталогМероприятийСУО</types>
+      <types>CatalogRef.КаталогПрограммОбученияСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a6fb5e0d-0ce7-421f-baa0-8c9d27f007e9">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ХарактеристикиУчебныхОбъектовСУО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

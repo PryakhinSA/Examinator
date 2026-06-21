@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Присоединенные файлы учащихся</value>
+  </title>
+  <items xsi:type="form:Table">
+    <name>ФайлыМероприятий</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ФайлыМероприятий</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>Refresh</excludedCommands>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийПроверено</name>
+      <id>16</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.Проверено</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <toolTip>
+        <key>ru</key>
+        <value>Файл проверен</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ФайлыМероприятийПровереноExtendedTooltip</name>
+        <id>33</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийПровереноКонтекстноеМеню</name>
+        <id>17</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.Карандаш</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийУчащийся</name>
+      <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Учащийся</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.Учащийся</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФайлыМероприятийУчащийсяРасширеннаяПодсказка</name>
+        <id>36</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийУчащийсяКонтекстноеМеню</name>
+        <id>9</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийСсылка</name>
+      <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Файл</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.Ссылка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФайлыМероприятийСсылкаExtendedTooltip</name>
+        <id>34</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийСсылкаКонтекстноеМеню</name>
+        <id>7</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийЗадание</name>
+      <id>51</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.Задание</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФайлыМероприятийЗаданиеРасширеннаяПодсказка</name>
+        <id>53</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийЗаданиеКонтекстноеМеню</name>
+        <id>52</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийДатаИзменения</name>
+      <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Дата файла</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.ДатаИзменения</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФайлыМероприятийДатаИзмененияExtendedTooltip</name>
+        <id>37</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийДатаИзмененияКонтекстноеМеню</name>
+        <id>11</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийДатаПроверки</name>
+      <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Дата скачивания</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.ДатаПроверки</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФайлыМероприятийДатаПроверкиExtendedTooltip</name>
+        <id>38</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийДатаПроверкиКонтекстноеМеню</name>
+        <id>13</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФайлыМероприятийРазмер</name>
+      <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Размер (байт)</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыМероприятий.Размер</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФайлыМероприятийРазмерExtendedTooltip</name>
+        <id>39</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийРазмерКонтекстноеМеню</name>
+        <id>21</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+    <autoCommandBar>
+      <name>ФайлыМероприятийКоманднаяПанель</name>
+      <id>3</id>
+      <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
+    </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>ФайлыМероприятийВыбор</name>
+    </handlers>
+    <searchStringAddition>
+      <name>ФайлыМероприятийSearchString</name>
+      <id>40</id>
+      <extendedTooltip>
+        <name>ФайлыМероприятийSearchStringExtendedTooltip</name>
+        <id>42</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийSearchStringContextMenu</name>
+        <id>41</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ФайлыМероприятий</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <name>ФайлыМероприятийViewStatus</name>
+      <id>43</id>
+      <extendedTooltip>
+        <name>ФайлыМероприятийViewStatusExtendedTooltip</name>
+        <id>45</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийViewStatusContextMenu</name>
+        <id>44</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>ФайлыМероприятий</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <name>ФайлыМероприятийSearchControl</name>
+      <id>46</id>
+      <extendedTooltip>
+        <name>ФайлыМероприятийSearchControlExtendedTooltip</name>
+        <id>48</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФайлыМероприятийSearchControlContextMenu</name>
+        <id>47</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>ФайлыМероприятий</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>ФайлыМероприятийExtendedTooltip</name>
+      <id>32</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ФайлыМероприятийКонтекстноеМеню</name>
+      <id>2</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <representation>HierarchicalList</representation>
+    <readOnly>true</readOnly>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>ФайлыМероприятий.ИндексКартинки</segments>
+    </rowPictureDataPath>
+    <rowsPicture xsi:type="core:PictureRef">
+      <picture>CommonPicture.КоллекцияПиктограммФайлов</picture>
+    </rowsPicture>
+    <searchStringLocation>None</searchStringLocation>
+    <viewStatusLocation>None</viewStatusLocation>
+    <searchControlLocation>None</searchControlLocation>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаПроверить</name>
+      <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаПроверитьExtendedTooltip</name>
+        <id>29</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.Проверить</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаОтменитьПроверку</name>
+      <id>49</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОтменитьПроверкуРасширеннаяПодсказка</name>
+        <id>50</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОтменитьПроверку</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаПрохождение</name>
+      <id>27</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <extendedTooltip>
+        <name>ФормаПрохождениеExtendedTooltip</name>
+        <id>30</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.Прохождение</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ФормаГруппаКнопокФормы</name>
+      <id>28</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Форма группа кнопок формы</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Форма группа кнопок формы</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ФормаГруппаКнопокФормыExtendedTooltip</name>
+        <id>31</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <commandSource>Item.ФайлыМероприятий</commandSource>
+      </extInfo>
+    </items>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>ФайлыМероприятий</name>
+    <title>
+      <key>ru</key>
+      <value>Файлы мероприятий</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ФайлыМероприятий.ПрохождениеУчащимсяМероприятия</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ФайлыМероприятий.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.Ссылка КАК Ссылка,
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.Наименование КАК Наименование,
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.ИндексКартинки КАК ИндексКартинки,
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.Размер КАК Размер,
+	ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Период КАК ДатаПроверки,
+	ВЫБОР
+		КОГДА ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Период ЕСТЬ NULL
+				ИЛИ ПрохождениеОбученияСУОПрисоединенныеФайлы.ДатаМодификацииУниверсальная > ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Период
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ КАК Проверено,
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.ДатаМодификацииУниверсальная КАК ДатаИзменения,
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.ВладелецФайла КАК ПрохождениеУчащимсяМероприятия,
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.ВладелецФайла.Пользователь КАК Учащийся,
+	NULL КАК Задание
+ИЗ
+	Справочник.ПрохождениеОбученияСУОПрисоединенныеФайлы КАК ПрохождениеОбученияСУОПрисоединенныеФайлы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ФайлыПроверенныеПреподавателямиСУО.СрезПоследних КАК ФайлыПроверенныеПреподавателямиСУОСрезПоследних
+		ПО (ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Файл = ПрохождениеОбученияСУОПрисоединенныеФайлы.Ссылка)
+			И (ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Преподаватель = &amp;Пользователь)
+ГДЕ
+	ПрохождениеОбученияСУОПрисоединенныеФайлы.ПометкаУдаления = ЛОЖЬ
+	И ПрохождениеОбученияСУОПрисоединенныеФайлы.ВладелецФайла.ПроведениеОбучения В(&amp;ПроведенияМероприятий)
+	И ПрохождениеОбученияСУОПрисоединенныеФайлы.ВладелецФайла.Отменено = ЛОЖЬ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.Ссылка,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.Наименование,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ИндексКартинки,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.Размер,
+	ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Период,
+	ВЫБОР
+		КОГДА ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Период ЕСТЬ NULL
+				ИЛИ ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ДатаМодификацииУниверсальная > ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Период
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ДатаМодификацииУниверсальная,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ВладелецФайла,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ВладелецФайла.ПрохождениеОбучения.Пользователь,
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ВладелецФайла.Задание
+ИЗ
+	Справочник.ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы КАК ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ФайлыПроверенныеПреподавателямиСУО.СрезПоследних КАК ФайлыПроверенныеПреподавателямиСУОСрезПоследних
+		ПО ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.Ссылка = ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Файл
+			И (ФайлыПроверенныеПреподавателямиСУОСрезПоследних.Преподаватель = &amp;Пользователь)
+ГДЕ
+	ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ПометкаУдаления = ЛОЖЬ
+	И ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ВладелецФайла.ПроведениеОбучения В(&amp;ПроведенияМероприятий)
+	И ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ВладелецФайла.Отменено = ЛОЖЬ
+	И ПопыткаВыполненияЗаданияСУОПрисоединенныеФайлы.ВладелецФайла.ПрохождениеОбучения.Отменено = ЛОЖЬ</queryText>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+  <formCommands>
+    <name>Прохождение</name>
+    <title>
+      <key>ru</key>
+      <value>Прохождение</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть прохождение обучения</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Прохождение</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Проверить</name>
+    <title>
+      <key>ru</key>
+      <value>Скачать</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить файл на проверку</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Карандаш</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Проверить</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтменитьПроверку</name>
+    <title>
+      <key>ru</key>
+      <value>Отменить</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отменить проверку файла</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.КонтактнаяИнформацияНеактуально</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтменитьПроверку</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <parameters>
+    <name>ПроведенияМероприятий</name>
+    <valueType/>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
+</form:Form>

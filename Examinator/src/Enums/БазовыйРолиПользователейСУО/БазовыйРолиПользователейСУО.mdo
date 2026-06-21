@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02096032-db6a-4d70-931a-ed0a48e219e8">
+  <producedTypes>
+    <refType typeId="5eec24fc-de94-42f7-8540-a2f37e74b640" valueTypeId="02a82682-b916-41e5-abdf-45899bec30a2"/>
+    <listType typeId="4da8e707-a059-4862-856b-570149a664ca" valueTypeId="f545c86d-58d4-4706-9367-98b6eb280ff0"/>
+    <managerType typeId="d5d1ff37-ea48-48e9-8b8b-c0e30f413edd" valueTypeId="cd284b94-0bae-4d21-8823-defed021a53b"/>
+  </producedTypes>
+  <name>БазовыйРолиПользователейСУО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовый роли пользователей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78e20eec-cb90-4b60-955f-3576343efb5f">
+    <name>Учащийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учащийся</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6774eec7-d8c7-486b-b0c1-e639d4a3caa5">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d985bd8-ce4e-4ae9-917a-9595fbacf86a">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79a90448-18d2-4efa-9d1a-5004d1856a37">
+    <name>ВнешнийПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний пользователь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edb9fb70-1d85-4649-815f-3bc4a3568269">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a05f144-a0ec-46bd-9df4-37b5d646fbea">
+    <name>Разработчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa58cc2a-fa6d-40bd-be53-c89783b2a8b2">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
